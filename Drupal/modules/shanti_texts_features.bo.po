@@ -1,0 +1,205 @@
+# $Id$
+#
+# Tibetan translation of Drupal (general)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  shanti_texts_features.features.field_instance.inc: n/a
+#  shanti_texts_features.field_group.inc: n/a
+#  shanti_texts_features.features.inc: n/a
+#  shanti_texts_features.quicktabs.inc: n/a
+#  shanti_texts_features.features.menu_custom.inc: n/a
+#  shanti_texts_features.features.menu_links.inc: n/a
+#  shanti_texts_features.info: n/a
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2018-01-05 15:43-0500\n"
+"PO-Revision-Date: 2018-01-05 15:43-0500\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Tibetan <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: shanti_texts_features.features.field_instance.inc:3038
+msgid "A brief description of the text, for use when displaying lists of text. Typically this is used only for the top level of a text."
+msgstr ""
+"ཡི་གེའི་མིང་ཐོ་སྟོན་པའི་སྐབས་སྤྱོད་དགོས་པའི་ཡི་གེ་དེའི་གསལ་བཤད་ཐུང་ངུ་ཞིག་སྟེ། "
+"སྤྱིར་བཏང་དུ་དེ་ནི་ཡི་གེའི་རིམ་མཐོ་ཤོས་ཁོ་ནར་འཆར་ཐུབ།"
+
+#: shanti_texts_features.features.field_instance.inc:3039
+msgid "Author"
+msgstr "རྩོམ་མཁན"
+
+#: shanti_texts_features.features.field_instance.inc:3040 shanti_texts_features.field_group.inc:166
+msgid "Collection"
+msgstr "ཕྱོགས་བསྡུས"
+
+#: shanti_texts_features.features.field_instance.inc:3041 shanti_texts_features.field_group.inc:167
+msgid "Content"
+msgstr "ནང་དོན"
+
+#: shanti_texts_features.features.field_instance.inc:3042
+msgid "Date"
+msgstr "ཚེས་གྲངས"
+
+#: shanti_texts_features.features.field_instance.inc:3043
+msgid "Description"
+msgstr "གསལ་བཤད"
+
+#: shanti_texts_features.features.field_instance.inc:3044
+msgid "Determine if this text should be made public or visible only to those in its Collection."
+msgstr "ཡིག་གེ་འདི་ཀུན་གྱིས་སྤྱོད་ཐུབ་པར་བྱེད་པའམ་ཡང་ན་ཕྱོགས་བསྡུས་ཀྱི་ཁོངས་སུ་ཡོད་པ་ཁོ་ནས་མཐོང་ཐུབ་གཏན་ཁེལ་བྱེད་པ།"
+
+#: shanti_texts_features.features.field_instance.inc:3045
+msgid "Editor"
+msgstr "རྩོམ་སྒྲིག་ལག་ཆ"
+
+#: shanti_texts_features.features.field_instance.inc:3046
+msgid "Featured image"
+msgstr "ཁྱད་པ་ཅན་གྱི་པར་རིས"
+
+#: shanti_texts_features.features.field_instance.inc:3047
+msgid "Language"
+msgstr "སྐད་རིགས"
+
+#: shanti_texts_features.features.field_instance.inc:3048
+msgid "MLID"
+msgstr "MLID"
+
+#: shanti_texts_features.features.field_instance.inc:3049
+msgid "Original language"
+msgstr "ཐོག་མའི་སྐད་ཡིག"
+
+#: shanti_texts_features.features.field_instance.inc:3050
+msgid "Original publication year"
+msgstr "ཐོག་མའི་ཁྱབ་སྤེལ་གྱི་ལོ"
+
+#: shanti_texts_features.features.field_instance.inc:3051
+msgid "Places"
+msgstr "ས་གནས"
+
+#: shanti_texts_features.features.field_instance.inc:3052
+msgid "Publication year"
+msgstr "ཁྱབ་སྤེལ་གྱི་ལོ"
+
+#: shanti_texts_features.features.field_instance.inc:3053
+msgid "Rights"
+msgstr "བདག་དབང"
+
+#: shanti_texts_features.features.field_instance.inc:3054
+msgid "Rights (CC)"
+msgstr "བདག་དབང༼CC༽"
+
+#: shanti_texts_features.features.field_instance.inc:3055
+msgid "Subjects"
+msgstr "བརྗོད་དོན"
+
+#: shanti_texts_features.features.field_instance.inc:3056
+msgid "The Collection or Subcollection to which this text belongs. "
+msgstr "ཡི་གེ་འདི་གནས་སའི་ཕྱོགས་བསྡུས་སམ་ཡན་ལག་ཕྱོགས་བསྡུས།"
+
+#: shanti_texts_features.features.field_instance.inc:3057
+msgid "The main language of the text in it's current form. For example, if translated, the language into which the text is translated. This information is used to render the text properly for reading."
+msgstr ""
+"ཡིག་གེའི་སྐད་རིགས་གཙོ་བོ་ཡི་མིག་སྔར་རྣམ་པ། "
+"དཔེར་ན། "
+"གལ་སྲིད་ཡིག་བསྒྱུར་བྱས་ཡོད་ཚེ། "
+"ཡིག་གེ་དེ་བསྒྱུར་སའི་སྐད་རིགས་དེ་ཡིན་ཏེ། "
+"ཆ་འཕྲིན་འདི་ནི་ཡང་དག་པའི་སྒོ་ནས་ཡིག་གེ་མངོན་འཆར་དང་ཀློག་ཐུབ་པར་ཕན་ཐོགས་ཆེ།"
+
+#: shanti_texts_features.features.field_instance.inc:3058
+msgid "The main, original language of the text, if translated."
+msgstr ""
+"གལ་སྲིད་ཡིག་བསྒྱུར་བྱས་ཡོད་ན། "
+"ཡིག་གེ་དེའི་སྐད་རིགས་གཙོ་བོ་དང་ཐོག་མའི་སྐད་རིགས།"
+
+#: shanti_texts_features.features.field_instance.inc:3059
+msgid "Translator"
+msgstr "ཡིག་སྒྱུར་མཁན"
+
+#: shanti_texts_features.features.field_instance.inc:3060
+msgid "Visibility"
+msgstr "མངོན་སྟངས"
+
+#: shanti_texts_features.features.field_instance.inc:3061
+msgid "status"
+msgstr "གནས་སྟངས"
+
+#: shanti_texts_features.features.inc:68
+msgid "Book page"
+msgstr "དེབ་ཀྱི་ངོས"
+
+#: shanti_texts_features.features.inc:70
+msgid "<em>Books</em> have a built-in hierarchical navigation. Use for handbooks or tutorials."
+msgstr ""
+"<em>དེབ་</em>ལ་གོ་རིམ་ལྡན་པའི་ཕྱོགས་སྟོན་ཞིག་ནང་སྒྲིག་བྱས་ཡོད། "
+"ལག་དེབ་དང་ཡང་ན་སློབ་ཚན་ལ་སྤྱོད་ཆོག"
+
+#: shanti_texts_features.features.inc:72 shanti_texts_features.quicktabs.inc:49
+msgid "Title"
+msgstr "ཁ་བྱང"
+
+#: shanti_texts_features.features.menu_custom.inc:21
+msgid "The <em>User</em> menu contains links related to the user's account, as well as the 'Log out' link."
+msgstr ""
+"<em>སྤྱོད་མཁན་</em>འདེམས་བྱང་ལ་སྤྱོད་མཁན་གྱི་ཐོ་ཁོངས་དང་འབྲེལ་བའི་སྦྲེལ་ཐག་ཡོད། "
+"ད་དུང་ཕྱིར་འབུད་ཀྱི་སྦྲེལ་ཐག་ཡང་ཡོད།"
+
+#: shanti_texts_features.features.menu_custom.inc:22
+msgid "User menu"
+msgstr "སྤྱོད་མཁན་གྱི་འདེམས་བྱང"
+
+#: shanti_texts_features.features.menu_links.inc:90
+msgid "Create Text"
+msgstr "ཡིག་གེ་གསར་འཛུགས"
+
+#: shanti_texts_features.features.menu_links.inc:91
+msgid "Log out"
+msgstr "ཕྱིར་འབུད"
+
+#: shanti_texts_features.features.menu_links.inc:92
+msgid "My Texts"
+msgstr "ངའི་ཡི་གེ།"
+
+#: shanti_texts_features.features.menu_links.inc:93
+msgid "User account"
+msgstr "སྤྱོད་མཁན་གྱི་ཐོ་ཁོངས"
+
+#: shanti_texts_features.field_group.inc:164
+msgid "Admin"
+msgstr "དོ་དམ"
+
+#: shanti_texts_features.field_group.inc:165
+msgid "Catalog Data"
+msgstr "དཀར་ཆག་གི་གཞི་གྲངས"
+
+#: shanti_texts_features.field_group.inc:168
+msgid "KMap Terms"
+msgstr "KMap ཐ་སྙད"
+
+#: shanti_texts_features.quicktabs.inc:47
+msgid "Full Text"
+msgstr "ཡི་གེ་ཆ་ཚང་།"
+
+#: shanti_texts_features.quicktabs.inc:48
+msgid "Search"
+msgstr "འཚོལ"
+
+#: shanti_texts_features.info:0
+msgid "SHANTI Texts Features"
+msgstr "SHANTI ཡི་གེའི་ཁྱད་ཆོས"
+
+#: shanti_texts_features.info:0
+msgid "All the configs associated with the SHANTI Texts Site"
+msgstr ""
+"SHANTI "
+"ཡིག་གེའི་དྲ་གནས་དང་འབྲེལ་བའི་སྒྲིག་འགོད་ཡོངས།"
+
+#: shanti_texts_features.info:0
+msgid "SHANTI"
+msgstr "SHANTI"
+

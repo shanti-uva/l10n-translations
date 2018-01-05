@@ -1,0 +1,773 @@
+# $Id$
+#
+# Tibetan translation of Drupal (general)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  media_sharedshelf.module: n/a
+#  includes/media_sharedshelf.admin.inc: n/a
+#  media_sharedshelf.info: n/a
+#  features/shanti_images_features/shanti_images_features.features.field_instance.inc: n/a
+#  features/shanti_images_features/shanti_images_features.features.menu_links.inc: n/a
+#  features/shanti_images_features/shanti_images_features.info: n/a
+#  includes/MediaSharedShelfStreamWrapper.inc: n/a
+#  includes/media_sharedshelf.variables.inc: n/a
+#  includes/media_sharedshelf.formatters.inc: n/a
+#  includes/media_sharedshelf.utilities.inc: n/a
+#  themes/file--application--pdf--full.tpl.php: n/a
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2018-01-05 15:37-0500\n"
+"PO-Revision-Date: 2018-01-05 15:37-0500\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Tibetan <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: media_sharedshelf.module:22
+msgid "Provides access to ARTStor SharedShelf content from within the Media module."
+msgstr ""
+"འཕྲིན་ལམ་མ་དཔེའི་ནང་དུ་ARTStor "
+"SharedShelf "
+"ཡི་ནང་དོན་ལ་བེད་སྤྱོད་བྱེད་ཐུབ་པ་བཟོ་བ།"
+
+#: media_sharedshelf.module:42
+msgid "Configure Media SharedShelf settings"
+msgstr ""
+"འཕྲིན་ལམ་གྱི་SharedShelf "
+"སྒྲིག་འཛུགས་ལ་བཟོ་བཅོས་བྱེད"
+
+#: media_sharedshelf.module:43
+msgid "Set user account credentials. Configure default project and image size settings."
+msgstr ""
+"སྤྱོད་མཁན་གྱི་ཐོ་ཁོངས་ཀྱི་གསང་ཆ་སྒྲིག་པ་དང་། "
+"སྔར་ཡོད་ཀྱི་ལས་གཞི་དང་པར་རིས་ཀྱི་ཞེང་ཚད་སྒྲིག་འགོད་བྱེད་པ།"
+
+#: media_sharedshelf.module:47
+msgid "Add Media SharedShelf settings"
+msgstr ""
+"འཕྲིན་ལམ་SharedShelf "
+"ཡི་སྒྲིག་འཛུགས་ཤིག་ཁ་སྣོན"
+
+#: media_sharedshelf.module:48
+msgid "Add SharedShelf images via the media browser"
+msgstr ""
+"འཕྲིན་ལམ་ཀློག་བྱེད་བརྒྱུད་ནས་SharedShelf "
+" པར་རིས་ཁ་སྣོན"
+
+#: media_sharedshelf.module:123
+msgid "SharedShelf media"
+msgstr "SharedShelf  འཕྲིན་ལམ"
+
+#: media_sharedshelf.module:125
+msgid "Media available from SharedShelf."
+msgstr ""
+"SharedShelf "
+"ནས་སྤྱོད་རུང་བའི་འཕྲིན་ལམ།"
+
+#: media_sharedshelf.module:215 includes/media_sharedshelf.admin.inc:1012
+msgid "Update"
+msgstr "གསར་སྒྱུར"
+
+#: media_sharedshelf.module:218
+msgid "Update Shared Shelf Metadata"
+msgstr ""
+"Shared Shelf "
+"ཡི་ཟུར་གཏོགས་གཞི་གྲངས་གསར་སྒྱུར་བྱེད་པ"
+
+#: media_sharedshelf.module:415
+msgid "SharedShelf"
+msgstr "SharedShelf"
+
+#: media_sharedshelf.module:438 includes/media_sharedshelf.admin.inc:93;227
+msgid "Project"
+msgstr "ལས་གཞི"
+
+#: media_sharedshelf.module:439
+msgid "Choose a project to search."
+msgstr "འཚོལ་དགོས་པའི་ལས་གཞི་ཞིག་འདེམ་རོགས།"
+
+#: media_sharedshelf.module:445
+msgid "Keyword"
+msgstr "གནད་ཚིག"
+
+#: media_sharedshelf.module:446
+msgid "Input a phrase or keyword to find."
+msgstr "ཚིག་ཐུང་ཞིག་གམ་གནད་ཚིག་ནང་འཇུག་བྱོས།"
+
+#: media_sharedshelf.module:451;571 includes/media_sharedshelf.admin.inc:121
+msgid "Search SharedShelf"
+msgstr " SharedShelf འཚོལ་བ"
+
+#: media_sharedshelf.module:512
+msgid "No images match your search criteria. Please try again."
+msgstr ""
+"ཁྱེད་ཀྱིས་བཙལ་བའི་ཆ་རྐྱེན་དང་མཐུན་པའི་པར་རིས་མ་རྙེད། "
+"བསྐྱར་དུ་ཚོད་ལྟ་བྱེད་རོགས།"
+
+#: media_sharedshelf.module:529;530
+msgid "previous"
+msgstr "སྔོན་མ"
+
+#: media_sharedshelf.module:534;535
+msgid "next"
+msgstr "འོག་མ།"
+
+#: media_sharedshelf.module:560
+msgid "Submit"
+msgstr "ཡར་སྤྲོད"
+
+#: media_sharedshelf.module:584
+msgid "Please select an image."
+msgstr "ཁྱེད་ཀྱིས་པར་རིས་ཞིག་འདེམས་རོགས།"
+
+#: media_sharedshelf.module:607
+msgid "The file %file could not be saved. An unknown error has occurred."
+msgstr ""
+"ཡིག་ཆ་%file་ཉར་ཚགས་བྱས་མ་ཐུབ། "
+"རྒྱུ་མཚན་ནི་རྒྱུས་མེད་པའི་ནོར་འཁྲུལ་ཞིག་དང་འཕྲད་བྱུང་།"
+
+#: media_sharedshelf.module:841
+msgid "Assign file to a specific collection"
+msgstr "དམིགས་བསལ་གྱི་ཕྱོགས་བསྡུས་ཤིག་ལ་ཡིག་ཆ་ཞིག་སྒྲིག་པ"
+
+#: media_sharedshelf.module:890
+msgid "Target Collection"
+msgstr "དམིགས་འཛུགས་ཀྱི་ཕྱོགས་བསྡུས"
+
+#: media_sharedshelf.module:892
+msgid "Select the collection these item(s) should be imported into"
+msgstr "ནང་ཚན་འདི་དག་ནང་འདྲེན་བྱེད་སའི་ཕྱོགས་བསྡུས་གདམ་པ"
+
+#: media_sharedshelf.module:61
+msgid "SharedShelf API settings"
+msgstr ""
+"SharedShelf "
+"འཇུག་སྒོའི་སྒྲིག་འགོད"
+
+#: media_sharedshelf.module:62
+msgid "Configure required API settings for Media: SharedShelf."
+msgstr ""
+"འཕྲིན་ལམ་གྱི་དགོས་ངེས་ཀྱི་API "
+"སྒྲིག་གཞི་སྒྲིག་འགོད་བྱེད་པ། "
+"SharedShelf"
+
+#: media_sharedshelf.module:71
+msgid "SharedShelf media settings"
+msgstr ""
+"SharedShelf "
+"ཡི་འཕྲིན་ལམ་སྒྲིག་འགོད"
+
+#: media_sharedshelf.module:72
+msgid "Configure optional settings for Media: SharedShelf."
+msgstr ""
+"འཕྲིན་ལམ་གྱི་གདམ་ཁ་ཡིན་པའི་སྒྲིག་འཛུགས་བཟོ་བཅོས་བྱེད་པ། "
+"SharedShelf"
+
+#: media_sharedshelf.module:81 includes/media_sharedshelf.admin.inc:32
+msgid "Add media from SharedShelf"
+msgstr ""
+"SharedShelf "
+"ནས་འཕྲིན་ལམ་ཞིག་ཁ་སྣོན"
+
+#: media_sharedshelf.module:91
+msgid "View a SharedShelf PDF"
+msgstr "SharedShelf ཡི་PDF ལ་ལྟ་བ"
+
+#: media_sharedshelf.info:0
+msgid "Media: SharedShelf"
+msgstr ""
+"འཕྲིན་ལམ། "
+"མཉམ་སྤྱོད་སྒྲོམ་གཞི།"
+
+#: media_sharedshelf.info:0
+msgid "Integrates SharedShelf images, sets, and/or projects with Media."
+msgstr ""
+"འཕྲིན་ལམ་དང་SharedShelf པར་རིས། "
+"སྡེ་ཚན། "
+"ལས་གཞི་མཉམ་འབྲེལ་བྱེད་པ།"
+
+#: media_sharedshelf.info:0
+msgid "Media"
+msgstr "འཕྲིན་ལམ"
+
+#: features/shanti_images_features/shanti_images_features.features.field_instance.inc:84
+msgid "Collection"
+msgstr "ཕྱོགས་བསྡུས"
+
+#: features/shanti_images_features/shanti_images_features.features.menu_links.inc:99
+msgid "Add New Collection"
+msgstr "ཕྱོགས་བསྡུས་གསར་བ་ཁ་སྣོན"
+
+#: features/shanti_images_features/shanti_images_features.features.menu_links.inc:100
+msgid "All Collections"
+msgstr "ཕྱོགས་བསྡུས་ཡོངས"
+
+#: features/shanti_images_features/shanti_images_features.features.menu_links.inc:101
+msgid "Collections"
+msgstr "ཕྱོགས་བསྡུས"
+
+#: features/shanti_images_features/shanti_images_features.features.menu_links.inc:102
+msgid "My Collections"
+msgstr "ངའི་ཕྱོགས་བསྡུས"
+
+#: features/shanti_images_features/shanti_images_features.info:0
+msgid "Shanti SS Images Features"
+msgstr ""
+
+#: features/shanti_images_features/shanti_images_features.info:0
+msgid "Feature (mainly views) for Shanti Shared Shelf Images"
+msgstr ""
+
+#: features/shanti_images_features/shanti_images_features.info:0
+msgid "Shanti"
+msgstr "Shanti"
+
+#: includes/MediaSharedShelfStreamWrapper.inc:137
+msgid "Error writing to @localpath."
+msgstr "@localpath་ལ་འབྲི་དུས་ཀྱི་ནོར་འཁྲུལ།"
+
+#: includes/MediaSharedShelfStreamWrapper.inc:140
+msgid "Unable to close @localpath after writing."
+msgstr "བྲིས་ཚར་རྗེས་@localpath་ཁ་རྒྱག་མི་ཐུབ་པ།"
+
+#: includes/MediaSharedShelfStreamWrapper.inc:144
+msgid "Unable to open @localpath for writing."
+msgstr ""
+" "
+"@localpath་ཁ་ཕྱེས་ནས་འབྲི་མ་ཐུབ།"
+
+#: includes/media_sharedshelf.admin.inc:14
+msgid "SharedShelf API"
+msgstr "SharedShelf འཇུག་སྒོ"
+
+#: includes/media_sharedshelf.admin.inc:14
+msgid "You need to have an account for <a href=\"@sharedshelf\" target=\"_blank\">ARTstor's SharedShelf</a>."
+msgstr ""
+"ཁྱེད་ལ་<a href=\"@sharedshelf\" "
+"target=\"_blank\">ARTstor ཡི་SharedShelf</a> "
+"ཡི་ཐོ་ཁོངས་ཤིག་དགོས་འདུག"
+
+#: includes/media_sharedshelf.admin.inc:15
+msgid "SharedShelf Server"
+msgstr "SharedShelf ཞབས་ཞུ་བ"
+
+#: includes/media_sharedshelf.admin.inc:15
+msgid "Please choose whether you want to access the production or demo version of SharedShelf."
+msgstr ""
+"ཁྱེད་ཀྱིས་SharedShelf "
+"ཡི་ཐོན་རྗས་དང་ཡང་ན་དེའི་དཔེ་སྟོན་གྱི་པར་གཞི་གཉིས་གང་ཞིག་སྤྱོད་དགོས་པར་འདེམས་རོགས།"
+
+#: includes/media_sharedshelf.admin.inc:16
+msgid "SharedShelf Login Email"
+msgstr "SharedShelf  ཡི་ནང་འཇུག་གློག་ཡིག"
+
+#: includes/media_sharedshelf.admin.inc:16
+msgid "Please enter your SharedShelf login email here."
+msgstr ""
+"ཁྱེད་ཀྱི་SharedShelf "
+"ནང་འཇུག་གློག་ཡིག་འཇུག་རོགས།"
+
+#: includes/media_sharedshelf.admin.inc:17
+msgid "SharedShelf Login Password"
+msgstr "SharedShelf  ཡི་ནང་འཇུག་གསང་གྲངས"
+
+#: includes/media_sharedshelf.admin.inc:17
+msgid "Please enter your SharedShelf login password here."
+msgstr ""
+"ཁྱེད་ཀྱིས་SharedShelf "
+"ནང་འཇུག་གསང་གྲངས་འཇུག་རོགས།"
+
+#: includes/media_sharedshelf.admin.inc:31
+msgid "SharedShelf Media Settings"
+msgstr "SharedShelf འཕྲིན་ལམ་སྒྲིག་འགོད"
+
+#: includes/media_sharedshelf.admin.inc:32
+msgid "Image Performance Settings"
+msgstr "པར་རིས་ཀྱི་བྱེད་ནུས་སྒྲིག་འགོད"
+
+#: includes/media_sharedshelf.admin.inc:32
+msgid "Indicate the image size to download to local cache when using !addmedia."
+msgstr "!addmedia་སྤྱད་ནས་རང་ཁུལ་བར་གསོག་ཏུ་ཚུར་ལེན་དགོས་པའི་པར་རིས་ཆེ་ཆུང་འཚོན་པ།"
+
+#: includes/media_sharedshelf.admin.inc:33
+msgid "Local Cache Image Size"
+msgstr "རང་ཁུལ་བར་གསོག་གི་པར་རིས་ཆེ་ཆུང"
+
+#: includes/media_sharedshelf.admin.inc:33
+msgid "Please specify the image size to pull down to local cache."
+msgstr "རང་ཁུལ་གྱི་བར་གསོག་དུ་ཚུར་ལེན་པར་རིས་ཀྱི་ཆེ་ཆུང་གཏན་འབེབ་བྱེད་རོགས།"
+
+#: includes/media_sharedshelf.admin.inc:35
+msgid "Clear Cache Variables"
+msgstr "བར་གསོག་གི་འགྱུར་གྲངས་ཡོངས་གཙང་སེལ"
+
+#: includes/media_sharedshelf.admin.inc:35
+msgid "Clear stored results from Shared Shelf to refresh data. Use this when changes have been made in shared shelf that are not reflected on this site."
+msgstr ""
+"Shared Shelf "
+"ལ་གསོག་འཇོག་བྱས་པའི་མཇུག་འབྲས་གཙང་སེལ་བྱས་ཏེ་གཞི་གྲངས་གསར་འདོན་བྱེད་པ། "
+"shared shelf "
+"ཐོག་ཏུ་བཟོ་བཅོས་བྱས་པ་དག་དྲ་ཚིགས་སུ་བཏོན་མ་ཐུབ་ཚེ་འདི་བྱེད་དགོས།"
+
+#: includes/media_sharedshelf.admin.inc:37
+msgid "Form Default Settings"
+msgstr "རེའུ་མིག་གི་སྔར་ཡོད་སྒྲིག་འགོད"
+
+#: includes/media_sharedshelf.admin.inc:37
+msgid "These form default settings will be applied to the appropriate add content forms."
+msgstr "རེའུ་མིག་འདི་དག་གི་སྔར་ཡོད་སྒྲིག་འགོད་དག་འོས་འཚམ་གྱི་ནང་དོན་རེའུ་མིག་ཏུ་ཁ་སྣོན་བྱེད་ངེས།"
+
+#: includes/media_sharedshelf.admin.inc:39
+msgid "Default Project"
+msgstr "སྔར་ཡོད་ཀྱི་ལས་གཞི"
+
+#: includes/media_sharedshelf.admin.inc:39
+msgid "Choose a project to have selected whenever a project list is displayed."
+msgstr "ལས་གཞིའི་མིང་ཐོ་འཆར་དུས་སུ་རང་འགུལ་གྱིས་གདམ་དགོས་པའི་ལས་གཞི་ཞིག་འདེམས་རོགས།"
+
+#: includes/media_sharedshelf.admin.inc:40
+msgid "Images Per Page"
+msgstr "ངོས་རེའི་པར་རིས"
+
+#: includes/media_sharedshelf.admin.inc:40
+msgid "Please select the number of images per project to display per page when showing search results."
+msgstr "ཁྱེད་ཀྱིས་འཚོལ་བཤེར་མཇུག་འབྲས་མངོན་སྟོན་བྱེད་དུས་ལས་གཞིའི་རྣམ་གྲངས་རེ་རེའི་ནང་གི་པར་རིས་གྲངས་ཀ་འདེམས་རོགས།"
+
+#: includes/media_sharedshelf.admin.inc:63
+msgid "My SharedShelf images"
+msgstr "ངའི་མཉམ་སྤྱོད་སྒྲོམ་གཞིའི་པར་རིས།"
+
+#: includes/media_sharedshelf.admin.inc:71
+msgid "Add Using SharedShelf ID"
+msgstr ""
+"SharedShelf "
+"ཨང་རྟགས་སྤྱད་ནས་ཁ་སྣོན་བྱེད"
+
+#: includes/media_sharedshelf.admin.inc:73 includes/media_sharedshelf.variables.inc:92
+msgid "SSID"
+msgstr "SSID"
+
+#: includes/media_sharedshelf.admin.inc:73
+msgid "Enter the SharedShelf ID for the image."
+msgstr ""
+"པར་རིས་ཀྱི་SharedShelf "
+"ཨང་རྟགས་འཇུག་རོགས།"
+
+#: includes/media_sharedshelf.admin.inc:77;115
+msgid "Reimport Metadata"
+msgstr "ཟུར་གཏོགས་ཆ་འཕྲིན་བསྐྱར་དུ་ནང་འདྲེན་བྱེད་པ"
+
+#: includes/media_sharedshelf.admin.inc:77
+msgid "If checked, will reimport metadata from Shared Shelf for images already on this site. <br/><strong>Warning:</strong> This will overwrite the currently stored metadata (title, description, etc.) for this image."
+msgstr ""
+
+#: includes/media_sharedshelf.admin.inc:79;117;466
+msgid "Add"
+msgstr "ཁ་སྣོན"
+
+#: includes/media_sharedshelf.admin.inc:83
+msgid "Add Project/Image Sets"
+msgstr "ལས་གཞི་དང་པར་རིས་ཀྱི་སྡེ་ཚན་ཁ་སྣོན"
+
+#: includes/media_sharedshelf.admin.inc:93
+msgid "Choose a project from which to add images."
+msgstr "པར་རིས་ཁ་སྣོན་བྱེད་སའི་ལས་གཞི་འདེམ་པ།"
+
+#: includes/media_sharedshelf.admin.inc:107
+msgid "Available Image Sets"
+msgstr "སྤྱོད་རུང་བའི་པར་རིས་ཀྱི་སྡེ་ཚན"
+
+#: includes/media_sharedshelf.admin.inc:107;186
+msgid "@description"
+msgstr "@description"
+
+#: includes/media_sharedshelf.admin.inc:115
+msgid "If checked, will reimport metadata from Shared Shelf for images already on this site. <br/><strong>Warning:</strong> This will overwrite the currently stored metadata (title, description, etc.) for the images in this project."
+msgstr ""
+
+#: includes/media_sharedshelf.admin.inc:123
+msgid "Search for Images on SharedShelf"
+msgstr ""
+"SharedShelf "
+"ཐོག་གི་པར་རིས་འཚོལ་བཤེར་བྱེད་པ"
+
+#: includes/media_sharedshelf.admin.inc:123
+msgid "Specify the desired criteria and select search to retrieve results from SharedShelf. After seeing the results you can choose to add some or all of the results."
+msgstr ""
+"དགོས་འདོད་ཀྱི་ཚད་གཞི་གཏན་ཁེལ་དང་འཚོལ་བཤེར་བདམས་ནས་SharedShelf "
+"ནས་མཇུག་འབྲས་ལེན་པ། "
+"ཁྱེད་ཀྱིས་མཇུག་འབྲས་མཐོང་རྗེས་དེ་ལས་འགའ་ཞིག་གམ་ཡང་ན་ཆ་ཚང་བདམས་ནས་ཁ་སྣོན་བྱས་ཆོག"
+
+#: includes/media_sharedshelf.admin.inc:128
+msgid "Projects"
+msgstr "ལས་གཞི"
+
+#: includes/media_sharedshelf.admin.inc:128
+msgid "Select which project(s) to search."
+msgstr "ལས་གཞི་གང་ཞིག་འཚོལ་དགོས་པ་འདེམས་པ།"
+
+#: includes/media_sharedshelf.admin.inc:132;186;409
+msgid "@title"
+msgstr "@title"
+
+#: includes/media_sharedshelf.admin.inc:132
+msgid "Filter results to only show images from a @lfield containing this value. This is only applicable if your project schema contains a @field field."
+msgstr ""
+"མཇུག་འབྲས་ཚགས་བརྒྱབ་ནས་ཐོབ་གྲངས་འདི་ཡོད་པའི་@lfield་ཞིག་གི་པར་རིས་ཁོ་ན་སྟོན་པ། "
+"གལ་སྲིད་ཁྱེད་ཀྱི་ལས་གཞིའི་འཆར་འགོད་ནང་དུ་གནས་ཁོངས་@field་ཡོད་ཚེ་འདི་སྤྱོད་ནུས།"
+
+#: includes/media_sharedshelf.admin.inc:135
+msgid "Keywords"
+msgstr "གནད་ཚིག"
+
+#: includes/media_sharedshelf.admin.inc:135
+msgid "Text entered here will be searched for in all image data fields."
+msgstr "འདིར་ནང་འཇུག་བྱས་པའི་ཡི་གེ་དེ་པར་རིས་གཞི་གྲངས་ཀྱི་གནས་ཁོངས་ཡོངས་ལ་འཚོལ་བཤེར་བྱེད་ངེས།"
+
+#: includes/media_sharedshelf.admin.inc:137
+msgid "Search"
+msgstr "འཚོལ"
+
+#: includes/media_sharedshelf.admin.inc:227
+msgid "Image"
+msgstr "པར་རིས"
+
+#: includes/media_sharedshelf.admin.inc:227 includes/media_sharedshelf.variables.inc:112
+msgid "Title"
+msgstr "ཁ་བྱང"
+
+#: includes/media_sharedshelf.admin.inc:227 includes/media_sharedshelf.variables.inc:144
+msgid "Date"
+msgstr "ཚེས་གྲངས"
+
+#: includes/media_sharedshelf.admin.inc:227 includes/media_sharedshelf.variables.inc:154
+msgid "Photographer"
+msgstr "པར་རྒྱག་མཁན"
+
+#: includes/media_sharedshelf.admin.inc:227 includes/media_sharedshelf.variables.inc:102
+msgid "Creator"
+msgstr "གསར་འཛུགས་མཁན"
+
+#: includes/media_sharedshelf.admin.inc:409
+msgid "@proj"
+msgstr "@proj"
+
+#: includes/media_sharedshelf.admin.inc:409
+msgid "@date"
+msgstr "@date"
+
+#: includes/media_sharedshelf.admin.inc:409
+msgid "@photographer"
+msgstr "@photographer"
+
+#: includes/media_sharedshelf.admin.inc:409
+msgid "@creator"
+msgstr "@creator"
+
+#: includes/media_sharedshelf.admin.inc:424
+msgid "Page"
+msgstr "དྲ་ངོས"
+
+#: includes/media_sharedshelf.admin.inc:424
+msgid "of"
+msgstr "གི"
+
+#: includes/media_sharedshelf.admin.inc:424
+msgid "."
+msgstr "."
+
+#: includes/media_sharedshelf.admin.inc:428
+msgid "!description !page"
+msgstr "!description !page"
+
+#: includes/media_sharedshelf.admin.inc:432
+msgid "Select/Unselect all search result items."
+msgstr "འཚོལ་འཤེར་མཇུག་འབྲས་ཀྱི་ནང་ཚན་ཡོངས་འདེམས་པའམ་མི་འདེམས་པ།"
+
+#: includes/media_sharedshelf.admin.inc:432
+msgid "Select/Unselect all items from all pages of the search results."
+msgstr "དྲ་ངོས་ཡོངས་ཀྱི་འཚོལ་བཤེར་མཇུག་འབྲས་ནས་ནང་ཚན་ཡོངས་འདེམས་པ་དང་ཡང་ན་མི་འདེམས་པ"
+
+#: includes/media_sharedshelf.admin.inc:438
+msgid "No images found that match your criteria."
+msgstr ""
+"ཁྱོད་ཀྱི་ཆ་རྐྱེན་དང་མཐུན་པའི་པར་རིས་རྙེད་མི་འདུག "
+""
+
+#: includes/media_sharedshelf.admin.inc:456
+msgid "Previous"
+msgstr "གོང་གི"
+
+#: includes/media_sharedshelf.admin.inc:460
+msgid "Next"
+msgstr "འོག་མ"
+
+#: includes/media_sharedshelf.admin.inc:507;677
+msgid "is an invalid project ID."
+msgstr "ཕན་མེད་ཀྱི་ལས་གཞི་ཨང་རྟགས་ཞིག་རེད།"
+
+#: includes/media_sharedshelf.admin.inc:516
+msgid "Project information seems to be lost. Please perform the search again."
+msgstr ""
+"ལས་གཞིའི་ཆ་འཕྲིན་ཚང་མེད་པ་འདྲ། "
+"ཡང་བསྐྱར་འཚོལ་བཤེར་ཞིག་བྱེད་རོགས།"
+
+#: includes/media_sharedshelf.admin.inc:552
+msgid "You have selected an invalid SharedShelf server."
+msgstr ""
+"ཁྱེད་ཀྱིས་ཕན་ནུས་མེད་པའི་SharedShelf "
+"ཞབས་ཞུ་གནས་ཤིག་བདམས་ཡོད།"
+
+#: includes/media_sharedshelf.admin.inc:558
+msgid "The format of your email address is invalid."
+msgstr "ཁྱེད་ཀྱི་གློག་ཡིག་ཁ་བྱང་གི་རྣམ་བཞག་དེ་ཕན་ནུས་མེད་རེད་འདུག"
+
+#: includes/media_sharedshelf.admin.inc:564
+msgid "You must specify the password for your SharedShelf account in order to retreive content from the server."
+msgstr ""
+"ཞབས་ཞུ་གནས་ནས་ནང་དོན་ཚུར་ལེན་དགོས་པའི་ཆེད་དུ་ཁྱེད་ཀྱིས་ངེས་པར་ཏུ་རང་གི་SharedShelf "
+"ཐོ་ཁོངས་ལ་གསང་གྲངས་ཤིག་གཏན་འབེབས་བྱེད་དགོས།"
+
+#: includes/media_sharedshelf.admin.inc:590
+msgid "Successfully established a connection to SharedShelf."
+msgstr ""
+"ལེགས་འགྲུབ་ངང་SharedShelf "
+"དང་སྦྲེལ་མཐུད་བྱས་ཚར།"
+
+#: includes/media_sharedshelf.admin.inc:592
+msgid "Login not successful. Please re-enter your email and password settings."
+msgstr ""
+"ནང་འཇུག་ལེགས་འགྲུབ་མ་བྱུང་། "
+"ཁྱེད་ཀྱི་གློག་ཡིག་དང་གསང་གྲངས་སྒྲིག་འགོད་སྐྱར་དུ་ནང་འཇུག་བྱེད་རོགས།"
+
+#: includes/media_sharedshelf.admin.inc:595
+msgid "Cannot establish connection to SharedShelf. Please check your settings."
+msgstr ""
+"SharedShelf "
+"དང་སྦྲེལ་མཐུད་བྱེད་མི་ཐུབ། "
+"ཁྱེད་ཀྱི་སྒྲིག་འགོད་ལ་ཞིབ་བཤེར་བྱེད་རོགས།"
+
+#: includes/media_sharedshelf.admin.inc:615
+msgid "You have selected an invalid local cache image size."
+msgstr "ཁྱེད་ཀྱིས་ཕན་ནུས་མེད་པའི་རང་ཁུལ་གྱི་བར་གསོག་པར་རིས་ཀྱི་ཆེ་ཆུང་ཞིག་བདམས་ཡོད།"
+
+#: includes/media_sharedshelf.admin.inc:620
+msgid "You have selected an invalid number of images per page."
+msgstr "ཁྱེད་ཀྱིས་ཕན་ནུས་མེད་པའི་དྲ་ངོས་ཀྱི་ངོས་གྲངས་ཞིག་བདམས་ཡོད།"
+
+#: includes/media_sharedshelf.admin.inc:627;644
+msgid "Please select a valid project from the list."
+msgstr "ཁྱེད་ཀྱིས་མིང་ཐོའི་ནང་ནས་སྤྱོད་ཆོག་པའི་ལས་གཞི་ཞིག་འདེམས་རོགས།"
+
+#: includes/media_sharedshelf.admin.inc:652
+msgid "Please choose valid image sets for the @project project selected."
+msgstr "ཁྱེད་ཀྱིས་གདམ་ཟིན་པའི་ལས་གཞི་@project་ལ་ཡང་དག་པའི་པར་རིས་ཁག་ཅིག་འདེམས་རོགས།"
+
+#: includes/media_sharedshelf.admin.inc:662
+msgid "Please enter digits for the SharedShelf image ID."
+msgstr ""
+"ཁྱེད་ཀྱིས་SharedShelf "
+"པར་རིས་ཀྱི་ཨང་རྟགས་ལ་ཨང་གྲངས་འཇུག་རོགས།"
+
+#: includes/media_sharedshelf.admin.inc:665
+msgid "The SharedShelf ID @ssid does not exist."
+msgstr ""
+"SharedShelf "
+"ཡི་ཨང་རྟགས་@ssid་གནས་མེད།"
+
+#: includes/media_sharedshelf.admin.inc:681
+msgid "One or more projects must be selected in order to perform a search."
+msgstr "འཚོལ་བཤེར་ལག་བསྟར་བྱེད་པར་ལས་གཞི་གཅིག་གམ་ཁ་ཤས་ངེས་པར་དུ་གདམ་དགོས།"
+
+#: includes/media_sharedshelf.admin.inc:756
+msgid "All images for the !assetgroupname set in the !projectname project were successfully added."
+msgstr "ལས་གཞི་!projectname་ནང་དུ་!assetgroupname་སྡེ་ཚན་གྱི་པར་རིས་ཡོངས་ཀྱི་ཁ་སྣོན་ལེགས་འགྲུབ་བྱས་ཟིན།"
+
+#: includes/media_sharedshelf.admin.inc:765
+msgid "There were @errorcount problems adding images for the !assetgroupname set in the !projectname project. Please view your site log for more details."
+msgstr ""
+"ལས་གཞི་!projectname་ནང་གི་སྡེ་ཚན་!assetgroupname་ལ་པར་རིས་ཁ་སྣོན་བྱེད་དུས་གནད་དོན་@errorcount་འདུག "
+"རང་གི་དྲ་ཚིགས་ཀྱི་ཟིན་བྲིས་ལ་བལྟས་ནས་ཆ་འཕྲིན་དེ་ལས་མང་བར་གཟིགས་རོགས།"
+
+#: includes/media_sharedshelf.admin.inc:768
+msgid "There was a problem accessing the images for the !assetgroupname set in the !projectname project."
+msgstr "ལས་གཞི་!projectname་ནང་གི་སྡེ་ཚན་!assetgroupname་ལ་པར་རིས་བེད་སྤྱོད་བྱེད་དུས་གནད་དོན་ཞིག་ཡོད།"
+
+#: includes/media_sharedshelf.admin.inc:799
+msgid "All images for the !projectname project were successfully added."
+msgstr "ལས་གཞི་!projectname་ནང་གི་པར་རིས་ཡོངས་ཀྱི་ཁ་སྣོན་ལེགས་འགྲུབ་བྱས་ཟིན།"
+
+#: includes/media_sharedshelf.admin.inc:807
+msgid "There were @errorcount problems adding some of the images for the !projectname project."
+msgstr "ལས་གཞི་!projectname་ལ་པར་རིས་ཁ་སྣོན་བྱེད་དུས་གནད་དོན་@errorcount་འདུག།"
+
+#: includes/media_sharedshelf.admin.inc:811
+msgid "There was a problem accessing the images for the !projectname project."
+msgstr "ལས་གཞི་!projectname་ལ་པར་རིས་བེད་སྤྱོད་བྱེད་དུས་གནད་དོན་ཞིག་ཡོད།"
+
+#: includes/media_sharedshelf.admin.inc:915
+msgid "@count SharedShelf images were successfully added."
+msgstr ""
+"SharedShelf "
+"ཡི་པར་རིས་@count་ལེགས་འགྲུབ་ངང་བསྣན་ཚར།"
+
+#: includes/media_sharedshelf.admin.inc:1012
+msgid "Update Shared Shelf Metadata for \"@fname\""
+msgstr ""
+"@fname་ཡི་Shared Shelf "
+"ཟུར་གཏོགས་གཞི་གྲངས་གསར་སྒྱུར་བྱེད་པ"
+
+#: includes/media_sharedshelf.admin.inc:1012
+msgid "<p>Are you sure you want to update the metadata for the image \"@fname\"?</p><p>This cannot be undone.</p>"
+msgstr "<p>@fname་ཞེས་པའི་པར་རིས་ལ་ཟུར་གཏོགས་གཞི་གྲངས་གསར་སྒྱུར་བྱེད་ཐག་ཆོད་ཡིན་ནམ།</p><p>འདི་ཕྱིར་ལྡོག་བྱེད་མི་ཐུབ།</p>"
+
+#: includes/media_sharedshelf.admin.inc:1012
+msgid "Cancel"
+msgstr "ཕྱིར་འཐེན"
+
+#: includes/media_sharedshelf.admin.inc:1025
+msgid "Metadata for @fname has been updated from Shared Shelf"
+msgstr "@fnameགྱི་ཟུར་གཏོགས་གཞི་གྲངས་མཉམ་སྤྱོད་སྒྲོམ་གཞི་ནས་གསར་སྒྱུར་བྱས་འདུག།"
+
+#: includes/media_sharedshelf.formatters.inc:14
+msgid "SharedShelf Video"
+msgstr "SharedShelf བརྙན་རིས"
+
+#: includes/media_sharedshelf.formatters.inc:25
+msgid "SharedShelf Preview Image"
+msgstr "SharedShelf ཡི་པར་རིས་སྔོན་ལྟ"
+
+#: includes/media_sharedshelf.formatters.inc:60
+msgid "Width"
+msgstr "ཞེང་ཚད"
+
+#: includes/media_sharedshelf.formatters.inc:65
+msgid "Height"
+msgstr "མཐོ་ཚད"
+
+#: includes/media_sharedshelf.formatters.inc:70
+msgid "Autoplay"
+msgstr "རང་འགུལ་གྱིས་གཏོང་བ"
+
+#: includes/media_sharedshelf.formatters.inc:109
+msgid "Image style"
+msgstr "པར་རིས་ཀྱི་བཟོ་ལྟ"
+
+#: includes/media_sharedshelf.formatters.inc:113
+msgid "None (original image)"
+msgstr "མེད་པ༼ཐོག་མའི་པར་རིས༽"
+
+#: includes/media_sharedshelf.utilities.inc:52
+msgid "Data[success] value does not exist. Try SharedShelf API settings again."
+msgstr ""
+"གཞི་གྲངས་[success]ཡི་ཐོབ་གྲངས་གནས་མེད་པས། "
+"SharedShelf "
+"འཇུག་སྒོའི་སྒྲིག་འགོད་ལ་བསྐྱར་དུ་ཚོད་ལྟ་བྱེད་རོགས།"
+
+#: includes/media_sharedshelf.utilities.inc:65
+msgid "@error in the !settings before accessing SharedShelf content."
+msgstr ""
+"SharedShelf "
+"ནང་དོན་ལ་བེད་སྤྱོད་མ་བྱས་སྔོན་དུ་!settings་ནང་དུ་@error་འདུག"
+
+#: includes/media_sharedshelf.utilities.inc:65
+msgid "SharedShelf API administration page"
+msgstr ""
+"SharedShelf "
+"འཇུག་སྒོའི་དོ་དམ་ངོས"
+
+#: includes/media_sharedshelf.utilities.inc:613
+msgid "@error"
+msgstr "@error"
+
+#: includes/media_sharedshelf.variables.inc:93
+msgid "Shared Shelf ID number for this image"
+msgstr ""
+"པར་རིས་འདིའི་SharedShelf "
+"ཨང་རྟགས"
+
+#: includes/media_sharedshelf.variables.inc:103
+msgid "Creator of the work."
+msgstr "ལས་གཞི་གསར་འཛུགས་བྱེད་མཁན།"
+
+#: includes/media_sharedshelf.variables.inc:113
+msgid "Title for the work."
+msgstr "ལས་ཀའི་ཁ་བྱང་།"
+
+#: includes/media_sharedshelf.variables.inc:124
+msgid "Project ID"
+msgstr "ལས་གཞིའི་ཨང་རྟགས"
+
+#: includes/media_sharedshelf.variables.inc:125
+msgid "ID for the Shared Shelf Project to which this image belongs"
+msgstr ""
+"པར་རིས་འདི་དབང་བའི་Shared Shelf "
+"ལས་གཞི་ཡི་ཨང་རྟགས"
+
+#: includes/media_sharedshelf.variables.inc:134
+msgid "Location"
+msgstr "གནས་ཡུལ"
+
+#: includes/media_sharedshelf.variables.inc:135
+msgid "Where the work is located."
+msgstr "ལས་ཀ་དེ་གང་དུ་གནས་ཡོད་པ།"
+
+#: includes/media_sharedshelf.variables.inc:145
+msgid "Date(s) associated with the work."
+msgstr "ལས་གཞི་དང་འབྲེལ་བའི་ཟླ་ཚེས།"
+
+#: includes/media_sharedshelf.variables.inc:155
+msgid "Photagrapher of this media object."
+msgstr "འཕྲིན་ལམ་བྱ་དངོས་འདིའི་པར་རྒྱག་མཁན།"
+
+#: includes/media_sharedshelf.variables.inc:164
+msgid "Work Type"
+msgstr "ལས་ཀའི་རིགས"
+
+#: includes/media_sharedshelf.variables.inc:165
+msgid "Type of work."
+msgstr "ལས་ཀའི་རིགས།"
+
+#: includes/media_sharedshelf.variables.inc:174
+msgid "Description"
+msgstr "གསལ་བཤད"
+
+#: includes/media_sharedshelf.variables.inc:175
+msgid "Description of the media object."
+msgstr "འཕྲིན་ལམ་ནང་དོན་གྱི་གསལ་བཤད།"
+
+#: includes/media_sharedshelf.variables.inc:185
+msgid "Knowledge Maps"
+msgstr "ཤེས་བྱའི་མཛོད་ཀྱི་དཀར་ཆག"
+
+#: includes/media_sharedshelf.variables.inc:186
+msgid "Knowledge map identifiers."
+msgstr "ཤེས་བྱ་ཕྱོགས་སྟོན་གྱི་ངོས་འཛིན་བྱེད།"
+
+#: includes/media_sharedshelf.variables.inc:195
+msgid "All Shared Shelf Metadata"
+msgstr ""
+"Shared Shelf "
+"ཡི་ཟུར་གཏོགས་གཞི་གྲངས་ཡོངས"
+
+#: includes/media_sharedshelf.variables.inc:196
+msgid "This field should only be modified to remove email addresses and URLs in Drupal when embedding an image and its data in a filtered or full HTML text format. This field is intended to store a complete copy of the Shared Shelf metadata for the media object to be used by the Solr indexing process only."
+msgstr ""
+"གནས་ཁོངས་འདི་Drupal  "
+"ནང་དུ་གློག་ཡིག་ཁ་བྱང་དང་དྲ་གནས་བསུབ་པའི་སྐབས་ཁོ་ནར་བཟོ་བཅོས་བྱེད་དགོས། "
+"དེའི་རྒྱུ་རྐྱེན་ནི་པར་རིས་དང་དེའི་གཞི་གྲངས་དག་ཚགས་བརྒྱབ་པ་དང་ཡང་ན་HTML "
+"ཆ་ཚང་བའི་ཡིག་གེ་རྣམ་པ་རུ་ནང་འཛུགས་བྱེད་དུས་ཁོ་ན་ཡིན། "
+"Solr "
+"ཡིས་འཕྲིན་ལམ་གྱི་ནང་དོན་དག་དཀར་ཆག་ཏུ་སྒྲིག་པའི་ཆེད་དུ། "
+"གནས་ཁོངས་འདིས་Shared Shelf "
+"ཡི་ཟུར་གཏོགས་གཞི་གྲངས་ཀྱི་འདྲ་བཤུ་ཆ་ཚང་ཞིག་གསོག་འཇོག་བྱེད་ཐུབ།"
+
+#: themes/file--application--pdf--full.tpl.php:102
+msgid "View in Separate Window"
+msgstr "སྒེའུ་ཁུང་ཐ་དད་ཀྱི་ནང་དུ་ལྟ་བ"
+

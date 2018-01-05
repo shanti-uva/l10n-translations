@@ -1,0 +1,154 @@
+# $Id$
+#
+# Tibetan translation of Drupal (general)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  shanti_collections.features.field_instance.inc: n/a
+#  shanti_collections.features.inc: n/a
+#  shanti_collections.field_group.inc: n/a
+#  shanti_collections.features.menu_links.inc: n/a
+#  shanti_collections.module: n/a
+#  shanti_collections.info: n/a
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2018-01-05 15:42-0500\n"
+"PO-Revision-Date: 2018-01-05 15:42-0500\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Tibetan <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: shanti_collections.features.field_instance.inc:843
+msgid "Body"
+msgstr "གཞུང་དངོས"
+
+#: shanti_collections.features.field_instance.inc:844 shanti_collections.features.inc:38 shanti_collections.field_group.inc:72
+msgid "Collection"
+msgstr "ཕྱོགས་བསྡུས"
+
+#: shanti_collections.features.field_instance.inc:845
+msgid "Collection membership"
+msgstr "ཕྱོགས་བསྡུས་ཀྱི་ཚོགས་མི"
+
+#: shanti_collections.features.field_instance.inc:846
+msgid "Determine if this is an OG group."
+msgstr ""
+"འདི་ནི་OG "
+"ཡི་ཚོ་ཁག་ཞིག་ཡིན་མིན་གཏན་ཁེལ་བྱེད་པ།"
+
+#: shanti_collections.features.field_instance.inc:847
+msgid "Featured image"
+msgstr "ཁྱད་པ་ཅན་གྱི་པར་རིས"
+
+#: shanti_collections.features.field_instance.inc:848
+msgid "Group"
+msgstr "ཁག"
+
+#: shanti_collections.features.field_instance.inc:849
+msgid "Group user inheritance"
+msgstr "སྤྱོད་མཁན་གྱི་རྒྱུད་འཛིན་ཚོ་ཁག་བཟོ་བ"
+
+#: shanti_collections.features.field_instance.inc:850
+msgid "Group user permission inheritance"
+msgstr "སྤྱོད་མཁན་གྱི་ཆོག་མཆན་རྒྱུད་འཛིན་ཚོ་ཁག་བགོ་བ"
+
+#: shanti_collections.features.field_instance.inc:851
+msgid "Group visibility"
+msgstr "མངོན་འཆར་ཚོ་ཁག་བཟོ་བ"
+
+#: shanti_collections.features.field_instance.inc:852
+msgid "Overview"
+msgstr "མདོར་བསྡུས"
+
+#: shanti_collections.features.field_instance.inc:853
+msgid "Parent Collection"
+msgstr "མ་ཁོངས་ཀྱི་ཕྱོགས་བསྡུས"
+
+#: shanti_collections.features.field_instance.inc:854
+msgid "Request message"
+msgstr "རེ་ཞུའི་ཆ་འཕྲིན"
+
+#: shanti_collections.features.field_instance.inc:855
+msgid "Say something about this Collection."
+msgstr "ཕྱོགས་བསྡུས་འདིའི་སྐོར་བཤད་དགོས"
+
+#: shanti_collections.features.field_instance.inc:856
+msgid "This is the text a user may send to the group administrators."
+msgstr "འདི་ནི་སྤྱོད་མཁན་ཞིག་གིས་ཚོགས་པའི་དོ་དམ་པར་སྐུར་དགོས་པའི་ཡིག་གེ་ཡིན།"
+
+#: shanti_collections.features.inc:40
+msgid "Collections are used to organize media assets into broad thematic or organizational subsets that can be used to control access to their contents. Collections also contain users with assigned roles, so that project teams can collaboratively create and edit assets. Collections may also contain Subcollections, to further organize contents, users, and permissions."
+msgstr ""
+"ཕྱོགས་བསྡུས་སྤྱད་ནས་འཕྲིན་ལམ་གྱི་ཐོན་ཁུངས་དག་ཁྱབ་ཆེ་བའི་བརྗོད་གཞི་དང་རྩ་འཛུགས་ཀྱི་ཡན་ལག་སྡེ་ཚན་དུ་བཀོད་སྒྲིག་བྱས་ནས། "
+"དེ་དག་གི་ནང་དོན་གྱི་བེད་སྤྱོད་ལ་ཚོད་འཛིན་བྱེད་ཐུབ། "
+"ཕྱོགས་བསྡུས་སུ་ད་དུང་འགན་ནུས་བཀོད་སྒྲིག་བྱས་པའི་སྤྱོད་མཁན་འདུས་ཡོད་དེ། "
+"དེས་ལས་གཞིའི་ཚོ་ཆུང་མཉམ་འབྲེལ་བྱས་ནས་ཐོན་ཁུངས་གསར་འཛུགས་དང་རྩོམ་སྒྲིག་བྱེད་ཐུབ། "
+"ཕྱོགས་བསྡུས་ཀྱི་ཁོངས་སུ་ཡན་ལག་ཕྱོགས་བསྡུས་བཟོས་ཆོག་པ་དང་། "
+"དེས་ནང་དོན་དང་སྤྱོད་མཁན། "
+"སྤྱོད་དབང་བཅས་ཞིབ་ཕྲ་ངང་དོ་དམ་བྱེད་ཐུབ།"
+
+#: shanti_collections.features.inc:42;50
+msgid "Title"
+msgstr "ཁ་བྱང"
+
+#: shanti_collections.features.inc:46
+msgid "Subcollection"
+msgstr "ཡན་ལག་གི་ཕྱོགས་བསྡུས"
+
+#: shanti_collections.features.inc:48
+msgid "Subcollections can be used to partition Collections into groups of assets and users that owner may not want shared across an entire Collection. The contents of Subcollections remain part of their parent Collections. "
+msgstr ""
+"ཡན་ལག་ཕྱོགས་བསྡུས་སྤྱད་ནས་བདག་པོས་ཕྱོགས་བསྡུས་ཡོངས་ལ་མཉམ་སྤྱོད་བྱེད་མ་འདོད་པའི་ཕྱོགས་བསྡུས་དག་ནང་དོན་དང་སྤྱོད་མཁན་གྱི་ཚོ་ཁག་མང་པོ་ལ་ཁ་བསྒོས་ཆོག "
+"ཡན་ལག་ཕྱོགས་བསྡུས་ཀྱི་ནང་གསེས་ནི་ཕྱོགས་བསྡུས་རིམ་པ་གོང་མའི་ཆ་ཤས་ཡིན།"
+
+#: shanti_collections.features.menu_links.inc:55
+msgid "Create Collection"
+msgstr "ཕྱོགས་བསྡུས་གསར་འཛུགས"
+
+#: shanti_collections.features.menu_links.inc:56
+msgid "View Collections"
+msgstr "ཕྱོགས་བསྡུས་ལ་ལྟ་བ"
+
+#: shanti_collections.field_group.inc:73
+msgid "Content"
+msgstr "ནང་དོན"
+
+#: shanti_collections.module:53
+msgid "Create A Collection"
+msgstr "ཕྱོགས་བསྡུས་ཤིག་གསར་འཛུགས"
+
+#: shanti_collections.module:54
+msgid "Create a new collection of resources grouped by project or theme:"
+msgstr "ལས་གཞི་དང་བརྗོད་གཞི་ལ་བསྟུན་ནས་རིགས་དབྱེ་བའི་ཐོན་ཁུངས་ལ་ཕྱོགས་བསྡུས་ཤིག་གསར་འཛུགས་བྱེད་པ།"
+
+#: shanti_collections.module:58
+msgid "Add New Collection"
+msgstr "ཕྱོགས་བསྡུས་གསར་བ་ཁ་སྣོན"
+
+#: shanti_collections.module:75
+msgid "Collections"
+msgstr "ཕྱོགས་བསྡུས"
+
+#: shanti_collections.module:76
+msgid "Subcollections"
+msgstr "ཡན་ལག་ཕྱོགས་བསྡུས"
+
+#: shanti_collections.info:0
+msgid "SHANTI Collections"
+msgstr "Shanti ཡི་ཕྱོགས་བསྡུས"
+
+#: shanti_collections.info:0
+msgid "Collections can be used to organize your content for access, visibility, and editing"
+msgstr ""
+"ཕྱོགས་བསྡུས་སྤྱད་ནས་ཁྱེད་ཀྱི་ནང་དོན་གྱི་བེད་སྤྱོད་དང་འཆར་སྟངས། "
+"རྩོམ་སྒྲིག་བཅས་ལ་དོ་དམ་བྱས་ཆོག"
+
+#: shanti_collections.info:0
+msgid "SHANTI"
+msgstr "SHANTI"
+

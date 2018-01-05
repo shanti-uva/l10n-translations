@@ -1,0 +1,355 @@
+# $Id$
+#
+# Tibetan translation of Drupal (general)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  kmaps_explorer.module: n/a
+#  kmaps_explorer.info: n/a
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2018-01-05 15:36-0500\n"
+"PO-Revision-Date: 2018-01-05 15:36-0500\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Tibetan <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: kmaps_explorer.module:2222
+msgid "Clear all solr api caches"
+msgstr ""
+"solr "
+"འཇུག་སྒོ་ཡི་བར་གསོག་ཡོངས་གཙང་སེལ"
+
+#: kmaps_explorer.module:2229
+msgid "Clear all overview caches"
+msgstr "གནད་བསྡུས་ཀྱི་བར་གསོག་ཡོངས་གཙང་སེལ"
+
+#: kmaps_explorer.module:2236
+msgid "Clear all illustration caches"
+msgstr "གསལ་བཤད་ཀྱི་བར་གསོག་ཡོངས་གཙང་སེལ"
+
+#: kmaps_explorer.module:2243
+msgid "Clear all accordion caches"
+msgstr ""
+"accordion "
+"ཡི་བར་གསོག་ཡོངས་གཙང་སེལ་བྱེད"
+
+#: kmaps_explorer.module:2250
+msgid "Clear all subjects caches"
+msgstr "བརྗོད་དོན་གྱི་བར་གསོག་ཡོངས་གཙང་སེལ"
+
+#: kmaps_explorer.module:2257
+msgid "Clear all places caches"
+msgstr "ས་གནས་ཀྱི་བར་གསོག་ཡོངས་གཙང་སེལ"
+
+#: kmaps_explorer.module:2264
+msgid "Clear all photos caches"
+msgstr "པར་གྱི་བར་གསོག་ཡོངས་གཙང་སེལ"
+
+#: kmaps_explorer.module:2271
+msgid "Clear all audio_video caches"
+msgstr "སྒྲ་དང་བརྙན་རིས་ཀྱི་བར་གསོག་ཡོངས་གཙང་སེལ་བྱེད"
+
+#: kmaps_explorer.module:2278
+msgid "Clear all sources caches"
+msgstr "ཁུངས་ཀྱི་བར་གསོག་ཡོངས་གཙང་སེལ"
+
+#: kmaps_explorer.module:2285
+msgid "Clear all visuals caches"
+msgstr "འཆར་སྣང་གི་བར་གསོག་ཡོངས་གཙང་སེལ"
+
+#: kmaps_explorer.module:2292
+msgid "Clear all popover caches"
+msgstr "གསལ་འདེམས་སྒྲོམ་གྱི་བར་གསོག་ཡོངས་གཙང་སེལ"
+
+#: kmaps_explorer.module:2299
+msgid "Clear all caches"
+msgstr "གནས་སྐབས་གསོག་འཇོག་ཡོངས་གཙང་དག་བཟོ"
+
+#: kmaps_explorer.module:2313
+msgid "Solr caches cleared from the kmaps explorer cache table."
+msgstr ""
+"kmaps "
+"འཚོལ་ཞིབ་ཀྱི་བར་གསོག་རེའུ་མིག་ནས་Solr "
+"བར་གསོག་གཙང་དག་བཟོས་ཟིན།"
+
+#: kmaps_explorer.module:2322
+msgid "Main overview caches cleared from the kmaps explorer cache table."
+msgstr ""
+"kmaps "
+"འཚོལ་བྱེད་ཀྱི་བར་གསོག་རེའུ་མིག་ནས་གནད་བསྡུས་གཙོ་བོའི་བར་གསོག་གཙང་སེལ་བྱས་ཟིན།"
+
+#: kmaps_explorer.module:2331;2626
+msgid "All caches cleared from the kmaps explorer cache table."
+msgstr ""
+"kmaps "
+"འཚོལ་ཞིབ་གི་བར་གསོག་རེའུ་མིག་ནས་བར་གསོག་ཡོངས་གཙང་སེལ་བྱས་ཚར།"
+
+#: kmaps_explorer.module:2340
+msgid "Illustrations cleared from the kmaps explorer cache table."
+msgstr ""
+"kmaps "
+"འཚོལ་བྱེད་ཀྱི་བར་གསོག་རེའུ་མིག་ནས་འགྲེལ་བཤད་གཙང་སེལ་བཟོས་པ།"
+
+#: kmaps_explorer.module:2349
+msgid "Accordion cleared from the kmaps explorer cache table."
+msgstr ""
+"kmaps "
+"འཚོལ་ཞིབ་བར་གསོག་རེའུ་མིག་ནས་Accordion "
+"སུབ་ཟིན།"
+
+#: kmaps_explorer.module:2358
+msgid "Subjects cleared from the kmaps explorer cache table."
+msgstr ""
+"kmaps "
+"འཚོལ་ཞིབ་བར་གསོག་གི་རེའུ་མིག་ནས་བརྗོད་དོན་བསུབ་ཟིན།"
+
+#: kmaps_explorer.module:2367
+msgid "Places cleared from the kmaps explorer cache table."
+msgstr ""
+"kmaps "
+"ཕྱོགས་སྟོན་བར་གསོག་རེའུ་མིག་ནས་ས་གནས་གཙང་སེལ་བྱས་པ།"
+
+#: kmaps_explorer.module:2376
+msgid "Photos cleared from the kmaps explorer cache table."
+msgstr ""
+"kmaps "
+"ཕྱོགས་སྟོན་བར་གསོག་རེའུ་མིག་ནས་པར་གཙང་སེལ་བཟོས་ཟིན།"
+
+#: kmaps_explorer.module:2385
+msgid "Audio-video cleared from the kmaps explorer cache table."
+msgstr ""
+"kmaps "
+"འཚོལ་ཞིབ་བར་གསོག་རེའུ་མིག་ནས་སྒྲ་དང་བརྙན་རིས་གཙང་སེལ་བྱས་ཚར།"
+
+#: kmaps_explorer.module:2394
+msgid "Sources cleared from the kmaps explorer cache table."
+msgstr ""
+"kmaps "
+"འཚོལ་ཞིབ་ཀྱི་བར་གསོག་རེའུ་མིག་ནས་ཁུངས་བསུབ་ཟིན།"
+
+#: kmaps_explorer.module:2403
+msgid "Visuals cleared from the kmaps explorer cache table."
+msgstr ""
+"kmaps "
+"འཚོལ་ཞིབ་ཀྱི་བར་གསོག་རེའུ་མིག་ནས་འཆར་སྣང་སུབ་ཟིན།"
+
+#: kmaps_explorer.module:2410
+msgid "Popovers cleared from the kmaps explorer cache table."
+msgstr ""
+"kmaps "
+"འཚོལ་ཞིབ་ལག་ཆའི་བར་གསོག་རེའུ་མིག་ནས་ཕྱི་རིམ་སྒྲོམ་གཙང་སེལ་བྱས་ཟིན།"
+
+#: kmaps_explorer.module:2635
+msgid "KMaps Explorer Navigator"
+msgstr ""
+"KMaps "
+"འཚོལ་བྱེད་ཀྱི་ཕྱོགས་སྟོན་ལག་ཆ"
+
+#: kmaps_explorer.module:2618
+msgid "cron"
+msgstr "དུས་བཀག་སྒྲིག་རིམ"
+
+#: kmaps_explorer.module:2618
+msgid "Number of anonymous sessions deleted: @num."
+msgstr "གསང་མིང་ཅན་གྱི་སྦྲེལ་ཡུན་@num་བསུབ་ཚར།"
+
+#: kmaps_explorer.module:28
+msgid "Kmaps Content Template"
+msgstr "Kmaps་ནང་དོན་དཔེ་གཞི"
+
+#: kmaps_explorer.module:29
+msgid "Return the html for the display of a KMap feature"
+msgstr ""
+"KMap "
+"བྱེད་ནུས་ཀྱི་མངོན་འཆར་ལ་html "
+"ཕྱིར་འདོན་བྱེད་པ"
+
+#: kmaps_explorer.module:36;45;72;90;108;126;135;162;180;198;239;255;263;279
+msgid "Subjects"
+msgstr "བརྗོད་དོན"
+
+#: kmaps_explorer.module:37
+msgid "Creates a page that shows the initial landing content of the subjects app."
+msgstr "བརྗོད་དོན་ཉེར་སྤྱོད་ཀྱི་འགོ་འཛུགས་ནང་དོན་འཆར་ཐུབ་པའི་དྲ་ངོས་ཤིག་གསར་འཛུགས་བྱེད།"
+
+#: kmaps_explorer.module:46
+msgid "Creates a callback that shows overview in subjects via ajax"
+msgstr ""
+"ཕྱིར་ལན་གྱི་བྱེད་ནུས་ཤིག་བཟོས་ཏེ་ajax "
+"བརྒྱུད་ནས་བརྗོད་དོན་ནང་དུ་གནད་བསྡུས་སྟོན་པ"
+
+#: kmaps_explorer.module:54;63;81;99;117;144;153;171;189;207;231;247;271;287
+msgid "Places"
+msgstr "ས་གནས"
+
+#: kmaps_explorer.module:55
+msgid "Creates a page that shows the initial landing content of the places app."
+msgstr "ས་གནས་ཉེར་སྤྱོད་ཀྱི་འགོ་འཛུགས་ནང་དོན་འཆར་ཐུབ་པའི་དྲ་ངོས་ཤིག་གསར་འཛུགས་བྱེད།"
+
+#: kmaps_explorer.module:64
+msgid "Creates a callback that shows overview in places via ajax"
+msgstr ""
+"ཕྱིར་ལན་གྱི་བྱེད་ནུས་ཤིག་བཟོས་ཏེ་ajax "
+"བརྒྱུད་ནས་ས་གནས་ནང་དུ་གནད་བསྡུས་སྟོན་པ"
+
+#: kmaps_explorer.module:73
+msgid "Creates a callback that shows subjects in subjects via ajax"
+msgstr ""
+"ཕྱིར་ལན་གྱི་བྱེད་ནུས་ཤིག་བཟོས་ཏེ་ajax "
+"བརྒྱུད་ནས་བརྗོད་དོན་ནང་དུ་བརྗོད་དོན་སྟོན་པ"
+
+#: kmaps_explorer.module:82
+msgid "Creates a callback that shows subjects in places via ajax"
+msgstr ""
+"ཕྱིར་ལན་གྱི་བྱེད་ནུས་ཤིག་བཟོས་ཏེ་ajax "
+"བརྒྱུད་ནས་ས་གནས་ནང་དུ་བརྗོད་དོན་སྟོན་པ"
+
+#: kmaps_explorer.module:91
+msgid "Creates a callback that shows essays in subjects via ajax"
+msgstr ""
+"ཕྱིར་ལན་གྱི་བྱེད་ནུས་ཤིག་བཟོས་ཏེ་ajax "
+"བརྒྱུད་ནས་བརྗོད་དོན་ནང་དུ་རྩོམ་ཡིག་སྟོན་པ"
+
+#: kmaps_explorer.module:100
+msgid "Creates a callback that shows essays in places via ajax"
+msgstr ""
+"ཕྱིར་ལན་གྱི་བྱེད་ནུས་ཤིག་བཟོས་ཏེ་ajax "
+"བརྒྱུད་ནས་ས་གནས་ནང་དུ་རྩོམ་ཡིག་སྟོན་པ"
+
+#: kmaps_explorer.module:109
+msgid "Creates a callback that shows places in subjects via ajax"
+msgstr ""
+"ཕྱིར་ལན་གྱི་བྱེད་ནུས་ཤིག་བཟོས་ཏེ་ajax "
+"བརྒྱུད་ནས་བརྗོད་དོན་ནང་དུ་ས་གནས་སྟོན་པ"
+
+#: kmaps_explorer.module:118
+msgid "Creates a callback that shows places in places via ajax"
+msgstr ""
+"ཕྱིར་ལན་གྱི་བྱེད་ནུས་ཤིག་བཟོས་ཏེ་ajax "
+"བརྒྱུད་ནས་ས་གནས་ནང་དུ་ས་གནས་སྟོན་པ"
+
+#: kmaps_explorer.module:127
+msgid "Creates a callback that shows photos in subjects via ajax"
+msgstr ""
+"ཕྱིར་ལན་གྱི་བྱེད་ནུས་ཤིག་བཟོས་ཏེ་ajax "
+"བརྒྱུད་ནས་བརྗོད་དོན་ནང་དུ་པར་སྟོན་པ"
+
+#: kmaps_explorer.module:136
+msgid "Creates a callback that shows individual photos in subjects via ajax"
+msgstr ""
+"ཕྱིར་ལན་གྱི་བྱེད་ནུས་ཤིག་བཟོས་ཏེ་ajax "
+"བརྒྱུད་ནས་བརྗོད་དོན་ནང་དུ་པར་སོ་སོ་སྟོན་པ"
+
+#: kmaps_explorer.module:145
+msgid "Creates a callback that shows photos in places via ajax"
+msgstr ""
+"ཕྱིར་ལན་གྱི་བྱེད་ནུས་ཤིག་བཟོས་ཏེ་ajax "
+"བརྒྱུད་ནས་ས་གནས་ནང་དུ་པར་སྟོན་པ"
+
+#: kmaps_explorer.module:154
+msgid "Creates a callback that shows individual photos in places via ajax"
+msgstr ""
+"ཕྱིར་ལན་གྱི་བྱེད་ནུས་ཤིག་བཟོས་ཏེ་ajax "
+"བརྒྱུད་ནས་ས་གནས་ནང་དུ་པར་སོ་སོ་སྟོན་པ"
+
+#: kmaps_explorer.module:163;172
+msgid "Creates a callback that shows individual text nodes"
+msgstr "ཡིག་གེའི་སྦྲེལ་གནས་སོ་སོ་སྟོན་བྱེད་ཀྱི་ཕྱིར་ལན་གྱི་བྱེད་ནུས་ཤིག་བཟོ་བ"
+
+#: kmaps_explorer.module:181
+msgid "Creates a callback that shows audio-video in subjects via ajax"
+msgstr ""
+"ཕྱིར་ལན་གྱི་བྱེད་ནུས་ཤིག་བཟོས་ཏེ་ajax "
+"བརྒྱུད་ནས་བརྗོད་དོན་ནང་དུ་སྒྲ་དང་བརྙན་རིས་སྟོན་པ"
+
+#: kmaps_explorer.module:190
+msgid "Creates a callback that shows audio-video in places via ajax"
+msgstr ""
+"ཕྱིར་ལན་གྱི་བྱེད་ནུས་ཤིག་བཟོས་ཏེ་ajax "
+"བརྒྱུད་ནས་ས་གནས་ནང་དུ་སྒྲ་དང་བརྙན་རིས་སྟོན་པ"
+
+#: kmaps_explorer.module:199;208
+msgid "Creates a callback that shows individual audio-video nodes"
+msgstr "སྒྲ་དང་བརྙན་རིས་སོ་སོར་སྟོན་བྱེད་ཀྱི་ཕྱིར་ལན་གྱི་བྱེད་ནུས་ཞིག་གསར་འཛུགས"
+
+#: kmaps_explorer.module:215
+msgid "SHANTI KMAPS EXPLORER ADMIN"
+msgstr "SHANTI KMAPS ཡི་འཚོལ་ཞིབ་དོ་དམ"
+
+#: kmaps_explorer.module:216
+msgid "Specify settings to clear caches for the kmaps explorer module"
+msgstr ""
+"kmaps "
+"འཚོལ་ཞིབ་མ་དཔེ་ཡི་བར་གསོག་གཙང་སེལ་གྱི་སྒྲིག་འགོད་གཏན་འབེབ་བྱེད་པ"
+
+#: kmaps_explorer.module:223
+msgid "Modified Subject API Call"
+msgstr "བརྗོད་གཞིAPIསྒྲིག་འགོད་བཅོས་བསྒྱུར།"
+
+#: kmaps_explorer.module:224
+msgid "Modifies the subject api call by adding counts of descendants"
+msgstr "ཟུར་གཏོགས་ཐོ་ཁོངས་སྣོན་འཇུག་བརྒྱུད་ནས་བརྗོད་གཞིའི་apiསྒྲིག་འགོད་བཅོས་བསྒྱུར།"
+
+#: kmaps_explorer.module:232;240
+msgid "Creates a callback that shows sources in places via ajax"
+msgstr ""
+"ཕྱིར་ལན་གྱི་བྱེད་ནུས་ཤིག་བཟོས་ཏེ་ajax "
+"བརྒྱུད་ནས་ས་གནས་ནང་དུ་ཁུངས་སྟོན་པ"
+
+#: kmaps_explorer.module:248
+msgid "Creates a callback that shows visuals in places via ajax"
+msgstr ""
+"ཕྱིར་ལན་གྱི་བྱེད་ནུས་ཤིག་བཟོས་ཏེ་ajax "
+"བརྒྱུད་ནས་ས་གནས་ནང་དུ་འཆར་སྣང་སྟོན་པ"
+
+#: kmaps_explorer.module:256
+msgid "Creates a callback that shows visuals in subjects via ajax"
+msgstr ""
+"ཕྱིར་ལན་གྱི་བྱེད་ནུས་ཤིག་བཟོས་ཏེ་ajax "
+"བརྒྱུད་ནས་བརྗོད་དོན་ནང་དུ་འཆར་སྣང་སྟོན་པ"
+
+#: kmaps_explorer.module:264
+msgid "Create a callback that shows an individual source in subjects via ajax"
+msgstr ""
+"ཕྱིར་ལན་གྱི་བྱེད་ནུས་བཟོས་ཏེ་ajax "
+"བརྒྱུད་ནས་བརྗོད་དོན་ནང་དུ་དམིགས་བསལ་གྱི་ཁུངས་ཤིག་འཆར་བ"
+
+#: kmaps_explorer.module:272
+msgid "Create a callback that shows an individual source in places via ajax"
+msgstr ""
+"ཕྱིར་ལན་གྱི་བྱེད་ནུས་བཟོས་ཏེ་ajax "
+"བརྒྱུད་ནས་ས་གནས་ནང་དུ་དམིགས་བསལ་གྱི་ཁུངས་ཤིག་འཆར་བ"
+
+#: kmaps_explorer.module:280
+msgid "Create a callback that shows an individual visuals in subjects via ajax"
+msgstr ""
+"ཕྱིར་ལན་གྱི་བྱེད་ནུས་བཟོས་ཏེ་ajax "
+"བརྒྱུད་ནས་བརྗོད་དོན་ནང་དུ་དམིགས་བསལ་གྱི་འཆར་སྣང་ཞིག་འཆར་བ"
+
+#: kmaps_explorer.module:288
+msgid "Create a callback that shows an individual visuals in places via ajax"
+msgstr ""
+"ཕྱིར་ལན་གྱི་བྱེད་ནུས་བཟོས་ཏེ་ajax "
+"བརྒྱུད་ནས་ས་གནས་ནང་དུ་དམིགས་བསལ་གྱི་འཆར་སྣང་ཤིག་འཆར་བ"
+
+#: kmaps_explorer.info:0
+msgid "Shanti Kmaps Explorer Module"
+msgstr "Shanti Kmaps འཚོལ་ཞིབ་མ་དཔེ"
+
+#: kmaps_explorer.info:0
+msgid "Intergrates Shanti knowledge map functionality into any Drupal site"
+msgstr ""
+"Shanti "
+"ཡི་ཤེས་བྱ་ཕྱོགས་སྟོན་གྱི་བྱེད་ནུས་དེ་Drupal "
+"ཡི་དྲ་ཚིགས་གང་རུང་དུ་མཉམ་འབྲེལ་བྱེད་པ།"
+
+#: kmaps_explorer.info:0
+msgid "Shanti"
+msgstr "Shanti"
+

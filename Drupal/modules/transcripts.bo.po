@@ -1,0 +1,642 @@
+# $Id$
+#
+# Tibetan translation of Drupal (general)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  transcripts_apachesolr/transcripts_apachesolr.admin.inc: n/a
+#  transcripts_apachesolr/transcripts_apachesolr.module: n/a
+#  transcripts_apachesolr/transcripts_apachesolr.index.inc: n/a
+#  transcripts_ui/transcripts_ui.module: n/a
+#  transcripts_apachesolr/transcripts_apachesolr.info: n/a
+#  transcripts_apachesolr/tcu/tcu.info: n/a
+#  transcripts_apachesolr/transcripts_editor/transcripts_editor.info: n/a
+#  transcripts_apachesolr/transcripts_node/transcripts_node.info: n/a
+#  transcripts_apachesolr/transcripts_xslt/transcripts_xslt.info: n/a
+#  transcripts_ui/transcripts_ui.info: n/a
+#  transcripts_apachesolr/tcu/tcu.module: n/a
+#  transcripts_apachesolr/tcu/tcu.install: n/a
+#  transcripts_apachesolr/transcripts_editor/transcripts_editor.module: n/a
+#  transcripts_apachesolr/transcripts_node/transcripts_node.module: n/a
+#  transcripts_apachesolr/transcripts_xslt/transcripts_xslt.admin.inc: n/a
+#  transcripts_apachesolr/transcripts_xslt/transcripts_xslt.module: n/a
+#  transcripts_ui/transcripts_ui.admin.inc: n/a
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2018-01-05 15:44-0500\n"
+"PO-Revision-Date: 2018-01-05 15:44-0500\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Tibetan <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: transcripts_apachesolr/transcripts_apachesolr.admin.inc:13
+msgid "Actions"
+msgstr "བྱ་འགུལ"
+
+#: transcripts_apachesolr/transcripts_apachesolr.admin.inc:18
+msgid "If you only wish to queue some transcripts, enter their node ids here, separated by the plus sign. For example: 185, or 185+240."
+msgstr ""
+"ཁྱེད་ཀྱིས་ཟིན་བྲིས་འགའ་ཞིག་བང་སྒྲིག་དགོས་ན། "
+"དེ་དག་གི་སྦྲེལ་གནས་ཨང་རྟགས་འདིར་ནང་འཇུག་བྱས་ནས། "
+"སྡོམ་རྟགས་ཀྱིས་མཚམས་དབྱེ་བ། "
+"དཔེར་ན་185 འམ185+240་ལྟ་བུ།"
+
+#: transcripts_apachesolr/transcripts_apachesolr.admin.inc:24;89 transcripts_apachesolr/transcripts_apachesolr.module:362;370
+msgid "Queue transcripts"
+msgstr "ཟིན་བྲིས་གྲ་སྒྲིག་པ"
+
+#: transcripts_apachesolr/transcripts_apachesolr.admin.inc:30;140
+msgid "Index queued transcripts"
+msgstr "བང་སྒྲིག་པའི་ཟིན་བྲིས་དཀར་ཆག་སྒྲིག་པ།"
+
+#: transcripts_apachesolr/transcripts_apachesolr.admin.inc:36
+msgid "This could take time and could put an increased load on your server."
+msgstr "འདིར་དུས་ཚོད་མང་པོ་འགྲོ་བ་དང་ཁྱེད་ཀྱི་ཞབས་ཞུ་གནས་ལ་རྡོག་ཁྲེས་ཇེ་མཐོར་གཏོང་སྲིད།"
+
+#: transcripts_apachesolr/transcripts_apachesolr.admin.inc:44
+msgid "Search environment"
+msgstr "ཁོར་ཡུག་འཚོལ་བཤེར"
+
+#: transcripts_apachesolr/transcripts_apachesolr.admin.inc:48
+msgid "Select the Apache Solr search environment that this module will use to index time code units."
+msgstr ""
+"Apache Solr "
+"འཚོལ་བཤེར་ཁོར་ཡུག་བདམས་ནས་མ་དཔེ་འདིས་དུས་ཚོད་སྒྲིག་ཡིག་གི་རྩི་བཞི་དཀར་ཆགས་དུ་སྒྲིག་པ།"
+
+#: transcripts_apachesolr/transcripts_apachesolr.admin.inc:52
+msgid "Save configuration"
+msgstr "སྒྲིག་འགོད་ཉར་ཚགས"
+
+#: transcripts_apachesolr/transcripts_apachesolr.admin.inc:62
+msgid "Your configuration has been saved."
+msgstr ""
+
+#: transcripts_apachesolr/transcripts_apachesolr.admin.inc:83
+msgid "All transcripts will be reindexed. "
+msgstr ""
+"ཟིན་བྲིས་ཡོངས་ལ་དཀར་ཆག་བསྐྱར་སྒྲིག་བྱེད་ངེས། "
+""
+
+#: transcripts_apachesolr/transcripts_apachesolr.admin.inc:83
+msgid "Transcripts from these nodes will be reindexed: "
+msgstr ""
+"སྦྲེལ་གནས་འདི་དག་གི་ཟིན་བྲིས་ཀྱི་དཀར་ཆག་བསྐྱར་སྒྲིག་བྱེད་པ། "
+""
+
+#: transcripts_apachesolr/transcripts_apachesolr.admin.inc:86
+msgid "Are you sure you want to queue transcripts for reindexing?"
+msgstr "གྲལ་སྒྲིག་བཞིན་པའི་ཟིན་བྲིས་དག་གི་དཀར་ཆག་བསྐྱར་སྒྲིག་བྱེད་ཐག་ཆོད་ཡིན་ནམ།"
+
+#: transcripts_apachesolr/transcripts_apachesolr.admin.inc:88
+msgid "Any changes in the transcript index will be overwritten."
+msgstr "ཟིན་བྲིས་དཀར་ཆག་གི་བསྒྱུར་བཅོས་ཡོངས་བསྐྱར་དུ་འབྲི་སྲིད།"
+
+#: transcripts_apachesolr/transcripts_apachesolr.admin.inc:101
+msgid "Transcripts queued for re-indexing. You must now index these transcripts."
+msgstr ""
+"དཀར་ཆག་བསྐྱར་སྒྲིག་ལ་གྲ་སྒྲིག་བྱེད་བཞིན་པའི་ཟིན་བྲིས། "
+"ཁྱེད་ཀྱིས་ད་ལྟ་ངེས་པར་ཏུ་ཟིན་བྲིས་འདི་དག་དཀར་ཆག་ཏུ་སྒྲིག་དགོས།"
+
+#: transcripts_apachesolr/transcripts_apachesolr.admin.inc:119
+msgid "Are you sure you want index the queued transcripts?"
+msgstr "གྲལ་སྒྲིག་བཞིན་པའི་ཟིན་བྲིས་དག་དཀར་ཆག་སྒྲིག་ཐག་ཆོད་ཡིན་ནམ།"
+
+#: transcripts_apachesolr/transcripts_apachesolr.admin.inc:122 transcripts_apachesolr/transcripts_apachesolr.module:378
+msgid "Index transcripts"
+msgstr "ཟིན་བྲིས་དཀར་ཆག་སྒྲིག་པ"
+
+#: transcripts_apachesolr/transcripts_apachesolr.admin.inc:141
+msgid "Indexing"
+msgstr "དཀར་ཆག་སྒྲིག་པ"
+
+#: transcripts_apachesolr/transcripts_apachesolr.admin.inc:142
+msgid "Indexed @current out of @total."
+msgstr "@total་ནས་@current་དཀར་ཆག་བསྒྲིག་ཟིན།"
+
+#: transcripts_apachesolr/transcripts_apachesolr.admin.inc:143
+msgid "Indexing has encountered an error."
+msgstr "དཀར་ཆག་སྒྲིག་སྐབས་ནོར་འཁྲུལ་ཞིག་ལ་འཕྲད་པ།"
+
+#: transcripts_apachesolr/transcripts_apachesolr.index.inc:203
+msgid "[node/@nid] Indexing transcript"
+msgstr ""
+"[node/@nid] "
+"ཟིན་བྲིས་དཀར་ཆག་སྒྲིག་པ"
+
+#: transcripts_apachesolr/transcripts_apachesolr.index.inc:234
+msgid "Indexed @count transcripts."
+msgstr "ཟིན་བྲིས་@count་དཀར་ཆག་ཏུ་བསྒྲིག་ཟིན།"
+
+#: transcripts_apachesolr/transcripts_apachesolr.index.inc:237
+msgid "An error occurred while processing @operation with arguments : @args"
+msgstr "@operation་དང་འཇུག་གྲངས་@args་མཉམ་དུ་སྒྲིག་བཟོ་བྱེད་དུས་ནོར་འཁྲུལ་ཞིག་བྱུང་འདུག"
+
+#: transcripts_apachesolr/transcripts_apachesolr.module:35
+msgid "This transcript is still being processed for display."
+msgstr "ཟིན་བྲིས་འདིའི་མངོན་སྟོན་ལ་གྲབ་སྒྲིག་བྱེད་བཞིན་ཡོད།"
+
+#: transcripts_apachesolr/transcripts_apachesolr.module:90
+msgid "Temporal order"
+msgstr "དུས་ཚོད་ཀྱི་གོ་རིམ"
+
+#: transcripts_apachesolr/transcripts_apachesolr.module:110
+msgid "NULL query object in function apachesolr_do_query()"
+msgstr "apachesolr_do_query()བྱེད་ནུས་ནང་གི་འདྲི་་ཞིབ་བྱེད་ཡུལ།"
+
+#: transcripts_apachesolr/transcripts_apachesolr.module:229
+msgid "Title"
+msgstr "ཁ་བྱང"
+
+#: transcripts_apachesolr/transcripts_apachesolr.module:335 transcripts_ui/transcripts_ui.module:341
+msgid "Search"
+msgstr "འཚོལ"
+
+#: transcripts_apachesolr/transcripts_apachesolr.module:343
+msgid "Administer module"
+msgstr "མ་དཔེར་དོ་དམ་རྒྱག་པ"
+
+#: transcripts_apachesolr/transcripts_apachesolr.module:354
+msgid "Transcripts Apachesolr module settings"
+msgstr ""
+"ཟིན་བྲིས་Apachesolr "
+"མ་དཔེ་ཡི་སྒྲིག་འགོད"
+
+#: transcripts_apachesolr/transcripts_apachesolr.module:454
+msgid "Transcript Languages"
+msgstr "ཟིན་བྲིས་ཀྱི་སྐད་རིགས"
+
+#: transcripts_apachesolr/transcripts_apachesolr.module:455
+msgid "Filter by which languages are present in the transcript."
+msgstr "ཟིན་བྲིས་ནང་དུ་སྐད་རིགས་གང་ཡོད་ཚགས་རྒྱག་པ།"
+
+#: transcripts_apachesolr/transcripts_apachesolr.module:353
+msgid "Transcripts Apachesolr"
+msgstr "ཟིན་བྲིས་Apachesolr"
+
+#: transcripts_apachesolr/transcripts_apachesolr.info:0
+msgid "Transcripts Apache Solr"
+msgstr "ཟིན་བྲིས་Apache Solr"
+
+#: transcripts_apachesolr/transcripts_apachesolr.info:0
+msgid "Drupal module for working with a corpus of transcripts stored in a SOLR index"
+msgstr ""
+"SOLR "
+"ཡི་དཀར་ཆག་ཏུ་གསོག་འཇོག་བྱས་པའི་ཟིན་བྲིས་ཕོན་ཆེན་དང་མཐུན་སྒྲིག་བྱེད་པའི་Drupal "
+"མ་དཔེ།"
+
+#: transcripts_apachesolr/transcripts_apachesolr.info:0 transcripts_apachesolr/tcu/tcu.info:0 transcripts_apachesolr/transcripts_editor/transcripts_editor.info:0 transcripts_apachesolr/transcripts_node/transcripts_node.info:0 transcripts_apachesolr/transcripts_xslt/transcripts_xslt.info:0 transcripts_ui/transcripts_ui.info:0
+msgid "Pinedrop Transcripts"
+msgstr "Pinedrop ཟིན་བྲིས"
+
+#: transcripts_apachesolr/tcu/tcu.module:7 transcripts_apachesolr/tcu/tcu.info:0
+msgid "Time Code Unit"
+msgstr "དུས་ཚོད་ཨང་རྟགས་ཀྱི་སྡེ་ཚན"
+
+#: transcripts_apachesolr/tcu/tcu.module:8
+msgid "Entity type for transcript tcus"
+msgstr ""
+"ཟིན་བྲིས་tcus "
+"ཡི་དངོས་གཞི་རིགས"
+
+#: transcripts_apachesolr/tcu/tcu.module:18
+msgid "Tcu"
+msgstr "Tcu"
+
+#: transcripts_apachesolr/tcu/tcu.install:153
+msgid "Stores a record of when a tcu changed to determine if it needs indexing by Solr"
+msgstr ""
+"གསོ་ཆསtcu "
+"གསར་སྒྱུར་སྐབས་ཀྱི་དུས། "
+"Solrཀྱིས་འཚོལ་བཤེར་བྱེད་དགོས་མིན་ལ་ལྟ་དགོསཧཧཧཧ"
+
+#: transcripts_apachesolr/tcu/tcu.info:0
+msgid "Models time-coded units for transcripts"
+msgstr "དུས་ཚོད་སྒྲིག་འགོད་རྩིས་གཞི་ཡི་དཔེ་དབྱིབས་མཇུག་འབྲས།"
+
+#: transcripts_apachesolr/transcripts_editor/transcripts_editor.module:62
+msgid "Launch transcript editing"
+msgstr "ཟིན་བྲིས་རྩོམ་སྒྲིག་འགོ་འཛུགས་པ"
+
+#: transcripts_apachesolr/transcripts_editor/transcripts_editor.module:104
+msgid "Error. Please return to the previous page."
+msgstr ""
+"ནོར་འཁྲུལ།  "
+"ངོས་གོང་མ་ལ་སྐྱོད་རོགས།"
+
+#: transcripts_apachesolr/transcripts_editor/transcripts_editor.module:121
+msgid "Just Checking"
+msgstr "བརྟག་དཔྱད་ཙམ"
+
+#: transcripts_apachesolr/transcripts_editor/transcripts_editor.module:122
+msgid "Are you sure you want to delete this unit?"
+msgstr "ཁྱེད་ཀྱིས་སྡེ་ཚན་འདི་སུབ་ཐག་ཆོད་ཡིན་ནམ།"
+
+#: transcripts_apachesolr/transcripts_editor/transcripts_editor.module:124
+msgid "Cancel"
+msgstr "ཕྱིར་འཐེན"
+
+#: transcripts_apachesolr/transcripts_editor/transcripts_editor.module:125;156
+msgid "Delete"
+msgstr "བསུབ་པ"
+
+#: transcripts_apachesolr/transcripts_editor/transcripts_editor.module:153
+msgid "Insert before"
+msgstr "སྔོན་དུ་འཇུག་པ"
+
+#: transcripts_apachesolr/transcripts_editor/transcripts_editor.module:154
+msgid "Insert after"
+msgstr "རྗེས་སུ་འཇོག་པ"
+
+#: transcripts_apachesolr/transcripts_editor/transcripts_editor.module:155
+msgid "Copy after"
+msgstr "འདྲ་བཤུ"
+
+#: transcripts_apachesolr/transcripts_editor/transcripts_editor.module:275
+msgid "Sorry, you are not permitted to execute this operation."
+msgstr ""
+"དགོངས་དག "
+"ཁྱེད་ཀྱིས་བྱ་སྤྱོད་འདི་ལག་བསྟར་བྱེད་མི་ཆོག"
+
+#: transcripts_apachesolr/transcripts_editor/transcripts_editor.module:281;323;387;459
+msgid "Invalid request."
+msgstr "ཕན་ནུས་མེད་པའི་རེ་ཞུ།"
+
+#: transcripts_apachesolr/transcripts_editor/transcripts_editor.module:310
+msgid "Someone else has edited this text."
+msgstr "ཡི་གེ་འདི་མི་གཞན་ཞིག་གིས་བཟོ་བཅོས་བྱས་ཟིན།"
+
+#: transcripts_apachesolr/transcripts_editor/transcripts_editor.module:317
+msgid "Sorry, you are not permitted to update this data."
+msgstr ""
+"དགོངས་དག "
+"ཁྱེད་ཀྱིས་གཞི་གྲངས་འདི་གསར་སྒྱུར་བྱེད་མི་ཆོག"
+
+#: transcripts_apachesolr/transcripts_editor/transcripts_editor.module:374
+msgid "Someone else has edited this speaker name."
+msgstr "བཤད་མཁན་གྱི་མིང་དེ་མི་གཞན་ཞིག་གིས་བཟོ་བཅོས་བྱས་ཟིན།"
+
+#: transcripts_apachesolr/transcripts_editor/transcripts_editor.module:381;447
+msgid "You are not permitted to update this data."
+msgstr "ཁྱེད་ཀྱིས་གཞི་གྲངས་འདི་གསར་སྒྱུར་བྱས་མི་ཆོག"
+
+#: transcripts_apachesolr/transcripts_editor/transcripts_editor.module:409
+msgid "Start time must precede end time."
+msgstr "འགོ་འཛུགས་ཀྱི་དུས་དེ་ངེས་པར་དུ་མཇུག་སྒྲིལ་བའི་དུས་ཀྱི་སྔོན་དུ་ཡིན་དགོས།"
+
+#: transcripts_apachesolr/transcripts_editor/transcripts_editor.module:432
+msgid "No changes made."
+msgstr "བཅོས་བསྒྱུར་བྱས་མེད་པ།"
+
+#: transcripts_apachesolr/transcripts_editor/transcripts_editor.module:438
+msgid "Someone else has edited these timecodes."
+msgstr "དུས་ཚོད་ཀྱི་སྒྲིག་ཡིག་འདི་དག་མི་གཞན་ཞིག་གིས་བཟོ་བཅོས་བྱས་ཟིན།"
+
+#: transcripts_apachesolr/transcripts_editor/transcripts_editor.module:453
+msgid "Bad data."
+msgstr "ཕན་མེད་ཀྱི་གཞི་གྲངས།"
+
+#: transcripts_apachesolr/transcripts_editor/transcripts_editor.module:61 transcripts_apachesolr/transcripts_node/transcripts_node.module:12
+msgid "Transcript"
+msgstr "ཟིན་བྲིས"
+
+#: transcripts_apachesolr/transcripts_editor/transcripts_editor.info:0
+msgid "Transcripts Editor"
+msgstr "ཟིན་བྲིས་རྩོམ་སྒྲིག་ལག་ཆ"
+
+#: transcripts_apachesolr/transcripts_editor/transcripts_editor.info:0
+msgid "Online transcript editor for Transcripts UI"
+msgstr "ཟིན་བྲིས་འཆར་ངོས་ཀྱི་དྲ་ཐོག་ཟིན་བྲིས་རྩོམ་སྒྲིག་ལག་ཆ"
+
+#: transcripts_apachesolr/transcripts_node/transcripts_node.module:115
+msgid "Scrolling transcript with controls"
+msgstr "ཚོད་འཛིན་ལག་ཆ་ཡོད་པའི་ཟིན་ཐོ་གོང་འོག་སྒྲིལ་བ"
+
+#: transcripts_apachesolr/transcripts_node/transcripts_node.module:119
+msgid "HTML 5 audio or video tag"
+msgstr ""
+"HTML 5 "
+"སྒྲ་འམ་བརྙན་གྱི་དབྱེ་རྟགས"
+
+#: transcripts_apachesolr/transcripts_node/transcripts_node.module:178
+msgid "Transcripts Settings"
+msgstr "ཟིན་བྲིས་སྒྲིག་འགོད"
+
+#: transcripts_apachesolr/transcripts_node/transcripts_node.module:184
+msgid "Treat as transcript"
+msgstr "ཟིན་བྲིས་ལྟར་སྤྱོད་པ"
+
+#: transcripts_apachesolr/transcripts_node/transcripts_node.module:186
+msgid "Tick this box if this field's files are transcripts of audio or video recordings."
+msgstr ""
+"གལ་སྲིད་གནས་ཁོངས་འདིའི་ནང་གི་ཡིག་ཆ་དག་སྒྲ་དང་བརྙན་རིས་ཀྱི་ཟིན་བྲིས་ཡིན་ཚེ། "
+"སྒྲོམ་འདི་ལ་གདམ་རྟགས་རྒྱོབ།"
+
+#: transcripts_apachesolr/transcripts_node/transcripts_node.module:262
+msgid "Language tiers"
+msgstr "སྐད་ཡིག་གི་རིམ་པ"
+
+#: transcripts_apachesolr/transcripts_node/transcripts_node.module:268
+msgid "Select one or more language tiers"
+msgstr "སྐད་རིགས་ཀྱི་རིམ་པ་གཅིག་དང་ཡང་ན་མང་པོ་ཞིག་འདེམས་པ"
+
+#: transcripts_apachesolr/transcripts_node/transcripts_node.module:269
+msgid "Select language tiers"
+msgstr "སྐད་རིགས་ཀྱི་རིམ་པ་འདེམས་པ"
+
+#: transcripts_apachesolr/transcripts_node/transcripts_node.module:283
+msgid "Connect"
+msgstr "སྦྲེལ་མཐུད་བྱེད"
+
+#: transcripts_apachesolr/transcripts_node/transcripts_node.module:320;331;364
+msgid "transcripts_node"
+msgstr "transcripts_node"
+
+#: transcripts_apachesolr/transcripts_node/transcripts_node.module:320
+msgid "[node/%nid] Transcript indexed."
+msgstr ""
+"[node/%nid] "
+"ཟིན་བྲིས་དཀར་ཆག་ཏུ་བསྒྲིག་ཚར།"
+
+#: transcripts_apachesolr/transcripts_node/transcripts_node.module:331
+msgid "[node/%nid] Transcript could not be indexed."
+msgstr ""
+"[node/%nid] "
+"ཟིན་བྲིས་དེ་དཀར་ཆག་ཏུ་སྒྲིག་མི་ཐུབ།"
+
+#: transcripts_apachesolr/transcripts_node/transcripts_node.module:364
+msgid "[node/%nid] Transcript removed."
+msgstr "[node/%nid] ཟིན་བྲིས་་བསུབ་ཟིན།"
+
+#: transcripts_apachesolr/transcripts_node/transcripts_node.info:0
+msgid "Transcripts Node"
+msgstr "ཟིན་བྲིས་ཀྱི་སྦྲེལ་གནས"
+
+#: transcripts_apachesolr/transcripts_node/transcripts_node.info:0
+msgid "Facilitates attaching transcripts to nodes"
+msgstr "སྦྲེལ་གནས་ལ་ཟིན་བྲིས་ཟུར་སྣོན་བྱེད་པའི་ནུས་པ་འདོན་པ"
+
+#: transcripts_apachesolr/transcripts_xslt/transcripts_xslt.admin.inc:8
+msgid "XSLT 1.0 using PHP's libxslt extension."
+msgstr ""
+"PHP "
+"ཡི་libxslt་རྒྱ་སྐྱེད་སྤྱོད་བཞིན་པའི་XSLT "
+"1.0།"
+
+#: transcripts_apachesolr/transcripts_xslt/transcripts_xslt.admin.inc:9
+msgid "XSLT 2.0 using Saxonica's Saxon-9"
+msgstr ""
+"Saxonica ཡི་Saxon-9 "
+"སྤྱད་བཞིན་པའི་XSLT 2.0"
+
+#: transcripts_apachesolr/transcripts_xslt/transcripts_xslt.admin.inc:13
+msgid "XSLT Version"
+msgstr "XSLT པར་གཞི"
+
+#: transcripts_apachesolr/transcripts_xslt/transcripts_xslt.admin.inc:16
+msgid "The use of XSLT 2.0 with Saxon requires that the Saxon libraries be properly installed and configured. See the module's README."
+msgstr ""
+"Saxon ལ་XSLT 2.0 སྤྱོད་པར་Saxon "
+"ཡི་ཡིག་མཛོད་ཡང་དག་པར་སྒྲིག་འཇུག་དང་སྒྲིག་འགོད་བྱེད་དགོས། "
+"མ་དཔེ་ཡི་README "
+"ལ་ཞིབ་ཏུ་གཟིགས་རོགས།"
+
+#: transcripts_apachesolr/transcripts_xslt/transcripts_xslt.admin.inc:21
+msgid "XSLT 1.0 Settings"
+msgstr "XSLT 1.0 ཡི་སྒྲིག་འགོད"
+
+#: transcripts_apachesolr/transcripts_xslt/transcripts_xslt.admin.inc:25
+msgid "Please enter the following additional information if you are using XSLT 1.0."
+msgstr ""
+"གལ་སྲིད་ཁྱེད་ཀྱིས་XSLT 1.0. "
+"སྤྱོད་བཞིན་ཡོད་ཚེ་གཤམ་གྱི་ཁ་སྣོན་ཆ་འཕྲིན་དག་ནང་འཇུག་བྱེད་རོགས།"
+
+#: transcripts_apachesolr/transcripts_xslt/transcripts_xslt.admin.inc:35;97
+msgid "Upload an XSLT stylesheet that will be used to transform incoming XML transcripts into time code units."
+msgstr ""
+"ནང་དུ་འཇུག་པའི་XML "
+"ཟིན་བྲིས་སྒྱུར་བྱེད་ཀྱི་XSLT "
+"རེའུ་མིག་ཡིག་ཆ་ཞིག་ཡར་སྤྲོད་བྱས་ནས་ཟིན་བྲིས་དེ་དུས་ཚོད་ཀྱི་སྒྲིག་ཡིག་ལ་སྒྱུར་བ།"
+
+#: transcripts_apachesolr/transcripts_xslt/transcripts_xslt.admin.inc:66;128
+msgid "Toolbox mappings"
+msgstr "ལག་ཆའི་སྒམ་གྱི་འབྲེལ་ལམ"
+
+#: transcripts_apachesolr/transcripts_xslt/transcripts_xslt.admin.inc:76
+msgid "XSLT 2.0 Settings"
+msgstr "XSLT 2.0 ཡི་སྒྲིག་འགོད"
+
+#: transcripts_apachesolr/transcripts_xslt/transcripts_xslt.admin.inc:80
+msgid "Please enter the following additional information if you are using XSLT 2.0."
+msgstr ""
+"གལ་སྲིད་ཁྱེད་ཀྱིས་XSLT 2.0 "
+"སྤྱོད་བཞིན་ཡོད་ཚེ་གཤམ་གྱི་ཁ་སྣོན་ཆ་འཕྲིན་དག་ནང་འཇུག་བྱེད་རོགས།"
+
+#: transcripts_apachesolr/transcripts_xslt/transcripts_xslt.admin.inc:84
+msgid "Saxon jar"
+msgstr "Saxon jar"
+
+#: transcripts_apachesolr/transcripts_xslt/transcripts_xslt.admin.inc:86
+msgid "Enter the name of the Saxon application jar file, specified as a relative path from the Drupal root (e.g. sites/all/libraries/saxon/saxon9he.jar)."
+msgstr ""
+"ཉེར་སྤྱོད་Saxon "
+"ཡི་jar་ཡིག་ཆའི་མིང་ཞིག་ནང་འཇུག་བྱེད་རོགས། "
+"དེ་Drupal "
+"ཡི་རྩའི་དྲ་གནས་དང་ཟུང་འབྲེལ་གྱི་སྦྲེལ་ལམ་ཞིག་ཡིན་དགོས། "
+"༼དཔེར་ན། sites/all/libraries/saxon/saxon9he.jar "
+"ལྟ་བུ།༽"
+
+#: transcripts_apachesolr/transcripts_xslt/transcripts_xslt.admin.inc:176
+msgid "Transformer @transformer was removed."
+msgstr "སྒྱུར་བྱེད་@transformer་བསུབ་ཟིན།"
+
+#: transcripts_apachesolr/transcripts_xslt/transcripts_xslt.admin.inc:188
+msgid "Transformer @transformer was added."
+msgstr "སྒྱུར་བྱེད་@transformer་ཁ་སྣོན་བྱས་ཟིན།"
+
+#: transcripts_apachesolr/transcripts_xslt/transcripts_xslt.module:14
+msgid "Transcripts XSLT settings"
+msgstr ""
+"ཟིན་བྲིས་XSLT "
+"ཡི་སྒྲིག་འགོད"
+
+#: transcripts_apachesolr/transcripts_xslt/transcripts_xslt.module:143
+msgid "Invalid path or filename for saxon application jar."
+msgstr ""
+"saxon ཉེར་སྤྱོད jar "
+"ཡི་ཡིག་ཆའི་མིང་འམ་སྦྲེལ་ལམ་ལ་ཕན་ནུས་མེད།"
+
+#: transcripts_apachesolr/transcripts_xslt/transcripts_xslt.module:42;56;69;88;91;98;105;113;126;150;13 transcripts_apachesolr/transcripts_xslt/transcripts_xslt.info:0
+msgid "Transcripts XSLT"
+msgstr "ཟིན་བྲིས་XSLT"
+
+#: transcripts_apachesolr/transcripts_xslt/transcripts_xslt.module:42
+msgid "[file/%fid] No transformer found."
+msgstr "[file/%fid] སྒྱུར་བྱེད་མ་རྙེད།"
+
+#: transcripts_apachesolr/transcripts_xslt/transcripts_xslt.module:56;69;150
+msgid "[file/%fid] %filepath is not a valid file path."
+msgstr ""
+"[file/%fid] "
+"%filepath་ནི་ནུས་ལྡན་གྱི་སྦྲེལ་ལམ་ཞིག་མིན།"
+
+#: transcripts_apachesolr/transcripts_xslt/transcripts_xslt.module:88
+msgid "[file/%fid] Transformation error - invalid XML."
+msgstr ""
+"[file/%fid] "
+"སྒྱུར་སྐབས་སུ་ནོར་འཁྲུལ་བྱུང་བ། "
+"XMLལ་ཕན་ནུས་མེད།"
+
+#: transcripts_apachesolr/transcripts_xslt/transcripts_xslt.module:91
+msgid "[file/%fid] Transformation successful."
+msgstr "[file/%fid] བསྒྱུར་ཚར།"
+
+#: transcripts_apachesolr/transcripts_xslt/transcripts_xslt.module:98
+msgid "[file/%fid] Transformation error: transformer is not valid XML."
+msgstr ""
+"[file/%fid] "
+"སྒྱུར་སྐབས་སུ་ནོར་འཁྲུལ་བྱུང་བ། "
+"སྒྱུར་བྱེད་ནི་ཕན་ནུས་ཡོད་པའི་XML "
+"མ་རེད།"
+
+#: transcripts_apachesolr/transcripts_xslt/transcripts_xslt.module:105
+msgid "[file/%fid] Transformation error: transcript is not valid XML."
+msgstr ""
+"[file/%fid] "
+"སྒྱུར་སྐབས་སུ་ནོར་འཁྲུལ་བྱུང་བ། "
+"ཕན་ནུས་མེད་པའི་XML རེད།"
+
+#: transcripts_apachesolr/transcripts_xslt/transcripts_xslt.module:113
+msgid "[file/%fid] Transformation error: no content in transcript."
+msgstr ""
+"[file/%fid]སྒྱུར་སྐབས་སུ་ནོར་འཁྲུལ་བྱུང་བ། "
+"ཟིན་བྲིས་སུ་ནང་དོན་མེད།"
+
+#: transcripts_apachesolr/transcripts_xslt/transcripts_xslt.module:126
+msgid "[file/%fid] Transformation error: transformer is not proper XSL."
+msgstr ""
+"[file/%fid] "
+"སྒྱུར་སྐབས་སུ་ནོར་འཁྲུལ་བྱུང་བ། "
+"སྒྱུར་བྱེད་ནི་འོས་འཚམས་ཀྱི་XSL་མིན།"
+
+#: transcripts_apachesolr/transcripts_xslt/transcripts_xslt.info:0
+msgid "Transforms transcripts into time code units using XSLT 2"
+msgstr ""
+"XSLT 2 "
+"སྤྱད་ནས་ཟིན་བྲིས་དེ་དུས་ཚོད་ཀྱི་སྒྲིག་ཡིག་ཏུ་སྒྱུར་བ།"
+
+#: transcripts_ui/transcripts_ui.admin.inc:8
+msgid "Transcript tiers"
+msgstr "ཟིན་བྲིས་ཀྱི་རིམ་པ"
+
+#: transcripts_ui/transcripts_ui.admin.inc:18
+msgid "All tiers"
+msgstr "ཁྱབ་ཁོངས་ཡོངས"
+
+#: transcripts_ui/transcripts_ui.admin.inc:22
+msgid "Enter a list of all language tiers, one per line, each in the form TIER_ID|TIER_NAME."
+msgstr ""
+"སྐད་རིགས་ཡོངས་ཀྱི་ཁྱབ་ཁོངས་ཀྱི་མིང་ཐོ་ཞིག་འཇུག་དགོས། "
+"ཕྲེང་རེ་ལ་སྐད་རིགས་རེ་དང་། "
+"སྐད་རིགས་རེ་TIER_ID|TIER_NAME་རྣམ་པའི་ནང་དུ་འཇུག་དགོས།"
+
+#: transcripts_ui/transcripts_ui.admin.inc:32
+msgid "Hidden tiers"
+msgstr "བསྐུངས་ཟིན་པའི་རིམ་པ"
+
+#: transcripts_ui/transcripts_ui.admin.inc:44
+msgid "Speaker names"
+msgstr "བཤད་མཁན་གྱི་མིང"
+
+#: transcripts_ui/transcripts_ui.admin.inc:48
+msgid "Enter a list of speaker name display formats, one per line, each in the form SPEAKER_NAME_DISPLAY_ID|SPEAKER_NAME_DISPLAY_FORMAT."
+msgstr ""
+"བཤད་མཁན་མིང་གི་འཆར་སྟངས་ཀྱི་མིང་ཐོ་ཞིག་ནང་འཇུག་བྱེད་དགོས། "
+"ཕྲེང་རེ་ལ་SPEAKER_NAME_DISPLAY_ID|SPEAKER_NAME_DISPLAY_FORMAT་རྣམ་པའི་ནང་དུ་འཇུག་དགོས།"
+
+#: transcripts_ui/transcripts_ui.module:15
+msgid "Minimal"
+msgstr "ཆུང་ཤོས།"
+
+#: transcripts_ui/transcripts_ui.module:15
+msgid "Reversed"
+msgstr "ཁ་ཕྱོགས་བརྗེས་ཟིན་པ"
+
+#: transcripts_ui/transcripts_ui.module:20
+msgid "SRT"
+msgstr "SRT"
+
+#: transcripts_ui/transcripts_ui.module:20
+msgid "InqScribe"
+msgstr "InqScribe"
+
+#: transcripts_ui/transcripts_ui.module:33
+msgid "Administer ui"
+msgstr "སྤྱོད་མཁན་གྱི་འཆར་ངོས་ལ་དོ་དམ་རྒྱག་པ།"
+
+#: transcripts_ui/transcripts_ui.module:52
+msgid "Transcripts UI settings"
+msgstr "ཟིན་བྲིས་ཀྱི་འཆར་ངོས་སྒྲིག་འགོད"
+
+#: transcripts_ui/transcripts_ui.module:223
+msgid "Languages"
+msgstr "སྐད་རིགས"
+
+#: transcripts_ui/transcripts_ui.module:228
+msgid "Speakers"
+msgstr "བཤད་མཁན"
+
+#: transcripts_ui/transcripts_ui.module:233
+msgid "Layouts"
+msgstr "བཀོད་པ།"
+
+#: transcripts_ui/transcripts_ui.module:238
+msgid "Downloads"
+msgstr "ཚུར་ལེན"
+
+#: transcripts_ui/transcripts_ui.module:326
+msgid "Search this transcript"
+msgstr "ཟིན་བྲིས་འདི་འཚོལ་བ"
+
+#: transcripts_ui/transcripts_ui.module:361
+msgid "Reset"
+msgstr "བསྐྱར་སྒྲིག"
+
+#: transcripts_ui/transcripts_ui.module:372
+msgid "No results found for this search"
+msgstr "འཚོལ་བཤེར་འདི་ལ་མཇུག་འབྲས་གང་ཡང་རྙེད་མི་འདུག"
+
+#: transcripts_ui/transcripts_ui.module:376
+msgid "Show All"
+msgstr "ཡོད་ཚད་སྟོན"
+
+#: transcripts_ui/transcripts_ui.module:377
+msgid "Only Results"
+msgstr "མཇུག་འབྲས་ཁོ་ན"
+
+#: transcripts_ui/transcripts_ui.module:399
+msgid "Next"
+msgstr "འོག་མ"
+
+#: transcripts_ui/transcripts_ui.module:410
+msgid "Previous"
+msgstr "གོང་གི"
+
+#: transcripts_ui/transcripts_ui.module:43;51 transcripts_ui/transcripts_ui.info:0
+msgid "Transcripts UI"
+msgstr "ཟིན་བྲིས་འཆར་ངོས"
+
+#: transcripts_ui/transcripts_ui.module:44
+msgid "Administer Transcripts"
+msgstr "ཟིན་བྲིས་ལ་དོ་དམ་རྒྱག་པ།"
+
+#: transcripts_ui/transcripts_ui.info:0
+msgid "Drupal UI for display of transcripts in synchronization with media"
+msgstr ""
+"འཕྲིན་ལམ་དང་དུས་མཚུངས་སུ་འཆར་བའི་ཟིན་བྲིས་ཀྱི་Drupal "
+"སྤྱོད་མཁན་འཆར་ངོས།"
+

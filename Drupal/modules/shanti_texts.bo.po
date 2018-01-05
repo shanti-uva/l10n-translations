@@ -1,0 +1,81 @@
+# $Id$
+#
+# Tibetan translation of Drupal (general)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  shanti_texts.module: n/a
+#  shanti_texts.info: n/a
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2018-01-05 15:43-0500\n"
+"PO-Revision-Date: 2018-01-05 15:43-0500\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Tibetan <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: shanti_texts.module:8
+msgid "SHANTI Texts help is not currently available."
+msgstr ""
+"SHANTI "
+"ཡི་གེའི་རོགས་འདེགས་གནས་སྐབས་སུ་སྤྱོད་མི་ཐུབ།"
+
+#: shanti_texts.module:14
+msgid "SHANTI Texts activated."
+msgstr ""
+"SHANTI "
+"ཡི་གེ་ནུས་ཡོད་བཟོས་ཟིན།"
+
+#: shanti_texts.module:75
+msgid "Administer SHANTI Texts"
+msgstr "SHANTI ཡིག་ཆ་ལ་དོ་དམ་རྒྱག་པ།"
+
+#: shanti_texts.module:76
+msgid "Perform administration tasks for SHANTI Texts."
+msgstr ""
+"SHANTI "
+"ཡི་གེ་ཡི་དོ་དམ་འོས་འགན་ལག་བསྟར་བྱེད་པ།"
+
+#: shanti_texts.module:149;160
+msgid "Flyout Search Tabs"
+msgstr "འཕར་ཐོན་འཚོལ་བཤེར་གྱི་ཤོག་བྱང"
+
+#: shanti_texts.module:161
+msgid "Replace this content with a template."
+msgstr "ནང་དོན་འདིའི་ཚབ་ཏུ་དཔེ་གཞི་ཞིག་འཇོག་པ།"
+
+#: shanti_texts.module:184
+msgid "Edit Top Section"
+msgstr "ཐོད་ཀྱི་ཚན་པ་ལ་བཟོ་བཅོས་རྒྱག་པ"
+
+#: shanti_texts.module:188
+msgid "Edit Child Section"
+msgstr "ཡན་ལག་ཚན་པར་བཟོ་བཅོས་རྒྱག་པ"
+
+#: shanti_texts.module:191
+msgid "Edit"
+msgstr "བཟོ་བཅོས"
+
+#: shanti_texts.module:62 shanti_texts.info:0
+msgid "SHANTI Texts"
+msgstr "SHANTI ཡི་གེ"
+
+#: shanti_texts.module:172
+msgid "Sort Text Sections"
+msgstr "ཡི་གེ་སྡེ་ཚན་གྱི་གོ་རིམ་སྒྲིག་པ"
+
+#: shanti_texts.info:0
+msgid "Drupal Books modded for scholarly texts"
+msgstr ""
+"སློབ་གཉེར་གྱི་ཡིག་ཆ་ལ་དཔེ་བཟོས་པའི་Drupal "
+"ཡི་དེབ"
+
+#: shanti_texts.info:0
+msgid "SHANTI"
+msgstr "SHANTI"
+

@@ -1,0 +1,131 @@
+# $Id$
+#
+# Tibetan translation of Drupal (general)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  template.php: n/a
+#  sarvaka_shiva.info: n/a
+#  js/shanti-main-shiva.js: n/a
+#  templates/node--collection--teaser.tpl.php: n/a
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2018-01-05 13:23-0500\n"
+"PO-Revision-Date: 2018-01-05 13:23-0500\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Tibetan <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: template.php:31
+msgid "Members"
+msgstr "ཁོངས་མི།"
+
+#: template.php:49
+msgid "Collections"
+msgstr "ཕྱོགས་བསྡུས"
+
+#: template.php:84;87
+msgid "Select a Type"
+msgstr ""
+
+#: template.php:148
+msgid "External Spreadsheet"
+msgstr ""
+
+#: template.php:190;199;202;276
+msgid "Public"
+msgstr "སྤྱི་སྤྱོད"
+
+#: template.php:193;202;210;276
+msgid "Private"
+msgstr "མི་སྒེར"
+
+#: template.php:195
+msgid "UVa Only"
+msgstr "UVa ཁོ་ན"
+
+#: template.php:197
+msgid " (group default)"
+msgstr ""
+
+#: template.php:412
+msgid "View in separate window"
+msgstr ""
+
+#: sarvaka_shiva.info:0
+msgid "Shanti Sarvaka Shiva"
+msgstr ""
+
+#: sarvaka_shiva.info:0
+msgid "A sub-theme of the Drupal 7 Shanti Sarvaka Theme"
+msgstr ""
+
+#: sarvaka_shiva.info:0
+msgid "Top Bar Header"
+msgstr ""
+
+#: sarvaka_shiva.info:0
+msgid "Color Strip Banner"
+msgstr ""
+
+#: sarvaka_shiva.info:0
+msgid "Content"
+msgstr "ནང་དོན"
+
+#: sarvaka_shiva.info:0
+msgid "Search Fly Out"
+msgstr ""
+
+#: sarvaka_shiva.info:0
+msgid "Primary Sidebar"
+msgstr ""
+
+#: sarvaka_shiva.info:0
+msgid "Secondary Sidebar"
+msgstr ""
+
+#: sarvaka_shiva.info:0
+msgid "Highlighted"
+msgstr "མངོན་གསལ་ཅན"
+
+#: sarvaka_shiva.info:0
+msgid "Help"
+msgstr "རོགས་རམ"
+
+#: sarvaka_shiva.info:0
+msgid "Page top"
+msgstr "ཤོག་ངོས་ཀྱི་གོང"
+
+#: sarvaka_shiva.info:0
+msgid "Page bottom"
+msgstr "ཤོག་ངོས་ཀྱི་ཞབས"
+
+#: sarvaka_shiva.info:0
+msgid "Footer"
+msgstr "ཤོག་མཇུག"
+
+#: sarvaka_shiva.info:0
+msgid "Admin Footer"
+msgstr ""
+
+#: js/shanti-main-shiva.js:0;0
+msgid "Show More"
+msgstr ""
+
+#: js/shanti-main-shiva.js:0
+msgid "Show Less"
+msgstr ""
+
+#: templates/node--collection--teaser.tpl.php:114
+msgid "items"
+msgstr "རྣམ་གྲངས"
+
+#: templates/node--collection--teaser.tpl.php:116
+msgid "item"
+msgstr "རྣམ་གྲངས"
+

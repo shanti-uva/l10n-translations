@@ -1,0 +1,266 @@
+# $Id$
+#
+# Tibetan translation of Drupal (general)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  shanti_kmaps_facets.module: n/a
+#  shanti_kmaps_facets.install: n/a
+#  shanti_kmaps_facets.info: n/a
+#  js/shanti_kmaps_facets.js: n/a
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2018-01-05 15:43-0500\n"
+"PO-Revision-Date: 2018-01-05 15:43-0500\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Tibetan <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: shanti_kmaps_facets.module:53
+msgid "Kmaps Search and Navigation:  So Helpful!"
+msgstr ""
+"Kmaps "
+"འཚོལ་བཤེར་དང་ཕྱོགས་སྟོན། "
+"ཕན་ཐོགས་ཆེན་པོ་ཡོད་རེད།"
+
+#: shanti_kmaps_facets.module:112
+msgid "Number of Kmap Facet Blocks"
+msgstr "Kmapཕྱོགས་སྣེའི་གྲངས་ཀ།"
+
+#: shanti_kmaps_facets.module:116
+msgid "The number of Kmap facet blocks to have on this site"
+msgstr ""
+"དྲ་ཚིགས་འདིའི་ཐོག་ཏུ་ཡོད་དགོས་པའི་Kmap "
+"ངོས་ཀྱི་ལྷུ་ལག་གྲངས།"
+
+#: shanti_kmaps_facets.module:122
+msgid "Use Bootstrap Tabs for SHANTI Flyout"
+msgstr ""
+"SHANTI ཕྱིར་སྐྱོད་ལ་Bootstrap "
+"ཤོག་བྱང་སྤྱོད་པ"
+
+#: shanti_kmaps_facets.module:124
+msgid "Use Bootstrap tabs (markup/js) for displaying facet blocks in SHANTI Sarvaka flyout"
+msgstr ""
+"SHANTI Sarvaka "
+"ཕྱིར་སྐྱོད་ནང་གི་ལྷུ་ལག་སྟོན་ཆེད་དུ་Bootstrap "
+"ཤོག་བྱང་༼markup/js༽སྤྱད་པ"
+
+#: shanti_kmaps_facets.module:129
+msgid "Resource types to count"
+msgstr "རྩིས་རྒྱག་དགོས་པའི་ཐོན་ཁུངས་ཀྱི་རིགས"
+
+#: shanti_kmaps_facets.module:130
+msgid "Select which resource types you want to reflect in the counts"
+msgstr "རྩིས་གྲངས་ཀྱི་ནང་དུ་ཐོན་ཁུངས་རིགས་གང་ཞིག་ཚུད་དགོས་པ་གདམ་པ"
+
+#: shanti_kmaps_facets.module:138
+msgid "Link tree Nodes to Kmaps"
+msgstr ""
+"Kmaps "
+"ལ་སྡོང་དབྱིབས་སྦྲེལ་གནས་སྦྲེལ་བ"
+
+#: shanti_kmaps_facets.module:140
+msgid "When this is checked, tree nodes will link their Kmaps page in Mandala on the same server"
+msgstr ""
+"འདི་ལ་གདམ་རྟགས་བརྒྱབ་ན། "
+"སྡོང་གཟུགས་ཀྱི་སྦྲེལ་གནས་དག་ཞབས་ཞུ་གནས་དེའི་ཐོག་གི་Mandala "
+"ནང་དུ་དེ་དག་གི་Kmaps "
+"དྲ་ངོས་དང་སྦྲེལ་ངེས"
+
+#: shanti_kmaps_facets.module:145
+msgid "Show resource counts next to nodes"
+msgstr "ནང་ཚན་གྱི་འགྲམ་དུ་ཐོན་ཁུངས་གྱི་གྲངས་སྟོན་པ"
+
+#: shanti_kmaps_facets.module:147
+msgid "Show the number of resources in a particular category next to the tree node"
+msgstr "སྡོང་གཟུགས་ནང་ཚན་གྱི་འགྲམ་དུ་དམིགས་བསལ་གྱི་ཚན་ཁག་སྤྱད་ནས་ཐོན་ཁུངས་ཀྱི་གྲངས་སྟོན་པ"
+
+#: shanti_kmaps_facets.module:152
+msgid "Hide nodes with no resources"
+msgstr "ཐོན་ཁུངས་མེད་པའི་སྦྲེལ་གནས་སྐུང་བ"
+
+#: shanti_kmaps_facets.module:154
+msgid "Hide nodes with no associated resources"
+msgstr "ཐོན་ཁུངས་ཟུང་འབྲེལ་བྱས་མེད་པའི་སྦྲེལ་གནས་སྐུང་བ"
+
+#: shanti_kmaps_facets.module:159
+msgid "Items per page in gallery"
+msgstr "པར་དེབ་ཀྱི་ངོས་རེའི་རྣམ་གྲངས"
+
+#: shanti_kmaps_facets.module:163
+msgid "The number of nodes to view per page on the results page for a certain facet"
+msgstr "དམིགས་བསལ་ཀྱི་ངོས་ཞིག་གི་མཇུག་འབྲས་དྲ་ངོས་སུ་དྲ་ངོས་རེར་ལ་སྟོན་དགོས་པའི་སྦྲེལ་གནས་གྲངས་ཀྱི་གྲངས།"
+
+#: shanti_kmaps_facets.module:176
+msgid "You must enter an integer for the number of Kmap facet blocks."
+msgstr ""
+"Kmap "
+"ངོས་ཀྱི་ལྷུ་ལག་གྲངས་ལ་ཧྲིལ་གྲངས་ཞིག་ངེས་པར་དུ་ནང་འཇུག་བྱེད་དགོས།"
+
+#: shanti_kmaps_facets.module:179
+msgid "Maximum number of blocks must be at least 1."
+msgstr "ལྷུ་ལག་གི་མང་ཤོས་གྲངས་ཉུང་མཐར་ཡང་༡་ཡིན་དགོས།"
+
+#: shanti_kmaps_facets.module:225
+msgid "Block name"
+msgstr "ལྷུ་ལག་གི་མིང"
+
+#: shanti_kmaps_facets.module:231
+msgid "Kmap Tree Type"
+msgstr "KMap སྡོང་དབྱིབས་ཀྱི་རིགས"
+
+#: shanti_kmaps_facets.module:232
+msgid "Type of Kmap Navigator Tree to Show in Block"
+msgstr ""
+"ལྷུ་ལག་ནང་སྟོན་པའི་Kmap "
+"ཕྱོགས་སྟོན་སྡོང་རིས་ཀྱི་རིགས"
+
+#: shanti_kmaps_facets.module:239
+msgid "Kmap Root Path"
+msgstr "Kmap རྩ་བའི་སྦྲེལ་ལམ"
+
+#: shanti_kmaps_facets.module:240
+msgid "Enter the KMap ID for the Root Node of the nav-tree in this block."
+msgstr ""
+"ལྷུ་ལག་འདིའི་ཕྱོགས་སྟོན་སྒྲིག་གཞིའི་གཞི་རྩའི་སྦྲེལ་གནས་ཀྱི་KMap "
+"ཨང་རྟགས་འཇུག་རོགས།"
+
+#: shanti_kmaps_facets.module:391
+msgid "The library @libname could not be loaded: @errmsg"
+msgstr ""
+"སྒྲིག་མཛོད་@libname་ཚུར་འཇུག་མི་ཐུབ། "
+"རྒྱུ་མཚན་ནི་@errmsg"
+
+#: shanti_kmaps_facets.module:619
+msgid "Solr Term Index URL is not set in Kmaps Admin"
+msgstr ""
+"Kmaps དོ་དམ་གྱི་ནང་དུ་Solr "
+"ཐ་སྙད་ཀྱི་དཀར་ཆག་སྦྲེལ་གནས་བསྒྲིག་མེད"
+
+#: shanti_kmaps_facets.module:627
+msgid "@slogan: All Resources"
+msgstr "@slogan། ཐོན་ཁུངས་ཡོངས"
+
+#: shanti_kmaps_facets.module:635
+msgid "Resources Tagged with @kmheadlist"
+msgstr ""
+" @kmheadlist "
+"ལ་ཟུང་འབྲེལ་བྱས་པའི་ཐོན་ཁུངས"
+
+#: shanti_kmaps_facets.module:643
+msgid "Solr Asset Index URL is not set in Kmaps Admin"
+msgstr ""
+"Kmaps ཡི་དོ་དམ་ནང་དུ་Solr "
+"ཡི་ནང་དོན་དཀར་ཆགས་བསྒྲིག་མེད་པ"
+
+#: shanti_kmaps_facets.module:684
+msgid "Nodes indexed in SOLR were not found on the site. Please have your administrator reindex kmap ids."
+msgstr ""
+"SOLRནང་ཕྱོགས་སྟོན་བྱས་པའི་གནས་ཁོངས་དྲ་གནས་ཀྱི་ཐོག་རྙེད་མི་འདུག "
+"ཁྱོད་ཀྱི་སྐྱར་དུ་ཕྱོགས་སྟོན་kmap "
+"idsཡོད་དགོས་པ།"
+
+#: shanti_kmaps_facets.module:695
+msgid "No results were found."
+msgstr "མཇུག་འབྲས་གང་ཡང་རྙེད་མི་འདུག"
+
+#: shanti_kmaps_facets.module:705
+msgid "Search on “@qstr”"
+msgstr "@qstr་ཐོག་ཏུ་འཚོལ་བ"
+
+#: shanti_kmaps_facets.module:711
+msgid "Displaying @st - @end of @total"
+msgstr "@total་ནས་@st་དང་@end་བར་འཆར་བ"
+
+#: shanti_kmaps_facets.module:716
+msgid "Results"
+msgstr "མཇུག་འབྲས"
+
+#: shanti_kmaps_facets.module:64
+msgid "Kmaps Facets Settings"
+msgstr "Kmaps Facets སྒྲིག་འགོད"
+
+#: shanti_kmaps_facets.module:66
+msgid "Configure Kmaps Facets Module"
+msgstr ""
+"Kmaps "
+"ངོས་ཀྱི་མ་དཔེ་སྒྲིག་འགོད་བྱེད་པ"
+
+#: shanti_kmaps_facets.module:76
+msgid "Return data for a block tree"
+msgstr "ལྷུ་ལག་གི་སྡོང་གཟུགས་ཤིག་ལ་གཞི་གྲངས་ཕྱིར་འདོན་བྱེད་པ"
+
+#: shanti_kmaps_facets.module:86;95
+msgid "Kmap Facet Search"
+msgstr "Kmap Facet འཚོལ་བཤེར"
+
+#: shanti_kmaps_facets.install:9
+msgid "Required hook is not implemented! For facet trees to display counts upon keyword search the hook_node_facet_hits() must be implemented. See README for shanti_kmaps_facets module."
+msgstr ""
+"དགོས་ངེས་ཀྱི་འཛིན་བྱེད་དེ་མངོན་འགྱུར་བྱས་ཐུབ་མེད། "
+"གནད་ཚིག་འཚོལ་བཤེར་གྱི་སྐབས་སྡོང་གཟུགས་ཀྱི་ངོས་སུ་སྡོམ་གྲངས་འཆར་དགོས་ན་hook_node_facet_hits() "
+"ངེས་པར་ཏུ་ཡོད་དགོས། "
+"shanti_kmaps_facets ཡི་སྐོར་README "
+"ལ་ལྟོས།"
+
+#: shanti_kmaps_facets.install:23;33
+msgid "Shanti Kmaps Facet Hook"
+msgstr "Shanti Kmaps ངོས་ཀྱི་འཛིན་བྱེད"
+
+#: shanti_kmaps_facets.install:24
+msgid "Required hook not implemented!"
+msgstr "དགོས་ངེས་ཀྱི་འཛིན་བྱེད་མངོན་འགྱུར་བྱས་མེད།"
+
+#: shanti_kmaps_facets.install:25
+msgid "The hook_node_facet_hits has not be implemented! In order for Kmaps Facet counts to display in facet trees \n                                            after a Drupal keyword search, this hook must be implemented. \n                                            See the <a href=\"@rmurl\">README</a> in shanti_kmaps_facets module."
+msgstr ""
+"The hook_node_facet_hits "
+"མངོན་འགྱུར་བྱས་མེད། Drupal "
+"ཡི་གནད་ཚིག་ཞིག་འཚོལ་བཤེར་བྱས་རྗེས། "
+"Kmaps "
+"ངོས་ཀྱི་བགྲང་བརྩི་དེ་\n"
+"ངོས་ཀྱི་སྡོང་གཟུགས་སུ་མངོན་དགོས་ཆེད། "
+"hook "
+"འདི་ངེས་པར་མངོན་འགྱུར་བྱ་དགོས།\n"
+"shanti_kmaps_facets མ་དཔེ་ནང་གི་<a "
+"href=\"@rmurl\">README</a>་ལ་ཞིབ་ཏུ་གཟིགས་རོགས།"
+
+#: shanti_kmaps_facets.install:34
+msgid "Required hook has been implemented!"
+msgstr "དགོས་ངེས་ཀྱི་འཛིན་བྱེད་དེ་མངོན་འགྱུར་བྱས་ཚར།"
+
+#: shanti_kmaps_facets.install:35
+msgid "This site has implemented the required hook_node_facet_hits. See the \n                                            <a href=\"@rmurl\">README</a> in shanti_kmaps_facets module for further information."
+msgstr ""
+"དྲ་ངོས་འདིའི་ཐོག་ཏུ་མཁོ་དགོས་ཡོད་པའི་hook_node_facet_hits "
+"མངོན་འགྱུར་བྱས་ཡོད།\n"
+"                                            shanti_kmaps_facets "
+"མ་དཔེ་ནང་གི་<a href=\"@rmurl\">README</a> "
+"ནས་དེ་ལས་མང་པའི་ཆ་འཕྲིན་ལ་གཟིགས་རོགས།"
+
+#: shanti_kmaps_facets.info:0
+msgid "Shanti Kmaps Facets"
+msgstr "Shanti Kmaps ངོས"
+
+#: shanti_kmaps_facets.info:0
+msgid "A drupal module from the Shanti project to provide blocks that display custom kmap trees to use as facets."
+msgstr ""
+"Shanti ལས་གཞི་ཡི་drupal "
+"མ་དཔེ་ཞིག་སྟེ། "
+"དེས་རང་བཟོས་ཀྱི་kmap "
+"སྡོང་གཟུགས་འཆར་སའི་ལྷུ་ལག་མཁོ་འདོན་བྱས་ནས་ངོས་ལ་སྤྱོད།"
+
+#: shanti_kmaps_facets.info:0
+msgid "Shanti"
+msgstr "Shanti"
+
+#: js/shanti_kmaps_facets.js:0
+msgid "Subject or Place Tags"
+msgstr "བརྗོད་དོན་དང་ཡང་ན་ས་གནས་ཀྱི་རྟགས་མཆན"
+

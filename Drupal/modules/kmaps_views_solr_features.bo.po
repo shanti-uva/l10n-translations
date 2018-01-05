@@ -1,0 +1,31 @@
+# $Id$
+#
+# Tibetan translation of Drupal (general)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from file: kmaps_views_solr_features.info: n/a
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2018-01-05 15:37-0500\n"
+"PO-Revision-Date: 2018-01-05 15:37-0500\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Tibetan <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: kmaps_views_solr_features.info:0
+msgid "Kmaps Views Solr Features"
+msgstr ""
+
+#: kmaps_views_solr_features.info:0
+msgid "Related Assets Views pulling from Solr"
+msgstr ""
+
+#: kmaps_views_solr_features.info:0
+msgid "SHANTI"
+msgstr "SHANTI"
+
