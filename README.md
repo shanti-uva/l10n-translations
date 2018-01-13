@@ -1,7 +1,7 @@
 # l10n-translations
 A repository of translation files used by various apps throughout SHANTI for localization
 
-The files are organized according to framework (Drupal, Ruby, etc.).
+The files are organized according to framework (Drupal, Rails, etc.).
 Subfolders within the framework folder are included as necessary.
 Subfolders for different languages are not included because for the present these are only Tibetan translations. 
 Each framework folder should have its own README file.
