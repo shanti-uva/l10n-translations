@@ -10,12 +10,12 @@ The Drupal files are organized into three groups:
 1. Custom Modules : Translations for custom Drupal modules written for Mandala Apps (See the folder for the complete list)
 2. Custom Themes : Translations for the Mandala App Drupal Themes (See the folder for the complete list)
 3. Drupal Core : Translations for Drupal core broken down into the standard groups:
-  * Built-in Interface (The main file)
-  * Contact Forms
-  * Fields
-  * Menus
-  * Node Types
-  * Panels
-  * Taxonomy
-  * Views
+   * Built-in Interface (The main file)
+   * Contact Forms
+   * Fields
+   * Menus
+   * Node Types
+   * Panels
+   * Taxonomy
+   * Views
 
