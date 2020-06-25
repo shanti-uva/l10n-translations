@@ -1,4 +1,4 @@
-# Mandala Localization Files
+# UVA Mandala Localization Files
 A repository of translation files used by various apps throughout the UVA Mandala Platform for localization.
 
 The files are organized according to framework (Drupal, Rails, etc.), though currently only Drupal files are here.
