@@ -19,3 +19,4 @@ The Drupal files are organized into three groups:
    * Taxonomy
    * Views
 
+The translations can also be found at the [Drupal Localization Hub](https://localize.drupal.org/translate/languages/bo).
