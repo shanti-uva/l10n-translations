@@ -1,12 +1,21 @@
 # l10n-translations
-A repository of translation files used by various apps throughout SHANTI for localization
+A repository of translation files used by various apps throughout the UVA Mandala Platform for localization
 
-The files are organized according to framework (Drupal, Rails, etc.).
-Subfolders within the framework folder are included as necessary.
-Subfolders for different languages are not included because for the present these are only Tibetan translations. 
-Each framework folder should have its own README file.
+The files are organized according to framework (Drupal, Rails, etc.), though currently only Drupal files are here.
+All Drupal Localization files are in the .po format as (used by Drupal)[https://www.drupal.org/node/1814954]. 
+They are text files that can easily be manipulated for other purposes and can be read directly with (PoEdit)[https://poedit.net/].
 
-These files and translations are for custom strings within the Shanti and do not include 
-core string translations and the like if those are stored in centralized repositories.
+The Drupal files are organized into three groups:
 
-Nathaniel Grove (Jan. 5, 2018)
+1. Custom Modules : Translations for custom Drupal modules written for Mandala Apps (See the folder for the complete list)
+2. Custom Themes : Translations for the Mandala App Drupal Themes (See the folder for the complete list)
+3. Drupal Core : Translations for Drupal core broken down into the standard groups:
+  * Built-in Interface (The main file)
+  * Contact Forms
+  * Fields
+  * Menus
+  * Node Types
+  * Panels
+  * Taxonomy
+  * Views
+
