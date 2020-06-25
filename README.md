@@ -2,8 +2,8 @@
 A repository of translation files used by various apps throughout the UVA Mandala Platform for localization
 
 The files are organized according to framework (Drupal, Rails, etc.), though currently only Drupal files are here.
-All Drupal Localization files are in the .po format as (used by Drupal)[https://www.drupal.org/node/1814954]. 
-They are text files that can easily be manipulated for other purposes and can be read directly with (PoEdit)[https://poedit.net/].
+All Drupal Localization files are in the .po format as [used by Drupal](https://www.drupal.org/node/1814954). 
+They are text files that can easily be manipulated for other purposes and can be read directly with [PoEdit](https://poedit.net/).
 
 The Drupal files are organized into three groups:
 
