@@ -1,0 +1,82 @@
+# $Id$
+#
+# Tibetan translation of Drupal (general)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  template.php: n/a
+#  shiny.info: n/a
+#  templates/overlay.tpl.php: n/a
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2018-01-05 13:23-0500\n"
+"PO-Revision-Date: 2018-01-05 13:23-0500\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Tibetan <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: template.php:12
+msgid "Apply"
+msgstr "རེ་ཞུ།"
+
+#: template.php:13
+msgid "Bulk operations"
+msgstr ""
+
+#: template.php:94;94
+msgid "sort ascending"
+msgstr ""
+
+#: template.php:97;97
+msgid "sort descending"
+msgstr ""
+
+#: template.php:124
+msgid "Home"
+msgstr "གཙོ་ངོས"
+
+#: shiny.info:0
+msgid "Shiny"
+msgstr ""
+
+#: shiny.info:0
+msgid "A simple one-column, tableless, fluid width administration theme."
+msgstr ""
+
+#: shiny.info:0
+msgid "Content"
+msgstr "ནང་དོན"
+
+#: shiny.info:0
+msgid "Help"
+msgstr "རོགས་རམ"
+
+#: shiny.info:0
+msgid "Page top"
+msgstr "ཤོག་ངོས་ཀྱི་གོང"
+
+#: shiny.info:0
+msgid "Page bottom"
+msgstr "ཤོག་ངོས་ཀྱི་ཞབས"
+
+#: shiny.info:0
+msgid "First sidebar"
+msgstr ""
+
+#: shiny.info:0
+msgid "Footer"
+msgstr "ཤོག་མཇུག"
+
+#: templates/overlay.tpl.php:30
+msgid "Primary tabs"
+msgstr "རྩ་བའི་ཤོག་བྱང"
+
+#: templates/overlay.tpl.php:32
+msgid "Close overlay"
+msgstr "ཕྱི་རིམ་ཁ་རྒྱག"
+
