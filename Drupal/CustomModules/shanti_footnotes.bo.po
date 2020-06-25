@@ -1,0 +1,54 @@
+# $Id$
+#
+# Tibetan translation of Drupal (general)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  shanti_footnotes.info: n/a
+#  modules/shanti_footnotes_ckeditor/shanti_footnotes_ckeditor.info: n/a
+#  modules/shanti_footnotes_ckeditor/shanti_footnotes_ckeditor.module: n/a
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2018-01-05 15:42-0500\n"
+"PO-Revision-Date: 2018-01-05 15:42-0500\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Tibetan <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: shanti_footnotes.info:0
+msgid "SHANTI Footnotes"
+msgstr "Shanti ཡི་ཟུར་འགྲེལ"
+
+#: shanti_footnotes.info:0
+msgid "Loads the CKEditor Footnotes plugin"
+msgstr ""
+"CKEditor Footnotes "
+"ཕྱི་སྣོན་ཡར་འཇུག་བྱེད་པ"
+
+#: shanti_footnotes.info:0 modules/shanti_footnotes_ckeditor/shanti_footnotes_ckeditor.info:0
+msgid "SHANTI"
+msgstr "SHANTI"
+
+#: modules/shanti_footnotes_ckeditor/shanti_footnotes_ckeditor.module:12
+msgid "SHANTI verson of CKEditor Footnotes."
+msgstr "SHANTI ཡི་CKEditor ཟུར་འགྲེལ།"
+
+#: modules/shanti_footnotes_ckeditor/shanti_footnotes_ckeditor.module:36
+msgid "Add Footnote"
+msgstr "ཞབས་མཆན་ཁ་སྣོན།"
+
+#: modules/shanti_footnotes_ckeditor/shanti_footnotes_ckeditor.info:0
+msgid "SHANTI Footnotes CKEditor"
+msgstr "Shanti ཟུར་འགྲེལ་གྱི་CKEditor"
+
+#: modules/shanti_footnotes_ckeditor/shanti_footnotes_ckeditor.info:0
+msgid "Add footnotes functionality to ckeditor"
+msgstr ""
+"ckeditor "
+"ནང་དུ་ཞབས་མཆན་གྱི་བྱེད་ནུས་ཁ་སྣོན།"
+

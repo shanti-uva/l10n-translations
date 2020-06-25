@@ -1,0 +1,651 @@
+# $Id$
+#
+# Tibetan translation of Drupal (general)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  shanti_general.features.menu_custom.inc: n/a
+#  shanti_general.info: n/a
+#  modules/shanti_pager/shanti_pager.info: n/a
+#  modules/explore_menu/explore_menu.module: n/a
+#  modules/explore_menu/explore_menu.info: n/a
+#  modules/jira_collector/jira_collector.info: n/a
+#  modules/shanti_carousel/shanti_carousel.info: n/a
+#  modules/shanti_user/shanti_user.info: n/a
+#  modules/shanti_user/old/user_prefs/user_prefs.info: n/a
+#  modules/jira_collector/jira_collector.module: n/a
+#  modules/shanti_carousel/shanti_carousel.module: n/a
+#  modules/shanti_grid_view/shanti_grid_view.module: n/a
+#  modules/shanti_grid_view/includes/shanti_grid_view.views.inc: n/a
+#  modules/shanti_grid_view/shanti_grid_view.info: n/a
+#  modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc: n/a
+#  modules/shanti_grid_view/templates/node--shanti-image--grid-details.tpl.php: n/a
+#  modules/shanti_user/shanti_user.module: n/a
+#  modules/shanti_user/old/user_prefs/user_prefs.module: n/a
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2018-01-05 15:42-0500\n"
+"PO-Revision-Date: 2018-01-05 15:42-0500\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Tibetan <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: shanti_general.features.menu_custom.inc:21
+msgid "The <em>User</em> menu contains links related to the user's account, as well as the 'Log out' link."
+msgstr ""
+"<em>སྤྱོད་མཁན་</em>འདེམས་བྱང་ལ་སྤྱོད་མཁན་གྱི་ཐོ་ཁོངས་དང་འབྲེལ་བའི་སྦྲེལ་ཐག་ཡོད། "
+"ད་དུང་ཕྱིར་འབུད་ཀྱི་སྦྲེལ་ཐག་ཡང་ཡོད།"
+
+#: shanti_general.features.menu_custom.inc:22
+msgid "User menu"
+msgstr "སྤྱོད་མཁན་གྱི་འདེམས་བྱང"
+
+#: shanti_general.info:0
+msgid "SHANTI General"
+msgstr "SHANTI སྤྱིར་ཡོངས"
+
+#: shanti_general.info:0
+msgid "Features shared by other SHANTI Features (to prevent conflicts)"
+msgstr ""
+"SHANTI "
+"ཡི་ཁྱད་ནུས་གཞན་གྱིས་མཉམ་སྤྱོད་བྱས་པའི་ཁྱད་ནུས "
+"༼འགལ་བ་སྔོན་འགོག་བྱེད་པ༽"
+
+#: shanti_general.info:0 modules/shanti_pager/shanti_pager.info:0
+msgid "SHANTI"
+msgstr "SHANTI"
+
+#: modules/explore_menu/explore_menu.module:33
+msgid "Shanti Explore Menu Block"
+msgstr ""
+"Shanti "
+"འཚོལ་ཞིབ་འདེམས་ཐོའི་ལྷུ་ལག"
+
+#: modules/explore_menu/explore_menu.module:90
+msgid "Section Element Class"
+msgstr "སྡེ་ཚན་གྲུབ་ཆའི་རིགས"
+
+#: modules/explore_menu/explore_menu.module:91
+msgid "The value for the class attribute of the section element containing the content div"
+msgstr ""
+"div "
+"འདུས་ཡོད་པའི་ཚན་པའི་ནང་ཚན་གྱི་ཁོངས་གཏོགས་མཚན་ཉིད་ཀྱི་ཐོབ་གྲངས།"
+
+#: modules/explore_menu/explore_menu.module:98
+msgid "Containing Div Class"
+msgstr "Div ཡི་གནས་རིམ་འདུས་ཡོད་པ།"
+
+#: modules/explore_menu/explore_menu.module:99
+msgid "The value for the class attribute of the div containing the links to the collections"
+msgstr ""
+"ཕྱོགས་བསྡུས་ཀྱི་སྦྲེལ་མཐུད་འདུས་པའི་div "
+"ཡི་ཁོངས་གཏོགས་མཚན་ཉིད་ཀྱི་ཐོབ་གྲངས།"
+
+#: modules/explore_menu/explore_menu.module:106
+msgid "Title"
+msgstr "ཁ་བྱང"
+
+#: modules/explore_menu/explore_menu.module:107
+msgid "Title to display at the top of the collection links"
+msgstr "ཕྱོགས་བསྡུས་སྦྲེལ་ཐག་གྱི་སྟེང་དུ་མངོན་དགོས་པའི་ཁ་བྱང"
+
+#: modules/explore_menu/explore_menu.module:114
+msgid "Link Text"
+msgstr "སྦྲེལ་ཐག་གི་ཡི་གེ"
+
+#: modules/explore_menu/explore_menu.module:115
+msgid "Text for button in top bar"
+msgstr "གོང་གི་སྒྲོམ་ནང་གི་གནོན་མཐེབ་ཀྱི་ཡི་གེ"
+
+#: modules/explore_menu/explore_menu.module:122
+msgid "Note:"
+msgstr "ཐོ་འགོད།"
+
+#: modules/explore_menu/explore_menu.module:123
+msgid "The links themselves are defined by a JSON file contained with the Shanti Explore Menu module's js folder."
+msgstr ""
+"སྦྲེལ་ཐག་དེ་དག་ནི་Shanti "
+"འཚོལ་ཞིབ་འདེམས་ཐོའི་མ་དཔེ་js "
+"ཡིག་སྣོད་ནང་གི་JSON "
+"ཡིག་ཆ་ཞིག་གིས་གཏན་འབེབས་བྱས་པ་རེད།"
+
+#: modules/explore_menu/explore_menu.module:130
+msgid "Reset Menu Links"
+msgstr "འདེམས་ཐོའི་སྦྲེལ་ཐག་བསྐྱར་སྒྲིག"
+
+#: modules/explore_menu/explore_menu.module:135
+msgid "<p style=\"width: 80%;\">The button below will reset the links in the explorer menu from the JSON file in the explorer menu module. You must first choose the server, or domain, you are working with from the drop down list.</p>"
+msgstr ""
+
+#: modules/explore_menu/explore_menu.module:141
+msgid "Choose a Domain"
+msgstr "དྲ་མིང་ཞིག་འདེམ་པ"
+
+#: modules/explore_menu/explore_menu.module:142
+msgid "Local"
+msgstr "རང་ཁུལ"
+
+#: modules/explore_menu/explore_menu.module:143
+msgid "Local (https)"
+msgstr "རང་ཁུལ༼https༽"
+
+#: modules/explore_menu/explore_menu.module:144
+msgid "Predev"
+msgstr "Predev"
+
+#: modules/explore_menu/explore_menu.module:145
+msgid "Dev"
+msgstr "གསར་སྤེལ"
+
+#: modules/explore_menu/explore_menu.module:146
+msgid "Staging"
+msgstr "འཁྲབ་སྟོན"
+
+#: modules/explore_menu/explore_menu.module:147
+msgid "Production"
+msgstr "ཐོན་སྐྱེད"
+
+#: modules/explore_menu/explore_menu.module:154
+msgid "Reset Links"
+msgstr "སྦྲེལ་ཐག་བསྐྱར་སྒྲིག"
+
+#: modules/explore_menu/explore_menu.module:155
+msgid "Reset Explore Menu Links from JSON File"
+msgstr ""
+"JSON "
+"ཡིག་ཆའི་འཚོལ་ཞིབ་འདེམས་ཐོའི་སྦྲེལ་ཐག་བསྐྱར་དུ་སྒྲིག་བྱེད་པ"
+
+#: modules/explore_menu/explore_menu.module:157
+msgid "The explore menu links currently point to: "
+msgstr ""
+"མིག་སྔར་འཚོལ་ཞིབ་འདེམས་ཐོའི་སྦྲེལ་ཐག་གི་ཁ་གཏད་ཕྱོགས། "
+""
+
+#: modules/explore_menu/explore_menu.module:243
+msgid "<p style=\"color:red;\">The domain you have chosen is not valid.</p>"
+msgstr ""
+
+#: modules/explore_menu/explore_menu.module:14
+msgid "Shanti Explore Menu"
+msgstr "Shanti འཚོལ་ཞིབ་ཀྱི་འདེམས་ཐོ"
+
+#: modules/explore_menu/explore_menu.module:15
+msgid "Configure Shanti Explore menu"
+msgstr ""
+"Shanti "
+"འཚོལ་ཞིབ་འདེམས་བྱང་སྒྲིག་འགོད་བྱེད་པ"
+
+#: modules/explore_menu/explore_menu.info:0
+msgid "Shanti Sarvaka Explore Menu"
+msgstr ""
+"Shanti Sarvaka "
+"ཡི་འཚོལ་ཞིབ་འདེམས་ཐོ"
+
+#: modules/explore_menu/explore_menu.info:0
+msgid "Provides a block to place in the top bar that creates the explore dropdown menu for the Shanti Sarvaka theme"
+msgstr ""
+"གོང་གི་སྒྲོམ་ནང་དུ་བཞག་དགོས་པའི་ལྷུ་ལག་ཞིག་མཁོ་སྤྲོད་བྱས་ནས་Shanti "
+"Sarvaka "
+"བརྗོད་གཞི་ལ་འཚོལ་ཞིབ་ཀྱི་མར་འཐེན་འདེམས་ཐོ་ཞིག་གསར་འཛུགས་བྱེད་པ"
+
+#: modules/explore_menu/explore_menu.info:0 modules/jira_collector/jira_collector.info:0 modules/shanti_carousel/shanti_carousel.info:0 modules/shanti_user/shanti_user.info:0 modules/shanti_user/old/user_prefs/user_prefs.info:0
+msgid "Shanti"
+msgstr "Shanti"
+
+#: modules/jira_collector/jira_collector.module:30
+msgid "How to include JIRA collector"
+msgstr ""
+"JIRA "
+"ཕྱོགས་བསྡུས་ལག་ཆ་ཇི་ལྟར་འཇུག་དགོས་པ"
+
+#: modules/jira_collector/jira_collector.module:32
+msgid "Script Tag"
+msgstr "སྒྲིག་ཡིག་གི་རྟགས་མཆན"
+
+#: modules/jira_collector/jira_collector.module:33
+msgid "jQuery Code"
+msgstr "jQuery སྒྲིག་ཡིག"
+
+#: modules/jira_collector/jira_collector.module:36
+msgid "Choose whether you want to include the JIRA collecto through a &lt;script&gt; tag or through a jQuery load call"
+msgstr ""
+"ཁྱེད་ཀྱིས་JIRA "
+"བསྡུ་རུག་ལག་ཆ་དེ་&lt;script&gt; "
+"མཚན་བྱང་ཞིག་བརྒྱུད་པ་དང་ཡང་ན་jQuery "
+"ནང་འཇུག་གི་བཀའ་བརྡ་ཞིག་བརྒྱུད་ནས་ཁོངས་སུ་འཇུག་དགོས་པར་འདེམས་རོགས།"
+
+#: modules/jira_collector/jira_collector.module:41
+msgid "Include collector on admin pages"
+msgstr "དོ་དམ་གྱི་ངོས་སུ་ཕྱོགས་བསྡུས་ལག་ཆ་འཇོག་པ"
+
+#: modules/jira_collector/jira_collector.module:42
+msgid "Check this box to include the JIRA collector on Admin pages"
+msgstr ""
+"འདིར་གདམ་རྟགས་བརྒྱབ་ནས་དོ་དམ་དྲ་ངོས་ཀྱི་ཁོངས་སུ་JIRA "
+"བསྡུ་རུག་ལག་ཆ་འཚུད་པ"
+
+#: modules/jira_collector/jira_collector.module:48
+msgid "Pages Not to Include Collecor On"
+msgstr "Collecor On ཡོད་མི་ཉན་པའི་ངོས"
+
+#: modules/jira_collector/jira_collector.module:49
+msgid "List one path per line. Wildcards accepted"
+msgstr ""
+"ཐིག་ཕྲེང་རེར་སྦྲེལ་ལམ་རེ་སྟོན་པ། "
+"ཚབ་རྟགས་དང་ལེན་བྱེད་པ།"
+
+#: modules/jira_collector/jira_collector.module:11
+msgid "JIRA Collector Settings"
+msgstr ""
+"JIRA "
+"ཕྱོགས་བསྡུས་ལག་ཆའི་སྒྲིག་འགོད"
+
+#: modules/jira_collector/jira_collector.module:12
+msgid "Settings for JIRA Collector module"
+msgstr ""
+"JIRA "
+"ཕྱོགས་བསྡུས་མ་དཔེའི་སྒྲིག་འགོད"
+
+#: modules/jira_collector/jira_collector.info:0
+msgid "Shanti Sarvaka JIRA Collector"
+msgstr ""
+"Shanti Sarvaka JIRA "
+"ཡི་ཕྱོགས་བསྡུས་ལག་ཆ"
+
+#: modules/jira_collector/jira_collector.info:0
+msgid "Provides a block for displaying a feedback button to submit JIRA bug reports"
+msgstr ""
+"བསམ་འཆར་གྱི་གནོན་མཐེབ་ལ་ལྷུ་ལག་ཞིག་མཁོ་སྤྲོད་བྱས་ནས་JIRA "
+"ཡི་སྐྱོན་ཆ་སྙན་ཞུ་ཡར་སྤྲོད་བྱེད་ཐུབ་པ་བཟོ་བ"
+
+#: modules/shanti_carousel/shanti_carousel.module:25
+msgid "Enter number of carousels for this site"
+msgstr "དྲ་ཚིགས་འདིའི་བརྙན་ཐག་གི་གྲངས་ཀ་ཞིག་འཇུག་དགོས"
+
+#: modules/shanti_carousel/shanti_carousel.module:31
+msgid "Speed of Carousel"
+msgstr "Carousel ཡི་མགྱོགས་ཚད"
+
+#: modules/shanti_carousel/shanti_carousel.module:32
+msgid "Enter the number of seconds to pause between frames for all carousels"
+msgstr "འཁོར་སྒྲོམ་ཡོངས་ཀྱི་བརྙན་སྒྲོམ་གྱི་བར་མཚམས་འཇོག་དགོས་པའི་སྐར་ཆའི་གྲངས་འཇུག་རོགས།"
+
+#: modules/shanti_carousel/shanti_carousel.module:38
+msgid "Map image fields"
+msgstr "ཕྱོགས་སྟོན་པར་རིས་ཀྱི་གནས་ཁོངས"
+
+#: modules/shanti_carousel/shanti_carousel.module:44
+msgid "Image Fields"
+msgstr "པར་རིས་གནས་ཁོངས"
+
+#: modules/shanti_carousel/shanti_carousel.module:45
+msgid "Choose all image fields that could be used in the carousel. Leave none checked to choose all."
+msgstr ""
+"བརྙན་ཐག་ནང་དུ་སྤྱོད་ནུས་པའི་པར་རིས་ཀྱི་གནས་ཁོངས་ཡོངས་འདེམ་དགོས། "
+"གང་ཡང་མེད་པར་གདམ་རྟགས་བརྒྱབ་ནས་ཆ་ཚང་འདེམས་པ།"
+
+#: modules/shanti_carousel/shanti_carousel.module:51
+msgid "Map Description fields"
+msgstr "ཕྱོགས་སྟོན་གསལ་བཤད་ཀྱི་གནས་ཁོངས"
+
+#: modules/shanti_carousel/shanti_carousel.module:57
+msgid "Description Fields"
+msgstr "གསལ་བཤད་ཀྱི་གནས་ཁོངས"
+
+#: modules/shanti_carousel/shanti_carousel.module:58
+msgid "Choose all description fields that could be used in the carousel. Leave none checked to choose all."
+msgstr ""
+"བརྙན་ཐག་ནང་དུ་སྤྱོད་ནུས་པའི་གསལ་བཤད་ཀྱི་གནས་ཁོངས་ཡོངས་འདེམ་དགོས། "
+"གང་ཡང་མེད་པར་གདམ་རྟགས་བརྒྱབ་ནས་ཆ་ཚང་འདེམས་པ།"
+
+#: modules/shanti_carousel/shanti_carousel.module:116
+msgid "Carousel Block Name"
+msgstr "Carousel ལྷུ་ལག་གི་མིང"
+
+#: modules/shanti_carousel/shanti_carousel.module:121
+msgid "Text for Link to Slide"
+msgstr "སྒྲོན་བརྙན་སྦྲེལ་ཐག་གི་ཡི་གེ"
+
+#: modules/shanti_carousel/shanti_carousel.module:122
+msgid "Enter the text for the link to the resource in the slide. Defaults to \"View Resource\"."
+msgstr ""
+"བརྙན་སྟོན་ནང་གི་ཐོན་ཁུངས་སྦྲེལ་བྱེད་ཀྱི་སྦྲེལ་ཐག་ལ་ཡི་གེ་འཇུག་པ། "
+"སྔར་ཡོད་དུ་ཐོན་ཁུངས་ཞིད་ལྟ་ཞེས་པ་ཡིན།"
+
+#: modules/shanti_carousel/shanti_carousel.module:137
+msgid "If you want a link to appear above carousel, enter the text for the link here."
+msgstr ""
+"གལ་སྲིད་གོང་གི་འཁོར་སྒྲོམ་སྤྱོད་པའི་སྦྲེལ་ཐག་ཞིག་མངོན་དགོས་ན། "
+"སྦྲེལ་ཐག་དེའི་ཡི་གེ་འདིར་འཇུག་དགོས།"
+
+#: modules/shanti_carousel/shanti_carousel.module:144
+msgid "If you want a link to appear above carousel, enter the URL for the link here."
+msgstr ""
+"གལ་སྲིད་གོང་གི་འཁོར་སྒྲོམ་སྤྱོད་པའི་སྦྲེལ་ཐག་ཞིག་མངོན་དགོས་ན། "
+"སྦྲེལ་ཐག་དེའི་དྲ་གནས་འདིར་འཇུག་དགོས།"
+
+#: modules/shanti_carousel/shanti_carousel.module:151
+msgid "If you want the link to open in a new window, click this checkbox."
+msgstr ""
+"གལ་སྲིད་སྦྲེལ་ཐག་དེ་སྒེའུ་ཁུང་གསར་བ་ཞིག་གི་ནང་དུ་ཁ་འབྱེད་དགོས་ན། "
+"འདེམས་སྐྲོམ་འདི་ལ་རྟགས་རྒྱོབ།"
+
+#: modules/shanti_carousel/shanti_carousel.module:158
+msgid "If you want the carousel to start cycling automatically, check this box."
+msgstr ""
+"གལ་སྲིད་འཁོར་སྒྲོམ་རང་འགུལ་གྱིས་སྐོར་དགོས་ན། "
+"འདེམས་སྒྲོམ་འདི་ལ་རྟགས་རྒྱོབ།"
+
+#: modules/shanti_carousel/shanti_carousel.module:189
+msgid "View Resource"
+msgstr "ཐོན་ཁུངས་ལ་ལྟ་བ"
+
+#: modules/shanti_carousel/shanti_carousel.module:11
+msgid "Shanti Carousel"
+msgstr "Shanti Carousel"
+
+#: modules/shanti_carousel/shanti_carousel.module:12
+msgid "Configure Shanti Carousel Module"
+msgstr ""
+"Shanti "
+"བརྙན་ཐག་མ་དཔེ་ལ་སྒྲིག་འགོད་བྱེད"
+
+#: modules/shanti_carousel/shanti_carousel.info:0
+msgid "Shanti Sarvaka Carousel"
+msgstr "Shanti Sarvaka Carousel"
+
+#: modules/shanti_carousel/shanti_carousel.info:0
+msgid "A universal carousel for all Shanti Mandala sites"
+msgstr ""
+"Shanti Mandala "
+"དྲ་ཚིགས་ཀྱི་སྤྱི་ཁྱབ་ཀྱི་བརྙན་སྟོན་ཡོ་བྱད་ཞིག"
+
+#: modules/shanti_grid_view/shanti_grid_view.module:52
+msgid "Shanti Grid View Reset"
+msgstr ""
+
+#: modules/shanti_grid_view/shanti_grid_view.module:57
+msgid "Reset Image Size Cache"
+msgstr ""
+
+#: modules/shanti_grid_view/shanti_grid_view.module:58
+msgid "<p>Image sizes are cached for the grid view and the lightbox. Use this button to clear that cache.</p>"
+msgstr ""
+
+#: modules/shanti_grid_view/shanti_grid_view.module:66
+msgid "Shanti Grid View image size cache cleared!"
+msgstr ""
+
+#: modules/shanti_grid_view/shanti_grid_view.module:134;138
+msgid "Grid Details"
+msgstr ""
+
+#: modules/shanti_grid_view/shanti_grid_view.module:282
+msgid "The non-IIIF node version of the Grid View format has yet to be coded."
+msgstr ""
+
+#: modules/shanti_grid_view/shanti_grid_view.module:164
+msgid "shanti_grid_view"
+msgstr ""
+
+#: modules/shanti_grid_view/shanti_grid_view.module:164
+msgid "Invalid parameters for shanti_grid_view_item_info function"
+msgstr ""
+
+#: modules/shanti_grid_view/shanti_grid_view.module:15 modules/shanti_grid_view/includes/shanti_grid_view.views.inc:10
+msgid "Shanti Grid View"
+msgstr ""
+
+#: modules/shanti_grid_view/shanti_grid_view.module:16
+msgid "Configuration for Shanti Grid View module"
+msgstr ""
+
+#: modules/shanti_grid_view/shanti_grid_view.module:24
+msgid "Api path to return description of node for Shanti grid view"
+msgstr ""
+
+#: modules/shanti_grid_view/shanti_grid_view.module:35
+msgid "Api path to return an image url based on FID and Size"
+msgstr ""
+
+#: modules/shanti_grid_view/shanti_grid_view.info:0
+msgid "Shanti Image Grid View"
+msgstr ""
+
+#: modules/shanti_grid_view/shanti_grid_view.info:0
+msgid "Creates a gallery view display on the model of Google Images for Shanti sites"
+msgstr ""
+
+#: modules/shanti_grid_view/shanti_grid_view.info:0
+msgid "Images"
+msgstr "པར་རིས"
+
+#: modules/shanti_grid_view/includes/shanti_grid_view.views.inc:11
+msgid "Displays images in a Google-like grid view"
+msgstr ""
+
+#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:44
+msgid "Subtitle to appear above view results"
+msgstr ""
+
+#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:45
+msgid "A subtitle to appear above the view results"
+msgstr ""
+
+#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:51
+msgid "IIIF View"
+msgstr ""
+
+#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:52
+msgid "Check this box if you are using a IIIF server to display the images of the grid"
+msgstr ""
+
+#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:58
+msgid "IIIF Options"
+msgstr ""
+
+#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:67
+msgid "IIIF URL Syntax"
+msgstr ""
+
+#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:68
+msgid "Enter the syntax of the URL with __FNAME__ for the file name and __SIZE__ for the \"width,height\" size string replacements."
+msgstr ""
+
+#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:74
+msgid "Field to use for Image"
+msgstr ""
+
+#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:75
+msgid "Choose the field that in the view that is the image field"
+msgstr ""
+
+#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:81
+msgid "Tiny Image Size"
+msgstr ""
+
+#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:82
+msgid "Enter the size for the placeholder tiny image for progressive loading"
+msgstr ""
+
+#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:88
+msgid "Thumbnail Image Size"
+msgstr ""
+
+#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:89
+msgid "Enter the size for the thumbnails in the grid"
+msgstr ""
+
+#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:95
+msgid "Popdown Image Size"
+msgstr ""
+
+#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:96
+msgid "Enter the size for the image in the popdown"
+msgstr ""
+
+#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:102
+msgid "Full Image Size"
+msgstr ""
+
+#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:103
+msgid "Enter the full image size for the light box"
+msgstr ""
+
+#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:112
+msgid "Type of Entity Listed in View"
+msgstr ""
+
+#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:113
+msgid "Entity type being shown in this view: File or Node"
+msgstr ""
+
+#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:125
+msgid "File Image Selectors"
+msgstr ""
+
+#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:126
+msgid "Galleries showing image files use the image styles applied to the file itself."
+msgstr ""
+
+#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:136
+msgid "Node Image Selectors"
+msgstr ""
+
+#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:137
+msgid "Select the fields to be used for the teaser thumbnails and the full version from the drop down lists below:"
+msgstr ""
+
+#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:147
+msgid "Thumbnail Image"
+msgstr "བསྡུས་པར་གྱི་པར་རིས"
+
+#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:148
+msgid "Select the image field to use as the thumbnail in the grid"
+msgstr ""
+
+#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:159
+msgid "Large Image"
+msgstr ""
+
+#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:160
+msgid "Select the image field to use for the large version of the image used in the drop down under an image"
+msgstr ""
+
+#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:172
+msgid "Extra Large Image"
+msgstr ""
+
+#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:173
+msgid "Select the image field to use for the extra large version of the image used for the lightbox full image"
+msgstr ""
+
+#: modules/shanti_grid_view/templates/node--shanti-image--grid-details.tpl.php:45
+msgid "No description available."
+msgstr ""
+
+#: modules/shanti_pager/shanti_pager.info:0
+msgid "Shanti Pager"
+msgstr "Shanti ཡི་དྲ་ངོས་སྒྱུར་བྱེད"
+
+#: modules/shanti_pager/shanti_pager.info:0
+msgid "Custom settings for Shanti Pagerer instance"
+msgstr ""
+"Shanti "
+"ངོས་བསྒྱུར་བྱེད་བྱེ་དྲག་གི་རང་བཟོས་སྒྲིག་འཛུགས"
+
+#: modules/shanti_user/shanti_user.module:49
+msgid "Administer Shanti Users"
+msgstr ""
+
+#: modules/shanti_user/shanti_user.module:52;71
+msgid "Add Multiple SHANTI Users"
+msgstr ""
+
+#: modules/shanti_user/shanti_user.module:53
+msgid "Allow user to add multiple users by computing ID"
+msgstr ""
+
+#: modules/shanti_user/shanti_user.module:62
+msgid "Shanti User Settings"
+msgstr ""
+
+#: modules/shanti_user/shanti_user.module:63
+msgid "There are currently no settings for the Shanti User module."
+msgstr ""
+
+#: modules/shanti_user/shanti_user.module:72
+msgid "This form will allow you to add multiple users to the site, if they have not already signed in, and, if desired, assign those users all to a particular collection. This only works with those with UVa computing IDs."
+msgstr ""
+
+#: modules/shanti_user/shanti_user.module:76
+msgid "List of Computing IDs"
+msgstr ""
+
+#: modules/shanti_user/shanti_user.module:77
+msgid "Enter the list of computing IDs for the UVa people you want to add. One ID per line."
+msgstr ""
+
+#: modules/shanti_user/shanti_user.module:83
+msgid "Collection to Join"
+msgstr ""
+
+#: modules/shanti_user/shanti_user.module:90;26
+msgid "Add Users"
+msgstr ""
+
+#: modules/shanti_user/shanti_user.module:177
+msgid "Added the following users: @users"
+msgstr ""
+
+#: modules/shanti_user/shanti_user.module:180
+msgid "The following users already had accounts: @users"
+msgstr ""
+
+#: modules/shanti_user/shanti_user.module:15
+msgid "SHANTI Users"
+msgstr ""
+
+#: modules/shanti_user/shanti_user.module:16
+msgid "Menu items for SHANTI Users"
+msgstr ""
+
+#: modules/shanti_user/shanti_user.module:22
+msgid "Configure"
+msgstr "སྒྲིག་འགོད"
+
+#: modules/shanti_user/shanti_user.module:28
+msgid "Add multiple SHANTI Users"
+msgstr ""
+
+#: modules/shanti_user/shanti_user.info:0
+msgid "Shanti User Module"
+msgstr ""
+
+#: modules/shanti_user/shanti_user.info:0
+msgid "Module for standardizing the user experience across Mandala"
+msgstr ""
+
+#: modules/shanti_user/old/user_prefs/user_prefs.module:91
+msgid "Save"
+msgstr "ཉར་ཚགས"
+
+#: modules/shanti_user/old/user_prefs/user_prefs.info:0
+msgid "Shanti Sarvaka User Preferences"
+msgstr ""
+"Shanti Sarvaka "
+"སྤྱོད་མཁན་གྱི་གདམ་བྱང"
+
+#: modules/shanti_user/old/user_prefs/user_prefs.info:0
+msgid "Defines user preference fields, stores them on a user by user bases, and displays in Shanti Sarvaka theme main menu"
+msgstr ""
+"སྤྱོད་མཁན་གྱི་གདམ་ཁ་གནས་ཁུངས་གཏན་ཁེལ་བྱེད་པ་དང། "
+"དེ་དག་སྤྱོད་མཁན་སོ་སོ་ལ་གསོག་འཇོག་བྱེད་པ། "
+"མ་ཚད་Shanti Sarvaka "
+"བརྗོད་གཞིའི་གདམ་བྱང་གཙོ་བོར་སྟོན་པ།"
+

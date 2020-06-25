@@ -1,0 +1,1851 @@
+# $Id$
+#
+# Tibetan translation of Drupal (general)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  mediabase.module: n/a
+#  mediabase.info: n/a
+#  kmap_taxonomy/kmap_annotation.info: n/a
+#  kmap_taxonomy/kmap_taxonomy.info: n/a
+#  mb_access/mb_access.info: n/a
+#  mb_bulk_actions/mb_bulk_actions.info: n/a
+#  mb_kaltura/mb_kaltura.info: n/a
+#  mb_location/mb_location.info: n/a
+#  mb_metadata/mb_metadata.info: n/a
+#  mb_migrate/mb_migrate.info: n/a
+#  mb_relation/mb_relation.info: n/a
+#  mb_services/mb_services.info: n/a
+#  mb_shibboleth/mb_shibboleth.info: n/a
+#  mb_solr/mb_solr.info: n/a
+#  mb_structure/mb_structure.info: n/a
+#  features/audio_video/audio_video.features.field_instance.inc: n/a
+#  features/audio_video/audio_video.features.inc: n/a
+#  mb_structure/mb_structure.module: n/a
+#  mb_kaltura/mb_kaltura.module: n/a
+#  kmap_taxonomy/kmap_taxonomy.install: n/a
+#  kmap_taxonomy/kmap_annotation.module: n/a
+#  features/audio_video/audio_video.field_group.inc: n/a
+#  features/audio_video/audio_video.module: n/a
+#  features/audio_video/audio_video.info: n/a
+#  features/media_listings/media_listings.info: n/a
+#  features/media_listings/media_listings.features.menu_links.inc: n/a
+#  features/media_listings/media_listings.module: n/a
+#  js/mediabase.js: n/a
+#  mb_location/mb_location.inc: n/a
+#  kmap_taxonomy/kmap_taxonomy.module: n/a
+#  kmap_taxonomy/includes/kmap.inc: n/a
+#  kmap_taxonomy/includes/kmap_taxonomy.pages.inc: n/a
+#  mb_solr/mb_solr.module: n/a
+#  mb_bulk_actions/mb_bulk_actions.bak.module: n/a
+#  mb_bulk_actions/mb_bulk_actions.module: n/a
+#  mb_kaltura/mb_kaltura.inc: n/a
+#  mb_kaltura/mb_kaltura.views.inc: n/a
+#  mb_kaltura/js/mb-kaltura.js: n/a
+#  mb_location/mb_location.module: n/a
+#  mb_location/mb_location.install: n/a
+#  mb_metadata/mb_metadata.module: n/a
+#  mb_services/mb_services.module: n/a
+#  mb_shibboleth/mb_shibboleth.module: n/a
+#  mb_structure/mb_structure.install: n/a
+#  templates/transcripts_search_results.tpl.php: n/a
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2018-01-05 15:37-0500\n"
+"PO-Revision-Date: 2018-01-05 15:37-0500\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Tibetan <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: mediabase.module:26
+msgid "Administer Mediabase"
+msgstr "འཕྲིན་ལམ་གྲངས་མཇོད་ལ་དོ་དམ་རྒྱག་པ"
+
+#: mediabase.module:27
+msgid "Perform administration tasks for mediabase."
+msgstr "འཕྲིན་ལམ་གྲངས་མཛོད་ལ་དོ་དམ་འོས་འགན་ལག་བསྟར་བྱེད་པ།"
+
+#: mediabase.module:97
+msgid "Members"
+msgstr "ཁོངས་མི།"
+
+#: mediabase.module:108
+msgid "Partner data prefix patterns"
+msgstr "གཞོགས་འདེགས་གཞི་གྲངས་ཀྱི་སྔོན་སྦྱར་དཔེ་ཡིག"
+
+#: mediabase.module:109
+msgid "A list of pipe-delimited values (prefix | label | delimiter). Prefix is the prefix used in a Kaltura Batch Upload CSV in the partner data field, e.g. thl-3918."
+msgstr ""
+"དྲང་ཤད་ཀྱིས་མཚམས་བྱས་པའི་ཐོབ་གྲངས་སྐོར་ཞིག "
+"༼སྔོན་བཏགས | ཁ་བྱང | "
+"མཚམས་དབྱེ་བྱེད༽ "
+"སྔོན་བཏགས་ནི་མཉམ་འབྲེལ་གྱི་གཞི་གྲངས་གནས་ཁོངས་དུ་Kaltura "
+"ཡི་སྡེབ་བྱས་ནས་ཡར་འཇུག་བྱས་པའི་CSV "
+"རུ་སྤྱོད་རྒྱུ་ཡིན། "
+"དཔེར་ན། thl-3918་ལྟ་བུ།"
+
+#: mediabase.module:116
+msgid "Kmap Server"
+msgstr "KMap ཞབས་ཞུ་བ"
+
+#: mediabase.module:124
+msgid "Places Server"
+msgstr "ས་གནས་ཞབས་ཞུ་བ"
+
+#: mediabase.module:133
+msgid "Kmaps Site Root"
+msgstr "Kmaps དྲ་གནས་ཀྱི་རྩ་བ"
+
+#: mediabase.module:142
+msgid "Subjects URL"
+msgstr "བརྗོད་དོན་གྱི་སྦྲེལ་གནས"
+
+#: mediabase.module:151
+msgid "Places URL"
+msgstr "ས་གནས་ཀྱི་URL"
+
+#: mediabase.module:160
+msgid "KMaps Site Sprint Format"
+msgstr "KMaps དྲ་ཚིགས་Sprint རྣམ་བཞག"
+
+#: mediabase.module:169
+msgid "Solr Index for Kmaps Associations"
+msgstr ""
+"Kmaps ཟུང་འབྲེལ་གྱི་Solr "
+"དཀར་ཆགས"
+
+#: mediabase.module:291
+msgid "Back to Video"
+msgstr "བརྙན་རིས་ཐོག་ཏུ་ཕར་ལོག"
+
+#: mediabase.module:440
+msgid "English"
+msgstr "English(དབྱིན་སྐད།)"
+
+#: mediabase.module:621
+msgid " hr "
+msgstr " hr "
+
+#: mediabase.module:623
+msgid " min "
+msgstr "སྐར་ཆ།"
+
+#: mediabase.module:626
+msgid " sec"
+msgstr "སྐར་ཆ"
+
+#: mediabase.module:62
+msgid "Mediabase Settings"
+msgstr "འཕྲིན་ལམ་གྲངས་མཛོད་ཀྱི་སྒྲིག་འགོད།"
+
+#: mediabase.module:63;72
+msgid "Settings for Mediabase"
+msgstr "འཕྲིན་ལམ་གྲངས་མཛོད་ཀྱི་སྒྲིག་འགོད"
+
+#: mediabase.module:71
+msgid "Browse Mediabase Content"
+msgstr "འཕྲིན་ལམ་གྲངས་མཛོད་ཀྱི་ནང་དོན་ལ་ལྟ་ཀློག་བྱེད་པ"
+
+#: mediabase.module:80
+msgid "Redirects a NID to its titled url"
+msgstr ""
+"ཁ་བྱང་གི་སྦྲེལ་གནས་ཐོག་ཏུ་NID "
+"བསྐྱར་སྒྲིག་བྱེད་པ"
+
+#: mediabase.info:0
+msgid "Mediabase Core"
+msgstr "འཕྲིན་ལམ་གྲངས་ཀྱི་ནང་སྙིང"
+
+#: mediabase.info:0
+msgid "Mediabase customizations to drupal."
+msgstr ""
+"drupal "
+"ལ་བཟོས་འཕྲིན་ལམ་གྲངས་མཛོད་ཀྱི་སྒྲིག་འགོད།"
+
+#: mediabase.info:0 kmap_taxonomy/kmap_annotation.info:0 kmap_taxonomy/kmap_taxonomy.info:0 mb_access/mb_access.info:0 mb_bulk_actions/mb_bulk_actions.info:0 mb_kaltura/mb_kaltura.info:0 mb_location/mb_location.info:0 mb_metadata/mb_metadata.info:0 mb_migrate/mb_migrate.info:0 mb_relation/mb_relation.info:0 mb_services/mb_services.info:0 mb_shibboleth/mb_shibboleth.info:0 mb_solr/mb_solr.info:0 mb_structure/mb_structure.info:0
+msgid "SHANTI Mediabase"
+msgstr "SHANTI འཕྲིན་ལམ་གྲངས་མཛོད"
+
+#: features/audio_video/audio_video.features.field_instance.inc:5951
+msgid "A person or organization who sponsored this AV item"
+msgstr ""
+"AV "
+"རྣམ་གྲངས་འདིར་སྦྱིན་བདག་གནང་མཁན་གྱི་མི་སྒེར་དང་རྩ་འཛུགས།"
+
+#: features/audio_video/audio_video.features.field_instance.inc:5952
+msgid "Add an image to show in thumbnails for this audio file. (Note: Newly uploaded images may take a few minutes before they appear in player.)"
+msgstr ""
+"སྒྲའི་ཡིག་ཆ་འདིའི་བསྡུས་པར་དུ་འཆར་དགོས་པའི་པར་རིས། "
+"༼དྲན་སྐུལ། "
+"གསར་དུ་ཡར་འཇུག་བྱས་པའི་པར་རིས་ཚུར་འཆར་བར་སྐར་མ་འགར་འགོར་སྲིད།༽"
+
+#: features/audio_video/audio_video.features.field_instance.inc:5953
+msgid "Alternate Modes"
+msgstr "རེས་མོས་ཀྱི་རྣམ་པ"
+
+#: features/audio_video/audio_video.features.field_instance.inc:5954
+msgid "Annotation"
+msgstr "མཆན་འགྲེལ"
+
+#: features/audio_video/audio_video.features.field_instance.inc:5955
+msgid "Aspect Ratio"
+msgstr "བཟོ་ལྟའི་བསྡུར་ཚད།"
+
+#: features/audio_video/audio_video.features.field_instance.inc:5956 features/audio_video/audio_video.features.inc:140
+msgid "Audio"
+msgstr "སྒྲ་འབེབས།"
+
+#: features/audio_video/audio_video.features.field_instance.inc:5957
+msgid "Audio Quality Acceptable"
+msgstr "དང་ལེན་བྱེད་རུང་བའི་སྒྲའི་སྤུས་ཚད"
+
+#: features/audio_video/audio_video.features.field_instance.inc:5958
+msgid "Author"
+msgstr "རྩོམ་མཁན"
+
+#: features/audio_video/audio_video.features.field_instance.inc:5959
+msgid "Available From (date)"
+msgstr "༼ཟླ་ཚེས༽ནས་བཟུང་སྤྱོད་ཆོག་པ"
+
+#: features/audio_video/audio_video.features.field_instance.inc:5960
+msgid "Basic Cataloging"
+msgstr "སྤྱིར་བཏང་གི་དཀར་ཆག"
+
+#: features/audio_video/audio_video.features.field_instance.inc:5961
+msgid "Bit Depth"
+msgstr "Bit Depth"
+
+#: features/audio_video/audio_video.features.field_instance.inc:5962
+msgid "Catalog Workflow Notes"
+msgstr "ལས་རིམ་གྱི་ཐོ་དཀར་ཆག་ཏུ་འགོད་པ"
+
+#: features/audio_video/audio_video.features.field_instance.inc:5963
+msgid "Cataloging Proofed"
+msgstr "དཀར་ཆག་ཞུ་དག་བྱས་ཟིན"
+
+#: features/audio_video/audio_video.features.field_instance.inc:5964
+msgid "Channel Config"
+msgstr "རྒྱུ་ལམ་སྒྲིག་འགོད"
+
+#: features/audio_video/audio_video.features.field_instance.inc:5965
+msgid "Click on button to add a media item or click on X to remove the media item"
+msgstr ""
+"མཐེབ་ལ་མནན་ཏེ་འཕྲིན་ལམ་གྱི་ནང་ཚན་ཁ་སྣོན་དང་ཡང་ན་X "
+"མནན་ནས་འཕྲིན་ལམ་གྱི་ནང་ཚན་བསུབ་པ།"
+
+#: features/audio_video/audio_video.features.field_instance.inc:5966 mb_structure/mb_structure.module:145
+msgid "Collection"
+msgstr "ཕྱོགས་བསྡུས"
+
+#: features/audio_video/audio_video.features.field_instance.inc:5967
+msgid "Colors"
+msgstr "ཁ་དོག"
+
+#: features/audio_video/audio_video.features.field_instance.inc:5968
+msgid "Contributor"
+msgstr "སྒྲུབ་མཁན"
+
+#: features/audio_video/audio_video.features.field_instance.inc:5969
+msgid "Contributor Role"
+msgstr "སྒྲུབ་མཁན་གྱི་འགན་ནུས"
+
+#: features/audio_video/audio_video.features.field_instance.inc:5970
+msgid "Copyright Owner"
+msgstr "པར་དབང་འཛིན་མཁན།"
+
+#: features/audio_video/audio_video.features.field_instance.inc:5971
+msgid "Creator"
+msgstr "གསར་འཛུགས་མཁན"
+
+#: features/audio_video/audio_video.features.field_instance.inc:5972
+msgid "Creator Role"
+msgstr "གསར་འཛུགས་བྱེད་མཁན་གྱི་འགན་ནུས"
+
+#: features/audio_video/audio_video.features.field_instance.inc:5973
+msgid "Data Rate"
+msgstr "གཞི་གྲངས་ཀྱི་འགྲོས་ཚད"
+
+#: features/audio_video/audio_video.features.field_instance.inc:5974
+msgid "Date"
+msgstr "ཚེས་གྲངས"
+
+#: features/audio_video/audio_video.features.field_instance.inc:5975
+msgid "Date Available"
+msgstr "སྤྱོད་རུང་བའི་ཟླ་ཚེས"
+
+#: features/audio_video/audio_video.features.field_instance.inc:5976 mb_kaltura/mb_kaltura.module:259
+msgid "Date Created"
+msgstr "ཟླ་ཚེས་གསར་འཛུགས་བྱས་ཟིན"
+
+#: features/audio_video/audio_video.features.field_instance.inc:5977
+msgid "Date Issued"
+msgstr "སྤེལ་བའི་ཟླ་ཚེས"
+
+#: features/audio_video/audio_video.features.field_instance.inc:5978
+msgid "Description"
+msgstr "གསལ་བཤད"
+
+#: features/audio_video/audio_video.features.field_instance.inc:5979
+msgid "Description Language"
+msgstr "གསལ་བཤད་ཀྱི་སྐད་རིགས"
+
+#: features/audio_video/audio_video.features.field_instance.inc:5980
+msgid "Description Type"
+msgstr "གསལ་བཤད་ཀྱི་རིགས"
+
+#: features/audio_video/audio_video.features.field_instance.inc:5981
+msgid "Digital Format"
+msgstr "ཨང་ཀིའི་རྣམ་པ"
+
+#: features/audio_video/audio_video.features.field_instance.inc:5982
+msgid "Duration"
+msgstr "དུས་ཡུན"
+
+#: features/audio_video/audio_video.features.field_instance.inc:5983
+msgid "Encoding Scheme"
+msgstr "ཨང་སྒྲིག་གི་སྒྲིག་གཞི"
+
+#: features/audio_video/audio_video.features.field_instance.inc:5984
+msgid "Extended Cataloging"
+msgstr "རྒྱ་བསྐྱེད་པའི་དཀར་ཆག"
+
+#: features/audio_video/audio_video.features.field_instance.inc:5985
+msgid "Extension"
+msgstr "རྒྱ་བསྐྱེད"
+
+#: features/audio_video/audio_video.features.field_instance.inc:5986
+msgid "Extension Authority"
+msgstr "རྒྱ་བསྐྱེད་ཀྱི་བདག་དབང"
+
+#: features/audio_video/audio_video.features.field_instance.inc:5987
+msgid "File Size"
+msgstr "ཡིག་ཆའི་ཆེ་ཆུང"
+
+#: features/audio_video/audio_video.features.field_instance.inc:5988
+msgid "Format"
+msgstr "རྣམ་གཞག"
+
+#: features/audio_video/audio_video.features.field_instance.inc:5989
+msgid "Format Id"
+msgstr "ཨང་རྟགས་སྒྱུར་བ"
+
+#: features/audio_video/audio_video.features.field_instance.inc:5990
+msgid "Format Id Source"
+msgstr "ཨང་རྟགས་ཀྱི་ཁུངས་སྒྱུར་བ"
+
+#: features/audio_video/audio_video.features.field_instance.inc:5991
+msgid "Format Standard"
+msgstr "ཚད་ལྡན་གྱི་བཟོ་བཀོད་སྒྱུར་བ"
+
+#: features/audio_video/audio_video.features.field_instance.inc:5992
+msgid "Frame Rate"
+msgstr "བརྙན་སྒྲོམ་གྱི་ཚད"
+
+#: features/audio_video/audio_video.features.field_instance.inc:5993
+msgid "Frame Size"
+msgstr "བརྙན་སྒྲོམ་གྱི་ཆེ་ཆུང"
+
+#: features/audio_video/audio_video.features.field_instance.inc:5994
+msgid "Generations"
+msgstr "རབས"
+
+#: features/audio_video/audio_video.features.field_instance.inc:5995
+msgid "ID"
+msgstr "ཨང་རྟགས"
+
+#: features/audio_video/audio_video.features.field_instance.inc:5996
+msgid "ID Source"
+msgstr "ཨང་རྟགས་ཀྱི་ཁུངས"
+
+#: features/audio_video/audio_video.features.field_instance.inc:5997
+msgid "Identifier"
+msgstr "ཨང་རྟགས"
+
+#: features/audio_video/audio_video.features.field_instance.inc:5998
+msgid "Identifiers"
+msgstr "ངོས་འཛིན་རྟགས"
+
+#: features/audio_video/audio_video.features.field_instance.inc:5999
+msgid "Importance"
+msgstr "གཙོ་གནད"
+
+#: features/audio_video/audio_video.features.field_instance.inc:6000 kmap_taxonomy/kmap_annotation.info:0
+msgid "Kmap Annotation"
+msgstr "Kmap ཡི་མཆན་འགྲེལ"
+
+#: features/audio_video/audio_video.features.field_instance.inc:6001 kmap_taxonomy/kmap_taxonomy.install:44
+msgid "Kmap Id"
+msgstr "Kmap ཨང་རྟགས"
+
+#: features/audio_video/audio_video.features.field_instance.inc:6002
+msgid "Language"
+msgstr "སྐད་རིགས"
+
+#: features/audio_video/audio_video.features.field_instance.inc:6003
+msgid "Logging files/EDLs archived"
+msgstr ""
+"ཟིན་ཐོའི་ཡིག་ཆའམ་EDLs "
+"ཡིག་ཚགས་སུ་ཉར་བ"
+
+#: features/audio_video/audio_video.features.field_instance.inc:6004
+msgid "Masters Archived"
+msgstr "Masters ཡིག་ཚགས་སུ་བཞག་ཟིན"
+
+#: features/audio_video/audio_video.features.field_instance.inc:6005
+msgid "Media Needs Re-editing"
+msgstr "འཕྲིན་ལམ་ལ་སྐྱར་དུ་རྩོམ་སྒྲིག་བྱེད་པ།"
+
+#: features/audio_video/audio_video.features.field_instance.inc:6006
+msgid "Media Needs Recompression"
+msgstr "འཕྲིན་ལམ་ལ་སྐྱར་དུ་བཙུར་སྒྲིག་བྱེད་པ།"
+
+#: features/audio_video/audio_video.features.field_instance.inc:6007
+msgid "Media Problem #1"
+msgstr "འཕྲིན་ལམ་གནད་དོན ༡ པོ"
+
+#: features/audio_video/audio_video.features.field_instance.inc:6008
+msgid "Media Problem #2"
+msgstr "འཕྲིན་ལམ་གྱི་གནད་དོན ༢ པ"
+
+#: features/audio_video/audio_video.features.field_instance.inc:6009
+msgid "Media Problem #3"
+msgstr "འཕྲིན་ལམ་གྱི་གནད་དོན ༣ པ"
+
+#: features/audio_video/audio_video.features.field_instance.inc:6010
+msgid "Media Type"
+msgstr "འཕྲིན་ལམ་གྱི་རིགས།"
+
+#: features/audio_video/audio_video.features.field_instance.inc:6011
+msgid "Media Workflow Notes"
+msgstr "འཕྲིན་ལམ་ལས་ཀའི་གོ་རིམ་ཐོ་དེབ།"
+
+#: features/audio_video/audio_video.features.field_instance.inc:6012 kmap_taxonomy/kmap_annotation.module:197
+msgid "Note"
+msgstr "ཐོ་འགོད།"
+
+#: features/audio_video/audio_video.features.field_instance.inc:6013
+msgid "Numeric Label"
+msgstr "ཨང་ཀིའི་ཟུར་རྟགས།"
+
+#: features/audio_video/audio_video.features.field_instance.inc:6014
+msgid "Physical Format"
+msgstr "དངོས་གཟུགས་ཀྱི་རྣམ་པ།"
+
+#: features/audio_video/audio_video.features.field_instance.inc:6015
+msgid "Place Data Present"
+msgstr "ས་གནས་ཀྱི་གཞི་གྲངས་ཡོད་པ"
+
+#: features/audio_video/audio_video.features.field_instance.inc:6016
+msgid "Publisher"
+msgstr "ཁྱབ་སྤེལ་མཁན"
+
+#: features/audio_video/audio_video.features.field_instance.inc:6017
+msgid "Publisher Role"
+msgstr "ཁྱབ་སྤེལ་མཁན་གྱི་འགན་ནུས"
+
+#: features/audio_video/audio_video.features.field_instance.inc:6018
+msgid "Rating"
+msgstr "སྐར་གྲངས"
+
+#: features/audio_video/audio_video.features.field_instance.inc:6019
+msgid "Recording Location"
+msgstr "བསྡུ་ལེན་བྱེད་སའི་གནས"
+
+#: features/audio_video/audio_video.features.field_instance.inc:6020
+msgid "Redistribution License"
+msgstr "བསྐྱར་དུ་ཁྱབ་སྤེལ་བྱེད་པའི་དཔང་ཡིག"
+
+#: features/audio_video/audio_video.features.field_instance.inc:6021
+msgid "Referenced Places"
+msgstr "ཟུར་འབྲེལ་བྱས་པའི་ས་གནས"
+
+#: features/audio_video/audio_video.features.field_instance.inc:6022
+msgid "Related Media"
+msgstr "འབྲེལ་ཡོད་འཕྲིན་ལམ"
+
+#: features/audio_video/audio_video.features.field_instance.inc:6023
+msgid "Relationship Type"
+msgstr "འབྲེལ་ལམ་གྱི་རིགས"
+
+#: features/audio_video/audio_video.features.field_instance.inc:6024
+msgid "Rights Summary"
+msgstr "བདག་དབང་གནད་བསྡུས"
+
+#: features/audio_video/audio_video.features.field_instance.inc:6025
+msgid "Sampling Rate"
+msgstr "དཔེ་མཚོན་གྱི་གྲངས་ཚད"
+
+#: features/audio_video/audio_video.features.field_instance.inc:6026
+msgid "Sponsor"
+msgstr "རོགས་སྐྱོར་མཁན"
+
+#: features/audio_video/audio_video.features.field_instance.inc:6027
+msgid "Sponsor Role"
+msgstr "རོགས་སྐྱོར་མཁན་གྱི་འགན་ནུས"
+
+#: features/audio_video/audio_video.features.field_instance.inc:6028
+msgid "Start Time"
+msgstr "འགོ་འཛུགས་ཀྱི་དུས"
+
+#: features/audio_video/audio_video.features.field_instance.inc:6029 mb_structure/mb_structure.module:145
+msgid "Subcollection"
+msgstr "ཡན་ལག་གི་ཕྱོགས་བསྡུས"
+
+#: features/audio_video/audio_video.features.field_instance.inc:6030
+msgid "Subject"
+msgstr "འགོ་བརྗོད"
+
+#: features/audio_video/audio_video.features.field_instance.inc:6031
+msgid "Tags"
+msgstr "དབྱེ་རྟགས"
+
+#: features/audio_video/audio_video.features.field_instance.inc:6032
+msgid "Tags Old"
+msgstr "རྟགས་མཆན་གྱི་Old"
+
+#: features/audio_video/audio_video.features.field_instance.inc:6033
+msgid "Text Label"
+msgstr "ཡི་གེའི་ཁ་བྱང"
+
+#: features/audio_video/audio_video.features.field_instance.inc:6034
+msgid "The time period(s) covered by this video resource"
+msgstr "བརྙན་རིས་ཀྱི་ཐོན་ཁུངས་འདིའི་དུས་ཡུན"
+
+#: features/audio_video/audio_video.features.field_instance.inc:6035
+msgid "Thumbnail Image"
+msgstr "བསྡུས་པར་གྱི་པར་རིས"
+
+#: features/audio_video/audio_video.features.field_instance.inc:6036
+msgid "Tid"
+msgstr "Tid"
+
+#: features/audio_video/audio_video.features.field_instance.inc:6037
+msgid "Time"
+msgstr "དུས་ཚོད"
+
+#: features/audio_video/audio_video.features.field_instance.inc:6038
+msgid "Time Period"
+msgstr "དུས་ཡུན"
+
+#: features/audio_video/audio_video.features.field_instance.inc:6039
+msgid "Time period(s) covered by this audio resource"
+msgstr "སྒྲ་འདིའི་དུས་ཡུན"
+
+#: features/audio_video/audio_video.features.field_instance.inc:6040
+msgid "Timecoded"
+msgstr "Timecoded"
+
+#: features/audio_video/audio_video.features.field_instance.inc:6041
+msgid "Timecoding Problem 3"
+msgstr "དུས་ཚོད་ཨང་རྟགས་ཀྱི་གནད་དོན་གསུམ་པ"
+
+#: features/audio_video/audio_video.features.field_instance.inc:6042
+msgid "Timecoding problem 1"
+msgstr "དུས་ཚོད་ཨང་རྟགས་ཀྱི་གནད་དོན་དང་པོ"
+
+#: features/audio_video/audio_video.features.field_instance.inc:6043
+msgid "Timecoding problem 2"
+msgstr "དུས་ཚོད་ཨང་རྟགས་ཀྱི་གནད་དོན་གཉིས་པ"
+
+#: features/audio_video/audio_video.features.field_instance.inc:6044 features/audio_video/audio_video.features.inc:144;152 mb_kaltura/mb_kaltura.module:259
+msgid "Title"
+msgstr "ཁ་བྱང"
+
+#: features/audio_video/audio_video.features.field_instance.inc:6045
+msgid "Title Language"
+msgstr "ཁ་བྱང་གི་སྐད་རིགས"
+
+#: features/audio_video/audio_video.features.field_instance.inc:6046
+msgid "Title Type"
+msgstr "ཁ་བྱང་གི་རིགས"
+
+#: features/audio_video/audio_video.features.field_instance.inc:6047
+msgid "Track Data"
+msgstr "གཞི་གྲངས་ལ་རྗེས་འདེད་"
+
+#: features/audio_video/audio_video.features.field_instance.inc:6048
+msgid "Transcribed"
+msgstr "ཟིན་བྲིས་བཀོད་ཟིན་པ"
+
+#: features/audio_video/audio_video.features.field_instance.inc:6049 features/audio_video/audio_video.field_group.inc:1090
+msgid "Transcript"
+msgstr "ཟིན་བྲིས"
+
+#: features/audio_video/audio_video.features.field_instance.inc:6050
+msgid "Transcript Workflow Notes"
+msgstr "ཟིན་བྲིས་ཀྱི་ལས་རིམ་སྦྲེལ་གནས"
+
+#: features/audio_video/audio_video.features.field_instance.inc:6051
+msgid "Translation Input Language 1"
+msgstr "ཡིག་སྒྱུར་ནང་འཇུག་གི་སྐད་རིགས་༡"
+
+#: features/audio_video/audio_video.features.field_instance.inc:6052
+msgid "Translation Input Language 2"
+msgstr "ཡིག་སྒྱུར་ནང་འཇུག་གི་སྐད་རིགས་༢"
+
+#: features/audio_video/audio_video.features.field_instance.inc:6053
+msgid "Translation Input Language 3"
+msgstr "ཡིག་སྒྱུར་ནང་འཇུག་གི་སྐད་རིགས་༣"
+
+#: features/audio_video/audio_video.features.field_instance.inc:6054
+msgid "Translation Language 1"
+msgstr "ཡིག་སྒྱུར་སྐད་རིགས་༡"
+
+#: features/audio_video/audio_video.features.field_instance.inc:6055
+msgid "Translation Language 2"
+msgstr "ཡིག་སྒྱུར་སྐད་རིགས་༢"
+
+#: features/audio_video/audio_video.features.field_instance.inc:6056
+msgid "Translation Proofed Language 1"
+msgstr "ཡིག་སྒྱུར་དག་བཤེར་བྱས་ཚར་བའི་སྐད་རིགས་༡"
+
+#: features/audio_video/audio_video.features.field_instance.inc:6057
+msgid "Translation Proofed Language 2"
+msgstr "ཡིག་སྒྱུར་དག་བཤེར་བྱས་ཚར་བའི་སྐད་རིགས་2"
+
+#: features/audio_video/audio_video.features.field_instance.inc:6058
+msgid "Translation Proofed Language 3"
+msgstr "ཡིག་སྒྱུར་དག་བཤེར་བྱས་ཚར་བའི་སྐད་རིགས་༣"
+
+#: features/audio_video/audio_video.features.field_instance.inc:6059
+msgid "Versions"
+msgstr "པར་གཞི"
+
+#: features/audio_video/audio_video.features.field_instance.inc:6060 features/audio_video/audio_video.features.inc:148
+msgid "Video"
+msgstr "བརྙན་ཟློས།"
+
+#: features/audio_video/audio_video.features.field_instance.inc:6061
+msgid "Video Quality Acceptable"
+msgstr "བརྙན་རིས་ཀྱི་སྤུས་ཚད་དང་ལེན་བྱེད་རུང་བ"
+
+#: features/audio_video/audio_video.features.field_instance.inc:6062
+msgid "Visibility"
+msgstr "མངོན་སྟངས"
+
+#: features/audio_video/audio_video.features.field_instance.inc:6063
+msgid "Workflow Categories"
+msgstr "ལས་རིམ་གྱི་ཁྱབ་ཁོངས"
+
+#: features/audio_video/audio_video.features.field_instance.inc:6064
+msgid "Year Published"
+msgstr "ཁྱབ་སྤེལ་བྱས་པའི་ལོ"
+
+#: features/audio_video/audio_video.field_group.inc:1079
+msgid "Availability & Access"
+msgstr "སྤྱོད་ནུས་དང་བེད་སྤྱོད"
+
+#: features/audio_video/audio_video.field_group.inc:1080
+msgid "Catalog Record Workflow"
+msgstr "ཟིན་ཐོའི་ལས་རིམ་དཀར་ཆག་ཏུ་འགོད་པ"
+
+#: features/audio_video/audio_video.field_group.inc:1081
+msgid "Classification"
+msgstr "རིགས་དབྱེ་སྟངས"
+
+#: features/audio_video/audio_video.field_group.inc:1082
+msgid "Details"
+msgstr "ཞིབ་ཕྲ"
+
+#: features/audio_video/audio_video.field_group.inc:1083 mb_structure/mb_structure.module:163
+msgid "Media"
+msgstr "འཕྲིན་ལམ"
+
+#: features/audio_video/audio_video.field_group.inc:1084
+msgid "Media Workflow"
+msgstr "འཕྲིན་ལམ་ལས་ཀའི་གོ་རིམ།"
+
+#: features/audio_video/audio_video.field_group.inc:1085
+msgid "People"
+msgstr "སྤྱོད་མཁན"
+
+#: features/audio_video/audio_video.field_group.inc:1086
+msgid "People & Copyrights"
+msgstr "མི་དང་པར་དབང"
+
+#: features/audio_video/audio_video.field_group.inc:1087
+msgid "Rights & Licensing"
+msgstr "བདག་དབང་དང་ཆོག་མཆན"
+
+#: features/audio_video/audio_video.field_group.inc:1088
+msgid "Technical Metadata"
+msgstr "བཟོ་ལས་ཀྱི་ཟུང་གཏོགས་གཞི་གྲངས"
+
+#: features/audio_video/audio_video.field_group.inc:1089
+msgid "Title & Description"
+msgstr "ཁ་བྱང་དང་གསལ་བཤད"
+
+#: features/audio_video/audio_video.field_group.inc:1091
+msgid "Transcript Workflow"
+msgstr "ཟིན་བྲིས་ཀྱི་ལས་རིམ།"
+
+#: features/audio_video/audio_video.field_group.inc:1092
+msgid "Workflow"
+msgstr "ལས་རིམ"
+
+#: features/audio_video/audio_video.module:13
+msgid "There are no media items for this location."
+msgstr "ས་གནས་འདི་ལ་འཕྲིན་ལམ་གྱི་ནང་ཚན་གང་ཡང་མེད།"
+
+#: features/audio_video/audio_video.module:23
+msgid "There are no media items"
+msgstr "འཕྲིན་ལམ་གྱི་ནང་ཚན་མེད།"
+
+#: features/audio_video/audio_video.info:0
+msgid "Audio Video"
+msgstr "སྒྲ་དང་བརྙན་རིས"
+
+#: features/audio_video/audio_video.info:0
+msgid "Audio-Video content types"
+msgstr "སྒྲ་དང་བརྙན་རིས་ཀྱི་ནང་དོན་རིགས"
+
+#: features/audio_video/audio_video.info:0 features/media_listings/media_listings.info:0
+msgid "Mediabase"
+msgstr "འཕྲིན་ལམ་གྲངས་མཛོད"
+
+#: features/media_listings/media_listings.features.menu_links.inc:357
+msgid "AV Content Admin"
+msgstr "AV ནང་དོན་གྱི་དོ་དམ"
+
+#: features/media_listings/media_listings.features.menu_links.inc:358
+msgid "Add Content"
+msgstr "ནང་དོན་ཁ་སྣོན།"
+
+#: features/media_listings/media_listings.features.menu_links.inc:359
+msgid "All Collections"
+msgstr "ཕྱོགས་བསྡུས་ཡོངས"
+
+#: features/media_listings/media_listings.features.menu_links.inc:360 mb_structure/mb_structure.module:185;1194
+msgid "Collections"
+msgstr "ཕྱོགས་བསྡུས"
+
+#: features/media_listings/media_listings.features.menu_links.inc:361
+msgid "Contact Us"
+msgstr "ང་ཚོར་འབྲེལ་བ་བྱེད་པ"
+
+#: features/media_listings/media_listings.features.menu_links.inc:362
+msgid "Create a Collection"
+msgstr "ཕྱོགས་བསྡུས་ཤིག་གསར་འཛུགས"
+
+#: features/media_listings/media_listings.features.menu_links.inc:363
+msgid "Help"
+msgstr "རོགས་རམ"
+
+#: features/media_listings/media_listings.features.menu_links.inc:364
+msgid "Knowledge Base Docs"
+msgstr "ཤེས་བྱའི་མཛོད་ཀྱི་ཡིག་ཆ"
+
+#: features/media_listings/media_listings.features.menu_links.inc:365
+msgid "My Collections"
+msgstr "ངའི་ཕྱོགས་བསྡུས"
+
+#: features/media_listings/media_listings.features.menu_links.inc:366
+msgid "My Content"
+msgstr "ངའི་ནང་དོན།"
+
+#: features/media_listings/media_listings.features.menu_links.inc:367
+msgid "My Media"
+msgstr "ངའི་འཕྲིན་ལམ།"
+
+#: features/media_listings/media_listings.features.menu_links.inc:368
+msgid "My Memberships"
+msgstr "ངའི་ཁོངས་མིའི་འབྲེལ་བ།"
+
+#: features/media_listings/media_listings.features.menu_links.inc:369
+msgid "My Workflow"
+msgstr "ངའི་ལས་ཀའི་གོ་རིམ།"
+
+#: features/media_listings/media_listings.features.menu_links.inc:370
+msgid "Upload Audio"
+msgstr "སྒྲ་ཡར་སྤྲོད་བྱེད"
+
+#: features/media_listings/media_listings.features.menu_links.inc:371
+msgid "Upload a Video"
+msgstr "བརྙན་རིས་ཡར་སྤྲོད་བྱེད"
+
+#: features/media_listings/media_listings.module:21;27
+msgid "- Any -"
+msgstr "- གང་རུང-"
+
+#: features/media_listings/media_listings.module:22
+msgid "No Media Present"
+msgstr "འཕྲིན་ལམ་མི་འདུག"
+
+#: features/media_listings/media_listings.module:23
+msgid "Media Present"
+msgstr "འཕྲིན་ལམ་ཡོད་པ།"
+
+#: features/media_listings/media_listings.module:28
+msgid "No Transcript Present"
+msgstr "ཟིན་བྲིས་མི་འདུག"
+
+#: features/media_listings/media_listings.module:29
+msgid "Transcript Present"
+msgstr "ཟིན་བྲིས་གནས་ཡོད་པ"
+
+#: features/media_listings/media_listings.info:0
+msgid "Media Listings"
+msgstr "འཕྲིན་ལམ་གྱི་མིང་ཐོ"
+
+#: features/media_listings/media_listings.info:0
+msgid "Grid listings for audio and video"
+msgstr "སྒྲ་དང་བརྙན་གྱི་མིང་ཐོ་དྲ་མིག"
+
+#: js/mediabase.js:0
+msgid "Site Search"
+msgstr "དྲ་ཚིགས་ཀྱི་འཚོལ་བཤེར"
+
+#: js/mediabase.js:0
+msgid "Transcript Search"
+msgstr "ཟིན་བྲིས་འཚོལ་བཤེར"
+
+#: kmap_taxonomy/kmap_annotation.module:211 mb_location/mb_location.inc:152
+msgid "<p>Currently no description available.</p>"
+msgstr "<p>མིག་སྔར་འགྲེལ་བཤད་མི་འདུག</p>"
+
+#: kmap_taxonomy/kmap_annotation.module:230 mb_structure/mb_structure.module:1195
+msgid "Subcollections"
+msgstr "ཡན་ལག་ཕྱོགས་བསྡུས"
+
+#: kmap_taxonomy/kmap_annotation.module:230
+msgid "Subjects"
+msgstr "བརྗོད་དོན"
+
+#: kmap_taxonomy/kmap_taxonomy.module:22
+msgid "Kmaps List"
+msgstr "Kmaps མིང་ཐོ"
+
+#: kmap_taxonomy/kmap_taxonomy.module:30
+msgid "Kmaps Branch List"
+msgstr "Kmaps ཡན་ལག་གི་རེའུ་མིག"
+
+#: kmap_taxonomy/kmap_taxonomy.module:40
+msgid "Kmaps All"
+msgstr "Kmaps ཆ་ཚང"
+
+#: kmap_taxonomy/kmap_taxonomy.module:48
+msgid "Kmaps Branch All"
+msgstr "Kmaps ཡི་ཆ་ཚང་ཡན་ལག"
+
+#: kmap_taxonomy/kmap_taxonomy.module:57
+msgid "Kmaps Categories"
+msgstr "Kmaps ཡི་རིགས།"
+
+#: kmap_taxonomy/kmap_taxonomy.module:65
+msgid "Kmaps Branch Categories"
+msgstr "Kmaps ཡན་ལག་གི་རིགས"
+
+#: kmap_taxonomy/kmap_taxonomy.module:74
+msgid "Subject Details"
+msgstr "བརྗོད་དོན་ཞིབ་ཕྲ"
+
+#: kmap_taxonomy/kmap_taxonomy.module:83
+msgid "Sub-collection Details"
+msgstr "ཡན་ལག་ཕྱོགས་བསྡུས་ཀྱི་གསལ་བཤད"
+
+#: kmap_taxonomy/kmap_taxonomy.module:99
+msgid "Administer Knowledge Maps"
+msgstr "ཤེས་བྱ་ཕྱོགས་སྟོན་ལ་དོ་དམ་རྒྱག་པ"
+
+#: kmap_taxonomy/kmap_taxonomy.module:100
+msgid "Perform administration tasks for knowledge maps."
+msgstr "ཤེས་བྱའི་ཕྱོགས་སྟོན་གྱི་དོ་དམ་ལས་འགན་ལག་བསྟར་བྱེད་པ།"
+
+#: kmap_taxonomy/kmap_taxonomy.module:141
+msgid "Kmap Selector Settings"
+msgstr ""
+"Kmap "
+"གདམ་བྱེད་ཀྱི་སྒྲིག་འགོད"
+
+#: kmap_taxonomy/kmap_taxonomy.module:144
+msgid "<p>The Kmaps Selector Widget provides two main methods \n       to choose kmaps: autocomplete and tree select. You can choose to show \n       one or both methods via the checkboxes below. The branch filter is a \n       dropdown control that limits the choices available in  the tree and \n       autocomplete selctors to a specific branch of the kmap tree.</p>"
+msgstr ""
+"<p>Kmaps "
+"གདམ་བྱེད་ཡོ་བྱེད་ཀྱིས་བྱེད་ཐབས་གཙོ་བོ་གཉིས་མཁོ་སྤྲོད་བྱས་ནས་\n"
+"  kmaps བདམས་ཆོག་སྟེ། "
+"རང་འགྲུབ་དང་སྡོང་གཟུགས་ནས་འདེམས་པ་ཡིན། "
+"ཁྱེད་ཀྱིས་འོག་གི་འདེམས་\n"
+"       "
+"སྒྲོམ་བརྒྱུད་ནས་བྱེད་ཐབས་གཅིག་དང་ཡང་གཉིས་པོ་མཉམ་དུ་བདམས་ཆོག "
+"ཡན་ལག་གི་ཚགས་རྒྱག་བྱེད་ནི་\n"
+"       "
+"མར་འཐེན་ཚོད་འཛིན་ཞིག་ཡིན་པ་དང་དེས་སྡོང་གཟུགས་ནང་གི་གདམ་ཚན་ལ་ཚོད་འཛིན་དང\n"
+"\t\t    kmap "
+"སྡོང་གཟུགས་ཡན་ལག་དམིགས་བསལ་ཞིག་གི་རང་འགྲུབ་འདེམས་བྱེད་ལ་ཚོད་འཛིན་བྱེད་ཐུབ།</p>"
+
+#: kmap_taxonomy/kmap_taxonomy.module:152
+msgid "Show Autocomplete Selector"
+msgstr "རང་འགུལ་གྱིས་ཁ་སྐོང་ནུས་པའི་གདམ་བྱེད་སྟོན་པ"
+
+#: kmap_taxonomy/kmap_taxonomy.module:157
+msgid "Show Tree Selector"
+msgstr "སྡོང་གཟུགས་ཀྱི་གདམ་བྱེད་སྟོན་པ"
+
+#: kmap_taxonomy/kmap_taxonomy.module:162
+msgid "Show Branch Filter"
+msgstr "ཡན་ལག་ཚགས་རྒྱག་བྱེད་སྟོན་པ"
+
+#: kmap_taxonomy/kmap_taxonomy.module:167
+msgid "Allow Annotations"
+msgstr "མཆན་འགྲེལ་སྤྱོད་དུ་འཇུག"
+
+#: kmap_taxonomy/kmap_taxonomy.module:172
+msgid "Allow Formatting"
+msgstr "གཙང་བཟོ་བྱེད་དུ་འཇུག"
+
+#: kmap_taxonomy/kmap_taxonomy.module:177
+msgid "Allow Multiple Values"
+msgstr "ཐོབ་གྲངས་མང་པོ་སྤྱོད་དུ་འཇུག་པ"
+
+#: kmap_taxonomy/kmap_taxonomy.module:182
+msgid "Root Branch (Kmap Id)"
+msgstr "རྩ་བའི་ཡན་ལག༼Kmap ཨང་རྟགས༽"
+
+#: kmap_taxonomy/kmap_taxonomy.module:183
+msgid "Enter a numerical kmap id of a branch to serve as the root branch for the selector."
+msgstr ""
+"ཡན་ལག་ཞིག་གི་kmap "
+"ཨང་རྟགས་ཤིག་འཇུག་སྟེ། "
+"གདམ་བྱེད་ཀྱི་གཞི་རྩའི་ཡན་ལག་ཏུ་བེད་སྤྱོད་དགོས།"
+
+#: kmap_taxonomy/kmap_taxonomy.module:188
+msgid "Path to Detailed Kmap View"
+msgstr ""
+"Kmap "
+"མཐོང་རིས་ཞིབ་ཕྲའི་སྦྲེལ་ལམ"
+
+#: kmap_taxonomy/kmap_taxonomy.module:189
+msgid "Enter a drupal path to the view for displaying the detail page for this characterstic. Use <code>%tid</code> or <code>%kmap_id</code> as replacement tokens to be used in the display formatter."
+msgstr ""
+"ཁྱད་ནུས་འདི་ལ་ཞིབ་ཕྲའི་དྲ་ངོས་ཤིག་སྟོན་ཆེད་ལྟ་ཁུང་གི་drupal "
+"སྦྲེལ་ལམ་ཞིག་འཇུག་དགོས། "
+"འཆར་ངོས་ཀྱི་རྣམ་བཞག་ལག་ཆའི་ནང་སྤྱོད་དགོས་པའི་བརྗེ་ལེན་གྱི་མཚོན་གྲངས་<code>%tid</code>་དང་ཡང་ན་<code>%kmap_id</code>་སྤྱོད་དགོས།"
+
+#: kmap_taxonomy/kmap_taxonomy.install:11
+msgid "Knowledge Map Taxonomy"
+msgstr "ཤེས་བྱ་ཕྱོགས་སྟོན་གྱི་རིགས་དབྱེ"
+
+#: kmap_taxonomy/kmap_taxonomy.install:12
+msgid "A taxonomy vocabulary for knowledge maps."
+msgstr "ཤེས་བྱ་ཕྱོགས་སྟོན་གྱི་རིགས་དབྱེ་སྤྱི་མིང་ཞིག"
+
+#: kmap_taxonomy/kmap_taxonomy.install:87
+msgid "Kmap Parent Id"
+msgstr "Kmap མ་ཁོངས་ཀྱི་ཨང་རྟགས"
+
+#: kmap_taxonomy/kmap_annotation.info:0
+msgid "Provide the ability to annotate the application of a kmap to a media item. Also adds the ability to specify kmap display format"
+msgstr ""
+"འཕྲིན་ལམ་གྱི་ནང་ཚན་ཞིག་ལ་kmap "
+"ཡི་བེད་སྤྱོད་ཟུར་འབྲེལ་བྱེད་པའི་ནུས་པ་མཁོ་སྤྲོད་བྱེད་པ། "
+"ད་དུང་kmap "
+"མངོན་འཆར་གྱི་རྣམ་པ་གཏན་འབེབ་བྱེད་པའི་བྱེད་ནུས་ཀྱང་མཁོ་སྤྲོད་བྱེད"
+
+#: kmap_taxonomy/kmap_taxonomy.info:0
+msgid "Kmap Taxonomy"
+msgstr "Kmap རིགས་དབྱེ"
+
+#: kmap_taxonomy/kmap_taxonomy.info:0
+msgid "Provide a Taxonomy Vocabulary and Form widget for Kmaps"
+msgstr ""
+"Kmaps "
+"ལ་རིགས་བགར་བའི་སྤྱི་མིང་དང་རེའུ་མིག་ཞིག་མཁོ་སྤྲོད་བྱེད་པ"
+
+#: kmap_taxonomy/includes/kmap.inc:25
+msgid "Could not create a Kmap node because no kmap id was specified"
+msgstr ""
+"Kmap "
+"སྦྲེལ་གནས་གསར་འཛུགས་བྱེད་མི་ཐུབ། "
+"རྒྱུ་མཚན་ནི་Kmap "
+"ཡི་ཨང་རྟགས་དམིགས་འཛུགས་བྱས་མེད།"
+
+#: kmap_taxonomy/includes/kmap.inc:28
+msgid "Could not create a Kmap node because there is no vocabulary id specified"
+msgstr ""
+"Kmap "
+"སྦྲེལ་གནས་གསར་འཛུགས་བྱེད་མི་ཐུབ། "
+"རྒྱུ་མཚན་ནི་སྤྱི་མིང་གི་ཨང་རྟགས་དམིགས་འཛུགས་བྱས་མེད།"
+
+#: kmap_taxonomy/includes/kmap_taxonomy.pages.inc:89 mb_solr/mb_solr.module:510
+msgid "Descriptions"
+msgstr "གསལ་བཤད"
+
+#: kmap_taxonomy/includes/kmap_taxonomy.pages.inc:96;116
+msgid "Author(s)"
+msgstr "རྩོམ་མཁན"
+
+#: kmap_taxonomy/includes/kmap_taxonomy.pages.inc:109
+msgid "Titles"
+msgstr "ཁ་བྱང"
+
+#: kmap_taxonomy/includes/kmap_taxonomy.pages.inc:140
+msgid "View more on <strong>@kmap_title</strong> at Shanti Knowledge Maps"
+msgstr ""
+"Shanti "
+"ཤེས་རིག་ས་ཁྲའི་ནང་གི་<strong>@kmap_title</strong>་ལ་ཞིབ་ཏུ་གཟིགས་རོགས"
+
+#: kmap_taxonomy/includes/kmap_taxonomy.pages.inc:141
+msgid "View in Subjects"
+msgstr "བརྗོད་དོན་གྱི་ནང་དུ་ལྟ་བ"
+
+#: kmap_taxonomy/includes/kmap_taxonomy.pages.inc:143
+msgid "Subscribe to This Subject"
+msgstr "བརྗོད་དོན་འདི་མངགས་ལེན་བྱེད་པ"
+
+#: kmap_taxonomy/includes/kmap_taxonomy.pages.inc:172
+msgid "Children"
+msgstr "ཡན་ལག"
+
+#: mb_access/mb_access.info:0
+msgid "Mediabase OG access control"
+msgstr "འཕྲིན་ལམ་གྲངས་མཛོད་ཀྱི་OGའདྲི་ཞིབ་ཚོད་འཛིན།"
+
+#: mb_access/mb_access.info:0
+msgid "Enable access control for UVa Community and archive administrators."
+msgstr ""
+"UVa "
+"ཐུན་ཚོགས་དང་ཡིག་ཚགས་དོ་དམ་པའི་བེད་སྤྱོད་ཚོད་འཛིན་ནུས་ཡོད་བཟོ་བ།"
+
+#: mb_bulk_actions/mb_bulk_actions.bak.module:20
+msgid "Filter subcollection values"
+msgstr "ཕྱོགས་བསྡུས་ཡན་ལག་གི་ཐོབ་གྲངས་ཚགས་རྒྱག་པ"
+
+#: mb_bulk_actions/mb_bulk_actions.bak.module:31
+msgid "Migrate Kmap Fields"
+msgstr "Kmapགནས་ཁོངས་གནས་སྤར།"
+
+#: mb_bulk_actions/mb_bulk_actions.bak.module:42
+msgid "Tag with Kmaps Subject"
+msgstr ""
+" Kmaps "
+"བརྗོད་དོན་ལ་རྟགས་མཆན་སྦྱར་བ"
+
+#: mb_bulk_actions/mb_bulk_actions.bak.module:53
+msgid "Remove Kmaps Subject"
+msgstr "Kmaps ཡི་བརྗོད་གཞི་སུབ་པ"
+
+#: mb_bulk_actions/mb_bulk_actions.bak.module:64
+msgid "Tag/Untag with Kmaps Place"
+msgstr ""
+" Kmaps "
+"ས་གནས་ལ་རྟགས་མཆན་སྦྱར་བ་དང་མི་སྦྱར་བ"
+
+#: mb_bulk_actions/mb_bulk_actions.bak.module:75 mb_bulk_actions/mb_bulk_actions.module:30
+msgid "Change collection"
+msgstr "ཕྱོགས་བསྡུས་བརྗེ་བ"
+
+#: mb_bulk_actions/mb_bulk_actions.bak.module:116
+msgid "Mb Bulk Filter Subcollection: Not finding TID (@TID) in field_characteristic (@FCIND) when it should be there!"
+msgstr ""
+"Mb Bulk "
+"ཚགས་རྒྱག་བྱེད་ཀྱི་ཡན་ལག་ཕྱོགས་བསྡུས། "
+"field_characteristic ༼@FCIND༽ རུ་TID "
+"༼@TID༽ཡོད་དགོས་ཀྱང་རྙེད་མི་འདུག"
+
+#: mb_bulk_actions/mb_bulk_actions.bak.module:171;205
+msgid "field_characteristic to field_subject"
+msgstr "field_characteristic ནས་field_subject"
+
+#: mb_bulk_actions/mb_bulk_actions.bak.module:176;210
+msgid "field_subcollection to field_subcollection_new"
+msgstr "field_subcollection ནས་field_subcollection_new"
+
+#: mb_bulk_actions/mb_bulk_actions.bak.module:181;215
+msgid "field_pbcore_coverage_spatial to field_location"
+msgstr "field_pbcore_coverage_spatial ནས་field_location"
+
+#: mb_bulk_actions/mb_bulk_actions.bak.module:186;220
+msgid "field_recording_location to field_recording_location_new"
+msgstr "field_recording_location ནས་field_recording_location_new"
+
+#: mb_bulk_actions/mb_bulk_actions.bak.module:191;225
+msgid "field_subcoll_root_kmap_id to field_subcollection_root"
+msgstr "field_subcoll_root_kmap_id ནས་field_subcollection_root"
+
+#: mb_bulk_actions/mb_bulk_actions.bak.module:290;300;345;355
+msgid "Enter the numeric Kmaps Subject ID"
+msgstr ""
+"Kmaps "
+"བརྗོད་དོན་ཨང་རྟགས་ཀྱི་ཨང་གྲངས་འཇུག་རོགས།"
+
+#: mb_bulk_actions/mb_bulk_actions.bak.module:398;413
+msgid "Enter the numeric Kmaps Place ID"
+msgstr ""
+"Kmaps "
+"ས་གནས་ཨང་རྟགས་ཀྱི་ཨང་གྲངས་འཇུག་རོགས།"
+
+#: mb_bulk_actions/mb_bulk_actions.bak.module:403;419
+msgid "Check here to remove place ID from records"
+msgstr "འདིར་གདམ་རྟགས་བརྒྱབ་ནས་ཟིན་ཐོ་ནས་ས་གནས་ཀྱི་ཨང་རྟགས་བསུབ་པ"
+
+#: mb_bulk_actions/mb_bulk_actions.bak.module:479;496 mb_bulk_actions/mb_bulk_actions.module:106;123
+msgid "Enter the Node ID for the new collection"
+msgstr "ཕྱོགས་བསྡུས་གསར་བར་སྦྲེལ་གནས་ཀྱི་ཨང་རྟགས་འཇུག་པ"
+
+#: mb_bulk_actions/mb_bulk_actions.bak.module:485;502 mb_bulk_actions/mb_bulk_actions.module:112;129
+msgid "Is the Group ID a Node ID?"
+msgstr "ཚོགས་པའི་ཨང་རྟགས་དེ་སྦྲེལ་གནས་ཨང་རྟགས་ཞིག་རེད་དམ།"
+
+#: mb_bulk_actions/mb_bulk_actions.module:19
+msgid "Update old collection nodes"
+msgstr "ཕྱོགས་བསྡུས་རྙིང་བའི་སྦྲེལ་གནས་གསར་སྒྱུར་བྱེད་པ"
+
+#: mb_bulk_actions/mb_bulk_actions.info:0
+msgid "Mediabase Bulk Actions"
+msgstr "འཕྲིན་ལམ་གྲངས་མཛོད་ཀྱི་སྡེབ་ཀྱི་ལས་འགུལ"
+
+#: mb_bulk_actions/mb_bulk_actions.info:0
+msgid "Mediabase submodule defining custom bulk actions"
+msgstr "འཕྲིན་ལམ་གྲངས་མཛོད་ཀྱི་ཟུར་གཏོགས་རང་སྒྲིག་བེད་སྤྱོད་ངོས་འཛིན།"
+
+#: mb_kaltura/mb_kaltura.inc:280
+msgid "This resource was not found on the Kaltura server: @entry_id"
+msgstr ""
+"ཐོན་ཁུངས་འདི་Kaltura "
+"ཞབས་ཞུའི་གནས་སུ་མ་རྙེད། "
+"@entry_id"
+
+#: mb_kaltura/mb_kaltura.inc:364
+msgid "Had trouble listing metadata records for Kaltura entry: @entry_id"
+msgstr ""
+"Kaltura "
+"ནང་ཚན་ལ་ཟུར་གཏོགས་གཞི་གྲངས་སྟོན་སྐབས་གནད་དོན་འདུག "
+"@entry_id"
+
+#: mb_kaltura/mb_kaltura.inc:617
+msgid "Had trouble adding metadata record to Kaltura entry: @entry_id"
+msgstr ""
+"Kaltura "
+"ནང་ཚན་ལ་ཟུར་གཏོགས་གཞི་གྲངས་ཁ་སྣོན་བྱེད་སྐབས་གནད་དོན་འདུག "
+"@entry_id"
+
+#: mb_kaltura/mb_kaltura.inc:628
+msgid "Updated the PBCore record on Kaltura server."
+msgstr ""
+" Kaltura "
+"ཞབས་ཞུ་གནས་ཀྱི་སྟེང་དུ་PBCore "
+"ཡི་ཟིན་ཐོ་གསར་སྒྱུར་བྱས་པ།"
+
+#: mb_kaltura/mb_kaltura.inc:631
+msgid "Had trouble updating metadata record for Kaltura entry: @entry_id"
+msgstr ""
+"Kaltura "
+"ནང་ཚན་ལ་ཟུར་གཏོགས་གཞི་གྲངས་གསར་སྒྱུར་བྱེད་སྐབས་གནད་དོན་འདུག "
+"@entry_id"
+
+#: mb_kaltura/mb_kaltura.inc:637
+msgid "Did not expect more than one metadata object on the Kaltura site. <b>No updates were made</b>"
+msgstr ""
+"Kaltura "
+"ཡི་དྲ་ཚིགས་སུ་ཟུར་གཏོགས་ཆ་འཕྲིན་གྱི་འཇུག་སྒོ་གཅིག་ལས་མང་བ་རེ་འདོད་བྱས་མེད། "
+"<b>གསར་སྒྱུར་གང་ཡང་བྱས་མེད</b>"
+
+#: mb_kaltura/mb_kaltura.inc:736
+msgid "Had trouble retrieving flavors for Kaltura entry: @entry_id"
+msgstr ""
+"Kaltura "
+"ནང་ཚན་ཡི་པར་གཞི་གཞན་བསྐྱར་དུ་སྣོན་སྐབས་གནད་དོན་འདུག "
+"@entry_id"
+
+#: mb_kaltura/mb_kaltura.inc:795
+msgid "Had trouble retrieving the download URL for: @flavor_id"
+msgstr "@flavor_id་ལ་ཚུར་ལེན་གྱི་སྦྲེལ་ཐག་བསྐྱར་དུ་འཇུག་སྐབས་གནད་དོན་འདུག"
+
+#: mb_kaltura/mb_kaltura.inc:848
+msgid "Metadata for imported items"
+msgstr "རྣམ་གྲངས་ལ་ཡར་སྣོན་བྱས་པའི་ཟུར་གཏོགས་གཞི་གྲངས།"
+
+#: mb_kaltura/mb_kaltura.inc:849
+msgid "These are required fields! You must enter a collection and author."
+msgstr ""
+"འདི་དག་ནི་ངེས་པར་དུ་དགོས་པའི་གནས་ཁོངས་ཡིན་པས། "
+"ཁྱེད་ཀྱིས་ངེས་པར་དུ་ཕྱོགས་བསྡུས་ཞིག་དང་རྩོམ་མཁན་ནང་འཇུག་བྱེད་དགོས།"
+
+#: mb_kaltura/mb_kaltura.inc:855
+msgid "Begin typing the name of your collection and then choose from the list that appears."
+msgstr ""
+"ཕྱོགས་བསྡུས་ཀྱི་མིང་ཞིག་ནང་འཇུག་བྱེད་འགོ་འཛུགས་པ་དང་། "
+"དེ་ནས་ཕྱིར་འཆར་ཡོངས་བའི་རེའུ་མིག་ནས་བདམས་ཆོག"
+
+#: mb_kaltura/mb_kaltura.inc:863
+msgid "Begin typing the name of the user and then choose from the list that appears."
+msgstr ""
+"སྤྱོད་མཁན་གྱི་མིང་ཞིག་ནང་འཇུག་བྱེད་འགོ་འཛུགས་པ་དང་། "
+"དེ་ནས་ཕྱིར་འཆར་ཡོངས་བའི་རེའུ་མིག་ནས་བདམས་ཆོག"
+
+#: mb_kaltura/mb_kaltura.inc:874
+msgid "These items exist on Kaltura servers but do not yet have corresponding records on this audio-video site. "
+msgstr ""
+"ནང་ཚན་འདི་དག་Kaltura "
+"ཞབས་ཞུ་བའི་ནང་དུ་གནས་ཡོད་ཀྱང་སྒྲ་དང་བརྙན་རིས་ཀྱི་དྲ་ཚིགས་ཐོག་ཏུ་ཆ་སྒྲིག་བྱས་པའི་ནང་དོན་མེད།"
+
+#: mb_kaltura/mb_kaltura.inc:879
+msgid "This will only match Kaltura IDs exactly."
+msgstr ""
+"འདིས་Kaltura "
+"ཨང་རྟགས་ཁོ་ན་ལ་སྙོམས་སྒྲིག་བྱེད།"
+
+#: mb_kaltura/mb_kaltura.inc:984
+msgid "Import Selected"
+msgstr "བདམས་ཟིན་པ་ནང་འདྲེན"
+
+#: mb_kaltura/mb_kaltura.inc:1003
+msgid "There are no items to import on the Kaltura server."
+msgstr ""
+"Kaltura "
+"ཞབས་ཞུ་བའི་སྟེང་དུ་ནང་འདྲེན་བྱེད་དགོས་པའི་ནང་ཚན་མེད།"
+
+#: mb_kaltura/mb_kaltura.inc:1078
+msgid "Batch import kaltura entries"
+msgstr ""
+"kaltura "
+"འཇུག་སྒོ་སྡེབ་ཞིག་ནང་འདྲེན་བྱེད་པ"
+
+#: mb_kaltura/mb_kaltura.inc:1079
+msgid "Kaltura import batch is starting."
+msgstr ""
+"Kaltura "
+"ནང་འདྲེན་འགོ་འཛུགས་བྱེད་བཞིན་ཡོད།"
+
+#: mb_kaltura/mb_kaltura.inc:1080
+msgid "Processed @current out of @total."
+msgstr "@total་ནས་@current་སྒྲིག་བཟོ་བྱས་ཚར།"
+
+#: mb_kaltura/mb_kaltura.inc:1081
+msgid "Kaltura import batch has encountered an error."
+msgstr ""
+"Kaltura "
+"ནང་འདྲེན་ལ་གནད་དོན་ཞིག་འཕྲད་འདུག"
+
+#: mb_kaltura/mb_kaltura.inc:1301
+msgid "Had trouble listing remote entries from Kaltura."
+msgstr ""
+"Kaltura "
+"ནས་རྒྱང་སྦྲེལ་གྱི་ནང་ཚན་ཕྱིར་འདོན་བྱེད་སྐབས་གནད་དོན་ཡོད་པ།"
+
+#: mb_kaltura/mb_kaltura.inc:1380
+msgid "View xml metadata"
+msgstr "xml ཟུར་གཏོགས་གཞི་ལ་ལྟ་བ"
+
+#: mb_kaltura/mb_kaltura.inc:1447
+msgid "Kaltura Exception: @message, backtrace: <pre>@trace</pre>"
+msgstr ""
+"Kaltura ནོར་འཁྲུལ། "
+"@message་དང་རྗེས་འདེད་ཆ་འཕྲིན། "
+"<pre>@trace</pre>"
+
+#: mb_kaltura/mb_kaltura.inc:1451
+msgid "This media resource was not found on the Kaltura server: @message"
+msgstr ""
+"འཕྲིན་ལམ་གྱི་ཐོན་ཁུངས་འདི་Kaltura "
+"ཞབས་ཞུ་གནས་སུ་མེད། @message"
+
+#: mb_kaltura/mb_kaltura.views.inc:13
+msgid "Total AV Minutes"
+msgstr "AV་སྐར་མ་སྤྱི་སྡོམ"
+
+#: mb_kaltura/mb_kaltura.views.inc:14
+msgid "Show total minutes of AV results."
+msgstr ""
+"AV "
+"མཇུག་འབྲས་ཀྱི་དུས་ཚོད་སྡོམ་གྲངས་སྟོན་པ།"
+
+#: mb_kaltura/mb_kaltura.views.inc:16
+msgid "A block for the header or footer to show total minutes of an AV results page."
+msgstr ""
+"འགོ་བརྗོད་དང་ཤོག་མཇུག་གི་ལྷུ་ལག་ཞིག་སྟེ། "
+"AV "
+"མཇུག་འབྲས་ཀྱི་དྲ་ངོས་སུ་སྐར་གྲངས་མཇུག་སྡོམ་སྟོན་བྱེད་ཡིན།"
+
+#: mb_kaltura/mb_kaltura.module:159
+msgid "Delete Kaltura version also."
+msgstr "Kaltura ཡི་པར་གཞི་ཡང་སུབ་པ།"
+
+#: mb_kaltura/mb_kaltura.module:202
+msgid "Raw Video Tag for Html5 Video"
+msgstr "Html5བརྙན་རིས་ལ་བསྒྱུར་མེད་པའི་བརྙན་རིས་ཀྱི་རྟགས་མཆན"
+
+#: mb_kaltura/mb_kaltura.module:207
+msgid "Raw Audio Tag for Html5 Audio"
+msgstr ""
+"Html5 "
+"སྒྲའི་རིགས་ལ་བསྒྱུར་མེད་པའི་སྒྲའི་རྟགས་མཆན"
+
+#: mb_kaltura/mb_kaltura.module:259
+msgid "Thumbnail"
+msgstr "བསྡུས་རིས།"
+
+#: mb_kaltura/mb_kaltura.module:259
+msgid "Entry Id"
+msgstr "འཇུག་སྒོའོ་ཨང་རྟགས"
+
+#: mb_kaltura/mb_kaltura.module:259
+msgid "Type"
+msgstr "རིགས"
+
+#: mb_kaltura/mb_kaltura.module:386
+msgid "Deleted entry_id, @entryid from Kaltura server"
+msgstr ""
+"Kaltura "
+"ཞབས་ཞུ་གནས་ནས་འཇུག་སྒོའི་ཨང་རྟགས་@entryid་བསུབས་ཟིན"
+
+#: mb_kaltura/mb_kaltura.module:388
+msgid "Unable to delete entry @entryid, as it was not found on the Kaltura server"
+msgstr ""
+"འཇུག་སྒོ་@entryid་བསུབ་མ་ཐུབ། "
+"རྒྱུ་མཚན་ནི་Kaltura "
+"ཞབས་ཞུའི་གནས་ཐོག་ཏུ་རྙེད་མེད་པ།"
+
+#: mb_kaltura/mb_kaltura.module:49
+msgid "PBCore XML"
+msgstr "PBCore XML"
+
+#: mb_kaltura/mb_kaltura.module:50
+msgid "Modify items in PBCore elements are enabled."
+msgstr ""
+"PBCore "
+"རྒྱུ་རིགས་ནང་དུ་རྣམ་གྲངས་བསྒྱུར་བཅོས་ནུས་ཡོད་བཟོས་འདུག"
+
+#: mb_kaltura/mb_kaltura.module:58;65
+msgid "Ahah callback"
+msgstr "Ahah ཕྱིར་ལན"
+
+#: mb_kaltura/mb_kaltura.module:72
+msgid "A Keep-alive callback to be called by js during long uploads"
+msgstr ""
+"དུས་ཡུན་རིང་བའི་ཡར་སྤྲོད་བརྒྱུད་རིམ་ཁྲོད། "
+"js "
+"ཡིས་སྤྱོད་པའི་བེད་སྤྱོད་མུ་མཐུད་དགོས་པའི་ཕྱིར་ལན"
+
+#: mb_kaltura/mb_kaltura.module:79
+msgid "Add Kaltura subtitle track"
+msgstr ""
+"Kaltura "
+"བརྙན་ཚིག་གི་འཇུག་ལམ་ཞིག་ཁ་སྣོན"
+
+#: mb_kaltura/mb_kaltura.module:86
+msgid "Delete Kaltura subtitle track"
+msgstr ""
+"Kaltura "
+"ཡི་བརྙན་ཚིག་འཇུག་ལམ་སུབ་པ"
+
+#: mb_kaltura/mb_kaltura.module:99
+msgid "Import Kaltura Items"
+msgstr "Kaltura ཡི་རྣམ་གྲངས་ནང་འཇུག"
+
+#: mb_kaltura/mb_kaltura.info:0
+msgid "Mediabase PBCore Kaltura"
+msgstr ""
+"འཕྲིན་ལམ་གྲངས་མཛོད་ཀྱི་PBCore "
+"Kaltura"
+
+#: mb_kaltura/mb_kaltura.info:0
+msgid "Provides Kaltura integration for PBCore Metadata for Mediabase"
+msgstr ""
+"འཕྲིན་ལམ་གྲངས་མཛོད་དུ་PBCore "
+"ཟུར་གཏོགས་གཞི་གྲངས་དང་མཉམས་འབྲེལ་བྱེད་ཐུབ་པའི་Kaltura "
+"མཁོ་འདོན་བྱེད་པ"
+
+#: mb_kaltura/js/mb-kaltura.js:0
+msgid "Are you sure? This can only be undone by cancelling the entire edit form losing any changes you may have made."
+msgstr ""
+"ཐག་ཆོད་ཡིན་ནམ། "
+"འདི་སླར་གསོ་བྱེད་དགོས་ན། "
+"རྩོམ་སྒྲིག་རེའུ་མིག་ཏུ་བཟོ་བཅོས་བྱས་པ་ཡོངས་དོར་ནས་གཞི་ནས་སླར་གསོ་བྱེད་ཐུབ།"
+
+#: mb_location/mb_location.inc:176
+msgid "Places"
+msgstr "ས་གནས"
+
+#: mb_location/mb_location.inc:239
+msgid "Resources for @place"
+msgstr " @place ཡི་ཐོན་ཁུངས"
+
+#: mb_location/mb_location.inc:251
+msgid "Place Name(s)"
+msgstr "ས་གནས་ཀྱི་མིང"
+
+#: mb_location/mb_location.inc:261
+msgid "Feature Type(s)"
+msgstr "ཁྱད་ནུས་ཀྱི་རིགས"
+
+#: mb_location/mb_location.inc:268
+msgid "Essays"
+msgstr "རྩོམ་ཡིག"
+
+#: mb_location/mb_location.inc:275
+msgid "Description of @place"
+msgstr "@place་ཡི་གསལ་བཤད།"
+
+#: mb_location/mb_location.inc:299
+msgid "Characteristic(s)"
+msgstr "ཁྱད་ཆོས"
+
+#: mb_location/mb_location.inc:304
+msgid "Shanti Place Dictionary Resources"
+msgstr ""
+"Shanti "
+"ས་གནས་ཀྱི་ཚིག་མཛོད་ཐོན་ཁུངས"
+
+#: mb_location/mb_location.inc:307
+msgid "See interactive map of @place"
+msgstr "@place ཡི་ས་ཁྲར་གཟིགས"
+
+#: mb_location/mb_location.inc:312
+msgid "See @place in the UVa place dictionary"
+msgstr ""
+"UVa "
+"ས་གནས་ཀྱི་ཚིག་མཛོད་དུ་@place་ལྟ་བ"
+
+#: mb_location/mb_location.module:18
+msgid "Get location json by id"
+msgstr ""
+"id "
+"བརྒྱུད་ནས་གནས་ཡུལ་གྱི་json "
+"ལེན་པ"
+
+#: mb_location/mb_location.module:27
+msgid "Get location json by name"
+msgstr ""
+"མིང་བརྒྱུད་ནས་གནས་ཡུལ་གྱི་json "
+"ལེན་པ"
+
+#: mb_location/mb_location.module:84
+msgid "Locations Selector Settings"
+msgstr "གནས་ཡུལ་གདམ་བྱེད་སྒྲིག་འགོད"
+
+#: mb_location/mb_location.module:87
+msgid "<p>The Location Selector Widget provides three methods to choose location: UVa Place Dictionary, Geonames and via a map.</p>"
+msgstr ""
+"<p>གནས་ཡུལ་གདམ་བྱེད་ལག་ཆ་ཡིསགནས་ཡུལ་འདེམས་བྱེད་ཀྱི་ཐབས་ལམ་གསུམ་མཁོ་སྤྲོད་བྱེད་དེ། "
+"UVa "
+"ས་གནས་ཀྱི་ཚིག་མཛོད་དང་ས་ཁུལ་མིང་། "
+"ཡང་ན་ས་ཁྲ་ཞིག་བརྒྱུད་ནས་འདེམས་ཆོག</p>"
+
+#: mb_location/mb_location.module:91
+msgid "Show Place Dictionary"
+msgstr "ས་གནས་ཀྱི་ཚིག་མཛོད་སྟོན་པ"
+
+#: mb_location/mb_location.module:96
+msgid "Show Geonames"
+msgstr "ས་གནས་ཀྱི་མིང་སྟོན་པ"
+
+#: mb_location/mb_location.module:101
+msgid "Show Map"
+msgstr "ས་ཁྲ་སྟོན་པ"
+
+#: mb_location/mb_location.module:107
+msgid "Path to Detailed Location View"
+msgstr "གནས་ཡུལ་མཐོང་རིས་ཞིབ་ཕྲའི་སྦྲེལ་ལམ"
+
+#: mb_location/mb_location.module:108
+msgid "Enter a drupal path to the view for displaying the detail page for this location. Use <code>%tid</code> or <code>%place_id</code> as replacement tokens to be used in the display formatter."
+msgstr ""
+"ས་གནས་འདི་ལ་ཞིབ་ཕྲའི་དྲ་ངོས་ཤིག་སྟོན་ཆེད་ལྟ་ཁུང་གི་drupal "
+"སྦྲེལ་ལམ་ཞིག་འཇུག་དགོས། "
+"འཆར་ངོས་ཀྱི་རྣམ་བཞག་ལག་ཆའི་ནང་སྤྱོད་དགོས་པའི་བརྗེ་ལེན་གྱི་མཚོན་གྲངས་<code>%tid</code>་དང་ཡང་ན་<code>%place_id</code>་སྤྱོད་དགོས།"
+
+#: mb_location/mb_location.module:217
+msgid "Mediabase Location Default"
+msgstr "འཕྲིན་ལམ་གྲངས་མཛོད་གནས་ཡུལ་གྱི་སྔར་ཡོད་སྒྲིག་འགོད"
+
+#: mb_location/mb_location.module:9
+msgid "A detail page for Locations"
+msgstr "གནས་ཡུལ་གྱི་ཞིབ་ཕྲའི་གནས་ཚུལ།"
+
+#: mb_location/mb_location.install:12
+msgid "Mediabase Location Taxonomy"
+msgstr "འཕྲིན་ལམ་གྲངས་མཛོད་ཀྱི་རིགས་དབྱེ"
+
+#: mb_location/mb_location.install:13
+msgid "A taxonomy vocabulary for locations."
+msgstr "ས་གནས་ཀྱི་རིགས་དབྱེ་སྤྱི་མིང་།"
+
+#: mb_location/mb_location.install:45
+msgid "Place Dictionary Id"
+msgstr "ས་གནས་ཀྱི་ཚིག་མཛོད་ཨང་རྟགས"
+
+#: mb_location/mb_location.info:0
+msgid "Mediabase Location"
+msgstr "འཕྲིན་ལམ་གྲངས་མཛོད་ཀྱི་གནས་ཡུལ"
+
+#: mb_metadata/mb_metadata.module:110
+msgid "Shanti AV Id"
+msgstr "Shanti AV ཡི་ཨང་རྟགས"
+
+#: mb_metadata/mb_metadata.info:0
+msgid "Mediabase Metadata"
+msgstr "འཕྲིན་ལམ་གྲངས་མཛོད་ཀྱི་ཟུར་གཏོགས་གཞི་གྲངས"
+
+#: mb_metadata/mb_metadata.info:0
+msgid "Provides customizations for handling PBCore Metadata"
+msgstr ""
+"PBCore "
+"ཡི་ཟུར་གཏོགས་ཆ་འཕྲིན་སྒྲིག་བཟོ་བྱེད་ཆེད་དུ་རང་བཟོའི་བྱེད་ནུས་མཁོ་སྤྲོད་བྱེད་པ"
+
+#: mb_migrate/mb_migrate.info:0
+msgid "Mediabase Migrations"
+msgstr "འཕྲིན་ལམ་གྲངས་མཛོད་ཀྱི་གནས་སྤོར།"
+
+#: mb_migrate/mb_migrate.info:0
+msgid "Mediabase content migrations. Keep disabled unless you are migrating content"
+msgstr ""
+"འཕྲིན་ལམ་གྲངས་མཛོད་ཀྱི་ནང་དོན་སྤོར་བ། "
+"ནང་དོན་སྤོར་མི་དགོས་ཚེ། "
+"ནུས་མེད་དུ་བསྐྱུར་དགོས"
+
+#: mb_relation/mb_relation.info:0
+msgid "Mediabase Relation"
+msgstr "འཕྲིན་ལམ་གྲངས་མཛོད་ཀྱི་འབྲེལ་བ།"
+
+#: mb_relation/mb_relation.info:0
+msgid "Provides a PBCore Relation field for audio/video objects"
+msgstr ""
+"སྒྲ་དང་བརྙན་གྱི་ལས་གཞི་ལ་PBCore "
+"ཡི་འབྲེལ་ལམ་གནས་ཁོངས་ཤིག་མཁོ་སྤྲོད་བྱེད་པ"
+
+#: mb_services/mb_services.module:213
+msgid "You have not defined a solr-index for posting kmaps information. Please go to the <a href=\"@link\">Mediabase Settings</a> page."
+msgstr ""
+"ཁྱེད་ཀྱིས་kmaps "
+"ཆ་འཕྲིན་ཁྱབ་སྤེལ་གྱི་ཆེད་དུ་solr-index "
+"དཀར་ཆག་ཞིག་གཏན་འབེབས་བྱས་མེད། "
+"<a "
+"href=\"@link\">འཕྲིན་ལམ་གྲངས་མཛོད་ཀྱི་སྒྲིག་འགོད་</a>ངོས་སུ་བལྟས་ཆོག"
+
+#: mb_services/mb_services.module:30;38
+msgid "JSON output of Mediabase Data"
+msgstr ""
+"འཕྲིན་ལམ་གྲངས་མཛོད་གཞི་གྲངས་ཀྱི་JSON "
+"ཐོན་འབྲས"
+
+#: mb_services/mb_services.module:31;39
+msgid "Return the JSON description for Mediabase items"
+msgstr ""
+"འཕྲིན་ལམ་གྲངས་མཛོད་ལ་JSON "
+"ཡི་གསལ་འགྲེལ་ཕྱིར་འདོན་བྱེད་པ"
+
+#: mb_services/mb_services.module:49
+msgid "JSON output of Mediabase Nodes by Kmap ID"
+msgstr ""
+"Kmap "
+"ཨང་རྟགས་ལ་བསྟུན་པའི་འཕྲིན་ལམ་གྲངས་མཛོད་ཀྱི་སྦྲེལ་གནས་ཀྱི་JSON "
+"ཐོན་འབྲས"
+
+#: mb_services/mb_services.module:50
+msgid "Return the JSON description for Mediabase nodes that are tagged with a given Kmap ID"
+msgstr ""
+"མཁོ་སྤྲོད་བྱས་པའི་Kmap "
+"ཨང་རྟགས་དེ་རྟགས་བརྒྱབ་པའི་འཕྲིན་ལམ་གྲངས་མཛོད་ལ་JSON "
+"ཡི་གསལ་འགྲེལ་ཕྱིར་འདོན་བྱེད་པ"
+
+#: mb_services/mb_services.module:59
+msgid "A/V Node HTML Fragment"
+msgstr "A/V སྦྲེལ་གནས་ཀྱི་HTML གྲུབ་ཆ"
+
+#: mb_services/mb_services.module:60
+msgid "Returns an HTML fragment for a/v resource suitable for embedding via AJAX"
+msgstr ""
+"AJAX "
+"བརྒྱུད་ནས་ནང་སྒྲིག་བྱེད་འོས་པའི་a/v "
+"ཡི་ཐོན་ཁུངས་ལ་HTML "
+"ཡི་གྲུབ་ཆ་ཕྱིར་འདོན་བྱེད་པ"
+
+#: mb_services/mb_services.module:70
+msgid "A/V Node Thumbnail Pipeline"
+msgstr ""
+"A/V "
+"སྦྲེལ་གནས་ཀྱི་བསྡུས་པར་བརྒྱུད་ལམ"
+
+#: mb_services/mb_services.module:71
+msgid "Redirects to the thubmnail for node"
+msgstr "ནང་ཚན་གྱི་བསྡུས་པར་ལ་བསྐྱར་སྒྲིག་བྱེད་པ"
+
+#: mb_services/mb_services.module:81
+msgid "Resource Embed Code"
+msgstr "ཐོན་ཁུངས་ནང་སྒྲིག་བྱས་པའི་སྒྲིག་ཡིག"
+
+#: mb_services/mb_services.module:82
+msgid "Returns the HTML 5 embed code for a resource (a/v) player"
+msgstr ""
+"༼a/v༽ཐོན་ཁུངས་ཀྱི་གཏོང་བྱེད་ཞིག་ལ་HTML "
+"5 "
+"ཡི་ནང་འཛུགས་སྒྲིག་ཡིག་ཕྱིར་འདོན་བྱེད་པ"
+
+#: mb_services/mb_services.info:0
+msgid "Mediabase Services"
+msgstr "འཕྲིན་ལམ་རྩ་བའོ་ཞབས་ཞུ་ཆས།"
+
+#: mb_services/mb_services.info:0
+msgid "Provide service to retrieve data as JSON"
+msgstr ""
+"JSON "
+"རྣམ་པའི་ཐོག་ཏུ་གཞི་གྲངས་ཚུར་ལེན་ཐུབ་པའི་ཞབས་ཞུ་མཁོ་སྤྲོད་བྱེད་པ"
+
+#: mb_shibboleth/mb_shibboleth.module:23
+msgid "Drupal Login"
+msgstr "Drupal ནང་འཇུག"
+
+#: mb_shibboleth/mb_shibboleth.info:0
+msgid "Mediabase Shibboleth"
+msgstr "འཕྲིན་ལམ་གྲངས་མཛོད་ཀྱི་Shibboleth"
+
+#: mb_shibboleth/mb_shibboleth.info:0
+msgid "This module looks for Shibboleth Attributes in the $_SERVER variable\n               when a user logs in and prompts user to create shibboleth groups that\n               do not yet exist in Mediase. In addition it adds shibboleth group members\n                  to their corresponding drupal groups. It also integrates with Realname \n               to grab the user's realname and use it to populate the user profile."
+msgstr ""
+"མ་དཔེ་འདིས་$_SERVER་འགྱུར་གྲངས་ནང་གི་Shibboleth "
+"མཚན་ཉིད་འཚོལ་བ།\n"
+"སྤྱོད་མཁན་ཞིག་ནང་འཇུག་བྱེད་པ་དང་འཕྲིན་ལམ་གྲངས་མཛོད་དུ་གནས་མེད་པའི་shibboleth "
+"ཚོགས་ཁག་གསར་འཛུགས་\n"
+"བྱ་དགོས་པའི་གསལ་འདེབས་བྱེད་ཐུབ། "
+"དེ་མ་ཚད་འོས་མཐུན་གྱི་drupal "
+"ཚོགས་པར་\n"
+" shibboleth "
+"ཚོགས་ཁག་གི་ཁོངས་མིར་ཁ་སྣོན་བྱེད་པ།\n"
+"ད་དུང་དངོས་མིང་དང་མཉམ་སྒྲིག་བྱས་ནས་སྤྱོད་མཁན་གྱི་ངོ་སྤྲོད་དུ་དངོས་མིང་སྤྱོད་ཐུབ་པ་བཟོ་ཐུབ།"
+
+#: mb_solr/mb_solr.module:208
+msgid "Searching Descriptions"
+msgstr "གསལ་འགྲེལ་འཚོལ་བ"
+
+#: mb_solr/mb_solr.module:210
+msgid "Searching Transcripts"
+msgstr "ཟིན་བྲིས་འཚོལ་བ"
+
+#: mb_solr/mb_solr.module:510
+msgid "Transcripts"
+msgstr "ཟིན་བྲིས"
+
+#: mb_solr/mb_solr.module:187
+msgid "mb_solr"
+msgstr "mb_solr"
+
+#: mb_solr/mb_solr.module:187
+msgid "Exception thrown in building solr index doc for eid @eid (@file, @line): @message"
+msgstr ""
+"@eid ༼@file། @line༽ལ་solr "
+"དཀར་ཆག་གི་ཡིག་ཆ་གསར་འཛུགས་བྱེད་སྐབས། "
+"ཆད་ལྷག་ཞིག་ཕྱིར་བཏོན་ཡོད། "
+"@message"
+
+#: mb_solr/mb_solr.module:20;29
+msgid "Facet search results"
+msgstr "Facet འཚོལ་བཤེར་མཇུག་འབྲས"
+
+#: mb_solr/mb_solr.module:21
+msgid "Return raw HTML for mbase facet search results"
+msgstr ""
+"འཕྲིན་ལམ་ངོས་ཀྱི་འཚོལ་བཤེར་མཇུག་འབྲས་ལ་བསྒྱུར་མེད་པའི་HTML "
+"ཕྱིར་འདོན་བྱེད་པ"
+
+#: mb_solr/mb_solr.module:30
+msgid "Return HTML for AJAX facet search results"
+msgstr ""
+"AJAX "
+"འཚོལ་བཤེར་མཇུག་འབྲས་ལ་HTML "
+"ཕྱིར་འདོན་བྱེད་པ"
+
+#: mb_solr/mb_solr.module:40
+msgid "Ajax Search Results"
+msgstr ""
+"Ajax "
+"ཡི་འཚོལ་བཤེར་མཇུག་འབྲས།"
+
+#: mb_solr/mb_solr.module:41
+msgid "Return raw HTML of a search of particular type"
+msgstr ""
+"དམིགས་བསལ་གྱི་རིགས་ཡིན་པའི་འཚོལ་བཤེར་ལ་HTML "
+"ཕྱིར་འདོན་བྱེད་པ"
+
+#: mb_solr/mb_solr.module:49
+msgid "Solr Add Doc"
+msgstr "Solr ཡི་ཡིག་ཆ་ཁ་སྣོན"
+
+#: mb_solr/mb_solr.module:50
+msgid "Return a solr add doc for the given nid"
+msgstr ""
+"གཏན་འཁེལ་ཟིན་པའི་nid ལ་solr "
+"ཡི་ཡིག་ཆ་ཁ་སྣོན་ཞིག་ཕྱིར་འདོན་བྱེད་པ"
+
+#: mb_solr/mb_solr.module:58
+msgid "More Like This"
+msgstr "འདི་ལ་ལྟག་ཏུ་དགའ་བ། "
+
+#: mb_solr/mb_solr.module:59
+msgid "Return an embeddable fragment with more-like-this a/v resources."
+msgstr ""
+"ནང་སྒྲིག་བྱེད་རུང་བའི་གྲུབ་ཆ་ཞིག་དང་a/v "
+"དང་མཚུངས་པའི་ཐོན་ཁུངས་མཉམ་དུ་ཕྱིར་འདོན་བྱེད་པ།"
+
+#: mb_solr/mb_solr.info:0
+msgid "Mediabase Solr integration"
+msgstr "འཕྲིན་ལམ་གྲངས་མཛོད་ཀྱི་Solrཕྱོགས་བསྡུས།"
+
+#: mb_solr/mb_solr.info:0
+msgid "Provide Solr integration for Mediabase"
+msgstr ""
+"འཕྲིན་ལམ་གྲངས་མཛོད་དང་མཉམ་འབྲེལ་བྱེད་ཐུབ་པའི་Solr "
+"མཁོ་སྤྲོད་བྱེད་པ"
+
+#: mb_structure/mb_structure.module:156
+msgid "Manage"
+msgstr "དོ་དམ།"
+
+#: mb_structure/mb_structure.module:171
+msgid "Create a collection"
+msgstr "ཕྱོགས་བསྡུས་ཞིག་གསར་འཛུགས"
+
+#: mb_structure/mb_structure.module:180
+msgid "Add to your collections"
+msgstr "ཁྱེད་ཀྱི་ཕྱོགས་བསྡུས་ལ་ཁ་སྣོན"
+
+#: mb_structure/mb_structure.module:198
+msgid "Manager: "
+msgstr "དོ་དམ་པ།"
+
+#: mb_structure/mb_structure.module:199
+msgid "Subcollection Manager: "
+msgstr "ཡན་ལག་ཕྱོགས་བསྡུས་ཀྱི་དོ་དམ་མཁན།"
+
+#: mb_structure/mb_structure.module:207
+msgid "@count media item(s)"
+msgstr "འཕྲིན་ལམ་གྱི་རྣམ་གྲངས་@count"
+
+#: mb_structure/mb_structure.module:298
+msgid "Carousel Settings"
+msgstr "Carousel ཡི་སྒྲིག་འགོད"
+
+#: mb_structure/mb_structure.module:302
+msgid "Project ID to Include in Carousel"
+msgstr ""
+"Carousel "
+"ནང་དུ་འདུ་དགོས་པའི་ལས་གཞིའི་ཨང་རྟགས"
+
+#: mb_structure/mb_structure.module:303
+msgid "Enter the Node IDs for the projects you wish to show in the carousel separated by commas"
+msgstr ""
+"བརྙན་ཐག་གི་ནང་དུ་སྟོན་དགོས་པའི་ལས་གཞི་ཡི་སྦྲེལ་གནས་ཨང་རྟགས་ནང་འཇུག་བྱེད་རོགས། "
+"དབྱིན་ཡིག་གི་, "
+"སྤྱད་ནས་བར་མཚམས་དབྱེ་དགོས།"
+
+#: mb_structure/mb_structure.module:309
+msgid "Speed of Carousel"
+msgstr "Carousel ཡི་མགྱོགས་ཚད"
+
+#: mb_structure/mb_structure.module:310
+msgid "Enter the number of seconds to pause between frames"
+msgstr "བརྙན་སྒྲོམ་བར་མཚམས་གྱི་སྐར་ཆ་གྲངས་འཇུག་རོགས"
+
+#: mb_structure/mb_structure.module:513
+msgid "Setting the Thumbnail"
+msgstr "བསྡུས་པར་གྱི་སྒྲིག་འགོད"
+
+#: mb_structure/mb_structure.module:528
+msgid "<div class=\"media-field-description @mtype\">Use the Add Media button to add your @mtype. Max file size is 2GB (<a href=\"/contact\">Contact us</a> for larger files). <br />Acceptable file types are: @ftype. <br />This is a two-step process. First, you <strong>upload</strong> your file, and then you <strong>submit</strong> the uploaded file in the same popup window.</div>"
+msgstr ""
+
+#: mb_structure/mb_structure.module:628
+msgid "Add people to collection: @nodetitle"
+msgstr ""
+"ཕྱོགས་བསྡུས་སུ་སྤྱོད་མཁན་ཁ་སྣོན་བྱེད་པ། "
+"@nodetitle"
+
+#: mb_structure/mb_structure.module:689
+msgid "It's easy to set up a collection and begin uploading your media files."
+msgstr "ཕྱོགས་བསྡུས་ཞིག་སྒྲིག་འགོད་བྱས་ནས་ཁྱེད་ཀྱི་འཕྲིན་ལམ་ཡིག་ཆ་ཡར་འཇུག་བྱེད་པར་ལས་སླ་བོ་རེད།"
+
+#: mb_structure/mb_structure.module:695
+msgid "Add New Collection"
+msgstr "ཕྱོགས་བསྡུས་གསར་བ་ཁ་སྣོན"
+
+#: mb_structure/mb_structure.module:718
+msgid "Upload media to one of your collections."
+msgstr "ཁྱེད་ཀྱི་ཕྱོགས་བསྡུས་ཞིག་གི་ནང་དུ་འཕྲིན་ལམ་ཡར་སྤྲོད་བྱེད་པ།"
+
+#: mb_structure/mb_structure.module:723
+msgid "Choose a Collection"
+msgstr "ཕྱོགས་བསྡུས་ཤིག་འདེམ་པ"
+
+#: mb_structure/mb_structure.module:729
+msgid "Upload a video"
+msgstr "བརྙན་རིས་ཡར་སྤྲོད་བྱེད"
+
+#: mb_structure/mb_structure.module:736
+msgid "Upload audio"
+msgstr "སྒྲ་ཡར་སྤྲོད་བྱེད"
+
+#: mb_structure/mb_structure.module:746
+msgid "There are no media items for this characteristic."
+msgstr "ཁྱད་ཆོས་འདི་ལ་འཕྲིན་ལམ་གྱི་ནང་ཚན་གང་ཡང་མེད།"
+
+#: mb_structure/mb_structure.module:895
+msgid "Subtitles"
+msgstr "བརྙན་ཚིག"
+
+#: mb_structure/mb_structure.module:915
+msgid "UVa Only"
+msgstr "UVa ཁོ་ན"
+
+#: mb_structure/mb_structure.module:918
+msgid "Public"
+msgstr "སྤྱི་སྤྱོད"
+
+#: mb_structure/mb_structure.module:921
+msgid "Private"
+msgstr "མི་སྒེར"
+
+#: mb_structure/mb_structure.module:1015
+msgid "This group cannot be deleted because it has @n media items associated with it. Please delete or relocate the following items: !items"
+msgstr ""
+"སྡེ་ཚན་དེ་བསུབ་མི་ཐུབ་པའི་རྒྱུ་མཚན་ནི་དེར་འཕྲིན་ལམ་གྱི་རྣམ་གྲངས་@n་དང་འབྲེལ་ཡོད། "
+"གཤམ་གྱི་ནང་ཚན་དག་བསུབ་པ་དང་ཡང་ན་གནས་བསྐྱར་སྒྲིག་བྱེད་རོགས། "
+"!items"
+
+#: mb_structure/mb_structure.module:1295
+msgid "item"
+msgstr "རྣམ་གྲངས"
+
+#: mb_structure/mb_structure.module:1297
+msgid "items"
+msgstr "རྣམ་གྲངས"
+
+#: mb_structure/mb_structure.module:1316
+msgid "Featured Collections"
+msgstr "ཁྱད་པ་ཅན་གྱི་ཕྱོགས་བསྡུས"
+
+#: mb_structure/mb_structure.module:1317
+msgid "View All Collections"
+msgstr "ཕྱོགས་བསྡུས་ཡོངས་ལ་ལྟ་བ"
+
+#: mb_structure/mb_structure.install:37
+msgid "A generic audio thumbnail image has been created for this site! (@path)"
+msgstr "དྲ་ཚིགས་འདི་ལ་སྤྱིར་བཏང་གི་སྒྲའི་བསྡུས་པར་ཞིག་གསར་འཛུགས་བྱས་ཡོད།༼@path༽"
+
+#: mb_structure/mb_structure.info:0
+msgid "Mediabase Structure"
+msgstr "འཕྲིན་ལམ་གྲངས་མཛོད་ཀྱི་སྒྲིག་གཞི།"
+
+#: mb_structure/mb_structure.info:0
+msgid "This module provides functionality related to the Collection / Members / Group Structure\n               1) blocks for  Collection and Team pages. \n               2) provide utilities for adding users and objects.\n               3) manage the tandem noderef/taxo-term set up."
+msgstr ""
+"མ་དཔེ་འདིས་ཕྱོགས་བསྡུས་དང་། "
+"ཁོངས་མི། "
+"ཚོགས་ཁག་གི་སྒྲིག་གཞི་དང་འབྲེལ་བའི་བྱེད་ནུས་མཁོ་སྤྲོད་བྱེད།\n"
+"\t༡༽ཕྱོགས་བསྡུས་དང་ཚོགས་པའི་དྲ་ངོས་ཀྱི་ལྷུ་ལག\n"
+"\t༢༽སྤྱོད་མཁན་དང་ནང་དོན་ཁ་སྣོན་བྱེད་པའི་ཡོ་བྱེད་མཁོ་འདོན་བྱེད།\n"
+"   ༣༽tandem noderef/taxo-term "
+"སྒྲིག་འགོད་ལ་དོ་དམ་བྱེད་པ།"
+
+#: templates/transcripts_search_results.tpl.php:27
+msgid "Search results"
+msgstr "འཚོལ་བཤེར་གྱི་མཇུག་འབྲས"
+
+#: templates/transcripts_search_results.tpl.php:33
+msgid "Your search yielded no results"
+msgstr "ཁྱེད་ཀྱི་འཚོལ་བཤེར་ལ་མཇུག་འབྲས་གང་ཡང་ཐོན་མ་ཐུབ"
+

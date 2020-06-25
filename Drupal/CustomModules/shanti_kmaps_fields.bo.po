@@ -1,0 +1,447 @@
+# $Id$
+#
+# Tibetan translation of Drupal (general)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  shanti_kmaps_fields.module: n/a
+#  shanti_kmaps_fields.info: n/a
+#  shanti_kmaps_fields.install: n/a
+#  includes/shanti_kmaps_fields.kmaps_api.inc: n/a
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2018-01-05 15:43-0500\n"
+"PO-Revision-Date: 2018-01-05 15:43-0500\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Tibetan <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: shanti_kmaps_fields.module:13
+msgid "The author, artist, producer, or other type of creator of the work."
+msgstr ""
+"རྩོམ་པ་པོ་དང་སྒྱུ་རྩལ་བ། "
+"སྒྲིག་བཟོ་མཁན། "
+"ཡང་ན་ལས་ཀ་འདིའི་གསར་བཟོ་མཁན་གཞན་དག"
+
+#: shanti_kmaps_fields.module:14
+msgid "A 140 character description of the work to be used in appropriate display contexts."
+msgstr "ལས་གཞི་དེའི་ཡིག་འབྲུ་༡༤༠་ཅན་གྱི་གསལ་བཤད་དེ་འོས་མཚམས་ཀྱི་ནང་དོན་དུ་འཆར་སྲིད།"
+
+#: shanti_kmaps_fields.module:15
+msgid "A 750 character description of the work to be used in appropriate display contexts."
+msgstr "ལས་གཞི་དེའི་ཡིག་འབྲུ་༧༥༠་ཅན་གྱི་གསལ་བཤད་དེ་འོས་མཚམས་ཀྱི་ནང་དོན་དུ་འཆར་སྲིད།"
+
+#: shanti_kmaps_fields.module:16
+msgid "A start date associated with the work, such as an event depicted. Use this if there is only one date."
+msgstr ""
+"བྱ་འགུལ་འདི་དང་འབྲེལ་བའི་འགོ་འཛུགས་ཟླ་ཚེས་ཤིག། "
+"གལ་སྲིད་ཟླ་ཚེས་གཅིག་ལས་མེད་ན་འདི་སྤྱོད་དགོས།"
+
+#: shanti_kmaps_fields.module:17
+msgid "An end date associated with the work, such as an event depicted."
+msgstr "བྱ་འགུལ་དང་འབྲེལ་བའི་མཇུག་རྫོགས་ཀྱི་ཟླ་ཚེས་ཞིག"
+
+#: shanti_kmaps_fields.module:18
+msgid "The language in which the work is wrritten or spoken."
+msgstr "ལས་གཞི་དེ་བརྗོད་བྱེད་ཀྱི་སྐད་རིགས།"
+
+#: shanti_kmaps_fields.module:19
+msgid "An optional qualifier to the asset type. Values can be delimitted by colon to specify finer differentiations."
+msgstr ""
+"ཐོན་ཁུངས་རིགས་ལ་གདམ་ཁ་ཡིན་པའི་ཆ་ཚད་ཞིག་སྟེ། "
+"ཐོབ་གྲངས་ལ་མཚམས་རྟགས་: "
+"སྦྱར་ནས་ཞིབ་ཕྲའི་ཁྱད་པར་དམིགས་འཛུགས་བྱེད་པ།"
+
+#: shanti_kmaps_fields.module:97
+msgid "KMaps Fields Reindexer"
+msgstr "KMapsགནས་ཡུལ་དཀར་ཆག་བསྐྱར་སྒྲིག་ལག་ཆ"
+
+#: shanti_kmaps_fields.module:98
+msgid "Reindexer is starting."
+msgstr "དཀར་ཆག་སྒྲིག་བྱེད་འགོ་འཛུགས་བཞིན་ཡོད།"
+
+#: shanti_kmaps_fields.module:99
+msgid "Processed @current out of @total batch jobs."
+msgstr "ལས་སྣེ་སྡོམ་པས་@total་ནས་@current་སྒྲིག་བཟོ་བྱས་ཚར།"
+
+#: shanti_kmaps_fields.module:100
+msgid "KMaps Fields Reindexer has encountered an error."
+msgstr ""
+"KMaps "
+"གནས་ཁོངས་ཀྱི་དཀར་ཆག་བསྐྱར་སྒྲིག་ལག་ཆ་ལ་གནད་དོན་ཞིག་འཕྲད་འདུག"
+
+#: shanti_kmaps_fields.module:110;129
+msgid "Acquiring all text node IDs to reindex."
+msgstr "དཀར་ཆག་བསྐྱར་སྒྲིག་བྱེད་པར་ཡིག་གེ་སྦྲེལ་གནས་ཀྱི་ཨང་རྟགས་ཡོངས་བསྡུ་རུག་བྱེད་པ།"
+
+#: shanti_kmaps_fields.module:192
+msgid "An error occurred while processing %error_operation with arguments: @arguments"
+msgstr "འཇུག་གྲངས་@arguments་སྤྱད་ནས་%error_operation་སྒྲིག་བཟོ་བྱེད་དུས་གནད་དོན་ཅིག་བྱུང་འདུག"
+
+#: shanti_kmaps_fields.module:220
+msgid "Administer SHANTI KMaps Fields"
+msgstr ""
+"SHANTI KMaps "
+"ཡི་གནས་ཁོངས་ལ་དོ་དམ་རྒྱག་པ།"
+
+#: shanti_kmaps_fields.module:232;71 shanti_kmaps_fields.info:0
+msgid "SHANTI KMaps Fields"
+msgstr "SHANTI KMaps ཡི་གནས་ཁོངས"
+
+#: shanti_kmaps_fields.module:240
+msgid "SHANTI Asset Type"
+msgstr "SHANTI ནང་དོན་གྱི་རིགས"
+
+#: shanti_kmaps_fields.module:241
+msgid "If this entity uses a SHANTI KMaps Field, set the SHANTI asset type of this entity. If not, just leave as \"NA\"."
+msgstr ""
+"གལ་སྲིད་དངོས་གཞི་འདིས་SHANTI "
+"KMaps ཡི་གནས་ཁོངས་སྤྱོད་ན། "
+"དངོས་གཞི་འདིའི་ SHANTI "
+"ནང་དོན་རིགས་སྒྲིག་དགོས། "
+"དེ་མིན་ཚེ་NA "
+"ཞེས་སྐྱུར་དགོས།"
+
+#: shanti_kmaps_fields.module:242
+msgid "NA"
+msgstr "NA"
+
+#: shanti_kmaps_fields.module:242
+msgid "text"
+msgstr "ཡི་གེ"
+
+#: shanti_kmaps_fields.module:242
+msgid "photo or image"
+msgstr "པར་འམ་པར་རིས"
+
+#: shanti_kmaps_fields.module:242
+msgid "audio or video"
+msgstr "སྒྲ་དང་བརྙན་རིས"
+
+#: shanti_kmaps_fields.module:242
+msgid "visualization"
+msgstr "འཆར་སྣང"
+
+#: shanti_kmaps_fields.module:242
+msgid "bibliographic source"
+msgstr "ཁུངས་འདྲེན་སའི་ཁུངས"
+
+#: shanti_kmaps_fields.module:242
+msgid "subject term"
+msgstr "བརྗོད་དོན་གྱི་ཐ་སྙད"
+
+#: shanti_kmaps_fields.module:242
+msgid "place term"
+msgstr "ས་ཆའི་ཐ་སྙད"
+
+#: shanti_kmaps_fields.module:242
+msgid "general term"
+msgstr "སྤྱི་མིང"
+
+#: shanti_kmaps_fields.module:242
+msgid "map"
+msgstr "ཕྱོགས་སྟོན"
+
+#: shanti_kmaps_fields.module:242
+msgid "agent (e.g. person)"
+msgstr "ལས་སྒྲུབ་པ༼དཔེར་ན་མི་ལྟ་བུ༽"
+
+#: shanti_kmaps_fields.module:242
+msgid "event"
+msgstr "བྱ་འགུལ"
+
+#: shanti_kmaps_fields.module:248
+msgid "<p><b>Specify the Drupal menu paths for the functions below. Use <b>__NID__</b> to specify where the entity ID goes in each path below. These paths may not exist, so they may need to be created, for example by using Services, Views, or by creating menu items in a module.</b></p>"
+msgstr ""
+"<p><b>འོག་གི་བྱེད་ནུས་ལ་Drupal "
+"གདམ་བྱང་སྦྲེལ་ལམ་གཏན་ཁེལ་བྱོས། "
+" "
+"འོག་གི་སྦྲེལ་ལམ་སོ་སོའི་ནང་དུ་<b>__NID__</b>་སྤྱད་ནས་དངོས་གཞིའི་ཨང་རྟགས་གཏན་ཁེལ་བྱེད་པ། "
+"སྦྲེལ་ལམ་འདི་དག་གནས་མེད་སྲིད་པས། "
+"དེ་དག་གསར་འཛུགས་བྱེད་དགོས་སྲིད། "
+"དཔེར་ན་མ་དཔེ་ཞིག་ནས་ཞབས་ཞུ་དང་མཐོང་རིས་སྤྱོད་པའམ་ཡང་ན་གདམ་བྱང་རྣམ་གྲངས་གསར་འཛུགས་བཅས་ཀྱི་ལས་འགུལ་བརྒྱུད་ནས་བྱས་ཆོག</b></p>"
+
+#: shanti_kmaps_fields.module:252
+msgid "HTML Path"
+msgstr "HTML སྦྲེལ་ལམ"
+
+#: shanti_kmaps_fields.module:253
+msgid "The local Drupal path where the entity associated with this entity can be viewed as a full HTML page, suitable for linking. This is usually <b>node/__NID__</b>. (Without the trailing period, of course.)"
+msgstr ""
+"Drupal "
+"རང་གནས་སྦྲེལ་ལམ་དེ་ནི་HTML "
+"སྦྲེལ་ལམ་དང་འབྲེལ་མཐུད་བྱས་ནHTML "
+"དྲ་ངོས་དང་འཚམ།  "
+"སྦྲེལ་མཐུད་བྱེད་པར་འཚམ།  "
+"དེ་ནི་རྒྱུན་པར་<b>node/__NID__</b>. "
+"(Without the trailing period, of course.)"
+
+#: shanti_kmaps_fields.module:261
+msgid "AJAX Path"
+msgstr "AJAX ཡི་སྦྲེལ་ལམ"
+
+#: shanti_kmaps_fields.module:262
+msgid "The local Drupal path where the entity associated with this entity can be viewed as an HTML fragment, suitable for embedding."
+msgstr ""
+"Drupal "
+"རང་གནས་སྦྲེལ་ལམ་དེ་ནི་HTML "
+"སྦྲེལ་ལམ་དང་འབྲེལ་མཐུད་བྱས་ན་བཙུད་འཇུག་བྱེད་པར་འཚམ། "
+""
+
+#: shanti_kmaps_fields.module:270
+msgid "JSON Path"
+msgstr "JSON སྦྲེལ་ལམ"
+
+#: shanti_kmaps_fields.module:271
+msgid "The local Drupal path where the entity associated with this entity can be retrieved as a JSON string, suitable for munging."
+msgstr ""
+"Drupal "
+"རང་ཁུལ་གྱི་སྦྲེལ་ལམ་སྟེ། "
+"དེ་ནི་HTML "
+"སྦྲེལ་ལམ་དང་འབྲེལ་མཐུད་བྱས་ན "
+"JSONཕྲེང་དེ་བསྐྱར་གསོ་བྱེད་ཐུབ་ལ། "
+"mungingདང་འཚམ། "
+
+#: shanti_kmaps_fields.module:279
+msgid "Thumbnail Path"
+msgstr "བསྡུས་པར་གྱི་སྦྲེལ་ལམ"
+
+#: shanti_kmaps_fields.module:280
+msgid "The local Drupal path where the thumbnail for this entity exists."
+msgstr ""
+"ནང་དོན་འདིའི་བསྡུས་པར་གནས་སའི་Drupal "
+"རང་ཁུལ་གྱི་སྦྲེལ་ལམ་ཡིན།"
+
+#: shanti_kmaps_fields.module:289
+msgid "<p><b>Specify the fields in this content type that will be used in the Solr index.</b></p>"
+msgstr ""
+"<p><b> Solr "
+"དཀར་ཆག་ཏུ་སྤྱོད་དགོས་པའི་ནང་དོན་རིགས་འདིའི་ནང་གི་གནས་ཁོངས་གཏན་ཁེལ་བྱེད་པ།</b></p>"
+
+#: shanti_kmaps_fields.module:429
+msgid "Anonymous"
+msgstr "མིང་མེད་སྤྱོད་མཁན"
+
+#: shanti_kmaps_fields.module:471
+msgid "Date field not a date."
+msgstr "ཟླ་ཚེས་ཀྱི་གནས་ཁོངས་ཤིག་ཡིན་པ་ལས་ཟླ་ཚེས་མ་རེད།"
+
+#: shanti_kmaps_fields.module:494
+msgid "KMap Term"
+msgstr "KMap ཐ་སྙད"
+
+#: shanti_kmaps_fields.module:495
+msgid "A KMap Term for integrating content into the Mandala ecology."
+msgstr ""
+"Mandala "
+"ཡི་ནང་དུ་ནང་དོན་མཐུན་སྦྱོར་བྱེད་པའི་KMap "
+"ཡི་ཐ་སྙད་ཞིག།"
+
+#: shanti_kmaps_fields.module:578
+msgid "KMap Domain"
+msgstr "KMap དྲ་གནས"
+
+#: shanti_kmaps_fields.module:579
+msgid "The domain (subjects or places) to use for KMaps access on this entity type."
+msgstr ""
+"KMaps "
+"ཡིས་ནང་དོན་རིགས་འདི་ལ་བེད་སྤྱོད་བྱེད་པའི་སྐབས་སྤྱོད་དགོས་པའི་ཁྱབ་ཁོངས་ཏེ། "
+"བརྗོད་དོན་དང་ཡང་ན་ས་གནས་ཡིན་ཆོག"
+
+#: shanti_kmaps_fields.module:595
+msgid "KMap ID View"
+msgstr "KMap ཨང་རྟགས་ཀྱི་མཐོང་རིས"
+
+#: shanti_kmaps_fields.module:596
+msgid "The local Drupal path for the view with which to search for nodes of this content type by KMap ID. Used by the popover field formatter. Use <b>__KMAPID__</b> to signify the KMap ID value in the path."
+msgstr ""
+"KMap ID "
+"ནང་དོན་རིགས་ཀྱི་་ཚེག་ཚིགས་དེ་ "
+"རང་གནས་Drupal "
+"སྦྲེལ་ལམ་བཀོལ་ནས་ལྟ་ཞིབ་བྱེད་དགོས། "
+" "
+"མངོན་སྒྲོམ་གནས་ཁོངས་རྣམ་གཞག་གི་བྱ་རིམ་བཀོལ་བར། "
+"  "
+"<b>__KMAPID__</b>་སྤྱད་ནས་སྦྲེལ་ལམ་ནང་གི་KMap "
+"ཨང་རྟགས་དམིགས་བསལ་མཚོན་ཐུབ།"
+
+#: shanti_kmaps_fields.module:604
+msgid "Root KMap IDs"
+msgstr "རྩ་བའི་KMap ཨང་རྟགས"
+
+#: shanti_kmaps_fields.module:605
+msgid "The root nodes of the KMap tree under which searches will be performed.\n        You may enter a list of IDs separated by whitespace.\n        If you leave this blank, then the field will use the default settings for the site."
+msgstr ""
+"འཚོལ་བཤེར་ལག་བསྟར་བྱེད་སའི་KMap "
+"སྡོང་གཟུགས་ཀྱི་རྩ་བའི་སྦྲེལ་གནས།\n"
+" "
+"ཁྱེད་ཀྱིས་སྟོང་མཐེབ་ཀྱིས་མཚམས་དབྱེ་བའི་ཨང་རྟགས་ཀྱི་མིང་ཐོ་ཞིག་ནང་འཇུག་བྱེད་སྲིད།\n"
+" "
+"གལ་སྲིད་ཁྱེད་ཀྱིས་སྟོང་བར་བཞག་ན་གནས་ཁོངས་ཀྱིས་དྲ་ཚིགས་ཀྱི་སྔར་ཡོད་ཀྱི་སྒྲིག་འཛུགས་དེ་སྤྱོད་ངེས།"
+
+#: shanti_kmaps_fields.module:620
+msgid "KMap Term Limit"
+msgstr "KMap ཐ་སྙད་ཀྱི་ཚོད"
+
+#: shanti_kmaps_fields.module:621
+msgid "The maximum number of matched terms to return from a KMap search. Higher limits may lead to slower search. Enter 0 for no limit."
+msgstr ""
+" KMap "
+"འཚོལ་བཤེར་ནས་ཕྱིར་འདོན་བྱེད་དགོས་པའི་ཆ་འགྲིག་པའི་ཐ་སྙད་ཀྱི་གྲངས་མང་ཤོས་ཚད། "
+"མཐོ་བའི་ཚད་ཀྱིས་འཚོལ་འཤེར་ཇེ་དལ་དུ་གཏོང་སྲིད། "
+"ཚད་མེད་པ་བཟོ་དགོས་ན་0 "
+"ནང་འཇུག་བྱོས།"
+
+#: shanti_kmaps_fields.module:630
+msgid "Search Filters"
+msgstr "ཚག་རྒྱག་བྱེད་འཚོལ་བཤེལ"
+
+#: shanti_kmaps_fields.module:631
+msgid "Select any widgets that you would like to use to filter your search. This may make it easier to find KMap terms."
+msgstr ""
+"རང་གི་འཚོལ་བཤེར་ལ་ཚགས་རྒྱག་བྱེད་དུ་སྤྱོད་དགོས་པའི་ཡོ་བྱད་གང་རུང་ཞིག་འདེམས་རོགས། "
+"འདིས་ལས་སླ་བོས་KMap "
+"ཐ་སྙད་རྙེད་ཐུབ་པ་བྱེད་ཐུབ།"
+
+#: shanti_kmaps_fields.module:691
+msgid "Tree"
+msgstr "སྡོང་གཟུགས"
+
+#: shanti_kmaps_fields.module:704
+msgid "Lazy tree"
+msgstr "Lazy སྡོང་དབྱིབས"
+
+#: shanti_kmaps_fields.module:714
+msgid "Autocomplete"
+msgstr "རང་འགུལ་སྒྲིག་བྱེད"
+
+#: shanti_kmaps_fields.module:1132
+msgid "Enable the devel module to see the following in a better format."
+msgstr "གསར་སྤེལ་གྱི་མ་དཔེ་ནུས་ཡོད་བསྒྱུར་ནས་གཤམ་གྱི་ནང་དོན་དེ་རྣམ་པ་ལེགས་པོ་ཞིག་གི་ནང་དུ་བལྟ་བ།"
+
+#: shanti_kmaps_fields.module:1401
+msgid "Plain text"
+msgstr "ཡིག་རྐྱང"
+
+#: shanti_kmaps_fields.module:1405
+msgid "Link to entry on KMaps Server"
+msgstr ""
+"KMaps "
+"ཞབས་ཞུ་བའི་ཐོག་གི་འཇུག་སྒོ་དང་སྦྲེལ་བ"
+
+#: shanti_kmaps_fields.module:1410
+msgid "Sarvaka popover with link options"
+msgstr ""
+"Sarvaka "
+"ཡི་ཕྱི་རིམ་སྒྲོམ་དང་སྦྲེལ་ཐག་གི་གདམ་ཚན"
+
+#: shanti_kmaps_fields.module:1423;1425
+msgid "@setting"
+msgstr "@setting"
+
+#: shanti_kmaps_fields.module:1438
+msgid "HREF target"
+msgstr "HREF དམིགས་འབེན"
+
+#: shanti_kmaps_fields.module:1441
+msgid "Control where the link opens (i.e. set the TARGET attribute of the A element)."
+msgstr ""
+"སྦྲེལ་ཐག་དེ་གང་དུ་ཁ་ཕྱེ་དགོས་པར་ཚོད་འཛིན་བྱེད་པ།༼དཔེར་ན། "
+"A གྲུབ་ཆའི་TARGET "
+"མཚན་ཉིད་སྒྲིག་འཛུགས་བྱེད་པ༽"
+
+#: shanti_kmaps_fields.module:1506
+msgid "For more information about this term, see Full Entry below."
+msgstr ""
+"ཐ་སྙད་འདིའི་གནས་ཚུལ་མང་བོར་རྟོགས་པར། "
+"འོག་གི་འཇུག་སྒོ་ཆ་ཚང་ལ་གཟིགས།"
+
+#: shanti_kmaps_fields.module:45
+msgid "KMaps Tree Function"
+msgstr "KMaps སྡོང་དབྱིབས་བྱེད་ནུས"
+
+#: shanti_kmaps_fields.module:52;59;65
+msgid "KMaps Autocomplete Function"
+msgstr "KMaps རང་འགྲིག་གི་བྱེད་ནུས"
+
+#: shanti_kmaps_fields.module:78
+msgid "KMaps Reindexer"
+msgstr ""
+"KMaps "
+"དཀར་ཆག་བསྐྱར་འཛུགས་ལག་ཆ"
+
+#: shanti_kmaps_fields.install:7
+msgid "The raw content of the KMap term. Used by some widgets."
+msgstr ""
+"KMap "
+"ཐ་སྙད་ཀྱི་ཐོག་མའི་ནང་དོན། "
+"ཡན་ལག་འགའ་ཞིག་ལ་མཁོ་དགོས་ཡོད།"
+
+#: shanti_kmaps_fields.install:13
+msgid "The external ID of the KMap term."
+msgstr ""
+"KMap "
+"ཐ་སྙད་ཀྱི་ཕྱི་ཁུལ་ཨང་རྟགས།"
+
+#: shanti_kmaps_fields.install:19
+msgid "The default title of the KMap term."
+msgstr ""
+"KMap "
+"ཐ་སྙད་ཀྱི་སྔར་ཡོད་ཁ་བྱང་།"
+
+#: shanti_kmaps_fields.install:25
+msgid "The domain the KMap term, e.g. subjects or places."
+msgstr ""
+" KMap "
+"ཐ་སྙད་ཀྱི་ཁྱབ་ཁོངས་ཏེ། "
+"དཔེར་ན་བརྗོད་དོན་དང་ཡང་ན་ས་གནས་ཡིན།"
+
+#: shanti_kmaps_fields.install:31
+msgid "The ancestral path of the KMap term."
+msgstr ""
+" KMap "
+"ཐ་སྙད་ཀྱི་བརྒྱུད་ཁོངས་སྦྲེལ་ལམ"
+
+#: shanti_kmaps_fields.info:0
+msgid "Defines fields, widgets, and formatters for adding KMap items to entities."
+msgstr ""
+"ནང་དོན་ལ་KMap "
+"ནང་ཚན་ཁ་སྣོན་བྱེད་པར་མཁོ་བའི་གནས་ཁོངས་དང་ཡོ་བྱད། "
+"རྣམ་པ་སྒྱུར་བྱེད་སོགས་གཏན་ཁེལ་བྱེད་པ།"
+
+#: shanti_kmaps_fields.info:0
+msgid "SHANTI"
+msgstr "SHANTI"
+
+#: includes/shanti_kmaps_fields.kmaps_api.inc:175
+msgid "Request URL: !url"
+msgstr "རེ་ཞུའི་སྦྲེལ་ཐག !url"
+
+#: includes/shanti_kmaps_fields.kmaps_api.inc:193;198;202
+msgid "shanti_kmaps_fields"
+msgstr "shanti_kmaps_fields"
+
+#: includes/shanti_kmaps_fields.kmaps_api.inc:193
+msgid "HTTP error !code received."
+msgstr ""
+"HTTP "
+"ཡི་ནོར་འཁྲུལ་!code་འབྱོར་འདུག"
+
+#: includes/shanti_kmaps_fields.kmaps_api.inc:198
+msgid "Did not receive valid API response (invalid JSON)."
+msgstr ""
+"ཕན་ནུས་ཡོད་པའི་API "
+"ཡི་ཕྱིར་ལན་འབྱོར་མེད། "
+"༼ཕན་ནུས་མེད་པའི་JSON༽"
+
+#: includes/shanti_kmaps_fields.kmaps_api.inc:202
+msgid "Error !code received: %message"
+msgstr ""
+"ནོར་འཁྲུལ། "
+"!code་འབྱོར་སོང་། %message"
+

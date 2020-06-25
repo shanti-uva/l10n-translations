@@ -1,0 +1,424 @@
+# $Id$
+#
+# Tibetan translation of Drupal (general)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  features/biblio_long_fields/biblio_long_fields.features.defaultconfig.inc: n/a
+#  features/biblio_long_fields/biblio_long_fields.features.field_instance.inc: n/a
+#  features/biblio_long_fields/biblio_long_fields.info: n/a
+#  features/csc_zotero_importer/sources_zotero_importer.features.field_instance.inc: n/a
+#  features/csc_zotero_importer/sources_zotero_importer.info: n/a
+#  features/sources_biblio_search/sources_biblio_search.info: n/a
+#  features/sources_collection_views_links/sources_collection_views_links.info: n/a
+#  features/sources_misc_config/sources_misc_config.info: n/a
+#  sources_misc/sources_misc.info: n/a
+#  sources_text_format/sources_text_format.info: n/a
+#  sources_views/sources_views_fancytree_taxonomy.inc: n/a
+#  features/sources_collection_views_links/sources_collection_views_links.features.menu_links.inc: n/a
+#  features/sources_misc_config/sources_misc_config.features.menu_links.inc: n/a
+#  features/sources_misc_config/sources_misc_config.features.field_instance.inc: n/a
+#  features/sources_misc_config/sources_misc_config.features.menu_custom.inc: n/a
+#  sources_views/breadcrumbs.inc: n/a
+#  sources_misc/sources_misc.module: n/a
+#  sources_views/biblio.inc: n/a
+#  sources_views/sources_views.module: n/a
+#  sources_views/sources_views.info: n/a
+#  sources_views/templates/sources_views_all_sources_dropdown.tpl.php: n/a
+#  sources_views/templates/sources_views_breadcrumb_library.tpl.php: n/a
+#  sources_views/templates/sources_views_custom_sort_field.tpl.php: n/a
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2018-01-05 15:37-0500\n"
+"PO-Revision-Date: 2018-01-05 15:37-0500\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Tibetan <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: features/biblio_long_fields/biblio_long_fields.features.defaultconfig.inc:265 features/biblio_long_fields/biblio_long_fields.features.field_instance.inc:230
+msgid "Biblio Long Language"
+msgstr "Biblio ཡི་སྐད་རིགས་མིང་རིང་བ"
+
+#: features/biblio_long_fields/biblio_long_fields.features.defaultconfig.inc:266 features/biblio_long_fields/biblio_long_fields.features.field_instance.inc:231
+msgid "Biblio Long Title"
+msgstr "Biblio ཡི་ཁ་བྱང་རིང་བ"
+
+#: features/biblio_long_fields/biblio_long_fields.features.defaultconfig.inc:267 features/biblio_long_fields/biblio_long_fields.features.field_instance.inc:232
+msgid "Places"
+msgstr "ས་གནས"
+
+#: features/biblio_long_fields/biblio_long_fields.features.field_instance.inc:229
+msgid "Biblio Language"
+msgstr "Biblio ཡི་སྐད་རིགས།"
+
+#: features/biblio_long_fields/biblio_long_fields.info:0
+msgid "Biblio Custom Fields"
+msgstr "Biblio རང་བཟོས་གནས་ཁོངས"
+
+#: features/biblio_long_fields/biblio_long_fields.info:0
+msgid "Adds custom fields to biblio content type"
+msgstr ""
+"biblio "
+"ནང་དོན་རིགས་ལ་རང་བཟོས་ཀྱི་གནས་ཁོངས་སྣོན་པ"
+
+#: features/biblio_long_fields/biblio_long_fields.info:0
+msgid "Biblio"
+msgstr "Biblio"
+
+#: features/csc_zotero_importer/sources_zotero_importer.features.field_instance.inc:232
+msgid "Zotero Attachments"
+msgstr "Zotero ཟུར་སྣོན"
+
+#: features/csc_zotero_importer/sources_zotero_importer.features.field_instance.inc:233
+msgid "Zotero Collections"
+msgstr "Zotero ཕྱོགས་བསྡུས"
+
+#: features/csc_zotero_importer/sources_zotero_importer.features.field_instance.inc:234
+msgid "Zotero Files"
+msgstr "Zotero ཡིག་ཆ"
+
+#: features/csc_zotero_importer/sources_zotero_importer.features.field_instance.inc:235
+msgid "Zotero Tags"
+msgstr "Zotero འཚན་བྱང"
+
+#: features/csc_zotero_importer/sources_zotero_importer.info:0
+msgid "Sources Zotero Importer"
+msgstr ""
+"ཁུངས་ཀྱི་Zotero "
+"ནང་འདྲེན་ལག་ཆ"
+
+#: features/csc_zotero_importer/sources_zotero_importer.info:0 features/sources_biblio_search/sources_biblio_search.info:0 features/sources_collection_views_links/sources_collection_views_links.info:0 features/sources_misc_config/sources_misc_config.info:0 sources_misc/sources_misc.info:0 sources_text_format/sources_text_format.info:0 sources_views/sources_views_fancytree_taxonomy.inc:21
+msgid "Sources"
+msgstr "ཁུངས"
+
+#: features/sources_biblio_search/sources_biblio_search.info:0
+msgid "Sources Biblio Search"
+msgstr "ཁུངས་ཀྱི་འདྲེན་ཁུངས་འཚོལ་བཤེར"
+
+#: features/sources_collection_views_links/sources_collection_views_links.features.menu_links.inc:115 features/sources_misc_config/sources_misc_config.features.menu_links.inc:182
+msgid "All Collections"
+msgstr "ཕྱོགས་བསྡུས་ཡོངས"
+
+#: features/sources_collection_views_links/sources_collection_views_links.features.menu_links.inc:116 features/sources_misc_config/sources_misc_config.features.menu_links.inc:184
+msgid "Collections"
+msgstr "ཕྱོགས་བསྡུས"
+
+#: features/sources_collection_views_links/sources_collection_views_links.features.menu_links.inc:117
+msgid "Create New Collection"
+msgstr "ཕྱོགས་བསྡུས་གསར་བ་འཛུགས་པ"
+
+#: features/sources_collection_views_links/sources_collection_views_links.features.menu_links.inc:118
+msgid "Create a Biblio Entry"
+msgstr ""
+"Biblio "
+"ཡི་མཇུག་སྒོ་ཞིག་གསར་འཛུགས"
+
+#: features/sources_collection_views_links/sources_collection_views_links.features.menu_links.inc:119 features/sources_misc_config/sources_misc_config.features.menu_links.inc:185
+msgid "My Collections"
+msgstr "ངའི་ཕྱོགས་བསྡུས"
+
+#: features/sources_collection_views_links/sources_collection_views_links.info:0
+msgid "Sources Collection Views and Links"
+msgstr "ཁུངས་ཀྱི་ཕྱོགས་བསྡུས་མཐོང་རིས་དང་སྦྲེལ་ཐག"
+
+#: features/sources_collection_views_links/sources_collection_views_links.info:0
+msgid "Views and links used with Collections in SHANTI Sources"
+msgstr ""
+"SHANTI "
+"ཁུངས་ནང་གི་ཕྱོགས་བསྡུས་ལ་སྤྱོད་པའི་མཐོང་རིས་དང་སྦྲེལ་ཐག"
+
+#: features/sources_misc_config/sources_misc_config.features.field_instance.inc:222
+msgid "Collection"
+msgstr "ཕྱོགས་བསྡུས"
+
+#: features/sources_misc_config/sources_misc_config.features.field_instance.inc:223
+msgid "Featured image"
+msgstr "ཁྱད་པ་ཅན་གྱི་པར་རིས"
+
+#: features/sources_misc_config/sources_misc_config.features.field_instance.inc:224
+msgid "Group content visibility"
+msgstr "ནང་དོན་མངོན་འཆར་ཚོ་ཁག་བགོ་བ"
+
+#: features/sources_misc_config/sources_misc_config.features.menu_custom.inc:21
+msgid "The <em>User</em> menu contains links related to the user's account, as well as the 'Log out' link."
+msgstr ""
+"<em>སྤྱོད་མཁན་</em>འདེམས་བྱང་ལ་སྤྱོད་མཁན་གྱི་ཐོ་ཁོངས་དང་འབྲེལ་བའི་སྦྲེལ་ཐག་ཡོད། "
+"ད་དུང་ཕྱིར་འབུད་ཀྱི་སྦྲེལ་ཐག་ཡང་ཡོད།"
+
+#: features/sources_misc_config/sources_misc_config.features.menu_custom.inc:22
+msgid "User menu"
+msgstr "སྤྱོད་མཁན་གྱི་འདེམས་བྱང"
+
+#: features/sources_misc_config/sources_misc_config.features.menu_links.inc:180
+msgid "Add a Collection"
+msgstr "ཕྱོགས་བསྡུས་ཤིག་ཁ་སྣོན།"
+
+#: features/sources_misc_config/sources_misc_config.features.menu_links.inc:181
+msgid "Add a Source"
+msgstr "ཁུངས་ཤིག་ཁ་སྣོན"
+
+#: features/sources_misc_config/sources_misc_config.features.menu_links.inc:183 sources_views/breadcrumbs.inc:32
+msgid "All Sources"
+msgstr "ཁུངས་ཡོངས།"
+
+#: features/sources_misc_config/sources_misc_config.features.menu_links.inc:186
+msgid "My Content"
+msgstr "ངའི་ནང་དོན།"
+
+#: features/sources_misc_config/sources_misc_config.features.menu_links.inc:187
+msgid "My Sources"
+msgstr "ངའི་ཐོན་ཁོངས།"
+
+#: features/sources_misc_config/sources_misc_config.info:0
+msgid "Sources Misc Config"
+msgstr "ཁུངས་ཀྱི་སྣ་མང་སྒྲིག་འགོད"
+
+#: features/sources_misc_config/sources_misc_config.info:0
+msgid "Miscellaneous settings for Sources site."
+msgstr "ཐོན་ཁོངས་དྲ་གནས་ཀྱི་སྣ་ཚོགས་སྒྲིག་འགོད།"
+
+#: sources_misc/sources_misc.module:107
+msgid "Year of Publication can not be in the future."
+msgstr "ཁྱབ་སྤེལ་གྱི་ལོ་དེ་མ་འོངས་དུ་ཡིན་མི་སྲིད"
+
+#: sources_misc/sources_misc.module:178 sources_views/breadcrumbs.inc:35
+msgid "Create a Source"
+msgstr "ཁུངས་གསར་བ་ཞིག་འཛུགས་པ"
+
+#: sources_misc/sources_misc.module:15
+msgid "View"
+msgstr "ལྟ་ཞིབ"
+
+#: sources_misc/sources_misc.module:23
+msgid "Members"
+msgstr "ཁོངས་མི།"
+
+#: sources_misc/sources_misc.info:0
+msgid "Sources Miscellaneous Custom Module"
+msgstr "ཁུངས་ཀྱི་སྣ་མང་རང་བཟོའི་མ་དཔེ"
+
+#: sources_misc/sources_misc.info:0
+msgid "Custom for miscellaneous functions for the Sources site"
+msgstr "རང་བཟོ་བྱས་པའི་ཁུངས་ཀྱི་དྲ་ཚིགས་ཀྱི་བྱེད་ནུས་སྣ་ཚོགས"
+
+#: sources_text_format/sources_text_format.info:0
+msgid "Sources Text Format"
+msgstr "འབྱུང་ཁུངས་ཀྱི་ཡི་གེའི་རྣམ་གཞག"
+
+#: sources_text_format/sources_text_format.info:0
+msgid "Text format to replace Panopoly"
+msgstr ""
+"Panopoly "
+"ཡི་ཚབ་ཏུ་བརྗེ་དགོས་པའི་ཡི་གེའི་རྣམ་གཞག"
+
+#: sources_views/biblio.inc:91
+msgid "Titles"
+msgstr "ཁ་བྱང"
+
+#: sources_views/biblio.inc:107
+msgid "Authors"
+msgstr "རྩོམ་མཁན"
+
+#: sources_views/biblio.inc:123
+msgid "Publishers"
+msgstr "ཁྱབ་སྤེལ་མཁན"
+
+#: sources_views/biblio.inc:139 sources_views/sources_views.module:125;634
+msgid "Place of Publication"
+msgstr "ཁྱབ་སྤེལ་གྱི་ས་གནས"
+
+#: sources_views/biblio.inc:155 sources_views/sources_views.module:129;501;647
+msgid "Tags"
+msgstr "དབྱེ་རྟགས"
+
+#: sources_views/breadcrumbs.inc:25
+msgid "Search Results"
+msgstr "འཚོལ་བཤེར་མཇུག་འབྲས"
+
+#: sources_views/breadcrumbs.inc:29
+msgid "Tagged with "
+msgstr "རྟགས་མཆན་བཀོད་ས"
+
+#: sources_views/breadcrumbs.inc:95
+msgid "View all sources"
+msgstr "ཁུངས་ཡོངས་ལ་ལྟ་བ"
+
+#: sources_views/sources_views.module:110;576
+msgid "All"
+msgstr "ཡོངས"
+
+#: sources_views/sources_views.module:111;577
+msgid "Any"
+msgstr "གང་རུང"
+
+#: sources_views/sources_views.module:113;580
+msgid "Find items that match"
+msgstr "ཆ་མཚུངས་བའི་རྣམ་གྲངས་འཚོལ་བ"
+
+#: sources_views/sources_views.module:114;581
+msgid "of the fields below"
+msgstr "འོག་གི་གནས་ཡུལ་གྱི་"
+
+#: sources_views/sources_views.module:117
+msgid "Source type"
+msgstr "ཁུངས་ཀྱི་རིགས"
+
+#: sources_views/sources_views.module:119;495;613
+msgid "Title"
+msgstr "ཁ་བྱང"
+
+#: sources_views/sources_views.module:121;498;620
+msgid "Author"
+msgstr "རྩོམ་མཁན"
+
+#: sources_views/sources_views.module:123;627
+msgid "Publisher"
+msgstr "ཁྱབ་སྤེལ་མཁན"
+
+#: sources_views/sources_views.module:127
+msgid "Abstract"
+msgstr "མདོར་བསྟན།"
+
+#: sources_views/sources_views.module:137;658
+msgid "Clear"
+msgstr "གཙང་སེལ"
+
+#: sources_views/sources_views.module:175
+msgid "Sorting Biblio Author"
+msgstr "ཁུངས་འདྲེན་སའི་རྩོམ་མཁན་གོ་རིམ་སྒྲིག་པ"
+
+#: sources_views/sources_views.module:180
+msgid "Sorting Stripped Node Title"
+msgstr "དུས་བུ་བཅད་པའི་ནང་ཚན་ཁ་བྱང་གི་གོ་རིམ་སྒྲིག་པ"
+
+#: sources_views/sources_views.module:185
+msgid "Sorting Custom Publication Year"
+msgstr "རང་བཟོས་ཀྱི་ཁྱབ་སྤེལ་ལོ་གོ་རིམ་སྒྲིག་པ"
+
+#: sources_views/sources_views.module:190
+msgid "Publication Type"
+msgstr "ཁྱབ་སྤེལ་གྱི་རིགས"
+
+#: sources_views/sources_views.module:195
+msgid "Search text biblio authors"
+msgstr "ཡི་གེའི་ཁུངས་འདྲེན་སའི་རྩོམ་པ་པོ་འཚོལ་བ"
+
+#: sources_views/sources_views.module:200
+msgid "Search text publisher"
+msgstr "ཡི་གེའི་ཁྱབ་སྤེལ་མཁན་འཚོལ་བ"
+
+#: sources_views/sources_views.module:205
+msgid "Search text publish place"
+msgstr "ཡི་གེའི་ཁྱབ་སྤེལ་གནས་འཚོལ་བ"
+
+#: sources_views/sources_views.module:210
+msgid "Search text abstract"
+msgstr "ཡི་གེའི་མདོར་བསྟན་འཚོལ་བ"
+
+#: sources_views/sources_views.module:215
+msgid "Search text zotero tags"
+msgstr ""
+"ཡི་གེའི་zotero "
+"རྟགས་མཆན་འཚོལ་བ"
+
+#: sources_views/sources_views.module:336
+msgid "Custom views filter"
+msgstr "རང་བཟོས་ཀྱི་མཐོང་རིས་ཚག་བྱེད"
+
+#: sources_views/sources_views.module:339
+msgid "FancyTree Taxonomy Block"
+msgstr "FancyTree རིགས་དབྱེའི་ལྷུ་ལག"
+
+#: sources_views/sources_views.module:342
+msgid "FancyTree Taxonomy Search Flyout Block"
+msgstr ""
+"FancyTree "
+"རིགས་དབྱེ་འཚོལ་བཤེར་གྱི་འཕར་ཐོན་ལྷུ་ལག"
+
+#: sources_views/sources_views.module:345
+msgid "Custom taxonomy breadcrumb"
+msgstr "རང་བཟོ་བྱས་པའི་རིགས་འབྱེད་བྱེད་ནུས"
+
+#: sources_views/sources_views.module:349
+msgid "Advanced search block"
+msgstr "མཐོ་རིམ་འཚོལ་བཤེར་གྱི་ལྷུ་ལག"
+
+#: sources_views/sources_views.module:380
+msgid "Sources: Advanced Sources Search Filter"
+msgstr ""
+"ཁུངས། "
+"མཐོ་རིམ་ཁུངས་ཀྱི་འཚོལ་བཤེར་ཚག་རྒྱག་བྱེད"
+
+#: sources_views/sources_views.module:494
+msgid "Biblio Author?"
+msgstr "Biblio ཡི་རྩོམ་མཁན།"
+
+#: sources_views/sources_views.module:496;640
+msgid "Words in Abstract"
+msgstr "གནད་བསྡུས་ནང་གི་མིང་ཚིག"
+
+#: sources_views/sources_views.module:517
+msgid "Sort By"
+msgstr "གོ་རིམ་སྒྲིག་ས"
+
+#: sources_views/sources_views.module:518
+msgid "Order By"
+msgstr "གོ་རིམ་སྒྲིག་སྟངས"
+
+#: sources_views/sources_views.module:585
+msgid "Source Type"
+msgstr "ཁུངས་ཀྱི་རིགས"
+
+#: sources_views/sources_views.module:591
+msgid "Year of Publication"
+msgstr "ཁྱབ་སྤེལ་གྱི་ལོ"
+
+#: sources_views/sources_views.module:593
+msgid "Range"
+msgstr "ཁྱབ་ཁོངས"
+
+#: sources_views/sources_views.module:594
+msgid "Current"
+msgstr "མིག་སྔར"
+
+#: sources_views/sources_views.module:595
+msgid "Last 12 months"
+msgstr "སྔོན་གྱི་ཟླ་༡༢"
+
+#: sources_views/sources_views.module:653
+msgid "Search"
+msgstr "འཚོལ"
+
+#: sources_views/sources_views.module:1174
+msgid "Filters sources based on access"
+msgstr "སྤྱོད་དབང་ལ་བསྟུན་ནས་ཁུངས་ཚགས་རྒྱག་པ"
+
+#: sources_views/sources_views.module:1175
+msgid "Filters out private or group-private sources"
+msgstr "སྒེར་རམ་ཡང་ན་ཚོགས་པ་སྒེར་གྱི་ཁུངས་ཡིན་པ་དག་ཕྱིར་ཕུད་པ"
+
+#: sources_views/sources_views.info:0
+msgid "Sources custom views module"
+msgstr "ཁུངས་ཀྱི་རང་བཟོའི་མཐོང་རིས་ཀྱི་མ་དཔེ"
+
+#: sources_views/sources_views.info:0
+msgid "Custom views module for Sources site."
+msgstr "རང་བཟོས་ཀྱི་ཁུངས་ཀྱི་དྲ་ཚིགས་ཀྱི་མཐོང་རིས།"
+
+#: sources_views/sources_views.info:0
+msgid "SHANTI"
+msgstr "SHANTI"
+
+#: sources_views/templates/sources_views_all_sources_dropdown.tpl.php:4 sources_views/templates/sources_views_breadcrumb_library.tpl.php:4
+msgid "HOME"
+msgstr "གཙོ་ངོས"
+
+#: sources_views/templates/sources_views_custom_sort_field.tpl.php:17;18;23
+msgid "Sort by"
+msgstr "གོ་རིམ་གཞི་འཛིན་ས།"
+
