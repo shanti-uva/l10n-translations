@@ -1,0 +1,41 @@
+# $Id$
+#
+# Tibetan translation of Drupal (general)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  shanti_kmaps_solr.module: n/a
+#  shanti_kmaps_solr.info: n/a
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2019-06-11 18:13+0000\n"
+"PO-Revision-Date: 2019-06-11 18:13+0000\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Tibetan <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: shanti_kmaps_solr.module:30
+msgid "kmaps_module"
+msgstr ""
+
+#: shanti_kmaps_solr.module:30
+msgid "handlebars is not enabled, please enable!"
+msgstr ""
+
+#: shanti_kmaps_solr.info:0
+msgid "SHANTI KMaps Solr"
+msgstr ""
+
+#: shanti_kmaps_solr.info:0
+msgid "Wrapper for SHANTI KMaps Solr jQuery plugin"
+msgstr ""
+
+#: shanti_kmaps_solr.info:0
+msgid "SHANTI"
+msgstr "SHANTI"
+

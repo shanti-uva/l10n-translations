@@ -1,0 +1,212 @@
+# $Id$
+#
+# Tibetan translation of Drupal (general)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  shanti_kmaps_faceted_search.module: n/a
+#  shanti_kmaps_faceted_search.install: n/a
+#  shanti_kmaps_faceted_search.info: n/a
+#  features/universal_faceted_search/universal_faceted_search.info: n/a
+#  js/shanti_kmaps_faceted_search.js: n/a
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2019-06-11 18:13+0000\n"
+"PO-Revision-Date: 2019-06-11 18:13+0000\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Tibetan <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: shanti_kmaps_faceted_search.module:49
+msgid "The shanti_kmaps_facets module should be DISABLED to avoid conflicts with the shanti_kmaps_faceted_search module."
+msgstr ""
+
+#: shanti_kmaps_faceted_search.module:60
+msgid "Kmaps Search and Navigation:  So Helpful!"
+msgstr ""
+
+#: shanti_kmaps_faceted_search.module:119
+msgid "Number of Kmap Facet Blocks"
+msgstr ""
+
+#: shanti_kmaps_faceted_search.module:123
+msgid "The number of Kmap facet blocks to have on this site"
+msgstr ""
+
+#: shanti_kmaps_faceted_search.module:129
+msgid "Use Bootstrap Tabs for SHANTI Flyout"
+msgstr ""
+
+#: shanti_kmaps_faceted_search.module:131
+msgid "Use Bootstrap tabs (markup/js) for displaying facet blocks in SHANTI Sarvaka flyout"
+msgstr ""
+
+#: shanti_kmaps_faceted_search.module:136
+msgid "Resource types to count"
+msgstr ""
+
+#: shanti_kmaps_faceted_search.module:137
+msgid "Select which resource types you want to reflect in the counts"
+msgstr ""
+
+#: shanti_kmaps_faceted_search.module:145
+msgid "Link tree Nodes to Kmaps"
+msgstr ""
+
+#: shanti_kmaps_faceted_search.module:147
+msgid "When this is checked, tree nodes will link their Kmaps page in Mandala on the same server"
+msgstr ""
+
+#: shanti_kmaps_faceted_search.module:152
+msgid "Show resource counts next to nodes"
+msgstr ""
+
+#: shanti_kmaps_faceted_search.module:154
+msgid "Show the number of resources in a particular category next to the tree node"
+msgstr ""
+
+#: shanti_kmaps_faceted_search.module:159
+msgid "Hide nodes with no resources"
+msgstr ""
+
+#: shanti_kmaps_faceted_search.module:161
+msgid "Hide nodes with no associated resources"
+msgstr ""
+
+#: shanti_kmaps_faceted_search.module:166
+msgid "Items per page in gallery"
+msgstr ""
+
+#: shanti_kmaps_faceted_search.module:170
+msgid "The number of nodes to view per page on the results page for a certain facet"
+msgstr ""
+
+#: shanti_kmaps_faceted_search.module:176
+msgid "Auto Show Results Panel"
+msgstr ""
+
+#: shanti_kmaps_faceted_search.module:178
+msgid "Whether to auto-show the results panel"
+msgstr ""
+
+#: shanti_kmaps_faceted_search.module:191
+msgid "You must enter an integer for the number of Kmap facet blocks."
+msgstr ""
+
+#: shanti_kmaps_faceted_search.module:194
+msgid "Maximum number of blocks must be at least 1."
+msgstr ""
+
+#: shanti_kmaps_faceted_search.module:252
+msgid "Block name"
+msgstr "ལྷུ་ལག་གི་མིང"
+
+#: shanti_kmaps_faceted_search.module:259;267;275
+msgid "Kmap Tree Type"
+msgstr ""
+
+#: shanti_kmaps_faceted_search.module:260;268;276
+msgid "Type of Kmap Navigator Tree to Show in Block"
+msgstr ""
+
+#: shanti_kmaps_faceted_search.module:286
+msgid "Click Action"
+msgstr ""
+
+#: shanti_kmaps_faceted_search.module:287
+msgid "Behavior when you click an entry"
+msgstr ""
+
+#: shanti_kmaps_faceted_search.module:294
+msgid "Kmap Root Path"
+msgstr ""
+
+#: shanti_kmaps_faceted_search.module:295
+msgid "Enter the KMap ID for the Root Node of the nav-tree in this block."
+msgstr ""
+
+#: shanti_kmaps_faceted_search.module:477
+msgid "The library @libname could not be loaded: @errmsg"
+msgstr ""
+
+#: shanti_kmaps_faceted_search.module:762
+msgid "Solr Term Index URL is not set in Kmaps Admin"
+msgstr ""
+
+#: shanti_kmaps_faceted_search.module:770
+msgid "@slogan: All Resources"
+msgstr ""
+
+#: shanti_kmaps_faceted_search.module:778
+msgid "Resources Tagged with @kmheadlist"
+msgstr ""
+
+#: shanti_kmaps_faceted_search.module:786
+msgid "Solr Asset Index URL is not set in Kmaps Admin"
+msgstr ""
+
+#: shanti_kmaps_faceted_search.module:827
+msgid "Nodes indexed in SOLR were not found on the site. Please have your administrator reindex kmap ids."
+msgstr ""
+
+#: shanti_kmaps_faceted_search.module:838
+msgid "No results were found."
+msgstr ""
+
+#: shanti_kmaps_faceted_search.module:848
+msgid "Search on “@qstr”"
+msgstr ""
+
+#: shanti_kmaps_faceted_search.module:854
+msgid "Displaying @st - @end of @total"
+msgstr ""
+
+#: shanti_kmaps_faceted_search.module:859
+msgid "Results"
+msgstr "མཇུག་འབྲས"
+
+#: shanti_kmaps_faceted_search.module:71
+msgid "Kmaps Facets Settings"
+msgstr ""
+
+#: shanti_kmaps_faceted_search.module:73
+msgid "Configure Kmaps Facets Module"
+msgstr ""
+
+#: shanti_kmaps_faceted_search.module:83
+msgid "Return data for a block tree"
+msgstr ""
+
+#: shanti_kmaps_faceted_search.module:93;102
+msgid "Kmap Facet Search"
+msgstr ""
+
+#: shanti_kmaps_faceted_search.install:9
+msgid "Required hook is not implemented! For facet trees to display counts upon keyword search the hook_node_facet_hits() must be implemented. See README for shanti_kmaps_faceted_search module."
+msgstr ""
+
+#: shanti_kmaps_faceted_search.info:0
+msgid "Shanti Kmaps Faceted Search"
+msgstr ""
+
+#: shanti_kmaps_faceted_search.info:0
+msgid "A drupal module from the Shanti project to provide blocks that display custom kmap trees to use as facets."
+msgstr ""
+
+#: shanti_kmaps_faceted_search.info:0 features/universal_faceted_search/universal_faceted_search.info:0
+msgid "Shanti"
+msgstr "Shanti"
+
+#: features/universal_faceted_search/universal_faceted_search.info:0
+msgid "Universal Faceted Search"
+msgstr ""
+
+#: js/shanti_kmaps_faceted_search.js:0
+msgid "Subject or Place Tags"
+msgstr ""
+

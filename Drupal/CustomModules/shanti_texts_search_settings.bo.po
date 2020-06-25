@@ -1,0 +1,121 @@
+# $Id$
+#
+# Tibetan translation of Drupal (general)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  shanti_texts_search_settings.views_default.inc: n/a
+#  shanti_texts_search_settings.info: n/a
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2019-06-11 18:13+0000\n"
+"PO-Revision-Date: 2019-06-11 18:13+0000\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Tibetan <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: shanti_texts_search_settings.views_default.inc:125
+msgid "Master"
+msgstr "གཙོ་འཛིན"
+
+#: shanti_texts_search_settings.views_default.inc:126
+msgid "Full Text Solr"
+msgstr ""
+
+#: shanti_texts_search_settings.views_default.inc:127
+msgid "more"
+msgstr "དེ་ལས་མང་བ"
+
+#: shanti_texts_search_settings.views_default.inc:128
+msgid "&#8203;"
+msgstr ""
+
+#: shanti_texts_search_settings.views_default.inc:129
+msgid "Reset"
+msgstr "བསྐྱར་སྒྲིག"
+
+#: shanti_texts_search_settings.views_default.inc:130
+msgid "Sort by"
+msgstr "གོ་རིམ་གཞི་འཛིན་ས།"
+
+#: shanti_texts_search_settings.views_default.inc:131
+msgid "Asc"
+msgstr "ཇེ་མཐོ"
+
+#: shanti_texts_search_settings.views_default.inc:132
+msgid "Desc"
+msgstr "ཇེ་དམའ"
+
+#: shanti_texts_search_settings.views_default.inc:133
+msgid "Items per page"
+msgstr "ངོས་རེ་རེིའི་ནང་ཚན་གྱི་གྲངས"
+
+#: shanti_texts_search_settings.views_default.inc:134
+msgid "- All -"
+msgstr "- ཡོངས-"
+
+#: shanti_texts_search_settings.views_default.inc:135
+msgid "Offset"
+msgstr "ཁ་གསབ"
+
+#: shanti_texts_search_settings.views_default.inc:136
+msgid "« first"
+msgstr "« ངོས་དང་པོ"
+
+#: shanti_texts_search_settings.views_default.inc:137
+msgid "‹ previous"
+msgstr "‹ སྔོན་མ"
+
+#: shanti_texts_search_settings.views_default.inc:138
+msgid "next ›"
+msgstr "འོག་མ ›"
+
+#: shanti_texts_search_settings.views_default.inc:139
+msgid "last »"
+msgstr "ངོས་རྗེས་མ »"
+
+#: shanti_texts_search_settings.views_default.inc:140
+msgid "<p>Enter a search string, consisting of a word or a phrase enclosed in quotes, to find matching text content.</p>"
+msgstr ""
+
+#: shanti_texts_search_settings.views_default.inc:141
+msgid "Book"
+msgstr "དེབ"
+
+#: shanti_texts_search_settings.views_default.inc:142
+msgid "."
+msgstr "."
+
+#: shanti_texts_search_settings.views_default.inc:143
+msgid ","
+msgstr ","
+
+#: shanti_texts_search_settings.views_default.inc:144
+msgid "[book_ancestors] >"
+msgstr ""
+
+#: shanti_texts_search_settings.views_default.inc:145
+msgid "<!-- __SEARCHTERM__ is replaced by the value of the search input filter in the template for this field -->\n<h3>[book_ancestors] <a href=\"/node/[nid_1]?s=__SEARCHTERM__\">[title]</a></h3>\n<p>[search_api_excerpt]</p>"
+msgstr ""
+
+#: shanti_texts_search_settings.views_default.inc:148
+msgid "Block"
+msgstr "ལྷུ་ལག"
+
+#: shanti_texts_search_settings.info:0
+msgid "Texts Search Settings"
+msgstr ""
+
+#: shanti_texts_search_settings.info:0
+msgid "Search API Solr configuration for Texts search."
+msgstr ""
+
+#: shanti_texts_search_settings.info:0
+msgid "Texts"
+msgstr ""
+
