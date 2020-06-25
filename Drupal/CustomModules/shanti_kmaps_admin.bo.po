@@ -12,8 +12,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2018-01-05 15:42-0500\n"
-"PO-Revision-Date: 2018-01-05 15:42-0500\n"
+"POT-Creation-Date: 2019-06-11 18:12+0000\n"
+"PO-Revision-Date: 2019-06-11 18:12+0000\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Tibetan <EMAIL@ADDRESS>\n"
 "MIME-Version: 1.0\n"
@@ -21,33 +21,37 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: shanti_kmaps_admin.module:49
+#: shanti_kmaps_admin.module:53
 msgid "Administer SHANTI KMaps Admin"
 msgstr "SHANTI KMaps ལ་དོ་དམ་རྒྱག་པ།"
 
-#: shanti_kmaps_admin.module:58
+#: shanti_kmaps_admin.module:62
 msgid "KMaps Subjects Server"
 msgstr "KMaps བརྗོད་དོན་ཞབས་ཞུ་བ"
 
-#: shanti_kmaps_admin.module:62
+#: shanti_kmaps_admin.module:66
 msgid "The server used to retrieve data for KMap subject terms. <br/>Do not include an end slash."
 msgstr ""
 
-#: shanti_kmaps_admin.module:67
+#: shanti_kmaps_admin.module:71
 msgid "KMaps Places Server"
 msgstr "KMaps ས་གནས་ཞབས་ཞུ་བ"
 
-#: shanti_kmaps_admin.module:71
+#: shanti_kmaps_admin.module:75;84
 msgid "The server used to retrieve data for KMap place terms. <br/>Do not include an end slash."
 msgstr ""
 
-#: shanti_kmaps_admin.module:76
+#: shanti_kmaps_admin.module:80
+msgid "KMaps Terms Server"
+msgstr ""
+
+#: shanti_kmaps_admin.module:89
 msgid "Root KMaps Subject IDs"
 msgstr ""
 "རྩ་བའི་KMaps "
 "བརྗོད་དོན་གྱི་ཨང་རྟགས"
 
-#: shanti_kmaps_admin.module:80
+#: shanti_kmaps_admin.module:93
 msgid "The root subject IDs for this site.\n      You may enter a list of IDs separated by whitespace.\n      If you leave this empty, then all subjects will be available."
 msgstr ""
 "དྲ་ངོས་འདིའི་རྩ་བའི་བརྗོད་དོན་གྱི་ཨང་རྟགས།\n"
@@ -56,13 +60,21 @@ msgstr ""
 " "
 "གལ་སྲིད་ཁྱེད་ཀྱིས་དེ་སྟོང་བར་སྐྱུར་ཚེ་བརྗོད་དོན་ཡོངས་སྤྱོད་ནུས།"
 
-#: shanti_kmaps_admin.module:87
+#: shanti_kmaps_admin.module:101
+msgid "Filter by Subjects Root"
+msgstr ""
+
+#: shanti_kmaps_admin.module:103
+msgid "Filter by root subjects id."
+msgstr ""
+
+#: shanti_kmaps_admin.module:109
 msgid "Root KMaps Place IDs"
 msgstr ""
 "རྩ་བའི་KMaps "
 "ས་གནས་ཀྱི་ཨང་རྟགས"
 
-#: shanti_kmaps_admin.module:91
+#: shanti_kmaps_admin.module:113
 msgid "The root places ID for this site.\n      You may enter a list of IDs separated by whitespace.\n      If you leave this empty, then all places will be available."
 msgstr ""
 "དྲ་ཚིགས་འདིའི་རྩ་བའི་ས་གནས་ཀྱི་ཨང་རྟགས།\n"
@@ -71,27 +83,59 @@ msgstr ""
 " "
 "གལ་སྲིད་འདིར་སྟོང་བར་སྐྱུར་ཚེ་ས་གནས་ཡོངས་སྤྱོད་ཐུབ།"
 
-#: shanti_kmaps_admin.module:106
+#: shanti_kmaps_admin.module:121
+msgid "Filter by Places Root"
+msgstr ""
+
+#: shanti_kmaps_admin.module:123
+msgid "Filter by root places id."
+msgstr ""
+
+#: shanti_kmaps_admin.module:129
+msgid "Root KMaps Term IDs"
+msgstr ""
+
+#: shanti_kmaps_admin.module:133
+msgid "The root terms ID for this site.\n      You may enter a list of IDs separated by whitespace.\n      If you leave this empty, then all places will be available."
+msgstr ""
+
+#: shanti_kmaps_admin.module:141
+msgid "Filter by Terms Root"
+msgstr ""
+
+#: shanti_kmaps_admin.module:143
+msgid "Filter by root terms id."
+msgstr ""
+
+#: shanti_kmaps_admin.module:162
 msgid "KMaps Subjects Explorer"
 msgstr "KMaps བརྗོད་དོན་འཚོལ་བྱེད"
 
-#: shanti_kmaps_admin.module:110
+#: shanti_kmaps_admin.module:166
 msgid "The site used to view and explore KMap subject terms in the SHANTI KMap Solr\n      Index. <br/>Be sure to use the special string <b>__KMAP__</b> in the URL (with\n      two underscores before and after the uppercase word \"KMAP\") to specify where the\n      numeric KMap ID actually goes in the URL. <br/>Do not include an end slash."
 msgstr ""
 
-#: shanti_kmaps_admin.module:118
+#: shanti_kmaps_admin.module:174
 msgid "KMaps Places Explorer"
 msgstr "KMaps ས་གནས་འཚོལ་བྱེད"
 
-#: shanti_kmaps_admin.module:122
+#: shanti_kmaps_admin.module:178
 msgid "The site used to view and explore KMap place terms in the SHANTI KMap Solr Index. <br/>Be sure to use the special string <b>__KMAP__</b> in the URL (with two underscores before and after the uppercase word \"KMAP\") to specify where the numeric KMap ID actually goes in the URL. <br/>Do not include an end slash."
 msgstr ""
 
-#: shanti_kmaps_admin.module:127
+#: shanti_kmaps_admin.module:183
+msgid "KMaps Terms Explorer"
+msgstr ""
+
+#: shanti_kmaps_admin.module:187
+msgid "The site used to view and explore KMap terms entries in the SHANTI KMap Solr Index. <br/>Be sure to use the special string <b>__KMAP__</b> in the URL (with two underscores before and after the uppercase word \"KMAP\") to specify where the numeric KMap ID actually goes in the URL. <br/>Do not include an end slash."
+msgstr ""
+
+#: shanti_kmaps_admin.module:192
 msgid "KMaps Solr Username"
 msgstr "KMaps Solr སྤྱོད་མཁན་གྱི་མིང"
 
-#: shanti_kmaps_admin.module:131
+#: shanti_kmaps_admin.module:196
 msgid "<b>Optional:</b> If the Solr index is implementing HTTP Basic Authentication, then enter the username here."
 msgstr ""
 "<b>གདམ་ཁ་ཡིན་ཏེ།</b> "
@@ -99,11 +143,11 @@ msgstr ""
 "གཞི་རྩའི་ངོས་འཛིན་མངོན་འགྱུར་བྱེད་བཞིན་ཡོད་ན། "
 "ད་བཟོད་སྤྱོད་མཁན་གྱི་མིང་དེ་འདིར་འཇུག་དགོས།"
 
-#: shanti_kmaps_admin.module:136
+#: shanti_kmaps_admin.module:201
 msgid "KMaps Solr Password"
 msgstr "KMaps Solr གསང་གྲངས"
 
-#: shanti_kmaps_admin.module:139
+#: shanti_kmaps_admin.module:204
 msgid "<b>Optional:</b> If the Solr index is implementing HTTP Basic Authentication, then enter the password here. Leave blank to keep the current password."
 msgstr ""
 "<b>གདམ་ཁ་ཡིན་ཏེ།</b> "
@@ -112,37 +156,35 @@ msgstr ""
 "ད་བཟོད་གསང་གྲངས་དེ་འདིར་འཇུག་དགོས། "
 "སྟོང་བར་བསྐྱུར་ནས་མིག་སྔའི་གསང་གྲངས་ཉར་བ།"
 
-#: shanti_kmaps_admin.module:144
+#: shanti_kmaps_admin.module:209
 msgid "Do you want to publish your KMap data to the SHANTI KMap Solr Index?"
 msgstr ""
 "ཁྱེད་ཀྱིས་རང་ཉིད་ཀྱི་KMap "
 "གཞི་གྲངས་དེ་SHANTI KMap Solr "
 "ཡི་དཀར་ཆག་ཏུ་སྒྲིག་འདོད་དམ།"
 
-#: shanti_kmaps_admin.module:145
+#: shanti_kmaps_admin.module:210
 msgid "If yes, then make sure you set the next field to a valid Solr URL."
 msgstr ""
 "གལ་སྲིད་ཡིན་ཚེ། "
 "འོག་གི་གནས་ཁོངས་དེ་ནུས་ཡོད་ཀྱི་Solr "
 "སྦྲེལ་ཐག་ཞིག་སྒྲིག་དགོས།"
 
-#: shanti_kmaps_admin.module:151
+#: shanti_kmaps_admin.module:216
 msgid "KMaps Solr Server Assets Index"
 msgstr ""
 "KMaps Solr "
 "ཞབས་ཞུ་བའི་ནང་དོན་དཀར་ཆག"
 
-#: shanti_kmaps_admin.module:155
+#: shanti_kmaps_admin.module:220
 msgid "The URL to the SHANTI KMap Assets index. <br/>This may include a path to the specific index. <br/>Do not include an end slash."
 msgstr ""
 
-#: shanti_kmaps_admin.module:160
-msgid "KMaps Solr Filter Query"
+#: shanti_kmaps_admin.module:225
+msgid "KMaps Solr Project Filter Query"
 msgstr ""
-"KMaps Solr "
-"ཚགས་རྒྱག་བྱེད་འདྲི་ཞིབ"
 
-#: shanti_kmaps_admin.module:164
+#: shanti_kmaps_admin.module:229
 msgid "Solr filter query to apply to all queries, e.g. <tt>fq=project:my_project OR fq=kmapid:places-99999</tt>."
 msgstr ""
 "འདྲི་རྩད་ཡོངས་ལ་མཁོ་འདོན་བྱེད་དགོས་པའི་Solr "
@@ -150,60 +192,100 @@ msgstr ""
 "དཔེར་ན། <tt>fq=project:my_project OR "
 "fq=kmapid:places-99999</tt>."
 
-#: shanti_kmaps_admin.module:169
+#: shanti_kmaps_admin.module:235
+msgid "Enable KMap Filter"
+msgstr ""
+
+#: shanti_kmaps_admin.module:237
+msgid "Enable Kmap Filter below..."
+msgstr ""
+
+#: shanti_kmaps_admin.module:243
+msgid "KMaps Solr Kmaps Filter Query"
+msgstr ""
+
+#: shanti_kmaps_admin.module:247
+msgid "Solr filter query to apply to Kmap entity queries."
+msgstr ""
+
+#: shanti_kmaps_admin.module:253
+msgid "Enable Asset Filter"
+msgstr ""
+
+#: shanti_kmaps_admin.module:255
+msgid "Enable Asset Filter below..."
+msgstr ""
+
+#: shanti_kmaps_admin.module:261
+msgid "KMaps Solr Asset Filter Query"
+msgstr ""
+
+#: shanti_kmaps_admin.module:265
+msgid "Solr filter query to apply to Kmap asset queries."
+msgstr ""
+
+#: shanti_kmaps_admin.module:271
 msgid "KMaps Solr Server Terms Index"
 msgstr ""
 "KMaps Solr "
 "ཞབས་ཞུ་བའི་ཐ་སྙད་དཀར་ཆག"
 
-#: shanti_kmaps_admin.module:173
+#: shanti_kmaps_admin.module:275
 msgid "The URL to the SHANTI KMap Terms index. <br/>This may include a path to the specific index. <br/>Do not include an end slash."
 msgstr ""
 
-#: shanti_kmaps_admin.module:178
+#: shanti_kmaps_admin.module:280
 msgid "KMaps Solr Asset Types"
 msgstr "KMaps Solr ནང་དོན་ཀྱི་རིགས"
 
-#: shanti_kmaps_admin.module:185
+#: shanti_kmaps_admin.module:289
+msgid "Search Result Action"
+msgstr ""
+
+#: shanti_kmaps_admin.module:290
+msgid "Behavior when you click a search results.  'local' or go to asset 'app'"
+msgstr ""
+
+#: shanti_kmaps_admin.module:297
 msgid "Debug Mode"
 msgstr "སྐྱོན་སེལ་བའི་རྣམ་པ།"
 
-#: shanti_kmaps_admin.module:187
+#: shanti_kmaps_admin.module:299
 msgid "Toggle debug mode. Used by various scripts and modules."
 msgstr ""
 "སྐྱོན་སེལ་རྣམ་པའི་བརྗེ་རེས། "
 "མ་དཔེ་དང་སྒྲིག་ཡིག་མང་པོས་སྤྱོད་བཞིན་ཡོད།"
 
-#: shanti_kmaps_admin.module:192
+#: shanti_kmaps_admin.module:304
 msgid "Include MMS Images in KMap Index Results"
 msgstr ""
 "KMap "
 "དཀར་ཆག་མཇུག་འབྲས་ནང་དུ་MMS "
 "པར་རིས་འཇོག་པ"
 
-#: shanti_kmaps_admin.module:194
+#: shanti_kmaps_admin.module:306
 msgid "Toggle to include. Used by KMaps Fields module in popovers."
 msgstr ""
 "ནང་དུ་འཇུག་བྱེད་བརྗེ་རེས། "
 "ཕྱི་རིམ་ཐོག་གི་KMaps "
 "གནས་ཁོངས་ཀྱིས་སྤྱོད་བཞིན་ཡོད།"
 
-#: shanti_kmaps_admin.module:199
+#: shanti_kmaps_admin.module:311
 msgid "Display index response from Kmaps Solr indexing"
 msgstr ""
 
-#: shanti_kmaps_admin.module:201
+#: shanti_kmaps_admin.module:313
 msgid "When checked, shows resonse from SOLR index when kmap doc sent"
 msgstr ""
 
-#: shanti_kmaps_admin.module:212
+#: shanti_kmaps_admin.module:324
 msgid "In order to have a root subjects or places ID, you must set the KMaps Solr Server Terms Index."
 msgstr ""
 "རྩ་བའི་བརྗོད་དོན་ཞིག་གམ་ས་གནས་ཀྱི་ཨང་རྟགས་དགོས་ན། "
 "ཁྱེད་ཀྱིས་ངེས་པར་དུ་KMaps Solr "
 "ཐ་སྙད་དཀར་ཆག་ཞིག་སྒྲིག་དགོས།"
 
-#: shanti_kmaps_admin.module:282
+#: shanti_kmaps_admin.module:394
 msgid "You must enter something for the Solr index, since you have chosen to publish to the SHANTI KMap Solr Index."
 msgstr ""
 "ཁྱེད་ཀྱིས་SHANTI KMap Solr "
@@ -212,29 +294,29 @@ msgstr ""
 "KMap Solr "
 "ལ་གསར་སྤེལ་བྱེད་དགོས་པར་བདམས་ཡོད།"
 
-#: shanti_kmaps_admin.module:353
+#: shanti_kmaps_admin.module:467
 msgid "Feature Type"
 msgstr "ཁྱད་ནུས་རིགས"
 
-#: shanti_kmaps_admin.module:354
+#: shanti_kmaps_admin.module:468
 msgid "Associated Subject"
 msgstr "འབྲེལ་ཡོད་ཀྱི་བརྗོད་དོན"
 
-#: shanti_kmaps_admin.module:21 shanti_kmaps_admin.info:0
+#: shanti_kmaps_admin.module:25 shanti_kmaps_admin.info:0
 msgid "SHANTI KMaps Admin"
 msgstr "SHANTI KMaps ཡི་དོ་དམ"
 
-#: shanti_kmaps_admin.module:22
+#: shanti_kmaps_admin.module:26
 msgid "Specify servers for pulling and pushing KMaps information."
 msgstr ""
 "KMaps "
 "ཆ་འཕྲིན་ཚུར་ལེན་ཕར་སྐྱེལ་ལ་ཞབས་ཞུ་བ་གཏན་ཁེལ་བྱེད་པ།"
 
-#: shanti_kmaps_admin.module:29
+#: shanti_kmaps_admin.module:33
 msgid "SHANTI KMaps Admin Test"
 msgstr "SHANTI KMaps དོ་དམ་གྱི་ཚོད་ལྟ"
 
-#: shanti_kmaps_admin.module:36
+#: shanti_kmaps_admin.module:40
 msgid "SHANTI KMaps Admin Vars as JSON"
 msgstr ""
 "JSON རྣམ་པའི་འོག་གི་SHANTI KMaps "

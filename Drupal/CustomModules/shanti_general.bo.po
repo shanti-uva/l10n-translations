@@ -4,21 +4,24 @@
 # Copyright YEAR NAME <EMAIL@ADDRESS>
 # Generated from files:
 #  shanti_general.features.menu_custom.inc: n/a
+#  shanti_general.module: n/a
 #  shanti_general.info: n/a
 #  modules/shanti_pager/shanti_pager.info: n/a
 #  modules/explore_menu/explore_menu.module: n/a
 #  modules/explore_menu/explore_menu.info: n/a
 #  modules/jira_collector/jira_collector.info: n/a
 #  modules/shanti_carousel/shanti_carousel.info: n/a
+#  modules/shanti_datasrc_test/shanti_datasrc_test.info: n/a
 #  modules/shanti_user/shanti_user.info: n/a
 #  modules/shanti_user/old/user_prefs/user_prefs.info: n/a
 #  modules/jira_collector/jira_collector.module: n/a
 #  modules/shanti_carousel/shanti_carousel.module: n/a
+#  modules/shanti_datasrc_test/shanti_datasrc_test.module: n/a
 #  modules/shanti_grid_view/shanti_grid_view.module: n/a
 #  modules/shanti_grid_view/includes/shanti_grid_view.views.inc: n/a
 #  modules/shanti_grid_view/shanti_grid_view.info: n/a
 #  modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc: n/a
-#  modules/shanti_grid_view/templates/node--shanti-image--grid-details.tpl.php: n/a
+#  modules/shanti_grid_view/templates/node--NODE_TYPE--grid-details.tpl.php: n/a
 #  modules/shanti_user/shanti_user.module: n/a
 #  modules/shanti_user/old/user_prefs/user_prefs.module: n/a
 #
@@ -26,8 +29,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2018-01-05 15:42-0500\n"
-"PO-Revision-Date: 2018-01-05 15:42-0500\n"
+"POT-Creation-Date: 2019-06-11 18:09+0000\n"
+"PO-Revision-Date: 2019-06-11 18:09+0000\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Tibetan <EMAIL@ADDRESS>\n"
 "MIME-Version: 1.0\n"
@@ -44,6 +47,10 @@ msgstr ""
 #: shanti_general.features.menu_custom.inc:22
 msgid "User menu"
 msgstr "སྤྱོད་མཁན་གྱི་འདེམས་བྱང"
+
+#: shanti_general.module:27
+msgid "Edit form cancelled by user"
+msgstr ""
 
 #: shanti_general.info:0
 msgid "SHANTI General"
@@ -66,47 +73,47 @@ msgstr ""
 "Shanti "
 "འཚོལ་ཞིབ་འདེམས་ཐོའི་ལྷུ་ལག"
 
-#: modules/explore_menu/explore_menu.module:90
+#: modules/explore_menu/explore_menu.module:91
 msgid "Section Element Class"
 msgstr "སྡེ་ཚན་གྲུབ་ཆའི་རིགས"
 
-#: modules/explore_menu/explore_menu.module:91
+#: modules/explore_menu/explore_menu.module:92
 msgid "The value for the class attribute of the section element containing the content div"
 msgstr ""
 "div "
 "འདུས་ཡོད་པའི་ཚན་པའི་ནང་ཚན་གྱི་ཁོངས་གཏོགས་མཚན་ཉིད་ཀྱི་ཐོབ་གྲངས།"
 
-#: modules/explore_menu/explore_menu.module:98
+#: modules/explore_menu/explore_menu.module:99
 msgid "Containing Div Class"
 msgstr "Div ཡི་གནས་རིམ་འདུས་ཡོད་པ།"
 
-#: modules/explore_menu/explore_menu.module:99
+#: modules/explore_menu/explore_menu.module:100
 msgid "The value for the class attribute of the div containing the links to the collections"
 msgstr ""
 "ཕྱོགས་བསྡུས་ཀྱི་སྦྲེལ་མཐུད་འདུས་པའི་div "
 "ཡི་ཁོངས་གཏོགས་མཚན་ཉིད་ཀྱི་ཐོབ་གྲངས།"
 
-#: modules/explore_menu/explore_menu.module:106
+#: modules/explore_menu/explore_menu.module:107
 msgid "Title"
 msgstr "ཁ་བྱང"
 
-#: modules/explore_menu/explore_menu.module:107
+#: modules/explore_menu/explore_menu.module:108
 msgid "Title to display at the top of the collection links"
 msgstr "ཕྱོགས་བསྡུས་སྦྲེལ་ཐག་གྱི་སྟེང་དུ་མངོན་དགོས་པའི་ཁ་བྱང"
 
-#: modules/explore_menu/explore_menu.module:114
+#: modules/explore_menu/explore_menu.module:115
 msgid "Link Text"
 msgstr "སྦྲེལ་ཐག་གི་ཡི་གེ"
 
-#: modules/explore_menu/explore_menu.module:115
+#: modules/explore_menu/explore_menu.module:116
 msgid "Text for button in top bar"
 msgstr "གོང་གི་སྒྲོམ་ནང་གི་གནོན་མཐེབ་ཀྱི་ཡི་གེ"
 
-#: modules/explore_menu/explore_menu.module:122
+#: modules/explore_menu/explore_menu.module:123
 msgid "Note:"
 msgstr "ཐོ་འགོད།"
 
-#: modules/explore_menu/explore_menu.module:123
+#: modules/explore_menu/explore_menu.module:124
 msgid "The links themselves are defined by a JSON file contained with the Shanti Explore Menu module's js folder."
 msgstr ""
 "སྦྲེལ་ཐག་དེ་དག་ནི་Shanti "
@@ -114,61 +121,51 @@ msgstr ""
 "ཡིག་སྣོད་ནང་གི་JSON "
 "ཡིག་ཆ་ཞིག་གིས་གཏན་འབེབས་བྱས་པ་རེད།"
 
-#: modules/explore_menu/explore_menu.module:130
+#: modules/explore_menu/explore_menu.module:131
 msgid "Reset Menu Links"
 msgstr "འདེམས་ཐོའི་སྦྲེལ་ཐག་བསྐྱར་སྒྲིག"
 
-#: modules/explore_menu/explore_menu.module:135
-msgid "<p style=\"width: 80%;\">The button below will reset the links in the explorer menu from the JSON file in the explorer menu module. You must first choose the server, or domain, you are working with from the drop down list.</p>"
-msgstr ""
-
-#: modules/explore_menu/explore_menu.module:141
+#: modules/explore_menu/explore_menu.module:143
 msgid "Choose a Domain"
 msgstr "དྲ་མིང་ཞིག་འདེམ་པ"
 
-#: modules/explore_menu/explore_menu.module:142
+#: modules/explore_menu/explore_menu.module:144
 msgid "Local"
 msgstr "རང་ཁུལ"
 
-#: modules/explore_menu/explore_menu.module:143
-msgid "Local (https)"
-msgstr "རང་ཁུལ༼https༽"
+#: modules/explore_menu/explore_menu.module:145
+msgid "Local Stage"
+msgstr ""
 
-#: modules/explore_menu/explore_menu.module:144
+#: modules/explore_menu/explore_menu.module:146
 msgid "Predev"
 msgstr "Predev"
 
-#: modules/explore_menu/explore_menu.module:145
+#: modules/explore_menu/explore_menu.module:147
 msgid "Dev"
 msgstr "གསར་སྤེལ"
 
-#: modules/explore_menu/explore_menu.module:146
+#: modules/explore_menu/explore_menu.module:148
 msgid "Staging"
 msgstr "འཁྲབ་སྟོན"
 
-#: modules/explore_menu/explore_menu.module:147
+#: modules/explore_menu/explore_menu.module:149
 msgid "Production"
 msgstr "ཐོན་སྐྱེད"
 
-#: modules/explore_menu/explore_menu.module:154
+#: modules/explore_menu/explore_menu.module:156
 msgid "Reset Links"
 msgstr "སྦྲེལ་ཐག་བསྐྱར་སྒྲིག"
 
-#: modules/explore_menu/explore_menu.module:155
-msgid "Reset Explore Menu Links from JSON File"
-msgstr ""
-"JSON "
-"ཡིག་ཆའི་འཚོལ་ཞིབ་འདེམས་ཐོའི་སྦྲེལ་ཐག་བསྐྱར་དུ་སྒྲིག་བྱེད་པ"
-
 #: modules/explore_menu/explore_menu.module:157
+msgid "Reset Explore Menu Links based on current domain/host"
+msgstr ""
+
+#: modules/explore_menu/explore_menu.module:159
 msgid "The explore menu links currently point to: "
 msgstr ""
 "མིག་སྔར་འཚོལ་ཞིབ་འདེམས་ཐོའི་སྦྲེལ་ཐག་གི་ཁ་གཏད་ཕྱོགས། "
 ""
-
-#: modules/explore_menu/explore_menu.module:243
-msgid "<p style=\"color:red;\">The domain you have chosen is not valid.</p>"
-msgstr ""
 
 #: modules/explore_menu/explore_menu.module:14
 msgid "Shanti Explore Menu"
@@ -193,7 +190,7 @@ msgstr ""
 "Sarvaka "
 "བརྗོད་གཞི་ལ་འཚོལ་ཞིབ་ཀྱི་མར་འཐེན་འདེམས་ཐོ་ཞིག་གསར་འཛུགས་བྱེད་པ"
 
-#: modules/explore_menu/explore_menu.info:0 modules/jira_collector/jira_collector.info:0 modules/shanti_carousel/shanti_carousel.info:0 modules/shanti_user/shanti_user.info:0 modules/shanti_user/old/user_prefs/user_prefs.info:0
+#: modules/explore_menu/explore_menu.info:0 modules/jira_collector/jira_collector.info:0 modules/shanti_carousel/shanti_carousel.info:0 modules/shanti_datasrc_test/shanti_datasrc_test.info:0 modules/shanti_user/shanti_user.info:0 modules/shanti_user/old/user_prefs/user_prefs.info:0
 msgid "Shanti"
 msgstr "Shanti"
 
@@ -365,51 +362,71 @@ msgstr ""
 "Shanti Mandala "
 "དྲ་ཚིགས་ཀྱི་སྤྱི་ཁྱབ་ཀྱི་བརྙན་སྟོན་ཡོ་བྱད་ཞིག"
 
-#: modules/shanti_grid_view/shanti_grid_view.module:52
+#: modules/shanti_datasrc_test/shanti_datasrc_test.module:8
+msgid "Api path to return an image by size"
+msgstr ""
+
+#: modules/shanti_datasrc_test/shanti_datasrc_test.module:17;26
+msgid "Api path to return information for the popdown"
+msgstr ""
+
+#: modules/shanti_datasrc_test/shanti_datasrc_test.info:0
+msgid "Shanti Data Source Test"
+msgstr ""
+
+#: modules/shanti_datasrc_test/shanti_datasrc_test.info:0
+msgid "A test module to work with grid view on using data sources"
+msgstr ""
+
+#: modules/shanti_grid_view/shanti_grid_view.module:64
 msgid "Shanti Grid View Reset"
 msgstr ""
 
-#: modules/shanti_grid_view/shanti_grid_view.module:57
+#: modules/shanti_grid_view/shanti_grid_view.module:69
 msgid "Reset Image Size Cache"
 msgstr ""
 
-#: modules/shanti_grid_view/shanti_grid_view.module:58
+#: modules/shanti_grid_view/shanti_grid_view.module:70
 msgid "<p>Image sizes are cached for the grid view and the lightbox. Use this button to clear that cache.</p>"
 msgstr ""
 
-#: modules/shanti_grid_view/shanti_grid_view.module:66
+#: modules/shanti_grid_view/shanti_grid_view.module:78
 msgid "Shanti Grid View image size cache cleared!"
 msgstr ""
 
-#: modules/shanti_grid_view/shanti_grid_view.module:134;138
+#: modules/shanti_grid_view/shanti_grid_view.module:146;150
 msgid "Grid Details"
 msgstr ""
 
-#: modules/shanti_grid_view/shanti_grid_view.module:282
-msgid "The non-IIIF node version of the Grid View format has yet to be coded."
+#: modules/shanti_grid_view/shanti_grid_view.module:588
+msgid "Unknown view entity type in Shanti Grid View"
 msgstr ""
 
-#: modules/shanti_grid_view/shanti_grid_view.module:164
+#: modules/shanti_grid_view/shanti_grid_view.module:183
 msgid "shanti_grid_view"
 msgstr ""
 
-#: modules/shanti_grid_view/shanti_grid_view.module:164
+#: modules/shanti_grid_view/shanti_grid_view.module:183
 msgid "Invalid parameters for shanti_grid_view_item_info function"
 msgstr ""
 
-#: modules/shanti_grid_view/shanti_grid_view.module:15 modules/shanti_grid_view/includes/shanti_grid_view.views.inc:10
+#: modules/shanti_grid_view/shanti_grid_view.module:19 modules/shanti_grid_view/includes/shanti_grid_view.views.inc:10
 msgid "Shanti Grid View"
 msgstr ""
 
-#: modules/shanti_grid_view/shanti_grid_view.module:16
+#: modules/shanti_grid_view/shanti_grid_view.module:20
 msgid "Configuration for Shanti Grid View module"
 msgstr ""
 
-#: modules/shanti_grid_view/shanti_grid_view.module:24
+#: modules/shanti_grid_view/shanti_grid_view.module:28
+msgid "Api path to return description of node for Shanti grid view for data sources"
+msgstr ""
+
+#: modules/shanti_grid_view/shanti_grid_view.module:36
 msgid "Api path to return description of node for Shanti grid view"
 msgstr ""
 
-#: modules/shanti_grid_view/shanti_grid_view.module:35
+#: modules/shanti_grid_view/shanti_grid_view.module:47
 msgid "Api path to return an image url based on FID and Size"
 msgstr ""
 
@@ -429,123 +446,223 @@ msgstr "པར་རིས"
 msgid "Displays images in a Google-like grid view"
 msgstr ""
 
-#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:44
+#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:66
 msgid "Subtitle to appear above view results"
 msgstr ""
 
-#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:45
+#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:67
 msgid "A subtitle to appear above the view results"
 msgstr ""
 
-#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:51
+#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:73
 msgid "IIIF View"
 msgstr ""
 
-#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:52
-msgid "Check this box if you are using a IIIF server to display the images of the grid"
+#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:74
+msgid "Check this box if this site is an images site that uses a IIIF server to display the images of the grid"
 msgstr ""
 
-#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:58
+#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:80
 msgid "IIIF Options"
 msgstr ""
 
-#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:67
+#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:89
 msgid "IIIF URL Syntax"
 msgstr ""
 
-#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:68
-msgid "Enter the syntax of the URL with __FNAME__ for the file name and __SIZE__ for the \"width,height\" size string replacements."
-msgstr ""
-
-#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:74
+#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:99
 msgid "Field to use for Image"
 msgstr ""
 
-#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:75
+#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:100
 msgid "Choose the field that in the view that is the image field"
 msgstr ""
 
-#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:81
+#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:107
 msgid "Tiny Image Size"
 msgstr ""
 
-#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:82
+#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:108
 msgid "Enter the size for the placeholder tiny image for progressive loading"
 msgstr ""
 
-#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:88
+#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:114
 msgid "Thumbnail Image Size"
 msgstr ""
 
-#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:89
+#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:115
 msgid "Enter the size for the thumbnails in the grid"
 msgstr ""
 
-#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:95
+#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:121
 msgid "Popdown Image Size"
 msgstr ""
 
-#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:96
+#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:122
 msgid "Enter the size for the image in the popdown"
 msgstr ""
 
-#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:102
+#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:128
 msgid "Full Image Size"
 msgstr ""
 
-#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:103
+#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:129
 msgid "Enter the full image size for the light box"
 msgstr ""
 
-#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:112
+#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:139
 msgid "Type of Entity Listed in View"
 msgstr ""
 
-#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:113
-msgid "Entity type being shown in this view: File or Node"
+#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:140
+msgid "Entity type being shown in this view: File, Node, or Data (detected automatically)"
 msgstr ""
 
-#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:125
+#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:152
 msgid "File Image Selectors"
 msgstr ""
 
-#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:126
+#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:153
 msgid "Galleries showing image files use the image styles applied to the file itself."
 msgstr ""
 
-#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:136
+#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:163
 msgid "Node Image Selectors"
 msgstr ""
 
-#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:137
+#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:164
 msgid "Select the fields to be used for the teaser thumbnails and the full version from the drop down lists below:"
 msgstr ""
 
-#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:147
+#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:174;264
 msgid "Thumbnail Image"
 msgstr "བསྡུས་པར་གྱི་པར་རིས"
 
-#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:148
+#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:175;265;293
 msgid "Select the image field to use as the thumbnail in the grid"
 msgstr ""
 
-#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:159
+#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:186
 msgid "Large Image"
 msgstr ""
 
-#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:160
+#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:187
 msgid "Select the image field to use for the large version of the image used in the drop down under an image"
 msgstr ""
 
-#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:172
+#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:199
 msgid "Extra Large Image"
 msgstr ""
 
-#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:173
+#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:200
 msgid "Select the image field to use for the extra large version of the image used for the lightbox full image"
 msgstr ""
 
-#: modules/shanti_grid_view/templates/node--shanti-image--grid-details.tpl.php:45
+#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:213
+msgid "Data Source Selectors"
+msgstr ""
+
+#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:214
+msgid "Select the fields to be used for information for a custom data source:"
+msgstr ""
+
+#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:225
+msgid "Item ID"
+msgstr "ནང་ཚན་གྱི་ཨང་རྟགས"
+
+#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:226
+msgid "Select the field to use as for the ID of the item"
+msgstr ""
+
+#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:238
+msgid "IIIF Filename"
+msgstr ""
+
+#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:239
+msgid "Select the field the IIIF file name if this view is of IIIF images"
+msgstr ""
+
+#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:251
+msgid "Item Title"
+msgstr ""
+
+#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:252
+msgid "Select the field to use as for the title of the item"
+msgstr ""
+
+#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:278
+msgid "Thumbnail Width"
+msgstr ""
+
+#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:279
+msgid "Select the image field to use as the thumbnail width"
+msgstr ""
+
+#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:292
+msgid "Thumbnail Height"
+msgstr ""
+
+#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:305
+msgid "Image URL Syntax"
+msgstr ""
+
+#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:306
+msgid "Enter the syntax for the image by size url. Use __ID__ for resource id and __SIZE__ for the size parameter."
+msgstr ""
+
+#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:313
+msgid "Item Info Source"
+msgstr ""
+
+#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:314
+msgid "Choose the method for retrieving information about a single item:"
+msgstr ""
+
+#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:317
+msgid "By URL Syntax"
+msgstr ""
+
+#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:318
+msgid "By Implementing a Function"
+msgstr ""
+
+#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:319
+msgid "By Cached View Results"
+msgstr ""
+
+#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:325
+msgid "Item Info URL Syntax"
+msgstr ""
+
+#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:326
+msgid "Enter the URL to retrieve the details about an item. Use __ID__ for item’s id. <br/>\n                                This URL must return an HTML div with the information marked up."
+msgstr ""
+
+#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:341
+msgid "Item Info Function"
+msgstr ""
+
+#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:342
+msgid "Enter the name of the function used to retrieve details about an item. Leave blank for default function name. \n                               The items ID will be passed as the first parameter. This URL must return an HTML div with the information marked up."
+msgstr ""
+
+#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:358
+msgid "Map of Fields"
+msgstr ""
+
+#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:359
+msgid "Map field names in view to placeholder strings in template, one per line, in the format {field name}|{placeholder string}. Strings are:  \n                                GVID, GVTITLE, GVAUTH, GVSUBTYPE, GVWIDTH, GVHEIGHT, GVDATE, GVCOLLECTION, GVPLACES, GVSUBJECTS, GVDESC \n                                (Any undefined placeholder strings will be replaced with an empty string.)"
+msgstr ""
+
+#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:375
+msgid "Resource Page URL Syntax"
+msgstr ""
+
+#: modules/shanti_grid_view/includes/shanti_grid_view_plugin_style.inc:376
+msgid "Enter the syntax for url to show a resource item by id. Use __ID__ for resource id. Or enter the name of the view field. If __ID__ is not present, will assume it is name of field."
+msgstr ""
+
+#: modules/shanti_grid_view/templates/node--NODE_TYPE--grid-details.tpl.php:44
 msgid "No description available."
 msgstr ""
 
@@ -605,6 +722,10 @@ msgstr ""
 
 #: modules/shanti_user/shanti_user.module:180
 msgid "The following users already had accounts: @users"
+msgstr ""
+
+#: modules/shanti_user/shanti_user.module:256
+msgid "Your first and last name have been set to <a href=\"@lnk\">@rn</a>"
 msgstr ""
 
 #: modules/shanti_user/shanti_user.module:15

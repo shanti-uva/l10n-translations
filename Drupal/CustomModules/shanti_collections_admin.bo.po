@@ -10,8 +10,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2018-01-05 15:42-0500\n"
-"PO-Revision-Date: 2018-01-05 15:42-0500\n"
+"POT-Creation-Date: 2019-06-11 18:09+0000\n"
+"PO-Revision-Date: 2019-06-11 18:09+0000\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Tibetan <EMAIL@ADDRESS>\n"
 "MIME-Version: 1.0\n"
@@ -19,72 +19,80 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: shanti_collections_admin.module:51
+#: shanti_collections_admin.module:59
 msgid "Administer SHANTI Collections Admin"
 msgstr ""
 "SHANTI "
 "ཕྱོགས་བསྡུས་ཀྱི་དོ་དམ་ལ་དོ་དམ་རྒྱག་པ།"
 
-#: shanti_collections_admin.module:52
+#: shanti_collections_admin.module:60
 msgid "Perform administration tasks for SHANTI Collections Admin."
 msgstr ""
 "SHANTI "
 "ཕྱོགས་བསྡུས་དོ་དམ་གྱི་དོ་དམ་འོས་འགན་ལག་བསྟར་བྱེད་པ།"
 
-#: shanti_collections_admin.module:70
+#: shanti_collections_admin.module:63
+msgid "Convert between Shanti Collections and Subcollections"
+msgstr ""
+
+#: shanti_collections_admin.module:64
+msgid "Allows user to convert any collection into a subcollection and vice versa"
+msgstr ""
+
+#: shanti_collections_admin.module:82
 msgid "OG Collection Field"
 msgstr "OG ཕྱོགས་བསྡུས་གནས་ཁོངས"
 
-#: shanti_collections_admin.module:71
+#: shanti_collections_admin.module:83
 msgid "OG Parent Collection Field"
 msgstr ""
 "OG "
 "མ་ཁོངས་ཀྱི་ཕྱོགས་བསྡུས་གནས་ཁོངས"
 
-#: shanti_collections_admin.module:72;120
+#: shanti_collections_admin.module:84;132
 msgid "Content Types"
 msgstr "ནང་དོན་གྱི་རིགས།"
 
-#: shanti_collections_admin.module:73
+#: shanti_collections_admin.module:85
 msgid "Content Views"
 msgstr "ནང་དོན་གྱི་མཐོང་རིས"
 
-#: shanti_collections_admin.module:74
+#: shanti_collections_admin.module:86
 msgid "Members View"
 msgstr "ཁོངས་མིར་ལྟ་བ།"
 
-#: shanti_collections_admin.module:84
+#: shanti_collections_admin.module:96
 msgid "Collection Field"
 msgstr "ཕྱོགས་བསྡུས་ཀྱི་གནས་ཁོངས"
 
-#: shanti_collections_admin.module:87
+#: shanti_collections_admin.module:99
 msgid "The OG field that links a media asset to a Collection or Subcollection."
 msgstr ""
 "འཕྲིན་ལམ་གྱི་རྒྱུ་ཆ་ཞིག་ཕྱོགས་བསྡུས་དང་ཡན་ལག་ཕྱོགས་བསྡུས་ལ་སྦྲེལ་བའི་OG "
 "གནས་ཁོངས།"
 
-#: shanti_collections_admin.module:92
+#: shanti_collections_admin.module:104
 msgid "Parent Collection Field"
 msgstr "མ་ཁོངས་ཕྱོགས་བསྡུས་ཀྱི་གནས་ཁོངས"
 
-#: shanti_collections_admin.module:95
+#: shanti_collections_admin.module:107
 msgid "The OG field that links a Subcollection to a parent Collection."
 msgstr ""
 "ཡན་ལག་གི་ཕྱོགས་བསྡུས་ཤིག་གོང་རིམ་གྱི་ཕྱོགས་བསྡུས་ཞིག་ལ་སྦྲེལ་བའི་OG "
 "གནས་ཁོངས།"
 
-#: shanti_collections_admin.module:123
+#: shanti_collections_admin.module:135
 msgid "Content Types that can be added to Collections. If nothing appears here, you many need to change your fields."
 msgstr ""
 "ཕྱོགས་བསྡུས་སུ་བསྣན་ཆོག་པའི་ནང་དོན་གྱི་རིགས། "
 "འདིར་གལ་སྲིད་ཅི་ཡང་མ་འཆར་ན། "
 "ཁྱེད་ཀྱིས་རང་ཉིད་ཀྱི་གནས་ཁོངས་བརྗེ་སྲིད།"
 
-#: shanti_collections_admin.module:140
+#: shanti_collections_admin.module:152
 msgid "Collection Items View"
 msgstr "ཕྱོགས་བསྡུས་ནང་ཚན་གྱི་ལྟ་ཁུངས"
 
-#: shanti_collections_admin.module:143
+#: shanti_collections_admin.module:155
 msgid "A view to be included on the Collections and Subcollections pages.<br />\n    \t\t\t\t\t\tEnter the machine name of the view plus the the display ID separated by a space.<br />\n    \t\t\t\t\t\t<b>Make sure this view includes all content types chose above and accepts multiple arguments!</b>"
 msgstr ""
 "ཕྱོགས་བསྡུས་དང་ཡན་ལག་ཕྱོགས་བསྡུས་ཀྱི་ནང་དུ་འཇོག་དགོས་པའི་མཐོང་རིས་ཤིག<br "
@@ -95,17 +103,81 @@ msgstr ""
 "    "
 "\t\t\t\t\t\t<b>མཐོང་རིས་འདིའི་ནང་དུ་གོང་ནས་བདམས་ཟིན་པའི་ནང་དོན་རིགས་ཡོངས་འདུས་ཡོད་པ་དང་འཇུག་གྲངས་འགའ་ཞིག་ཡོད་དགོས་པར་དག་ཐེར་བྱེད་དགོས།</b>"
 
-#: shanti_collections_admin.module:150
+#: shanti_collections_admin.module:162
 msgid "Collection Members View"
 msgstr "ཕྱོགས་བསྡུས་ཚོགས་མིའི་ལྟ་ཁུངས"
 
-#: shanti_collections_admin.module:153
+#: shanti_collections_admin.module:165
 msgid "A view to be included on the Collections and Subcollections pages.<br />\n    \t\t\t\t\t\tEnter the machine name of the view plus the the display ID separated by a space."
 msgstr ""
 "ཕྱོགས་བསྡུས་དང་ཡན་ལག་ཕྱོགས་བསྡུས་ཀྱི་ནང་དུ་འཇོག་དགོས་པའི་མཐོང་རིས་ཤིག<br "
 "/>\n"
 "    "
 "\t\t\t\t\t\tམཐོང་རིས་ཀྱི་འཕྲུས་ཆས་མིང་དེ་དང་མངོན་སྟོན་གྱི་ཨང་རྟགས་གཉིས་ལ་སྟོང་མཐེབ་ཀྱི་བར་མཚམས་བཞག་ནས་ནང་འཇུག་བྱེད་དགོས།"
+
+#: shanti_collections_admin.module:312
+msgid "No Node ID given in form function"
+msgstr ""
+
+#: shanti_collections_admin.module:322
+msgid "Are you sure you want to convert the collection, <strong>@title</strong> (@nid), into a subcollection?"
+msgstr ""
+
+#: shanti_collections_admin.module:332
+msgid "Are you sure you want to convert the subcollection, <strong>@title</strong> (@nid), into a collection?"
+msgstr ""
+
+#: shanti_collections_admin.module:337
+msgid "A @nodetype cannot be converted into a collection"
+msgstr ""
+
+#: shanti_collections_admin.module:350
+msgid "Parent Collection"
+msgstr "མ་ཁོངས་ཀྱི་ཕྱོགས་བསྡུས"
+
+#: shanti_collections_admin.module:351
+msgid "Select a parent collection for this one after it is converted to subcollection"
+msgstr ""
+
+#: shanti_collections_admin.module:361
+msgid "Cancel"
+msgstr "ཕྱིར་འཐེན"
+
+#: shanti_collections_admin.module:369
+msgid "You do not have permissions to perform that action."
+msgstr ""
+
+#: shanti_collections_admin.module:373
+msgid "@n is not a valid node ID"
+msgstr ""
+
+#: shanti_collections_admin.module:422
+msgid "No node id given"
+msgstr ""
+
+#: shanti_collections_admin.module:434
+msgid "You must choose a parent collection for this one to be placed under"
+msgstr ""
+
+#: shanti_collections_admin.module:439
+msgid "The parent you have chosen is not a collection"
+msgstr ""
+
+#: shanti_collections_admin.module:443
+msgid "You do not have permissions to add subcollections to that parent collection"
+msgstr ""
+
+#: shanti_collections_admin.module:449
+msgid "Node to be converted is not the proper type: collection, subcollection"
+msgstr ""
+
+#: shanti_collections_admin.module:456
+msgid "No node id was sent to the collection conversion routine. Cannot proceed"
+msgstr ""
+
+#: shanti_collections_admin.module:491
+msgid "Cannot convert @type into a collection."
+msgstr ""
 
 #: shanti_collections_admin.module:7 shanti_collections_admin.info:0
 msgid "SHANTI Collections Admin"
@@ -137,7 +209,7 @@ msgstr "ཕྱོགས་བསྡུས་དང་ཕྱོགས་བསྡ
 msgid "Views"
 msgstr "མཐོང་རིས"
 
-#: shanti_collections_admin.module:31
+#: shanti_collections_admin.module:31;46
 msgid "Specify views for Collections and Subcollections."
 msgstr "ཕྱོགས་བསྡུས་དང་ཡན་ལག་ཕྱོགས་བསྡུས་ཀྱི་མཐོང་རིས་གཏན་ཁེལ་བྱེད་པ།"
 
@@ -150,6 +222,10 @@ msgstr ""
 #: shanti_collections_admin.module:39
 msgid "A test page"
 msgstr "ཚོད་ལྟའི་དྲ་ངོས་ཤིག"
+
+#: shanti_collections_admin.module:45
+msgid "Convert Collection to Subcollection"
+msgstr ""
 
 #: shanti_collections_admin.info:0
 msgid "Provide config information for SHANTI Collections"

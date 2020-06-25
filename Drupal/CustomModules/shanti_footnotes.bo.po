@@ -11,8 +11,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2018-01-05 15:42-0500\n"
-"PO-Revision-Date: 2018-01-05 15:42-0500\n"
+"POT-Creation-Date: 2019-06-11 18:09+0000\n"
+"PO-Revision-Date: 2019-06-11 18:09+0000\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Tibetan <EMAIL@ADDRESS>\n"
 "MIME-Version: 1.0\n"
@@ -38,7 +38,7 @@ msgstr "SHANTI"
 msgid "SHANTI verson of CKEditor Footnotes."
 msgstr "SHANTI ཡི་CKEditor ཟུར་འགྲེལ།"
 
-#: modules/shanti_footnotes_ckeditor/shanti_footnotes_ckeditor.module:36
+#: modules/shanti_footnotes_ckeditor/shanti_footnotes_ckeditor.module:37
 msgid "Add Footnote"
 msgstr "ཞབས་མཆན་ཁ་སྣོན།"
 

@@ -10,8 +10,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2018-01-05 15:43-0500\n"
-"PO-Revision-Date: 2018-01-05 15:43-0500\n"
+"POT-Creation-Date: 2019-06-11 18:14+0000\n"
+"PO-Revision-Date: 2019-06-11 18:14+0000\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Tibetan <EMAIL@ADDRESS>\n"
 "MIME-Version: 1.0\n"
@@ -176,59 +176,11 @@ msgstr ""
 "HTMLཡི་མཚོན་རྟགས་ལ་གཞི་བྱས་ཏེ་ཚན་པ་མང་པོའི་SHANTI "
 "ཡིག་གེ་གསར་འཛུགས་བྱེད་པ།"
 
-#: shanti_texts_splitter.module:139 shanti_texts_splitter.info:0
-msgid "SHANTI Texts Splitter"
-msgstr ""
-"SHANTI "
-"ཡི་གེའི་མཚམས་དབྱེ་བྱེད"
-
-#: shanti_texts_splitter.module:144;153
-msgid "Heading treatment"
-msgstr "འགོ་བརྗོད་གྱི་སྒྲིག་ཐབས"
-
-#: shanti_texts_splitter.module:145
-msgid "<p>This feature allows you to split a text into separate book pages -- sections -- based on it's HTML headers,\n      e.g. H1, H2, H3, etc. Splitting your text allows you to edit and assign KMap terms to its sectionns\n      individually. To split your text, select the \"Create a new SHANTI Text section at each HTML heading\" below.\n      Beware, however, that the process is currently irreversible: once your text is divided into sections, the sections\n      cannot be automatically re-joined into a single text.</p>"
-msgstr ""
-
-#: shanti_texts_splitter.module:154
-msgid "Should this text be !help at each HTML heading?"
-msgstr ""
-"ཡི་གེ་འདི་HTML "
-"ཡི་འགོ་བརྗོད་རེ་རེའི་!help་ཡིན་དགོས་སམ།"
-
-#: shanti_texts_splitter.module:154
-msgid "split into new SHANTI Text sections"
-msgstr ""
-"SHANTI "
-"ཡི་གེའི་སྡེ་ཚན་གསར་པ་ལ་ཁ་བསྒོ་བ"
-
-#: shanti_texts_splitter.module:157
-msgid "Do not split SHANTI Text into sections."
-msgstr ""
-"SHANTI "
-"ཡིག་གེ་དེ་ཚན་པར་དབྱེ་མི་དགོས།"
-
-#: shanti_texts_splitter.module:158
-msgid "Create a new SHANTI Text section at each HTML heading."
-msgstr ""
-"HTMLཡི་མགོ་བརྗོད་དུ་SHANTI "
-"ཡིག་གེའི་ཚན་པ་ཞིག་གསར་འཛུགས་བྱེད་པ།"
-
-#: shanti_texts_splitter.module:163
-msgid "Split on"
-msgstr "ཁ་བསྒོ་ས"
-
-#: shanti_texts_splitter.module:164
-msgid "Identify the header levels that should identify a new section. All other headers will be ignored."
-msgstr ""
-"ཚན་པ་གསར་བ་ཞིག་ངོས་བཟུང་བྱེད་པའི་འགོ་བརྗོད་ཀྱི་རིམ་པ་དེ་ངོས་འཛིན་བྱེད་པ། "
-"འགོ་བརྗོད་གཞན་ཡོངས་སྣང་མེད་བྱེད་པ།"
-
-#: shanti_texts_splitter.module:335
+#: shanti_texts_splitter.module:417
 msgid "Section !pageno"
 msgstr "སྡེ་ཚན་!pageno"
 
-#: shanti_texts_splitter.module:384
+#: shanti_texts_splitter.module:465
 msgid "Text content field was expanded into !pageno pages by SHANTI Texts Splitter module."
 msgstr ""
 "SHANTI "
@@ -245,6 +197,12 @@ msgid "Provide settings for SHANTI Texts Splitter."
 msgstr ""
 "SHANTI "
 "ཡི་གེའི་མཚམས་དབྱེ་བྱེད་ལ་སྒྲིག་འགོད་མཁོ་འདོན་བྱེད་པ།"
+
+#: shanti_texts_splitter.info:0
+msgid "SHANTI Texts Splitter"
+msgstr ""
+"SHANTI "
+"ཡི་གེའི་མཚམས་དབྱེ་བྱེད"
 
 #: shanti_texts_splitter.info:0
 msgid "Fork of HTML2Book for modding. Adds option to split book body into new book pages at each HTML heading in the text."

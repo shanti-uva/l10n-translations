@@ -6,13 +6,15 @@
 #  template.php: n/a
 #  theme-settings.php: n/a
 #  shanti_sarvaka_texts.info: n/a
+#  js/shanti-main-texts.js: n/a
+#  templates/node--collection.tpl.php: n/a
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2018-01-05 13:23-0500\n"
-"PO-Revision-Date: 2018-01-05 13:23-0500\n"
+"POT-Creation-Date: 2019-06-11 18:29+0000\n"
+"PO-Revision-Date: 2019-06-11 18:29+0000\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Tibetan <EMAIL@ADDRESS>\n"
 "MIME-Version: 1.0\n"
@@ -20,15 +22,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: template.php:24
-msgid "Collections"
-msgstr "ཕྱོགས་བསྡུས"
-
-#: template.php:138
+#: template.php:144
 msgid "Edit this page"
 msgstr ""
 
-#: template.php:149
+#: template.php:155
 msgid "Add a new page under this one"
 msgstr ""
 
@@ -121,6 +119,10 @@ msgid "Search Fly Out"
 msgstr ""
 
 #: shanti_sarvaka_texts.info:0
+msgid "Search Results"
+msgstr "འཚོལ་བཤེར་མཇུག་འབྲས"
+
+#: shanti_sarvaka_texts.info:0
 msgid "Primary Sidebar"
 msgstr ""
 
@@ -150,5 +152,29 @@ msgstr "ཤོག་མཇུག"
 
 #: shanti_sarvaka_texts.info:0
 msgid "Admin Footer"
+msgstr ""
+
+#: js/shanti-main-texts.js:0
+msgid "Split text by headers into pages"
+msgstr ""
+
+#: js/shanti-main-texts.js:0
+msgid "Langs, Subjects, Places, Terms"
+msgstr ""
+
+#: js/shanti-main-texts.js:0
+msgid "Metadata about the text"
+msgstr ""
+
+#: js/shanti-main-texts.js:0
+msgid "Where to put Text and privacy"
+msgstr ""
+
+#: js/shanti-main-texts.js:0
+msgid "Disabled"
+msgstr "ནུས་མེད་བསྒྱུར་ཡོད"
+
+#: templates/node--collection.tpl.php:164
+msgid "This collection is private"
 msgstr ""
 

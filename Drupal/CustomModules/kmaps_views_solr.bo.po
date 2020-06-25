@@ -4,18 +4,28 @@
 # Copyright YEAR NAME <EMAIL@ADDRESS>
 # Generated from files:
 #  kmaps_views_solr.views.inc: n/a
+#  kmaps_views_solr_images.views.inc: n/a
+#  kmaps_views_solr_mms.views.inc: n/a
 #  kmaps_views_solr_sources.views.inc: n/a
 #  kmaps_views_solr_texts.views.inc: n/a
 #  kmaps_views_solr_visuals.views.inc: n/a
+#  kmaps_views_solr_terms.views.inc: n/a
 #  kmaps_views_solr.module: n/a
+#  kmaps_views_solr_images.module: n/a
 #  kmaps_views_solr_sources.module: n/a
+#  kmaps_views_solr_terms.module: n/a
 #  kmaps_views_solr_texts.module: n/a
 #  kmaps_views_solr_visuals.module: n/a
 #  kmaps_views_solr.info: n/a
+#  kmaps_views_solr_images.info: n/a
+#  kmaps_views_solr_mms.info: n/a
 #  kmaps_views_solr_sources.info: n/a
+#  kmaps_views_solr_terms.info: n/a
 #  kmaps_views_solr_texts.info: n/a
 #  kmaps_views_solr_visuals.info: n/a
 #  handlers/kmaps_views_solr_handler_filter_asset_type.inc: n/a
+#  handlers/images/kmaps_views_solr_images_handler_field_image.inc: n/a
+#  handlers/mms/kmaps_views_solr_mms_handler_field_image.inc: n/a
 #  handlers/sources/kmaps_views_solr_sources_handler_filter_asset_subtype.inc: n/a
 #  handlers/visuals/kmaps_views_solr_visuals_handler_filter_asset_subtype.inc: n/a
 #
@@ -23,8 +33,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2018-01-05 15:37-0500\n"
-"PO-Revision-Date: 2018-01-05 15:37-0500\n"
+"POT-Creation-Date: 2019-06-11 18:06+0000\n"
+"PO-Revision-Date: 2019-06-11 18:06+0000\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Tibetan <EMAIL@ADDRESS>\n"
 "MIME-Version: 1.0\n"
@@ -52,15 +62,15 @@ msgstr ""
 msgid "Audio Video Query"
 msgstr ""
 
-#: kmaps_views_solr.views.inc:32 kmaps_views_solr_sources.views.inc:32 kmaps_views_solr_texts.views.inc:32 kmaps_views_solr_visuals.views.inc:32
+#: kmaps_views_solr.views.inc:32 kmaps_views_solr_images.views.inc:32 kmaps_views_solr_mms.views.inc:34 kmaps_views_solr_sources.views.inc:32 kmaps_views_solr_texts.views.inc:32 kmaps_views_solr_visuals.views.inc:32
 msgid "Id"
 msgstr ""
 
-#: kmaps_views_solr.views.inc:33 kmaps_views_solr_sources.views.inc:33 kmaps_views_solr_texts.views.inc:33 kmaps_views_solr_visuals.views.inc:33
+#: kmaps_views_solr.views.inc:33 kmaps_views_solr_images.views.inc:33 kmaps_views_solr_sources.views.inc:33 kmaps_views_solr_texts.views.inc:33 kmaps_views_solr_visuals.views.inc:33
 msgid "The Id of the node"
 msgstr ""
 
-#: kmaps_views_solr.views.inc:40 kmaps_views_solr_sources.views.inc:40 kmaps_views_solr_texts.views.inc:40 kmaps_views_solr_visuals.views.inc:40
+#: kmaps_views_solr.views.inc:40 kmaps_views_solr_images.views.inc:40 kmaps_views_solr_mms.views.inc:42 kmaps_views_solr_sources.views.inc:40 kmaps_views_solr_terms.views.inc:40 kmaps_views_solr_texts.views.inc:40 kmaps_views_solr_visuals.views.inc:40
 msgid "Title"
 msgstr "ཁ་བྱང"
 
@@ -68,35 +78,35 @@ msgstr "ཁ་བྱང"
 msgid "The title of the related Audio-Video"
 msgstr ""
 
-#: kmaps_views_solr.views.inc:54;55
+#: kmaps_views_solr.views.inc:54;55 kmaps_views_solr_mms.views.inc:112
 msgid "Caption"
-msgstr ""
+msgstr "འགོ་བབརྗོད་"
 
 #: kmaps_views_solr.views.inc:62;63
 msgid "Summary"
 msgstr "མདོར་བསྡུས"
 
-#: kmaps_views_solr.views.inc:70 kmaps_views_solr_sources.views.inc:54 kmaps_views_solr_texts.views.inc:54 kmaps_views_solr_visuals.views.inc:54
+#: kmaps_views_solr.views.inc:70 kmaps_views_solr_images.views.inc:70 kmaps_views_solr_sources.views.inc:54 kmaps_views_solr_texts.views.inc:54 kmaps_views_solr_visuals.views.inc:54
 msgid "Create Date"
 msgstr ""
 
-#: kmaps_views_solr.views.inc:71 kmaps_views_solr_sources.views.inc:55 kmaps_views_solr_texts.views.inc:55 kmaps_views_solr_visuals.views.inc:55
+#: kmaps_views_solr.views.inc:71 kmaps_views_solr_images.views.inc:71 kmaps_views_solr_sources.views.inc:55 kmaps_views_solr_texts.views.inc:55 kmaps_views_solr_visuals.views.inc:55
 msgid "Created at date"
 msgstr ""
 
-#: kmaps_views_solr.views.inc:81 kmaps_views_solr_texts.views.inc:65 kmaps_views_solr_visuals.views.inc:65
+#: kmaps_views_solr.views.inc:81 kmaps_views_solr_images.views.inc:81 kmaps_views_solr_texts.views.inc:65 kmaps_views_solr_visuals.views.inc:65
 msgid "Collection"
 msgstr "ཕྱོགས་བསྡུས"
 
-#: kmaps_views_solr.views.inc:82 kmaps_views_solr_texts.views.inc:66 kmaps_views_solr_visuals.views.inc:66
+#: kmaps_views_solr.views.inc:82 kmaps_views_solr_images.views.inc:82 kmaps_views_solr_texts.views.inc:66 kmaps_views_solr_visuals.views.inc:66
 msgid "Collection title"
 msgstr ""
 
-#: kmaps_views_solr.views.inc:89 kmaps_views_solr_texts.views.inc:73 kmaps_views_solr_visuals.views.inc:73
+#: kmaps_views_solr.views.inc:89 kmaps_views_solr_images.views.inc:89 kmaps_views_solr_texts.views.inc:73 kmaps_views_solr_visuals.views.inc:73
 msgid "Creator"
 msgstr "གསར་འཛུགས་མཁན"
 
-#: kmaps_views_solr.views.inc:90 kmaps_views_solr_texts.views.inc:74 kmaps_views_solr_visuals.views.inc:74
+#: kmaps_views_solr.views.inc:90 kmaps_views_solr_images.views.inc:90 kmaps_views_solr_texts.views.inc:74 kmaps_views_solr_visuals.views.inc:74
 msgid "Author of the node"
 msgstr ""
 
@@ -112,28 +122,308 @@ msgstr ""
 msgid "Language"
 msgstr "སྐད་རིགས"
 
-#: kmaps_views_solr.views.inc:119 kmaps_views_solr_visuals.views.inc:95
+#: kmaps_views_solr.views.inc:119 kmaps_views_solr_images.views.inc:100 kmaps_views_solr_visuals.views.inc:95
 msgid "Thumb"
 msgstr ""
 
-#: kmaps_views_solr.views.inc:120 kmaps_views_solr_visuals.views.inc:96
+#: kmaps_views_solr.views.inc:120 kmaps_views_solr_images.views.inc:101 kmaps_views_solr_visuals.views.inc:96
 msgid "Link to thumb image"
 msgstr ""
 
-#: kmaps_views_solr.views.inc:127 kmaps_views_solr_visuals.views.inc:103
+#: kmaps_views_solr.views.inc:127 kmaps_views_solr_images.views.inc:156 kmaps_views_solr_visuals.views.inc:119
 msgid "Ajax Url"
 msgstr ""
 
-#: kmaps_views_solr.views.inc:128 kmaps_views_solr_visuals.views.inc:104
+#: kmaps_views_solr.views.inc:128 kmaps_views_solr_images.views.inc:157 kmaps_views_solr_visuals.views.inc:120
 msgid "Ajax link to node"
 msgstr ""
 
-#: kmaps_views_solr.views.inc:135
+#: kmaps_views_solr.views.inc:135 kmaps_views_solr_images.views.inc:164
 msgid "HTML Url"
 msgstr ""
 
 #: kmaps_views_solr.views.inc:136
 msgid "HTML link to node"
+msgstr ""
+
+#: kmaps_views_solr.views.inc:143
+msgid "Duration"
+msgstr "དུས་ཡུན"
+
+#: kmaps_views_solr.views.inc:144
+msgid "Duration of AV asset"
+msgstr ""
+
+#: kmaps_views_solr.views.inc:151
+msgid "Location"
+msgstr "གནས་ཡུལ"
+
+#: kmaps_views_solr.views.inc:152
+msgid "Location of AV asset"
+msgstr ""
+
+#: kmaps_views_solr_images.views.inc:9
+msgid "Solr Images Related Assets Query"
+msgstr ""
+
+#: kmaps_views_solr_images.views.inc:10
+msgid "Fields for Images pulled as queries from Solr"
+msgstr ""
+
+#: kmaps_views_solr_images.views.inc:23
+msgid "Images Group"
+msgstr ""
+
+#: kmaps_views_solr_images.views.inc:25
+msgid "Images Data"
+msgstr ""
+
+#: kmaps_views_solr_images.views.inc:26
+msgid "Images Query"
+msgstr ""
+
+#: kmaps_views_solr_images.views.inc:41
+msgid "The title of the related Images"
+msgstr ""
+
+#: kmaps_views_solr_images.views.inc:54
+msgid "IIIF Filename"
+msgstr ""
+
+#: kmaps_views_solr_images.views.inc:55
+msgid "The IIIF Filename for the image"
+msgstr ""
+
+#: kmaps_views_solr_images.views.inc:62 kmaps_views_solr_mms.views.inc:120
+msgid "Description"
+msgstr "གསལ་བཤད"
+
+#: kmaps_views_solr_images.views.inc:63
+msgid "The description of the related Images"
+msgstr ""
+
+#: kmaps_views_solr_images.views.inc:108 kmaps_views_solr_visuals.views.inc:103
+msgid "Thumb Width"
+msgstr ""
+
+#: kmaps_views_solr_images.views.inc:109 kmaps_views_solr_visuals.views.inc:104
+msgid "Width of thumb image"
+msgstr ""
+
+#: kmaps_views_solr_images.views.inc:116 kmaps_views_solr_visuals.views.inc:111
+msgid "Thumb Height"
+msgstr ""
+
+#: kmaps_views_solr_images.views.inc:117 kmaps_views_solr_visuals.views.inc:112
+msgid "Height of thumb image"
+msgstr ""
+
+#: kmaps_views_solr_images.views.inc:124
+msgid "Image Width"
+msgstr ""
+
+#: kmaps_views_solr_images.views.inc:125
+msgid "Width of the full image"
+msgstr ""
+
+#: kmaps_views_solr_images.views.inc:132
+msgid "Image Height"
+msgstr ""
+
+#: kmaps_views_solr_images.views.inc:133
+msgid "Height of the full image"
+msgstr ""
+
+#: kmaps_views_solr_images.views.inc:140
+msgid "Kmaps Subjects"
+msgstr ""
+
+#: kmaps_views_solr_images.views.inc:141
+msgid "Kmaps subject IDs associated with image"
+msgstr ""
+
+#: kmaps_views_solr_images.views.inc:148
+msgid "Kmaps Places"
+msgstr ""
+
+#: kmaps_views_solr_images.views.inc:149
+msgid "Kmaps places IDs associated with image"
+msgstr ""
+
+#: kmaps_views_solr_images.views.inc:165
+msgid "URL Alias to node"
+msgstr ""
+
+#: kmaps_views_solr_mms.views.inc:10
+msgid "Solr MMS Related Assets Query"
+msgstr ""
+
+#: kmaps_views_solr_mms.views.inc:11
+msgid "Fields for mms pulled as queries from Solr"
+msgstr ""
+
+#: kmaps_views_solr_mms.views.inc:25
+msgid "MMS Group"
+msgstr ""
+
+#: kmaps_views_solr_mms.views.inc:27
+msgid "MMS Data"
+msgstr ""
+
+#: kmaps_views_solr_mms.views.inc:28
+msgid "MMS Query"
+msgstr ""
+
+#: kmaps_views_solr_mms.views.inc:35
+msgid "The ID of the Image Node"
+msgstr ""
+
+#: kmaps_views_solr_mms.views.inc:43
+msgid "The title of the related MMS Resource"
+msgstr ""
+
+#: kmaps_views_solr_mms.views.inc:56
+msgid "Resource Type"
+msgstr ""
+
+#: kmaps_views_solr_mms.views.inc:57
+msgid "The Resource Type of the related MMS Resource"
+msgstr ""
+
+#: kmaps_views_solr_mms.views.inc:64
+msgid "Photographer"
+msgstr "པར་རྒྱག་མཁན"
+
+#: kmaps_views_solr_mms.views.inc:65
+msgid "The Photographer of the related MMS Resource"
+msgstr ""
+
+#: kmaps_views_solr_mms.views.inc:72
+msgid "Taken On"
+msgstr ""
+
+#: kmaps_views_solr_mms.views.inc:73
+msgid "The Date when the MMS Resource was taken"
+msgstr ""
+
+#: kmaps_views_solr_mms.views.inc:80
+msgid "Recording Note"
+msgstr ""
+
+#: kmaps_views_solr_mms.views.inc:81
+msgid "Any notes from Recording the MMS Resource"
+msgstr ""
+
+#: kmaps_views_solr_mms.views.inc:88
+msgid "Private Note"
+msgstr ""
+
+#: kmaps_views_solr_mms.views.inc:89
+msgid "Private notes from Recording the MMS Resource"
+msgstr ""
+
+#: kmaps_views_solr_mms.views.inc:96
+msgid "Rotation"
+msgstr ""
+
+#: kmaps_views_solr_mms.views.inc:97
+msgid "Rotation of the related MMS Resource"
+msgstr ""
+
+#: kmaps_views_solr_mms.views.inc:104
+msgid "Capture Device"
+msgstr ""
+
+#: kmaps_views_solr_mms.views.inc:105
+msgid "Capture Device of the related MMS Resource"
+msgstr ""
+
+#: kmaps_views_solr_mms.views.inc:113
+msgid "Caption of the related MMS Resource"
+msgstr ""
+
+#: kmaps_views_solr_mms.views.inc:121
+msgid "Description of the MMS Resource"
+msgstr ""
+
+#: kmaps_views_solr_mms.views.inc:128
+msgid "copyright holder"
+msgstr ""
+
+#: kmaps_views_solr_mms.views.inc:129
+msgid "copyright holder of the related mms resource"
+msgstr ""
+
+#: kmaps_views_solr_mms.views.inc:136
+msgid "Copyright Holder's website"
+msgstr ""
+
+#: kmaps_views_solr_mms.views.inc:137
+msgid "Copyright Holder's website of the related mms resource"
+msgstr ""
+
+#: kmaps_views_solr_mms.views.inc:144
+msgid "Reproduction Type"
+msgstr ""
+
+#: kmaps_views_solr_mms.views.inc:145
+msgid "Reproduction Type of the related MMS Resource"
+msgstr ""
+
+#: kmaps_views_solr_mms.views.inc:152
+msgid "Reproduction Type Website"
+msgstr ""
+
+#: kmaps_views_solr_mms.views.inc:153
+msgid "Reproduction Type Website of the related MMS Resource"
+msgstr ""
+
+#: kmaps_views_solr_mms.views.inc:160
+msgid "Locations"
+msgstr ""
+
+#: kmaps_views_solr_mms.views.inc:161
+msgid "Locations of the related MMS Resource"
+msgstr ""
+
+#: kmaps_views_solr_mms.views.inc:168
+msgid "Keywords"
+msgstr "གནད་ཚིག"
+
+#: kmaps_views_solr_mms.views.inc:169
+msgid "Keywords of the related MMS Resource"
+msgstr ""
+
+#: kmaps_views_solr_mms.views.inc:176
+msgid "Affiliations"
+msgstr ""
+
+#: kmaps_views_solr_mms.views.inc:177
+msgid "Affiliations of the related MMS Resource"
+msgstr ""
+
+#: kmaps_views_solr_mms.views.inc:184
+msgid "Image URL"
+msgstr ""
+
+#: kmaps_views_solr_mms.views.inc:185
+msgid "Image URL of the related MMS Resource"
+msgstr ""
+
+#: kmaps_views_solr_mms.views.inc:192
+msgid "Image"
+msgstr "པར་རིས"
+
+#: kmaps_views_solr_mms.views.inc:193
+msgid "Image of the related MMS Resource"
+msgstr ""
+
+#: kmaps_views_solr_mms.views.inc:200
+msgid "Image Dimensions"
+msgstr ""
+
+#: kmaps_views_solr_mms.views.inc:201
+msgid "The Width and Height of the original image (format: WWWWxHHHH)"
 msgstr ""
 
 #: kmaps_views_solr_sources.views.inc:9
@@ -162,6 +452,38 @@ msgstr ""
 
 #: kmaps_views_solr_sources.views.inc:65 kmaps_views_solr_visuals.views.inc:84
 msgid "Asset SubType"
+msgstr ""
+
+#: kmaps_views_solr_terms.views.inc:9
+msgid "Solr Terms Related Assets Query"
+msgstr ""
+
+#: kmaps_views_solr_terms.views.inc:10
+msgid "Fields for Terms pulled as queries from Solr"
+msgstr ""
+
+#: kmaps_views_solr_terms.views.inc:23
+msgid "Terms Group"
+msgstr ""
+
+#: kmaps_views_solr_terms.views.inc:25
+msgid "Terms Data"
+msgstr ""
+
+#: kmaps_views_solr_terms.views.inc:26
+msgid "Terms Query"
+msgstr ""
+
+#: kmaps_views_solr_terms.views.inc:32
+msgid "ID"
+msgstr "ཨང་རྟགས"
+
+#: kmaps_views_solr_terms.views.inc:33
+msgid "The ID of the node"
+msgstr ""
+
+#: kmaps_views_solr_terms.views.inc:41
+msgid "The title of the related Terms"
 msgstr ""
 
 #: kmaps_views_solr_texts.views.inc:9
@@ -212,7 +534,7 @@ msgstr ""
 msgid "The title of the related Visuals"
 msgstr ""
 
-#: kmaps_views_solr.module:20 kmaps_views_solr_sources.module:20 kmaps_views_solr_texts.module:20 kmaps_views_solr_visuals.module:20
+#: kmaps_views_solr.module:20 kmaps_views_solr_images.module:20 kmaps_views_solr_sources.module:20 kmaps_views_solr_terms.module:20 kmaps_views_solr_texts.module:20 kmaps_views_solr_visuals.module:20
 msgid "Enter Search..."
 msgstr ""
 
@@ -224,9 +546,25 @@ msgstr ""
 msgid "This module exposes Solr API as fields in Views for Audio-Video related assets."
 msgstr ""
 
-#: kmaps_views_solr.info:0 kmaps_views_solr_sources.info:0 kmaps_views_solr_texts.info:0 kmaps_views_solr_visuals.info:0
+#: kmaps_views_solr.info:0 kmaps_views_solr_images.info:0 kmaps_views_solr_mms.info:0 kmaps_views_solr_sources.info:0 kmaps_views_solr_terms.info:0 kmaps_views_solr_texts.info:0 kmaps_views_solr_visuals.info:0
 msgid "Shanti"
 msgstr "Shanti"
+
+#: kmaps_views_solr_images.info:0
+msgid "Solr Views Integration for Images"
+msgstr ""
+
+#: kmaps_views_solr_images.info:0
+msgid "This module exposes Solr API as fields in Views for Images related assets"
+msgstr ""
+
+#: kmaps_views_solr_mms.info:0
+msgid "Views Integration for MMS"
+msgstr ""
+
+#: kmaps_views_solr_mms.info:0
+msgid "This module exposes MMS data to be used in Views."
+msgstr ""
 
 #: kmaps_views_solr_sources.info:0
 msgid "Solr Views Integration for Sources"
@@ -234,6 +572,14 @@ msgstr ""
 
 #: kmaps_views_solr_sources.info:0
 msgid "This module exposes Solr API as fields in Views for Sources related assets"
+msgstr ""
+
+#: kmaps_views_solr_terms.info:0
+msgid "Solr Views Integration for Terms"
+msgstr ""
+
+#: kmaps_views_solr_terms.info:0
+msgid "This module exposes Solr API as fields in Views for Terms related assets"
 msgstr ""
 
 #: kmaps_views_solr_texts.info:0
@@ -259,6 +605,10 @@ msgstr "བརྙན་ཟློས།"
 #: handlers/kmaps_views_solr_handler_filter_asset_type.inc:18
 msgid "Audio"
 msgstr "སྒྲ་འབེབས།"
+
+#: handlers/images/kmaps_views_solr_images_handler_field_image.inc:30 handlers/mms/kmaps_views_solr_mms_handler_field_image.inc:30
+msgid "Image style"
+msgstr "པར་རིས་ཀྱི་བཟོ་ལྟ"
 
 #: handlers/sources/kmaps_views_solr_sources_handler_filter_asset_subtype.inc:17
 msgid "Book"

@@ -25,8 +25,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2018-01-05 15:44-0500\n"
-"PO-Revision-Date: 2018-01-05 15:44-0500\n"
+"POT-Creation-Date: 2019-06-11 18:14+0000\n"
+"PO-Revision-Date: 2019-06-11 18:14+0000\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Tibetan <EMAIL@ADDRESS>\n"
 "MIME-Version: 1.0\n"
@@ -336,41 +336,53 @@ msgstr ""
 "གལ་སྲིད་གནས་ཁོངས་འདིའི་ནང་གི་ཡིག་ཆ་དག་སྒྲ་དང་བརྙན་རིས་ཀྱི་ཟིན་བྲིས་ཡིན་ཚེ། "
 "སྒྲོམ་འདི་ལ་གདམ་རྟགས་རྒྱོབ།"
 
-#: transcripts_apachesolr/transcripts_node/transcripts_node.module:262
+#: transcripts_apachesolr/transcripts_node/transcripts_node.module:212
+msgid "An SRT or WebVTT transcript, or a plain text transcript without timecodes."
+msgstr ""
+
+#: transcripts_apachesolr/transcripts_node/transcripts_node.module:213
+msgid "A Mandala AV supported custom format. (Choose this option only if you have been told to do so.)"
+msgstr ""
+
+#: transcripts_apachesolr/transcripts_node/transcripts_node.module:302
 msgid "Language tiers"
 msgstr "སྐད་ཡིག་གི་རིམ་པ"
 
-#: transcripts_apachesolr/transcripts_node/transcripts_node.module:268
+#: transcripts_apachesolr/transcripts_node/transcripts_node.module:308
 msgid "Select one or more language tiers"
 msgstr "སྐད་རིགས་ཀྱི་རིམ་པ་གཅིག་དང་ཡང་ན་མང་པོ་ཞིག་འདེམས་པ"
 
-#: transcripts_apachesolr/transcripts_node/transcripts_node.module:269
+#: transcripts_apachesolr/transcripts_node/transcripts_node.module:309
 msgid "Select language tiers"
 msgstr "སྐད་རིགས་ཀྱི་རིམ་པ་འདེམས་པ"
 
-#: transcripts_apachesolr/transcripts_node/transcripts_node.module:283
+#: transcripts_apachesolr/transcripts_node/transcripts_node.module:323
 msgid "Connect"
 msgstr "སྦྲེལ་མཐུད་བྱེད"
 
-#: transcripts_apachesolr/transcripts_node/transcripts_node.module:320;331;364
+#: transcripts_apachesolr/transcripts_node/transcripts_node.module:465
+msgid "Accept"
+msgstr ""
+
+#: transcripts_apachesolr/transcripts_node/transcripts_node.module:530;551;562;583;596
 msgid "transcripts_node"
 msgstr "transcripts_node"
 
-#: transcripts_apachesolr/transcripts_node/transcripts_node.module:320
+#: transcripts_apachesolr/transcripts_node/transcripts_node.module:530
+msgid "[node/%nid] Transcript removed."
+msgstr "[node/%nid] ཟིན་བྲིས་་བསུབ་ཟིན།"
+
+#: transcripts_apachesolr/transcripts_node/transcripts_node.module:551;583
 msgid "[node/%nid] Transcript indexed."
 msgstr ""
 "[node/%nid] "
 "ཟིན་བྲིས་དཀར་ཆག་ཏུ་བསྒྲིག་ཚར།"
 
-#: transcripts_apachesolr/transcripts_node/transcripts_node.module:331
+#: transcripts_apachesolr/transcripts_node/transcripts_node.module:562;596
 msgid "[node/%nid] Transcript could not be indexed."
 msgstr ""
 "[node/%nid] "
 "ཟིན་བྲིས་དེ་དཀར་ཆག་ཏུ་སྒྲིག་མི་ཐུབ།"
-
-#: transcripts_apachesolr/transcripts_node/transcripts_node.module:364
-msgid "[node/%nid] Transcript removed."
-msgstr "[node/%nid] ཟིན་བྲིས་་བསུབ་ཟིན།"
 
 #: transcripts_apachesolr/transcripts_node/transcripts_node.info:0
 msgid "Transcripts Node"

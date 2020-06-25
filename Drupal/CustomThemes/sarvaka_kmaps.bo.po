@@ -5,13 +5,14 @@
 # Generated from files:
 #  template.php: n/a
 #  sarvaka_kmaps.info: n/a
+#  templates/search-block-form.tpl.old.php: n/a
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2018-01-05 13:21-0500\n"
-"PO-Revision-Date: 2018-01-05 13:21-0500\n"
+"POT-Creation-Date: 2019-06-11 18:29+0000\n"
+"PO-Revision-Date: 2019-06-11 18:29+0000\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Tibetan <EMAIL@ADDRESS>\n"
 "MIME-Version: 1.0\n"
@@ -19,11 +20,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: template.php:44
+#: template.php:48
 msgid "Subjects"
 msgstr "བརྗོད་དོན"
 
-#: template.php:47
+#: template.php:51
 msgid "Places"
 msgstr "ས་གནས"
 
@@ -50,6 +51,10 @@ msgstr "ནང་དོན"
 #: sarvaka_kmaps.info:0
 msgid "Search Fly Out"
 msgstr ""
+
+#: sarvaka_kmaps.info:0
+msgid "Search Results"
+msgstr "འཚོལ་བཤེར་མཇུག་འབྲས"
 
 #: sarvaka_kmaps.info:0
 msgid "Primary Sidebar"
@@ -82,4 +87,8 @@ msgstr "ཤོག་མཇུག"
 #: sarvaka_kmaps.info:0
 msgid "Admin Footer"
 msgstr ""
+
+#: templates/search-block-form.tpl.old.php:52
+msgid "Advanced"
+msgstr "མཐོ་རིམ"
 

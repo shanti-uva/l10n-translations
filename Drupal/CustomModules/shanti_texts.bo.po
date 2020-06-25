@@ -10,8 +10,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2018-01-05 15:43-0500\n"
-"PO-Revision-Date: 2018-01-05 15:43-0500\n"
+"POT-Creation-Date: 2019-06-11 18:13+0000\n"
+"PO-Revision-Date: 2019-06-11 18:13+0000\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Tibetan <EMAIL@ADDRESS>\n"
 "MIME-Version: 1.0\n"
@@ -31,41 +31,107 @@ msgstr ""
 "SHANTI "
 "ཡི་གེ་ནུས་ཡོད་བཟོས་ཟིན།"
 
-#: shanti_texts.module:75
+#: shanti_texts.module:88
 msgid "Administer SHANTI Texts"
 msgstr "SHANTI ཡིག་ཆ་ལ་དོ་དམ་རྒྱག་པ།"
 
-#: shanti_texts.module:76
+#: shanti_texts.module:89
 msgid "Perform administration tasks for SHANTI Texts."
 msgstr ""
 "SHANTI "
 "ཡི་གེ་ཡི་དོ་དམ་འོས་འགན་ལག་བསྟར་བྱེད་པ།"
 
-#: shanti_texts.module:149;160
+#: shanti_texts.module:167;178
 msgid "Flyout Search Tabs"
 msgstr "འཕར་ཐོན་འཚོལ་བཤེར་གྱི་ཤོག་བྱང"
 
-#: shanti_texts.module:161
+#: shanti_texts.module:179
 msgid "Replace this content with a template."
 msgstr "ནང་དོན་འདིའི་ཚབ་ཏུ་དཔེ་གཞི་ཞིག་འཇོག་པ།"
 
-#: shanti_texts.module:184
+#: shanti_texts.module:202
 msgid "Edit Top Section"
 msgstr "ཐོད་ཀྱི་ཚན་པ་ལ་བཟོ་བཅོས་རྒྱག་པ"
 
-#: shanti_texts.module:188
+#: shanti_texts.module:206
 msgid "Edit Child Section"
 msgstr "ཡན་ལག་ཚན་པར་བཟོ་བཅོས་རྒྱག་པ"
 
-#: shanti_texts.module:191
+#: shanti_texts.module:209
 msgid "Edit"
 msgstr "བཟོ་བཅོས"
 
-#: shanti_texts.module:62 shanti_texts.info:0
+#: shanti_texts.module:246
+msgid "Create Book page"
+msgstr ""
+
+#: shanti_texts.module:246
+msgid "Add Page to "
+msgstr ""
+
+#: shanti_texts.module:282
+msgid "There are no results for '%s'. Check your spelling or try a different term."
+msgstr ""
+
+#: shanti_texts.module:396
+msgid "@num out of @total children updates (@perc %)!"
+msgstr ""
+
+#: shanti_texts.module:418
+msgid "The visibility for each of the book’s pages has been updated."
+msgstr ""
+
+#: shanti_texts.module:421
+msgid "An error occurred, when trying to update visibility for the book pages, processing did not complete."
+msgstr ""
+
+#: shanti_texts.module:543
+msgid "Deleting Book Pages"
+msgstr ""
+
+#: shanti_texts.module:544
+msgid "Starting to delete all book pages"
+msgstr ""
+
+#: shanti_texts.module:545
+msgid "Deleted @current out of @total pages."
+msgstr ""
+
+#: shanti_texts.module:546
+msgid "Deleting text pages has encountered an error."
+msgstr ""
+
+#: shanti_texts.module:593
+msgid "@num out of @total children deleted (@perc %)!"
+msgstr ""
+
+#: shanti_texts.module:615
+msgid "The book and all its children have been deleted."
+msgstr ""
+
+#: shanti_texts.module:618
+msgid "An error occurred, when trying to delete book children, processing did not complete."
+msgstr ""
+
+#: shanti_texts.module:658
+msgid "Full Name"
+msgstr ""
+
+#: shanti_texts.module:422
+msgid "1 item successfully updated:"
+msgid_plural "@count items successfully updated:"
+msgstr[0] ""
+
+#: shanti_texts.module:619
+msgid "1 item successfully deleted:"
+msgid_plural "@count items successfully deleted:"
+msgstr[0] ""
+
+#: shanti_texts.module:75 shanti_texts.info:0
 msgid "SHANTI Texts"
 msgstr "SHANTI ཡི་གེ"
 
-#: shanti_texts.module:172
+#: shanti_texts.module:190
 msgid "Sort Text Sections"
 msgstr "ཡི་གེ་སྡེ་ཚན་གྱི་གོ་རིམ་སྒྲིག་པ"
 

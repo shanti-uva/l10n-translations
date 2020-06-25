@@ -9,15 +9,17 @@
 #  templates/node--collection--teaser.tpl.php: n/a
 #  sarvaka_mediabase.info: n/a
 #  js/shanti-main-mediabase.js: n/a
+#  templates/kaltura_chunked_uploader_uploader.tpl.php: n/a
 #  templates/node--collection.tpl.php: n/a
-#  templates/search-block-form.tpl.php: n/a
+#  templates/search-block-form-av.tpl.php: n/a
+#  templates/search-block-form-tpl.old.php: n/a
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2018-01-05 13:22-0500\n"
-"PO-Revision-Date: 2018-01-05 13:22-0500\n"
+"POT-Creation-Date: 2019-06-11 18:29+0000\n"
+"PO-Revision-Date: 2019-06-11 18:29+0000\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Tibetan <EMAIL@ADDRESS>\n"
 "MIME-Version: 1.0\n"
@@ -25,59 +27,63 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: template.php:120
+#: template.php:135
 msgid "!facetapi_deactivate_widget"
 msgstr ""
 
-#: template.php:288 templates/node--audio.tpl.php:230 templates/node--video.tpl.php:231
+#: template.php:313 templates/node--audio.tpl.php:233 templates/node--video.tpl.php:235
 msgid "Collection"
 msgstr "ཕྱོགས་བསྡུས"
 
-#: template.php:307
+#: template.php:332
 msgid "Related Media"
 msgstr "འབྲེལ་ཡོད་འཕྲིན་ལམ"
 
-#: template.php:365
+#: template.php:407
 msgid "Contributing "
 msgstr ""
 
-#: template.php:441
+#: template.php:483
 msgid "Private"
 msgstr "མི་སྒེར"
 
-#: template.php:442
+#: template.php:484
 msgid "Public"
 msgstr "སྤྱི་སྤྱོད"
 
-#: template.php:443
+#: template.php:485
 msgid "UVa Only"
 msgstr "UVa ཁོ་ན"
 
-#: template.php:444 templates/node--collection--teaser.tpl.php:111
+#: template.php:486 templates/node--collection--teaser.tpl.php:111
 msgid "items"
 msgstr "རྣམ་གྲངས"
 
-#: template.php:514
+#: template.php:556
 msgid "Select one or more..."
 msgstr ""
 
-#: template.php:535
+#: template.php:577
 msgid "Media Workflow"
 msgstr "འཕྲིན་ལམ་ལས་ཀའི་གོ་རིམ།"
 
-#: template.php:539
+#: template.php:581
 msgid "Cataloging Workflow"
 msgstr ""
 
-#: template.php:542
+#: template.php:584
 msgid "Transcript Workflow"
 msgstr "ཟིན་བྲིས་ཀྱི་ལས་རིམ།"
 
-#: template.php:235
+#: template.php:620
+msgid "Data Entry"
+msgstr ""
+
+#: template.php:254
 msgid "sarvaka mediabase"
 msgstr ""
 
-#: template.php:235
+#: template.php:254
 msgid "No field language in entity wrapper for node @nid"
 msgstr ""
 
@@ -104,6 +110,10 @@ msgstr "ནང་དོན"
 #: sarvaka_mediabase.info:0
 msgid "Search Fly Out"
 msgstr ""
+
+#: sarvaka_mediabase.info:0
+msgid "Search Results"
+msgstr "འཚོལ་བཤེར་མཇུག་འབྲས"
 
 #: sarvaka_mediabase.info:0
 msgid "Primary Sidebar"
@@ -145,51 +155,79 @@ msgstr ""
 msgid "Show Less"
 msgstr ""
 
-#: templates/node--audio.tpl.php:207 templates/node--video.tpl.php:208
+#: templates/kaltura_chunked_uploader_uploader.tpl.php:13
+msgid "First, choose the AV file you wish to add to your collection. Then, press the upload button."
+msgstr ""
+
+#: templates/kaltura_chunked_uploader_uploader.tpl.php:27
+msgid "Upload"
+msgstr "ཡར་སྤྲོད"
+
+#: templates/kaltura_chunked_uploader_uploader.tpl.php:41
+msgid "Cancel"
+msgstr "ཕྱིར་འཐེན"
+
+#: templates/kaltura_chunked_uploader_uploader.tpl.php:56
+msgid "Upload Completed!"
+msgstr ""
+
+#: templates/kaltura_chunked_uploader_uploader.tpl.php:67
+msgid "Submit"
+msgstr "ཡར་སྤྲོད"
+
+#: templates/node--audio.tpl.php:202 templates/node--video.tpl.php:204
+msgid "Uploader"
+msgstr ""
+
+#: templates/node--audio.tpl.php:204 templates/node--video.tpl.php:206
 msgid "Rating"
 msgstr "སྐར་གྲངས"
 
-#: templates/node--audio.tpl.php:213 templates/node--video.tpl.php:214
+#: templates/node--audio.tpl.php:210 templates/node--video.tpl.php:212
 msgid "Share"
 msgstr ""
 
-#: templates/node--audio.tpl.php:213 templates/node--video.tpl.php:214
+#: templates/node--audio.tpl.php:210 templates/node--video.tpl.php:212
 msgid "embed"
 msgstr ""
 
-#: templates/node--audio.tpl.php:223
+#: templates/node--audio.tpl.php:220
 msgid "Audio Overview"
 msgstr ""
 
-#: templates/node--audio.tpl.php:224 templates/node--video.tpl.php:225
+#: templates/node--audio.tpl.php:222 templates/node--video.tpl.php:224
+msgid "Creators"
+msgstr ""
+
+#: templates/node--audio.tpl.php:227 templates/node--video.tpl.php:229
 msgid "Show All Languages"
 msgstr ""
 
-#: templates/node--audio.tpl.php:239 templates/node--video.tpl.php:240
+#: templates/node--audio.tpl.php:242 templates/node--video.tpl.php:244
 msgid "Related Places"
 msgstr ""
 
-#: templates/node--audio.tpl.php:269 templates/node--video.tpl.php:270
+#: templates/node--audio.tpl.php:272 templates/node--video.tpl.php:274
 msgid "Details"
 msgstr "ཞིབ་ཕྲ"
 
-#: templates/node--audio.tpl.php:270 templates/node--video.tpl.php:271
+#: templates/node--audio.tpl.php:273 templates/node--video.tpl.php:275
 msgid "Related Audio-Video"
 msgstr ""
 
-#: templates/node--audio.tpl.php:277 templates/node--video.tpl.php:278
+#: templates/node--audio.tpl.php:280 templates/node--video.tpl.php:282
 msgid "Related A/V Titles"
 msgstr ""
 
-#: templates/node--audio.tpl.php:278
+#: templates/node--audio.tpl.php:281
 msgid "Loading ... "
 msgstr ""
 
-#: templates/node--audio.tpl.php:284 templates/node--video.tpl.php:285
+#: templates/node--audio.tpl.php:287 templates/node--video.tpl.php:289
 msgid "Customize"
 msgstr ""
 
-#: templates/node--audio.tpl.php:285 templates/node--video.tpl.php:286
+#: templates/node--audio.tpl.php:288 templates/node--video.tpl.php:290
 msgid "Expand All"
 msgstr ""
 
@@ -198,7 +236,7 @@ msgid "item"
 msgstr "རྣམ་གྲངས"
 
 #: templates/node--collection.tpl.php:104
-msgid "Items in this @type"
+msgid "Audio-Video Items in this @type"
 msgstr ""
 
 #: templates/node--collection.tpl.php:106
@@ -209,47 +247,47 @@ msgstr ""
 msgid "Please enter the view and display for the items view in the Collections Admin page."
 msgstr ""
 
-#: templates/node--collection.tpl.php:142
+#: templates/node--collection.tpl.php:160
 msgid "Visibility"
 msgstr "མངོན་སྟངས"
 
-#: templates/node--collection.tpl.php:159
+#: templates/node--collection.tpl.php:177
 msgid "Subcollections"
 msgstr "ཡན་ལག་ཕྱོགས་བསྡུས"
 
-#: templates/node--collection.tpl.php:164
+#: templates/node--collection.tpl.php:184
 msgid "Parent Collection"
 msgstr "མ་ཁོངས་ཀྱི་ཕྱོགས་བསྡུས"
 
-#: templates/node--collection.tpl.php:174
-msgid "Members"
-msgstr "ཁོངས་མི།"
+#: templates/node--collection.tpl.php:191
+msgid "This collection is private"
+msgstr ""
 
-#: templates/node--video.tpl.php:197
+#: templates/node--video.tpl.php:195
 msgid "Created"
 msgstr "གསར་འཛུགས་བྱས་ཟིན"
 
-#: templates/node--video.tpl.php:202
+#: templates/node--video.tpl.php:200
 msgid "Length"
 msgstr ""
 
-#: templates/node--video.tpl.php:206
-msgid "Creator"
-msgstr "གསར་འཛུགས་མཁན"
-
-#: templates/node--video.tpl.php:224
+#: templates/node--video.tpl.php:222
 msgid "Video Overview"
 msgstr ""
 
-#: templates/search-block-form.tpl.php:45
+#: templates/node--video.tpl.php:226
+msgid "Unknown"
+msgstr "རྒྱུས་མེད་པ"
+
+#: templates/search-block-form-av.tpl.php:45 templates/search-block-form-tpl.old.php:45
 msgid "Search"
 msgstr "འཚོལ"
 
-#: templates/search-block-form.tpl.php:45
+#: templates/search-block-form-av.tpl.php:45 templates/search-block-form-tpl.old.php:45
 msgid "Audio-Video"
 msgstr ""
 
-#: templates/search-block-form.tpl.php:60
+#: templates/search-block-form-tpl.old.php:60
 msgid "Advanced"
 msgstr "མཐོ་རིམ"
 

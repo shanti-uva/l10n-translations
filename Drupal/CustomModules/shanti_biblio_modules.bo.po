@@ -3,10 +3,13 @@
 # Tibetan translation of Drupal (general)
 # Copyright YEAR NAME <EMAIL@ADDRESS>
 # Generated from files:
+#  biblio_import_mods/biblio_import_mods.module: n/a
+#  biblio_import_mods/biblio_import_mods.info: n/a
+#  sources_views/sources_views.info: n/a
 #  features/biblio_long_fields/biblio_long_fields.features.defaultconfig.inc: n/a
 #  features/biblio_long_fields/biblio_long_fields.features.field_instance.inc: n/a
+#  features/sources_misc_config/sources_misc_config.views_default.inc: n/a
 #  features/biblio_long_fields/biblio_long_fields.info: n/a
-#  features/csc_zotero_importer/sources_zotero_importer.features.field_instance.inc: n/a
 #  features/csc_zotero_importer/sources_zotero_importer.info: n/a
 #  features/sources_biblio_search/sources_biblio_search.info: n/a
 #  features/sources_collection_views_links/sources_collection_views_links.info: n/a
@@ -14,25 +17,25 @@
 #  sources_misc/sources_misc.info: n/a
 #  sources_text_format/sources_text_format.info: n/a
 #  sources_views/sources_views_fancytree_taxonomy.inc: n/a
+#  features/csc_zotero_importer/sources_zotero_importer.features.field_instance.inc: n/a
 #  features/sources_collection_views_links/sources_collection_views_links.features.menu_links.inc: n/a
 #  features/sources_misc_config/sources_misc_config.features.menu_links.inc: n/a
 #  features/sources_misc_config/sources_misc_config.features.field_instance.inc: n/a
 #  features/sources_misc_config/sources_misc_config.features.menu_custom.inc: n/a
 #  sources_views/breadcrumbs.inc: n/a
-#  sources_misc/sources_misc.module: n/a
-#  sources_views/biblio.inc: n/a
+#  sources_views/templates/sources_views_custom_sort_field.tpl.php: n/a
 #  sources_views/sources_views.module: n/a
-#  sources_views/sources_views.info: n/a
+#  sources_views/biblio.inc: n/a
+#  sources_misc/sources_misc.module: n/a
 #  sources_views/templates/sources_views_all_sources_dropdown.tpl.php: n/a
 #  sources_views/templates/sources_views_breadcrumb_library.tpl.php: n/a
-#  sources_views/templates/sources_views_custom_sort_field.tpl.php: n/a
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2018-01-05 15:37-0500\n"
-"PO-Revision-Date: 2018-01-05 15:37-0500\n"
+"POT-Creation-Date: 2019-06-11 18:08+0000\n"
+"PO-Revision-Date: 2019-06-11 18:08+0000\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Tibetan <EMAIL@ADDRESS>\n"
 "MIME-Version: 1.0\n"
@@ -40,41 +43,159 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: features/biblio_long_fields/biblio_long_fields.features.defaultconfig.inc:265 features/biblio_long_fields/biblio_long_fields.features.field_instance.inc:230
-msgid "Biblio Long Language"
-msgstr "Biblio ཡི་སྐད་རིགས་མིང་རིང་བ"
+#: biblio_import_mods/biblio_import_mods.module:14
+msgid "Add Biblio Data Fields"
+msgstr ""
 
-#: features/biblio_long_fields/biblio_long_fields.features.defaultconfig.inc:266 features/biblio_long_fields/biblio_long_fields.features.field_instance.inc:231
-msgid "Biblio Long Title"
-msgstr "Biblio ཡི་ཁ་བྱང་རིང་བ"
+#: biblio_import_mods/biblio_import_mods.module:15
+msgid "Add New Fields for Mapping to an Existing Biblio Import Format"
+msgstr ""
 
-#: features/biblio_long_fields/biblio_long_fields.features.defaultconfig.inc:267 features/biblio_long_fields/biblio_long_fields.features.field_instance.inc:232
+#: biblio_import_mods/biblio_import_mods.module:20
+msgid "Bulk import sources"
+msgstr ""
+
+#: biblio_import_mods/biblio_import_mods.module:21
+msgid "Allow user to bulk import sources to any collection"
+msgstr ""
+
+#: biblio_import_mods/biblio_import_mods.module:59
+msgid "Field Name"
+msgstr ""
+
+#: biblio_import_mods/biblio_import_mods.module:65
+msgid "Action"
+msgstr "བྱ་འགུལ"
+
+#: biblio_import_mods/biblio_import_mods.module:67
+msgid "Add"
+msgstr "ཁ་སྣོན"
+
+#: biblio_import_mods/biblio_import_mods.module:68
+msgid "Remove"
+msgstr "བསུབ་པ"
+
+#: biblio_import_mods/biblio_import_mods.module:74
+msgid "Biblio Import Format"
+msgstr ""
+
+#: biblio_import_mods/biblio_import_mods.module:81
+msgid "Save"
+msgstr "ཉར་ཚགས"
+
+#: biblio_import_mods/biblio_import_mods.module:110
+msgid "Added @field to field map for @format."
+msgstr ""
+
+#: biblio_import_mods/biblio_import_mods.module:115
+msgid "A field named @field is already part of the @format mapping."
+msgstr ""
+
+#: biblio_import_mods/biblio_import_mods.module:124
+msgid "The field named @field has been removed from the @format mapping."
+msgstr ""
+
+#: biblio_import_mods/biblio_import_mods.module:129
+msgid "There is no field named @field to remove from the @format mapping."
+msgstr ""
+
+#: biblio_import_mods/biblio_import_mods.module:143
+msgid " @records updated."
+msgstr ""
+
+#: biblio_import_mods/biblio_import_mods.module:163
+msgid "Import records into this bibliographic collections"
+msgstr ""
+
+#: biblio_import_mods/biblio_import_mods.module:246
+msgid "- Choose a type -"
+msgstr ""
+
+#: biblio_import_mods/biblio_import_mods.module:249
+msgid "Choose the type of file being imported"
+msgstr ""
+
+#: biblio_import_mods/biblio_import_mods.module:252
+msgid "Creator of Records"
+msgstr ""
+
+#: biblio_import_mods/biblio_import_mods.module:253
+msgid "Choose the person who will be the creator of these records"
+msgstr ""
+
+#: biblio_import_mods/biblio_import_mods.module:268
+msgid "Optionally, choose a bibliography (collection) into which the records will be imported"
+msgstr ""
+
+#: biblio_import_mods/biblio_import_mods.module:33
+msgid "Add Biblio Format Field"
+msgstr ""
+
+#: biblio_import_mods/biblio_import_mods.module:34
+msgid "Add a field to map to within a biblio import format"
+msgstr ""
+
+#: biblio_import_mods/biblio_import_mods.info:0
+msgid "Biblio Import Mods"
+msgstr ""
+
+#: biblio_import_mods/biblio_import_mods.info:0
+msgid "Additions and modifications to the Biblio importer"
+msgstr ""
+
+#: biblio_import_mods/biblio_import_mods.info:0 sources_views/sources_views.info:0
+msgid "SHANTI"
+msgstr "SHANTI"
+
+#: features/biblio_long_fields/biblio_long_fields.features.defaultconfig.inc:263 features/biblio_long_fields/biblio_long_fields.features.field_instance.inc:390
+msgid "Long Title"
+msgstr ""
+
+#: features/biblio_long_fields/biblio_long_fields.features.defaultconfig.inc:264 features/biblio_long_fields/biblio_long_fields.features.field_instance.inc:391
+msgid "Long Title Language"
+msgstr ""
+
+#: features/biblio_long_fields/biblio_long_fields.features.defaultconfig.inc:265 features/biblio_long_fields/biblio_long_fields.features.field_instance.inc:392 features/sources_misc_config/sources_misc_config.views_default.inc:1844
 msgid "Places"
 msgstr "ས་གནས"
 
-#: features/biblio_long_fields/biblio_long_fields.features.field_instance.inc:229
-msgid "Biblio Language"
-msgstr "Biblio ཡི་སྐད་རིགས།"
+#: features/biblio_long_fields/biblio_long_fields.features.field_instance.inc:388
+msgid "Content Language"
+msgstr ""
+
+#: features/biblio_long_fields/biblio_long_fields.features.field_instance.inc:389
+msgid "Language (Kmaps)"
+msgstr ""
+
+#: features/biblio_long_fields/biblio_long_fields.features.field_instance.inc:393
+msgid "Subjects"
+msgstr "བརྗོད་དོན"
+
+#: features/biblio_long_fields/biblio_long_fields.features.field_instance.inc:394
+msgid "Terms"
+msgstr "ཐ་སྙད"
+
+#: features/biblio_long_fields/biblio_long_fields.features.field_instance.inc:395
+msgid "This is the main content language field for this source. Chosen from Knowledge Maps."
+msgstr ""
 
 #: features/biblio_long_fields/biblio_long_fields.info:0
 msgid "Biblio Custom Fields"
 msgstr "Biblio རང་བཟོས་གནས་ཁོངས"
 
 #: features/biblio_long_fields/biblio_long_fields.info:0
-msgid "Adds custom fields to biblio content type"
+msgid "Adds custom fields to biblio content type for Shanti Sources"
 msgstr ""
-"biblio "
-"ནང་དོན་རིགས་ལ་རང་བཟོས་ཀྱི་གནས་ཁོངས་སྣོན་པ"
 
-#: features/biblio_long_fields/biblio_long_fields.info:0
-msgid "Biblio"
-msgstr "Biblio"
+#: features/biblio_long_fields/biblio_long_fields.info:0 features/csc_zotero_importer/sources_zotero_importer.info:0 features/sources_biblio_search/sources_biblio_search.info:0 features/sources_collection_views_links/sources_collection_views_links.info:0 features/sources_misc_config/sources_misc_config.views_default.inc:1782;2315 features/sources_misc_config/sources_misc_config.info:0 sources_misc/sources_misc.info:0 sources_text_format/sources_text_format.info:0 sources_views/sources_views_fancytree_taxonomy.inc:30
+msgid "Sources"
+msgstr "ཁུངས"
 
 #: features/csc_zotero_importer/sources_zotero_importer.features.field_instance.inc:232
 msgid "Zotero Attachments"
 msgstr "Zotero ཟུར་སྣོན"
 
-#: features/csc_zotero_importer/sources_zotero_importer.features.field_instance.inc:233
+#: features/csc_zotero_importer/sources_zotero_importer.features.field_instance.inc:233 features/sources_misc_config/sources_misc_config.views_default.inc:1771
 msgid "Zotero Collections"
 msgstr "Zotero ཕྱོགས་བསྡུས"
 
@@ -82,7 +203,7 @@ msgstr "Zotero ཕྱོགས་བསྡུས"
 msgid "Zotero Files"
 msgstr "Zotero ཡིག་ཆ"
 
-#: features/csc_zotero_importer/sources_zotero_importer.features.field_instance.inc:235
+#: features/csc_zotero_importer/sources_zotero_importer.features.field_instance.inc:235 features/sources_misc_config/sources_misc_config.views_default.inc:1777
 msgid "Zotero Tags"
 msgstr "Zotero འཚན་བྱང"
 
@@ -92,19 +213,15 @@ msgstr ""
 "ཁུངས་ཀྱི་Zotero "
 "ནང་འདྲེན་ལག་ཆ"
 
-#: features/csc_zotero_importer/sources_zotero_importer.info:0 features/sources_biblio_search/sources_biblio_search.info:0 features/sources_collection_views_links/sources_collection_views_links.info:0 features/sources_misc_config/sources_misc_config.info:0 sources_misc/sources_misc.info:0 sources_text_format/sources_text_format.info:0 sources_views/sources_views_fancytree_taxonomy.inc:21
-msgid "Sources"
-msgstr "ཁུངས"
-
 #: features/sources_biblio_search/sources_biblio_search.info:0
 msgid "Sources Biblio Search"
 msgstr "ཁུངས་ཀྱི་འདྲེན་ཁུངས་འཚོལ་བཤེར"
 
-#: features/sources_collection_views_links/sources_collection_views_links.features.menu_links.inc:115 features/sources_misc_config/sources_misc_config.features.menu_links.inc:182
+#: features/sources_collection_views_links/sources_collection_views_links.features.menu_links.inc:115 features/sources_misc_config/sources_misc_config.features.menu_links.inc:198 features/sources_misc_config/sources_misc_config.views_default.inc:2026
 msgid "All Collections"
 msgstr "ཕྱོགས་བསྡུས་ཡོངས"
 
-#: features/sources_collection_views_links/sources_collection_views_links.features.menu_links.inc:116 features/sources_misc_config/sources_misc_config.features.menu_links.inc:184
+#: features/sources_collection_views_links/sources_collection_views_links.features.menu_links.inc:116 features/sources_misc_config/sources_misc_config.features.menu_links.inc:200
 msgid "Collections"
 msgstr "ཕྱོགས་བསྡུས"
 
@@ -118,7 +235,7 @@ msgstr ""
 "Biblio "
 "ཡི་མཇུག་སྒོ་ཞིག་གསར་འཛུགས"
 
-#: features/sources_collection_views_links/sources_collection_views_links.features.menu_links.inc:119 features/sources_misc_config/sources_misc_config.features.menu_links.inc:185
+#: features/sources_collection_views_links/sources_collection_views_links.features.menu_links.inc:119 features/sources_misc_config/sources_misc_config.features.menu_links.inc:201 features/sources_misc_config/sources_misc_config.views_default.inc:2049
 msgid "My Collections"
 msgstr "ངའི་ཕྱོགས་བསྡུས"
 
@@ -132,15 +249,15 @@ msgstr ""
 "SHANTI "
 "ཁུངས་ནང་གི་ཕྱོགས་བསྡུས་ལ་སྤྱོད་པའི་མཐོང་རིས་དང་སྦྲེལ་ཐག"
 
-#: features/sources_misc_config/sources_misc_config.features.field_instance.inc:222
+#: features/sources_misc_config/sources_misc_config.features.field_instance.inc:230 features/sources_misc_config/sources_misc_config.views_default.inc:2042
 msgid "Collection"
 msgstr "ཕྱོགས་བསྡུས"
 
-#: features/sources_misc_config/sources_misc_config.features.field_instance.inc:223
+#: features/sources_misc_config/sources_misc_config.features.field_instance.inc:231
 msgid "Featured image"
 msgstr "ཁྱད་པ་ཅན་གྱི་པར་རིས"
 
-#: features/sources_misc_config/sources_misc_config.features.field_instance.inc:224
+#: features/sources_misc_config/sources_misc_config.features.field_instance.inc:232
 msgid "Group content visibility"
 msgstr "ནང་དོན་མངོན་འཆར་ཚོ་ཁག་བགོ་བ"
 
@@ -154,41 +271,475 @@ msgstr ""
 msgid "User menu"
 msgstr "སྤྱོད་མཁན་གྱི་འདེམས་བྱང"
 
-#: features/sources_misc_config/sources_misc_config.features.menu_links.inc:180
+#: features/sources_misc_config/sources_misc_config.features.menu_links.inc:196
 msgid "Add a Collection"
 msgstr "ཕྱོགས་བསྡུས་ཤིག་ཁ་སྣོན།"
 
-#: features/sources_misc_config/sources_misc_config.features.menu_links.inc:181
+#: features/sources_misc_config/sources_misc_config.features.menu_links.inc:197
 msgid "Add a Source"
 msgstr "ཁུངས་ཤིག་ཁ་སྣོན"
 
-#: features/sources_misc_config/sources_misc_config.features.menu_links.inc:183 sources_views/breadcrumbs.inc:32
+#: features/sources_misc_config/sources_misc_config.features.menu_links.inc:199 features/sources_misc_config/sources_misc_config.views_default.inc:2329 sources_views/breadcrumbs.inc:40
 msgid "All Sources"
 msgstr "ཁུངས་ཡོངས།"
 
-#: features/sources_misc_config/sources_misc_config.features.menu_links.inc:186
+#: features/sources_misc_config/sources_misc_config.features.menu_links.inc:202
 msgid "My Content"
 msgstr "ངའི་ནང་དོན།"
 
-#: features/sources_misc_config/sources_misc_config.features.menu_links.inc:187
+#: features/sources_misc_config/sources_misc_config.features.menu_links.inc:203 features/sources_misc_config/sources_misc_config.views_default.inc:1852;2330
 msgid "My Sources"
 msgstr "ངའི་ཐོན་ཁོངས།"
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1754;2025;2133;2314
+msgid "Master"
+msgstr "གཙོ་འཛིན"
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1755
+msgid "Contemplative Science Bibliography"
+msgstr ""
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1756;2027;2135;2316
+msgid "more"
+msgstr "དེ་ལས་མང་བ"
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1757;2028;2136;2317
+msgid "Apply"
+msgstr "རེ་ཞུ།"
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1758;2029;2137;2318
+msgid "Reset"
+msgstr "བསྐྱར་སྒྲིག"
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1759;2030;2138;2319 sources_views/templates/sources_views_custom_sort_field.tpl.php:23;24;29
+msgid "Sort by"
+msgstr "གོ་རིམ་གཞི་འཛིན་ས།"
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1760;2031;2139;2320
+msgid "Asc"
+msgstr "ཇེ་མཐོ"
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1761;2032;2140;2321
+msgid "Desc"
+msgstr "ཇེ་དམའ"
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1762;2033;2141;2322
+msgid "Items per page"
+msgstr "ངོས་རེ་རེིའི་ནང་ཚན་གྱི་གྲངས"
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1763;2034;2142;2323
+msgid "- All -"
+msgstr "- ཡོངས-"
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1764;2035;2143;2324
+msgid "Offset"
+msgstr "ཁ་གསབ"
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1765;2036;2144;2325
+msgid "« first"
+msgstr "« ངོས་དང་པོ"
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1766;2037;2145;2326
+msgid "‹ previous"
+msgstr "‹ སྔོན་མ"
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1767;2038;2146;2327
+msgid "next ›"
+msgstr "འོག་མ ›"
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1768;2039;2147;2328
+msgid "last »"
+msgstr "ངོས་རྗེས་མ »"
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1769
+msgid "Displaying @start - @end of @total"
+msgstr ""
+"@start - @end གི་ @total "
+"མངོན་སྟོན་བྱེད་བཞིན་པ།"
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1770
+msgid "<p class=\"no-results\">There are no search results that match your criteria.</p>"
+msgstr ""
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1772
+msgid "."
+msgstr "."
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1773
+msgid "biblio_authors"
+msgstr ""
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1774
+msgid "[biblio_year]."
+msgstr ""
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1775
+msgid "biblio_publisher"
+msgstr ""
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1776
+msgid "[biblio_authors] [biblio_year] [title] [biblio_publisher]"
+msgstr ""
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1778
+msgid "<br>"
+msgstr ""
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1779 sources_views/sources_views.module:505;646
+msgid "Author"
+msgstr "རྩོམ་མཁན"
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1780 sources_views/sources_views.module:679
+msgid "Search"
+msgstr "འཚོལ"
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1781
+msgid "Page"
+msgstr "དྲ་ངོས"
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1783 sources_views/sources_views.module:684
+msgid "Clear"
+msgstr "གཙང་སེལ"
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1784
+msgid "Select any filter and click on Apply to see results"
+msgstr ""
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1785
+msgid "Stripped Node Title"
+msgstr ""
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1786
+msgid "Biblio Author"
+msgstr ""
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1787
+msgid "Custom Publication Year"
+msgstr ""
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1788 sources_views/sources_views.module:598
+msgid "Source Type"
+msgstr "ཁུངས་ཀྱི་རིགས"
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1789
+msgid "Authors"
+msgstr "རྩོམ་མཁན"
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1790
+msgid "Publishers"
+msgstr "ཁྱབ་སྤེལ་མཁན"
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1791
+msgid "Location"
+msgstr "གནས་ཡུལ"
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1792 sources_views/biblio.inc:182 sources_views/sources_views.module:508;673
+msgid "Tags"
+msgstr "དབྱེ་རྟགས"
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1793;2332 sources_views/sources_views.module:502;639
+msgid "Title"
+msgstr "ཁ་བྱང"
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1794
+msgid "Enter words in abstract"
+msgstr ""
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1795
+msgid "Publish place"
+msgstr ""
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1796 sources_views/sources_views.module:653
+msgid "Publisher"
+msgstr "ཁྱབ་སྤེལ་མཁན"
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1797
+msgid "biblio_year"
+msgstr ""
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1798;2149
+msgid "Content pane"
+msgstr "ནང་དོན་གྱི་ཁུལ"
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1799;2150
+msgid "View panes"
+msgstr "གནས་ཁུལ་ལ་ལྟ་ཀློག"
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1800
+msgid "Individual Content Page"
+msgstr ""
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1801
+msgid "Shows one piece of content / source in detail on it's dedicated page"
+msgstr ""
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1802
+msgid "No results"
+msgstr "མཇུག་འབྲས་མེད"
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1803
+msgid "[title] [biblio_year]"
+msgstr ""
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1804
+msgid "Publication Year"
+msgstr ""
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1805
+msgid "Format"
+msgstr "རྣམ་གཞག"
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1806
+msgid "French Abstract"
+msgstr ""
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1807
+msgid "Summary"
+msgstr "མདོར་བསྡུས"
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1808
+msgid "Full Text"
+msgstr "ཡི་གེ་ཆ་ཚང་།"
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1809
+msgid "Published In"
+msgstr ""
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1810
+msgid "Tertiary Title"
+msgstr ""
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1811
+msgid "Volume"
+msgstr ""
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1812
+msgid "Edition"
+msgstr ""
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1813
+msgid "biblio_number_of_volumes"
+msgstr ""
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1814
+msgid "biblio_section"
+msgstr ""
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1815
+msgid "Start Page"
+msgstr ""
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1816
+msgid "Pages"
+msgstr "དྲ་ངོས"
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1817
+msgid "Date Published"
+msgstr ""
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1818
+msgid "Type of Work"
+msgstr ""
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1819
+msgid "Reprint Edition"
+msgstr ""
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1820
+msgid "ISSN"
+msgstr ""
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1821
+msgid "ISBN Number"
+msgstr ""
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1822
+msgid "Accession Number"
+msgstr ""
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1823
+msgid "biblio_call_number"
+msgstr ""
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1824
+msgid "Other Numbers"
+msgstr ""
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1825
+msgid "DOI"
+msgstr ""
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1826
+msgid "Notes"
+msgstr ""
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1827
+msgid "Alternate Title"
+msgstr ""
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1828
+msgid "Original Publication"
+msgstr ""
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1829
+msgid "Refereed Designation"
+msgstr ""
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1830
+msgid "Issue"
+msgstr "གནད་དོན"
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1831
+msgid "URL"
+msgstr "དྲ་གནས"
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1832
+msgid "<a href=\"[biblio_url]\">[biblio_url]</a>"
+msgstr ""
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1833
+msgid "Publication Language"
+msgstr ""
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1834
+msgid "Other Author Affiliations"
+msgstr ""
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1835
+msgid "Research Notes"
+msgstr ""
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1836
+msgid "Translated Title"
+msgstr ""
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1837
+msgid "Source ID"
+msgstr ""
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1838
+msgid "shanti-sources-[biblio_citekey]"
+msgstr ""
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1839
+msgid "COinS Data"
+msgstr ""
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1840
+msgid "Author Address"
+msgstr ""
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1841
+msgid "Label"
+msgstr "ཁ་བྱང"
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1842
+msgid "Language"
+msgstr "སྐད་རིགས"
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1843
+msgid "Broken handler search_api_index_database_node_index.field_kmap_subjects"
+msgstr ""
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1845;2046;2148 sources_views/sources_views.module:589
+msgid "All"
+msgstr "ཡོངས"
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1846
+msgid "Block"
+msgstr "ལྷུ་ལག"
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1847
+msgid "Similar Content"
+msgstr ""
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1848
+msgid "([biblio_year])"
+msgstr ""
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1849
+msgid "All Sources Page"
+msgstr ""
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1850 sources_views/sources_views.module:157
+msgid "Publication Type"
+msgstr "ཁྱབ་སྤེལ་གྱི་རིགས"
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1851
+msgid "My Sources Page"
+msgstr ""
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1853
+msgid "<p>This page lists all sources that you have created.</p>"
+msgstr ""
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:1854
+msgid "<span class=\"count\">Displaying @start - @end of @total</span>"
+msgstr ""
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:2040
+msgid "<p>There are no collections to list at this time. <a href=\"/node/add/collection\">Add a collection.</a></p>"
+msgstr ""
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:2041;2331
+msgid "author"
+msgstr "རྩོམ་མཁན"
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:2043
+msgid "Owner"
+msgstr "བདག་པོ"
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:2044
+msgid "Type"
+msgstr "རིགས"
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:2045;2334
+msgid "Date Created"
+msgstr "ཟླ་ཚེས་གསར་འཛུགས་བྱས་ཟིན"
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:2047
+msgid "All Collections Page"
+msgstr ""
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:2048
+msgid "My Collections Page"
+msgstr ""
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:2134
+msgid "Content by Collection"
+msgstr ""
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:2333 sources_views/sources_views.module:606
+msgid "Year of Publication"
+msgstr "ཁྱབ་སྤེལ་གྱི་ལོ"
+
+#: features/sources_misc_config/sources_misc_config.views_default.inc:2335
+msgid "Year of Publication (Range)"
+msgstr ""
 
 #: features/sources_misc_config/sources_misc_config.info:0
 msgid "Sources Misc Config"
 msgstr "ཁུངས་ཀྱི་སྣ་མང་སྒྲིག་འགོད"
 
 #: features/sources_misc_config/sources_misc_config.info:0
-msgid "Miscellaneous settings for Sources site."
-msgstr "ཐོན་ཁོངས་དྲ་གནས་ཀྱི་སྣ་ཚོགས་སྒྲིག་འགོད།"
+msgid "Views and miscellaneous settings for Mandala Sources"
+msgstr ""
 
-#: sources_misc/sources_misc.module:107
+#: sources_misc/sources_misc.module:112
+msgid "Biblio record not found"
+msgstr ""
+
+#: sources_misc/sources_misc.module:193
 msgid "Year of Publication can not be in the future."
 msgstr "ཁྱབ་སྤེལ་གྱི་ལོ་དེ་མ་འོངས་དུ་ཡིན་མི་སྲིད"
 
-#: sources_misc/sources_misc.module:178 sources_views/breadcrumbs.inc:35
+#: sources_misc/sources_misc.module:290 sources_views/breadcrumbs.inc:43
 msgid "Create a Source"
 msgstr "ཁུངས་གསར་བ་ཞིག་འཛུགས་པ"
+
+#: sources_misc/sources_misc.module:303
+msgid "Cancel"
+msgstr "ཕྱིར་འཐེན"
 
 #: sources_misc/sources_misc.module:15
 msgid "View"
@@ -216,189 +767,141 @@ msgstr ""
 "Panopoly "
 "ཡི་ཚབ་ཏུ་བརྗེ་དགོས་པའི་ཡི་གེའི་རྣམ་གཞག"
 
-#: sources_views/biblio.inc:91
+#: sources_views/biblio.inc:132
 msgid "Titles"
 msgstr "ཁ་བྱང"
 
-#: sources_views/biblio.inc:107
-msgid "Authors"
-msgstr "རྩོམ་མཁན"
-
-#: sources_views/biblio.inc:123
-msgid "Publishers"
-msgstr "ཁྱབ་སྤེལ་མཁན"
-
-#: sources_views/biblio.inc:139 sources_views/sources_views.module:125;634
-msgid "Place of Publication"
-msgstr "ཁྱབ་སྤེལ་གྱི་ས་གནས"
-
-#: sources_views/biblio.inc:155 sources_views/sources_views.module:129;501;647
-msgid "Tags"
-msgstr "དབྱེ་རྟགས"
-
-#: sources_views/breadcrumbs.inc:25
+#: sources_views/breadcrumbs.inc:33
 msgid "Search Results"
 msgstr "འཚོལ་བཤེར་མཇུག་འབྲས"
 
-#: sources_views/breadcrumbs.inc:29
+#: sources_views/breadcrumbs.inc:37
 msgid "Tagged with "
 msgstr "རྟགས་མཆན་བཀོད་ས"
 
-#: sources_views/breadcrumbs.inc:95
+#: sources_views/breadcrumbs.inc:117
 msgid "View all sources"
 msgstr "ཁུངས་ཡོངས་ལ་ལྟ་བ"
 
-#: sources_views/sources_views.module:110;576
-msgid "All"
-msgstr "ཡོངས"
-
-#: sources_views/sources_views.module:111;577
-msgid "Any"
-msgstr "གང་རུང"
-
-#: sources_views/sources_views.module:113;580
-msgid "Find items that match"
-msgstr "ཆ་མཚུངས་བའི་རྣམ་གྲངས་འཚོལ་བ"
-
-#: sources_views/sources_views.module:114;581
-msgid "of the fields below"
-msgstr "འོག་གི་གནས་ཡུལ་གྱི་"
-
-#: sources_views/sources_views.module:117
-msgid "Source type"
-msgstr "ཁུངས་ཀྱི་རིགས"
-
-#: sources_views/sources_views.module:119;495;613
-msgid "Title"
-msgstr "ཁ་བྱང"
-
-#: sources_views/sources_views.module:121;498;620
-msgid "Author"
-msgstr "རྩོམ་མཁན"
-
-#: sources_views/sources_views.module:123;627
-msgid "Publisher"
-msgstr "ཁྱབ་སྤེལ་མཁན"
-
-#: sources_views/sources_views.module:127
-msgid "Abstract"
-msgstr "མདོར་བསྟན།"
-
-#: sources_views/sources_views.module:137;658
-msgid "Clear"
-msgstr "གཙང་སེལ"
-
-#: sources_views/sources_views.module:175
+#: sources_views/sources_views.module:142
 msgid "Sorting Biblio Author"
 msgstr "ཁུངས་འདྲེན་སའི་རྩོམ་མཁན་གོ་རིམ་སྒྲིག་པ"
 
-#: sources_views/sources_views.module:180
+#: sources_views/sources_views.module:147
 msgid "Sorting Stripped Node Title"
 msgstr "དུས་བུ་བཅད་པའི་ནང་ཚན་ཁ་བྱང་གི་གོ་རིམ་སྒྲིག་པ"
 
-#: sources_views/sources_views.module:185
+#: sources_views/sources_views.module:152
 msgid "Sorting Custom Publication Year"
 msgstr "རང་བཟོས་ཀྱི་ཁྱབ་སྤེལ་ལོ་གོ་རིམ་སྒྲིག་པ"
 
-#: sources_views/sources_views.module:190
-msgid "Publication Type"
-msgstr "ཁྱབ་སྤེལ་གྱི་རིགས"
-
-#: sources_views/sources_views.module:195
+#: sources_views/sources_views.module:162
 msgid "Search text biblio authors"
 msgstr "ཡི་གེའི་ཁུངས་འདྲེན་སའི་རྩོམ་པ་པོ་འཚོལ་བ"
 
-#: sources_views/sources_views.module:200
+#: sources_views/sources_views.module:167
 msgid "Search text publisher"
 msgstr "ཡི་གེའི་ཁྱབ་སྤེལ་མཁན་འཚོལ་བ"
 
-#: sources_views/sources_views.module:205
+#: sources_views/sources_views.module:172
 msgid "Search text publish place"
 msgstr "ཡི་གེའི་ཁྱབ་སྤེལ་གནས་འཚོལ་བ"
 
-#: sources_views/sources_views.module:210
+#: sources_views/sources_views.module:177
 msgid "Search text abstract"
 msgstr "ཡི་གེའི་མདོར་བསྟན་འཚོལ་བ"
 
-#: sources_views/sources_views.module:215
+#: sources_views/sources_views.module:182
 msgid "Search text zotero tags"
 msgstr ""
 "ཡི་གེའི་zotero "
 "རྟགས་མཆན་འཚོལ་བ"
 
-#: sources_views/sources_views.module:336
+#: sources_views/sources_views.module:187
+msgid "Original node title for searching"
+msgstr ""
+
+#: sources_views/sources_views.module:320
 msgid "Custom views filter"
 msgstr "རང་བཟོས་ཀྱི་མཐོང་རིས་ཚག་བྱེད"
 
-#: sources_views/sources_views.module:339
+#: sources_views/sources_views.module:323
 msgid "FancyTree Taxonomy Block"
 msgstr "FancyTree རིགས་དབྱེའི་ལྷུ་ལག"
 
-#: sources_views/sources_views.module:342
+#: sources_views/sources_views.module:326
 msgid "FancyTree Taxonomy Search Flyout Block"
 msgstr ""
 "FancyTree "
 "རིགས་དབྱེ་འཚོལ་བཤེར་གྱི་འཕར་ཐོན་ལྷུ་ལག"
 
-#: sources_views/sources_views.module:345
+#: sources_views/sources_views.module:329
 msgid "Custom taxonomy breadcrumb"
 msgstr "རང་བཟོ་བྱས་པའི་རིགས་འབྱེད་བྱེད་ནུས"
 
-#: sources_views/sources_views.module:349
+#: sources_views/sources_views.module:333
 msgid "Advanced search block"
 msgstr "མཐོ་རིམ་འཚོལ་བཤེར་གྱི་ལྷུ་ལག"
 
-#: sources_views/sources_views.module:380
+#: sources_views/sources_views.module:368
 msgid "Sources: Advanced Sources Search Filter"
 msgstr ""
 "ཁུངས། "
 "མཐོ་རིམ་ཁུངས་ཀྱི་འཚོལ་བཤེར་ཚག་རྒྱག་བྱེད"
 
-#: sources_views/sources_views.module:494
+#: sources_views/sources_views.module:501
 msgid "Biblio Author?"
 msgstr "Biblio ཡི་རྩོམ་མཁན།"
 
-#: sources_views/sources_views.module:496;640
+#: sources_views/sources_views.module:503;666
 msgid "Words in Abstract"
 msgstr "གནད་བསྡུས་ནང་གི་མིང་ཚིག"
 
-#: sources_views/sources_views.module:517
+#: sources_views/sources_views.module:524
 msgid "Sort By"
 msgstr "གོ་རིམ་སྒྲིག་ས"
 
-#: sources_views/sources_views.module:518
+#: sources_views/sources_views.module:525
 msgid "Order By"
 msgstr "གོ་རིམ་སྒྲིག་སྟངས"
 
-#: sources_views/sources_views.module:585
-msgid "Source Type"
-msgstr "ཁུངས་ཀྱི་རིགས"
+#: sources_views/sources_views.module:579
+msgid "Enter Search..."
+msgstr ""
 
-#: sources_views/sources_views.module:591
-msgid "Year of Publication"
-msgstr "ཁྱབ་སྤེལ་གྱི་ལོ"
+#: sources_views/sources_views.module:590
+msgid "Any"
+msgstr "གང་རུང"
 
 #: sources_views/sources_views.module:593
+msgid "Find items that match"
+msgstr "ཆ་མཚུངས་བའི་རྣམ་གྲངས་འཚོལ་བ"
+
+#: sources_views/sources_views.module:594
+msgid "of the fields below"
+msgstr "འོག་གི་གནས་ཡུལ་གྱི་"
+
+#: sources_views/sources_views.module:608
 msgid "Range"
 msgstr "ཁྱབ་ཁོངས"
 
-#: sources_views/sources_views.module:594
+#: sources_views/sources_views.module:609
 msgid "Current"
 msgstr "མིག་སྔར"
 
-#: sources_views/sources_views.module:595
-msgid "Last 12 months"
-msgstr "སྔོན་གྱི་ཟླ་༡༢"
+#: sources_views/sources_views.module:610
+msgid "Past year"
+msgstr ""
 
-#: sources_views/sources_views.module:653
-msgid "Search"
-msgstr "འཚོལ"
+#: sources_views/sources_views.module:660
+msgid "Place of Publication"
+msgstr "ཁྱབ་སྤེལ་གྱི་ས་གནས"
 
-#: sources_views/sources_views.module:1174
+#: sources_views/sources_views.module:1128
 msgid "Filters sources based on access"
 msgstr "སྤྱོད་དབང་ལ་བསྟུན་ནས་ཁུངས་ཚགས་རྒྱག་པ"
 
-#: sources_views/sources_views.module:1175
+#: sources_views/sources_views.module:1129
 msgid "Filters out private or group-private sources"
 msgstr "སྒེར་རམ་ཡང་ན་ཚོགས་པ་སྒེར་གྱི་ཁུངས་ཡིན་པ་དག་ཕྱིར་ཕུད་པ"
 
@@ -410,15 +913,7 @@ msgstr "ཁུངས་ཀྱི་རང་བཟོའི་མཐོང་ར
 msgid "Custom views module for Sources site."
 msgstr "རང་བཟོས་ཀྱི་ཁུངས་ཀྱི་དྲ་ཚིགས་ཀྱི་མཐོང་རིས།"
 
-#: sources_views/sources_views.info:0
-msgid "SHANTI"
-msgstr "SHANTI"
-
-#: sources_views/templates/sources_views_all_sources_dropdown.tpl.php:4 sources_views/templates/sources_views_breadcrumb_library.tpl.php:4
+#: sources_views/templates/sources_views_all_sources_dropdown.tpl.php:10 sources_views/templates/sources_views_breadcrumb_library.tpl.php:10
 msgid "HOME"
 msgstr "གཙོ་ངོས"
-
-#: sources_views/templates/sources_views_custom_sort_field.tpl.php:17;18;23
-msgid "Sort by"
-msgstr "གོ་རིམ་གཞི་འཛིན་ས།"
 

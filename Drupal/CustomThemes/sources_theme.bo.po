@@ -7,13 +7,14 @@
 #  theme-settings.php: n/a
 #  sources_theme.info: n/a
 #  templates/node--collection--teaser.tpl.php: n/a
+#  templates/node--collection.tpl.php: n/a
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2018-01-05 13:23-0500\n"
-"PO-Revision-Date: 2018-01-05 13:23-0500\n"
+"POT-Creation-Date: 2019-06-11 18:29+0000\n"
+"PO-Revision-Date: 2019-06-11 18:29+0000\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Tibetan <EMAIL@ADDRESS>\n"
 "MIME-Version: 1.0\n"
@@ -21,43 +22,47 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: template.php:119
+#: template.php:49
+msgid "Collections"
+msgstr "ཕྱོགས་བསྡུས"
+
+#: template.php:156
 msgid "Format"
 msgstr "རྣམ་གཞག"
 
-#: template.php:124
+#: template.php:161
 msgid "Publication Year"
 msgstr ""
 
-#: template.php:130
+#: template.php:168
 msgid "Publisher"
 msgstr "ཁྱབ་སྤེལ་མཁན"
 
-#: template.php:135
+#: template.php:173
 msgid "Place of Publication"
 msgstr "ཁྱབ་སྤེལ་གྱི་ས་གནས"
 
-#: template.php:142
+#: template.php:180
 msgid "Pages"
 msgstr "དྲ་ངོས"
 
-#: template.php:148
+#: template.php:186
 msgid "Source ID"
 msgstr ""
 
-#: template.php:155
+#: template.php:193
 msgid "Collection"
 msgstr "ཕྱོགས་བསྡུས"
 
-#: template.php:162
+#: template.php:200
 msgid "Visibility"
 msgstr "མངོན་སྟངས"
 
-#: template.php:178
+#: template.php:216
 msgid "Zotero Collections"
 msgstr "Zotero ཕྱོགས་བསྡུས"
 
-#: template.php:185
+#: template.php:223
 msgid "Abstract"
 msgstr "མདོར་བསྟན།"
 
@@ -150,6 +155,10 @@ msgid "Search Fly Out"
 msgstr ""
 
 #: sources_theme.info:0
+msgid "Search Results"
+msgstr "འཚོལ་བཤེར་མཇུག་འབྲས"
+
+#: sources_theme.info:0
 msgid "Primary Sidebar"
 msgstr ""
 
@@ -188,4 +197,8 @@ msgstr "རྣམ་གྲངས"
 #: templates/node--collection--teaser.tpl.php:116
 msgid "item"
 msgstr "རྣམ་གྲངས"
+
+#: templates/node--collection.tpl.php:128
+msgid "Import records exported from other bibliographic software"
+msgstr ""
 

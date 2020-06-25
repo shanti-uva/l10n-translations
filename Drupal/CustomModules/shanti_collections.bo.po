@@ -14,8 +14,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2018-01-05 15:42-0500\n"
-"PO-Revision-Date: 2018-01-05 15:42-0500\n"
+"POT-Creation-Date: 2019-06-11 18:08+0000\n"
+"PO-Revision-Date: 2019-06-11 18:08+0000\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Tibetan <EMAIL@ADDRESS>\n"
 "MIME-Version: 1.0\n"
@@ -108,45 +108,67 @@ msgstr ""
 
 #: shanti_collections.features.menu_links.inc:55
 msgid "Create Collection"
-msgstr "ཕྱོགས་བསྡུས་གསར་འཛུགས"
+msgstr ""
 
 #: shanti_collections.features.menu_links.inc:56
 msgid "View Collections"
-msgstr "ཕྱོགས་བསྡུས་ལ་ལྟ་བ"
+msgstr ""
 
 #: shanti_collections.field_group.inc:73
 msgid "Content"
 msgstr "ནང་དོན"
 
-#: shanti_collections.module:53
+#: shanti_collections.module:64
 msgid "Create A Collection"
-msgstr "ཕྱོགས་བསྡུས་ཤིག་གསར་འཛུགས"
+msgstr ""
 
-#: shanti_collections.module:54
+#: shanti_collections.module:65
 msgid "Create a new collection of resources grouped by project or theme:"
-msgstr "ལས་གཞི་དང་བརྗོད་གཞི་ལ་བསྟུན་ནས་རིགས་དབྱེ་བའི་ཐོན་ཁུངས་ལ་ཕྱོགས་བསྡུས་ཤིག་གསར་འཛུགས་བྱེད་པ།"
+msgstr ""
 
-#: shanti_collections.module:58
+#: shanti_collections.module:69
 msgid "Add New Collection"
 msgstr "ཕྱོགས་བསྡུས་གསར་བ་ཁ་སྣོན"
 
-#: shanti_collections.module:75
+#: shanti_collections.module:106
 msgid "Collections"
 msgstr "ཕྱོགས་བསྡུས"
 
-#: shanti_collections.module:76
+#: shanti_collections.module:107
 msgid "Subcollections"
 msgstr "ཡན་ལག་ཕྱོགས་བསྡུས"
 
+#: shanti_collections.module:257
+msgid "Add Members"
+msgstr ""
+
+#: shanti_collections.module:266
+msgid "Return to Collection Page"
+msgstr ""
+
+#: shanti_collections.module:311
+msgid "Handle group privacy change"
+msgstr ""
+
+#: shanti_collections.module:320
+msgid "Updating Solr Asset Index"
+msgstr ""
+
+#: shanti_collections.module:325
+msgid "Processed @current_index out of @max."
+msgstr ""
+
+#: shanti_collections.module:326
+msgid "An error was encountered updating solr asset index"
+msgstr ""
+
 #: shanti_collections.info:0
 msgid "SHANTI Collections"
-msgstr "Shanti ཡི་ཕྱོགས་བསྡུས"
+msgstr ""
 
 #: shanti_collections.info:0
 msgid "Collections can be used to organize your content for access, visibility, and editing"
 msgstr ""
-"ཕྱོགས་བསྡུས་སྤྱད་ནས་ཁྱེད་ཀྱི་ནང་དོན་གྱི་བེད་སྤྱོད་དང་འཆར་སྟངས། "
-"རྩོམ་སྒྲིག་བཅས་ལ་དོ་དམ་བྱས་ཆོག"
 
 #: shanti_collections.info:0
 msgid "SHANTI"

@@ -7,13 +7,14 @@
 #  sarvaka_shiva.info: n/a
 #  js/shanti-main-shiva.js: n/a
 #  templates/node--collection--teaser.tpl.php: n/a
+#  templates/node--collection.tpl.php: n/a
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2018-01-05 13:23-0500\n"
-"PO-Revision-Date: 2018-01-05 13:23-0500\n"
+"POT-Creation-Date: 2019-06-11 18:29+0000\n"
+"PO-Revision-Date: 2019-06-11 18:29+0000\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Tibetan <EMAIL@ADDRESS>\n"
 "MIME-Version: 1.0\n"
@@ -25,35 +26,31 @@ msgstr ""
 msgid "Members"
 msgstr "ཁོངས་མི།"
 
-#: template.php:49
-msgid "Collections"
-msgstr "ཕྱོགས་བསྡུས"
-
-#: template.php:84;87
+#: template.php:87;90
 msgid "Select a Type"
 msgstr ""
 
-#: template.php:148
+#: template.php:151
 msgid "External Spreadsheet"
 msgstr ""
 
-#: template.php:190;199;202;276
+#: template.php:193;202;205;279
 msgid "Public"
 msgstr "སྤྱི་སྤྱོད"
 
-#: template.php:193;202;210;276
+#: template.php:196;205;213;279
 msgid "Private"
 msgstr "མི་སྒེར"
 
-#: template.php:195
+#: template.php:198
 msgid "UVa Only"
 msgstr "UVa ཁོ་ན"
 
-#: template.php:197
+#: template.php:200
 msgid " (group default)"
 msgstr ""
 
-#: template.php:412
+#: template.php:415
 msgid "View in separate window"
 msgstr ""
 
@@ -80,6 +77,10 @@ msgstr "ནང་དོན"
 #: sarvaka_shiva.info:0
 msgid "Search Fly Out"
 msgstr ""
+
+#: sarvaka_shiva.info:0
+msgid "Search Results"
+msgstr "འཚོལ་བཤེར་མཇུག་འབྲས"
 
 #: sarvaka_shiva.info:0
 msgid "Primary Sidebar"
@@ -128,4 +129,8 @@ msgstr "རྣམ་གྲངས"
 #: templates/node--collection--teaser.tpl.php:116
 msgid "item"
 msgstr "རྣམ་གྲངས"
+
+#: templates/node--collection.tpl.php:171
+msgid "This collection is private"
+msgstr ""
 

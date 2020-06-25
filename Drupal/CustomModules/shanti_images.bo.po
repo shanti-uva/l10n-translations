@@ -5,22 +5,35 @@
 # Generated from files:
 #  shanti_images.module: n/a
 #  features/shanti_image_type/shanti_image_type.features.field_instance.inc: n/a
+#  features/shanti_image_views/shanti_image_views.features.menu_links.inc: n/a
+#  includes/views/shanti_images.views.inc: n/a
+#  shanti_images.install: n/a
 #  shanti_images.info: n/a
 #  features/shanti_external_classification/shanti_external_classification.info: n/a
 #  features/shanti_image_type/shanti_image_type.info: n/a
 #  features/shanti_image_views/shanti_image_views.info: n/a
+#  modules/bulk_image_import/bulk_image_import.info: n/a
+#  modules/shanti_mms_import/shanti_mms_import.info: n/a
 #  features/shanti_external_classification/shanti_external_classification.features.field_instance.inc: n/a
 #  features/shanti_external_classification/shanti_external_classification.features.inc: n/a
 #  features/shanti_image_type/shanti_image_type.features.inc: n/a
 #  features/shanti_image_type/shanti_image_type.field_group.inc: n/a
 #  features/shanti_image_type/shanti_image_type.module: n/a
+#  features/shanti_image_views/shanti_image_views.features.menu_custom.inc: n/a
+#  includes/shanti_images.admin.inc: n/a
+#  includes/shanti_images.inc: n/a
+#  modules/bulk_image_import/bulk_image_import.module: n/a
+#  modules/shanti_mms_import/shanti_mms_import.module: n/a
+#  modules/bulk_image_import/includes/api.inc: n/a
+#  modules/bulk_image_import/includes/batch.inc: n/a
+#  modules/bulk_image_import/includes/box.inc: n/a
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2018-01-05 15:42-0500\n"
-"PO-Revision-Date: 2018-01-05 15:42-0500\n"
+"POT-Creation-Date: 2019-06-11 18:09+0000\n"
+"PO-Revision-Date: 2019-06-11 18:09+0000\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Tibetan <EMAIL@ADDRESS>\n"
 "MIME-Version: 1.0\n"
@@ -28,164 +41,204 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: shanti_images.module:75
-msgid "IIIF Upload URL"
+#: shanti_images.module:37
+msgid "IIIF"
 msgstr ""
 
-#: shanti_images.module:77
-msgid "The URL for posting images to the IIIF Server. Must include protocol. Image files are POSTed to this URL via CURL."
+#: shanti_images.module:43
+msgid "Other Settings"
 msgstr ""
 
-#: shanti_images.module:83
-msgid "IIIF Delete URL"
+#: shanti_images.module:53
+msgid "Shanti Image List"
 msgstr ""
 
-#: shanti_images.module:85
-msgid "The URL for deleting images from the IIIF Server. Must include protocol. Use \"__FILE__\" to indicate where the file name is in the URL. This is a GET call to delete the image."
+#: shanti_images.module:62
+msgid "Shanti Image List: Remove MMS ID"
 msgstr ""
 
-#: shanti_images.module:91
-msgid "IIIF View URL"
+#: shanti_images.module:84
+msgid "MMS Import Summary"
 msgstr ""
 
-#: shanti_images.module:93
-msgid "The base URL for viewing images on the IIIF Server include protocol."
+#: shanti_images.module:239
+msgid "Administer Shanti Images"
 msgstr ""
 
-#: shanti_images.module:99
-msgid "IIIF View Path"
+#: shanti_images.module:441
+msgid "@count files expunged from site because they are stored on IIIF server."
 msgstr ""
 
-#: shanti_images.module:101
-msgid "The relative path on the IIIF server to view an uploaded image"
+#: shanti_images.module:516
+msgid "Cancel"
+msgstr "ཕྱིར་འཐེན"
+
+#: shanti_images.module:606
+msgid "This is the image currently uploaded to the server"
 msgstr ""
 
-#: shanti_images.module:112
-msgid "The upload url must begin with a protocol (http:// or https://)"
+#: shanti_images.module:612
+msgid "Replace Image"
 msgstr ""
 
-#: shanti_images.module:119
-msgid "The delete url must begin with a protocol (http:// or https://)"
+#: shanti_images.module:626
+msgid "<div class=\"image-info-msg clearfix\">(<em>This image can only be replaced from the production site</em>s)</div>"
 msgstr ""
 
-#: shanti_images.module:122
-msgid "The delete url must contain \"__FILE__\" to indicate where the file name belongs"
-msgstr ""
-
-#: shanti_images.module:129
-msgid "The view url must begin with a protocol (http:// or https://)"
-msgstr ""
-
-#: shanti_images.module:169
-msgid "The IIIF Image upload URL has not been set"
-msgstr ""
-
-#: shanti_images.module:256
+#: shanti_images.module:650
 msgid "Add new description"
 msgstr ""
 
-#: shanti_images.module:257
+#: shanti_images.module:651
 msgid "Create description"
 msgstr ""
 
-#: shanti_images.module:260
+#: shanti_images.module:654
 msgid "Add a series"
 msgstr ""
 
-#: shanti_images.module:263
+#: shanti_images.module:657
 msgid "Add new classification"
 msgstr ""
 
-#: shanti_images.module:266;826
+#: shanti_images.module:660;1176
 msgid "Add new agent"
 msgstr ""
 
-#: shanti_images.module:267
+#: shanti_images.module:661
 msgid "Create agent"
 msgstr ""
 
-#: shanti_images.module:276
+#: shanti_images.module:670
 msgid "Add a note"
 msgstr ""
 
-#: shanti_images.module:335
-msgid "Unable to contact IIIF server to delete image"
-msgstr ""
-
-#: shanti_images.module:339
-msgid "No image, @inm, found on IIIF server to delete."
-msgstr ""
-
-#: shanti_images.module:341
-msgid "Image @inm deleted from IIIF server"
-msgstr ""
-
-#: shanti_images.module:345
-msgid "No url for IIIF server set. Cannot delete iiif image."
-msgstr ""
-
-#: shanti_images.module:363
+#: shanti_images.module:730
 msgid "There must be at least one creator defined for each image"
 msgstr ""
 
-#: shanti_images.module:424
-msgid "Anonymous"
-msgstr "མིང་མེད་སྤྱོད་མཁན"
+#: shanti_images.module:739
+msgid "All image descriptions must have at least a caption."
+msgstr ""
 
-#: shanti_images.module:472
+#: shanti_images.module:819
+msgid "Unknown"
+msgstr "རྒྱུས་མེད་པ"
+
+#: shanti_images.module:903
 msgid "By"
 msgstr ""
 
-#: shanti_images.module:802
-msgid "We were unable to post your file to the server. "
+#: shanti_images.module:1131
+msgid "Could not rename file to replace periods (shanti_images_file_insert"
 msgstr ""
 
-#: shanti_images.module:841 features/shanti_image_type/shanti_image_type.features.field_instance.inc:3172
+#: shanti_images.module:1174
+msgid "Update agent"
+msgstr ""
+
+#: shanti_images.module:1179
+msgid "Update description"
+msgstr ""
+
+#: shanti_images.module:1199 features/shanti_image_type/shanti_image_type.features.field_instance.inc:4675
 msgid "Summary"
 msgstr "མདོར་བསྡུས"
 
-#: shanti_images.module:846 features/shanti_image_type/shanti_image_type.features.field_instance.inc:3158
-msgid "Language"
-msgstr "སྐད་རིགས"
-
-#: shanti_images.module:851
-msgid "Author"
-msgstr "རྩོམ་མཁན"
-
-#: shanti_images.module:859
+#: shanti_images.module:1220
 msgid "Role"
 msgstr "འགན་ནུས"
 
-#: shanti_images.module:864
+#: shanti_images.module:1225
 msgid "Dates"
 msgstr "ཚེས་གྲངས"
 
-#: shanti_images.module:874
+#: shanti_images.module:1235
 msgid "Place"
 msgstr ""
 
-#: shanti_images.module:72
-msgid "shanti_images"
-msgstr ""
-
-#: shanti_images.module:72
-msgid "In shanti images admin form"
-msgstr ""
-
-#: shanti_images.module:14
+#: shanti_images.module:27 features/shanti_image_views/shanti_image_views.features.menu_links.inc:82 includes/views/shanti_images.views.inc:10
 msgid "Shanti Images"
 msgstr ""
 
-#: shanti_images.module:15
+#: shanti_images.module:28
 msgid "Configuration for Shanti Images module"
 msgstr ""
 
-#: shanti_images.module:24
-msgid "Settings"
-msgstr "སྒྲིག་འགོད"
+#: shanti_images.module:140
+msgid "Embeddable Image"
+msgstr ""
 
-#: shanti_images.module:29
-msgid "Image List"
+#: shanti_images.module:141
+msgid "Return an embeddable HTML DIV fragment for an image"
+msgstr ""
+
+#: shanti_images.module:147;154
+msgid "Image JSON Ingo"
+msgstr ""
+
+#: shanti_images.module:148;155
+msgid "Return info about an image in JSON"
+msgstr ""
+
+#: shanti_images.module:162
+msgid "Node Carousel Data"
+msgstr ""
+
+#: shanti_images.module:163
+msgid "Return the carousel for a particular node"
+msgstr ""
+
+#: shanti_images.module:170
+msgid "More Slides for Carousel"
+msgstr ""
+
+#: shanti_images.module:171
+msgid "Return further slides for the carousel "
+msgstr ""
+
+#: shanti_images.module:178
+msgid "MMS ID Information"
+msgstr ""
+
+#: shanti_images.module:179
+msgid "Return info about an image based on some type of id"
+msgstr ""
+
+#: shanti_images.module:186
+msgid "MMSID Lookup"
+msgstr ""
+
+#: shanti_images.module:187
+msgid "Return the node page for a specific mmsid (for redirects)"
+msgstr ""
+
+#: shanti_images.module:194;202
+msgid "Shanti Image ID Lookup"
+msgstr ""
+
+#: shanti_images.module:195
+msgid "Return the node page for a specific Shanti Image ID"
+msgstr ""
+
+#: shanti_images.module:203
+msgid "Return the page for a specific Node ID"
+msgstr ""
+
+#: shanti_images.module:213
+msgid "Return the iiif filename for this mms image"
+msgstr ""
+
+#: shanti_images.module:221
+msgid "OpenSeadragon Map"
+msgstr ""
+
+#: shanti_images.module:222
+msgid "Return OpenDragon JS from image/... url"
+msgstr ""
+
+#: shanti_images.install:194
+msgid "All @count Shanti Image records have been updated with height, width, and timestamp."
 msgstr ""
 
 #: shanti_images.info:0
@@ -196,63 +249,63 @@ msgstr ""
 msgid "Module to enable IIIF images in Shanti Mandala"
 msgstr ""
 
-#: shanti_images.info:0 features/shanti_external_classification/shanti_external_classification.info:0 features/shanti_image_type/shanti_image_type.info:0 features/shanti_image_views/shanti_image_views.info:0
+#: shanti_images.info:0 features/shanti_external_classification/shanti_external_classification.info:0 features/shanti_image_type/shanti_image_type.info:0 features/shanti_image_views/shanti_image_views.info:0 modules/bulk_image_import/bulk_image_import.info:0 modules/shanti_mms_import/shanti_mms_import.info:0
 msgid "Images"
 msgstr "པར་རིས"
 
-#: features/shanti_external_classification/shanti_external_classification.features.field_instance.inc:454
+#: features/shanti_external_classification/shanti_external_classification.features.field_instance.inc:463
 msgid "Abbreviation"
 msgstr "བསྡུས་ཚིག"
 
-#: features/shanti_external_classification/shanti_external_classification.features.field_instance.inc:455 features/shanti_image_type/shanti_image_type.features.field_instance.inc:3146
+#: features/shanti_external_classification/shanti_external_classification.features.field_instance.inc:464 features/shanti_image_type/shanti_image_type.features.field_instance.inc:4626
 msgid "Description"
 msgstr "གསལ་བཤད"
 
-#: features/shanti_external_classification/shanti_external_classification.features.field_instance.inc:456
+#: features/shanti_external_classification/shanti_external_classification.features.field_instance.inc:465
 msgid "Full path for the service provide a record of the type chosen above. Use __ID__ in place of the record ID and include file extension (e.g., .json, .rdf) if necessary."
 msgstr ""
 
-#: features/shanti_external_classification/shanti_external_classification.features.field_instance.inc:457
+#: features/shanti_external_classification/shanti_external_classification.features.field_instance.inc:466
 msgid "Scheme Item URL"
 msgstr ""
 
-#: features/shanti_external_classification/shanti_external_classification.features.field_instance.inc:458
+#: features/shanti_external_classification/shanti_external_classification.features.field_instance.inc:467
 msgid "Scheme Record Path"
 msgstr ""
 
-#: features/shanti_external_classification/shanti_external_classification.features.field_instance.inc:459
+#: features/shanti_external_classification/shanti_external_classification.features.field_instance.inc:468
 msgid "Scheme Record Type"
 msgstr ""
 
-#: features/shanti_external_classification/shanti_external_classification.features.field_instance.inc:460
+#: features/shanti_external_classification/shanti_external_classification.features.field_instance.inc:469
 msgid "Scheme URL"
 msgstr ""
 
-#: features/shanti_external_classification/shanti_external_classification.features.field_instance.inc:461
+#: features/shanti_external_classification/shanti_external_classification.features.field_instance.inc:470
 msgid "The Abbreviation must be a unique string for identifying the external scheme. Schemes usually have their own identifying abbreviation, which should be used."
 msgstr ""
 
-#: features/shanti_external_classification/shanti_external_classification.features.field_instance.inc:462
+#: features/shanti_external_classification/shanti_external_classification.features.field_instance.inc:471
 msgid "The full url to the HTML page to display an item from the scheme. Use __ID__ in place of the item ID and include file extension (e.g., .html, .php) if part of the URL."
 msgstr ""
 
-#: features/shanti_external_classification/shanti_external_classification.features.field_instance.inc:463
+#: features/shanti_external_classification/shanti_external_classification.features.field_instance.inc:472
 msgid "URL to the home page of the scheme."
 msgstr ""
 
-#: features/shanti_external_classification/shanti_external_classification.features.inc:22
+#: features/shanti_external_classification/shanti_external_classification.features.inc:23
 msgid "External Classification"
 msgstr ""
 
-#: features/shanti_external_classification/shanti_external_classification.features.inc:26
+#: features/shanti_external_classification/shanti_external_classification.features.inc:27
 msgid "Label"
 msgstr "ཁ་བྱང"
 
-#: features/shanti_external_classification/shanti_external_classification.features.inc:30
+#: features/shanti_external_classification/shanti_external_classification.features.inc:31
 msgid "External Classification Scheme"
 msgstr ""
 
-#: features/shanti_external_classification/shanti_external_classification.features.inc:34
+#: features/shanti_external_classification/shanti_external_classification.features.inc:35
 msgid "Title"
 msgstr "ཁ་བྱང"
 
@@ -264,279 +317,403 @@ msgstr ""
 msgid "Content type for external classification schemes"
 msgstr ""
 
-#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:3127
+#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:4606
 msgid "Admin Notes"
 msgstr ""
 
-#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:3128
+#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:4607
 msgid "Admin notes are only seen by editors and not the general public"
 msgstr ""
 
-#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:3129
-msgid "Agent Date(s)"
+#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:4608
+msgid "Agent Exact Date(s)"
 msgstr ""
 
-#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:3130
+#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:4609
 msgid "Agent Place(s)"
 msgstr ""
 
-#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:3131
+#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:4610
 msgid "Agent Role"
 msgstr ""
 
-#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:3132
+#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:4611
+msgid "Agent Rough Dates"
+msgstr ""
+
+#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:4612
+msgid "Altitude"
+msgstr ""
+
+#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:4613
 msgid "An agent is any person involved in the creation, archiving, and/or preservation of an image including but not limited to photographers, digitizers, owners, and publishers."
 msgstr ""
 
-#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:3133
+#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:4614
+msgid "Aperture"
+msgstr ""
+
+#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:4615
 msgid "Assign this image to one of your collections. <br/>If no collections are listed in the dropdown, <a href=\"/node/add/collection\">create one</a>."
 msgstr ""
 
-#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:3134
+#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:4616
 msgid "Capture Device"
 msgstr ""
 
-#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:3135
+#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:4617
 msgid "Check this box if the image was created digitally and has no physical predecessor from which it was scanned or photographed."
 msgstr ""
 
-#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:3136
-msgid "Choose one or more files to be part of this image or series of images. Large images work best. Image dimensions can be no smaller than 800 x 800. That is, each side must be a minimum of 800px. \n<br/><b>Warning:</b> Only upload images to which you have the proper rights."
-msgstr ""
-
-#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:3138
+#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:4618
 msgid "Classification Notes"
 msgstr ""
 
-#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:3139
+#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:4619
 msgid "Classification Scheme"
 msgstr ""
 
-#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:3140
+#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:4620
 msgid "Collection"
 msgstr "ཕྱོགས་བསྡུས"
 
-#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:3141
+#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:4621
 msgid "Color"
 msgstr "ཁ་དོག"
 
-#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:3142
+#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:4622
 msgid "Copyright Date"
 msgstr ""
 
-#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:3143
+#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:4623
 msgid "Copyright Holder"
-msgstr ""
+msgstr "པར་སྐྲུན་བདག་དབང་འཛིན་མཁན།"
 
-#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:3144
+#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:4624
 msgid "Copyright Statement"
 msgstr ""
 
-#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:3145
+#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:4625
 msgid "Describe any enhancement done to the image after digitization or creation."
 msgstr ""
 
-#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:3147
+#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:4627
 msgid "Description Author(s)"
 msgstr ""
 
-#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:3148
+#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:4628
 msgid "Enhancement"
 msgstr ""
 
-#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:3149
+#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:4629
 msgid "Enter a link to the license that governs this image. Defaults to a Creative Commons’ license."
 msgstr ""
 
-#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:3150
+#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:4630
+msgid "Enter the number of degrees (0, 90, 180, 270) needed to rotate the image to make it “right-side up”."
+msgstr ""
+
+#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:4631
+msgid "Exposure Bias"
+msgstr ""
+
+#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:4632
+msgid "Flash Settings"
+msgstr ""
+
+#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:4633
+msgid "Focal Length"
+msgstr ""
+
+#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:4634
+msgid "General Note"
+msgstr ""
+
+#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:4635
 msgid "ID"
 msgstr "ཨང་རྟགས"
 
-#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:3151
+#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:4636
+msgid "ISO Speed Rating"
+msgstr ""
+
+#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:4637
 msgid "Id used by the external classification scheme for this tag"
 msgstr ""
 
-#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:3152
+#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:4638
+msgid "If only the month or year is know or the date is uncertain, enter the date here. Examples: ‘January 1995’, ‘2003’, ‘1986?’"
+msgstr ""
+
+#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:4639
 msgid "If the original image was a physical artifact, enter its dimension here in the form of \"width x height x depth\" with a unit of measurement after each item. Use the common abbreviation for units of measurement, e.g., mm, cm, in, etc."
 msgstr ""
 
-#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:3153
+#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:4640
+msgid "Image"
+msgstr "པར་རིས"
+
+#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:4641 features/shanti_image_views/shanti_image_views.features.menu_links.inc:80
 msgid "Image Agents"
 msgstr ""
 
-#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:3154 features/shanti_image_type/shanti_image_type.features.inc:65
+#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:4642 features/shanti_image_type/shanti_image_type.features.inc:66 features/shanti_image_views/shanti_image_views.features.menu_links.inc:81
 msgid "Image Descriptions"
 msgstr ""
 
-#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:3155
+#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:4643
 msgid "Image Notes"
 msgstr ""
 
-#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:3156
+#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:4644
 msgid "Image Rotation"
 msgstr ""
 
-#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:3157
-msgid "Image(s)"
+#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:4645
+msgid "Keywords"
+msgstr "གནད་ཚིག"
+
+#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:4646
+msgid "Kmap Collections"
 msgstr ""
 
-#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:3159
+#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:4647
+msgid "Language"
+msgstr "སྐད་རིགས"
+
+#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:4648
+msgid "Latitude"
+msgstr ""
+
+#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:4649
+msgid "Lens"
+msgstr ""
+
+#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:4650
 msgid "License"
 msgstr ""
 
-#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:3160
+#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:4651
+msgid "Light Source"
+msgstr ""
+
+#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:4652
+msgid "Longitude"
+msgstr ""
+
+#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:4653
 msgid "Materials"
 msgstr ""
 
-#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:3161
+#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:4654
+msgid "Metering Mode"
+msgstr ""
+
+#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:4655
+msgid "Noise Reduction"
+msgstr ""
+
+#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:4656
 msgid "Note"
 msgstr "ཐོ་འགོད།"
 
-#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:3162
+#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:4657
 msgid "Notes on This Agent"
 msgstr ""
 
-#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:3163
+#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:4658
 msgid "Only Digital"
 msgstr ""
 
-#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:3164
+#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:4659
+msgid "Organization Name"
+msgstr ""
+
+#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:4660
+msgid "Original Filename"
+msgstr ""
+
+#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:4661
 msgid "Other Classifications"
 msgstr ""
 
-#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:3165
+#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:4662
+msgid "Other IDs"
+msgstr ""
+
+#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:4663
 msgid "Other classifications refer to classification schemes outside of Mandala, such as Library of Congress and so forth. You can view the list of currently defined classifications <a href=\"/extclassifications\">here</a>."
 msgstr ""
 
-#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:3166
+#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:4664
 msgid "Physical Size"
 msgstr ""
 
-#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:3167
+#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:4665
 msgid "Places"
 msgstr "ས་གནས"
 
-#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:3168
+#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:4666
+msgid "Private Note"
+msgstr ""
+
+#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:4667
+msgid "Project Name"
+msgstr ""
+
+#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:4668
 msgid "Quality"
 msgstr ""
 
-#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:3169
+#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:4669
 msgid "Rights Notes"
 msgstr ""
 
-#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:3170
+#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:4670
 msgid "Select the external classification scheme you wish to record. If the desired scheme is not listed, please contact Shanti @ UVa and we will add it for you."
 msgstr ""
 
-#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:3171
+#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:4671
+msgid "Sensing Method"
+msgstr ""
+
+#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:4672
+msgid "Sponsor Name"
+msgstr ""
+
+#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:4673
+msgid "Spot Feature"
+msgstr ""
+
+#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:4674
 msgid "Subjects"
 msgstr "བརྗོད་དོན"
 
-#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:3173
+#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:4676
 msgid "Technical Notes"
 msgstr ""
 
-#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:3174
+#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:4677
+msgid "Terms"
+msgstr "ཐ་སྙད"
+
+#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:4678
 msgid "The message that appears under “Copyright © #### by __________.”"
 msgstr ""
 
-#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:3175
+#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:4679
 msgid "Type"
 msgstr "རིགས"
 
-#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:3176
+#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:4680
+msgid "Upload the image for this record but <em>only upload images to which you have the proper rights</em>! <br/>\nPlease note the uploaded image will be converted and saved in a more compact format (jpeg-2000). <br/>\n<em>This site does <strong>not</strong> archive a copy of the original image but the uploaded file is deleted after being converted!</em>"
+msgstr ""
+
+#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:4683
+msgid "Use the field below to set an exact date if the date the picture was taken is known for certain. For inexact dates such as months or years, you can set a start and end date that covers the given range. If this is used in conjunction with the approximate date, then the approximate date field will be displayed, and the range set here in the exact date field will be used for searching."
+msgstr ""
+
+#: features/shanti_image_type/shanti_image_type.features.field_instance.inc:4684
 msgid "Visibility"
 msgstr "མངོན་སྟངས"
 
-#: features/shanti_image_type/shanti_image_type.features.inc:57
+#: features/shanti_image_type/shanti_image_type.features.inc:58
 msgid "Agent"
 msgstr ""
 
-#: features/shanti_image_type/shanti_image_type.features.inc:59
+#: features/shanti_image_type/shanti_image_type.features.inc:60
 msgid "Agents involved in the creation of an image."
 msgstr ""
 
-#: features/shanti_image_type/shanti_image_type.features.inc:61
+#: features/shanti_image_type/shanti_image_type.features.inc:62
 msgid "Agent Name"
 msgstr ""
 
-#: features/shanti_image_type/shanti_image_type.features.inc:67
+#: features/shanti_image_type/shanti_image_type.features.inc:68
 msgid "Descriptions about images with language selection, includes caption, summary, and full-length descriptions"
 msgstr ""
 
-#: features/shanti_image_type/shanti_image_type.features.inc:69
+#: features/shanti_image_type/shanti_image_type.features.inc:70
 msgid "Caption"
-msgstr ""
+msgstr "འགོ་བབརྗོད་"
 
-#: features/shanti_image_type/shanti_image_type.features.inc:73
+#: features/shanti_image_type/shanti_image_type.features.inc:74
 msgid "Shanti Image"
 msgstr ""
 
-#: features/shanti_image_type/shanti_image_type.features.inc:77
+#: features/shanti_image_type/shanti_image_type.features.inc:78
 msgid "Main Caption"
 msgstr ""
 
-#: features/shanti_image_type/shanti_image_type.field_group.inc:626
+#: features/shanti_image_type/shanti_image_type.field_group.inc:706
+msgid "Additional Info"
+msgstr ""
+
+#: features/shanti_image_type/shanti_image_type.field_group.inc:707
 msgid "Classification"
 msgstr "རིགས་དབྱེ་སྟངས"
 
-#: features/shanti_image_type/shanti_image_type.field_group.inc:627
+#: features/shanti_image_type/shanti_image_type.field_group.inc:708
 msgid "Copyright Information"
 msgstr ""
 
-#: features/shanti_image_type/shanti_image_type.field_group.inc:628
+#: features/shanti_image_type/shanti_image_type.field_group.inc:709
 msgid "Description & Classification"
 msgstr ""
 
-#: features/shanti_image_type/shanti_image_type.field_group.inc:629
+#: features/shanti_image_type/shanti_image_type.field_group.inc:710
 msgid "Description & Notes"
 msgstr ""
 
-#: features/shanti_image_type/shanti_image_type.field_group.inc:630
+#: features/shanti_image_type/shanti_image_type.field_group.inc:711
 msgid "Descriptive"
 msgstr ""
 
-#: features/shanti_image_type/shanti_image_type.field_group.inc:631
+#: features/shanti_image_type/shanti_image_type.field_group.inc:712
 msgid "Details"
 msgstr "ཞིབ་ཕྲ"
 
-#: features/shanti_image_type/shanti_image_type.field_group.inc:632
+#: features/shanti_image_type/shanti_image_type.field_group.inc:713
 msgid "Image Form Pages"
 msgstr ""
 
-#: features/shanti_image_type/shanti_image_type.field_group.inc:633
+#: features/shanti_image_type/shanti_image_type.field_group.inc:714
 msgid "Origin"
 msgstr ""
 
-#: features/shanti_image_type/shanti_image_type.field_group.inc:634
+#: features/shanti_image_type/shanti_image_type.field_group.inc:715
 msgid "Origination"
 msgstr ""
 
-#: features/shanti_image_type/shanti_image_type.field_group.inc:635
+#: features/shanti_image_type/shanti_image_type.field_group.inc:716
 msgid "People"
 msgstr "སྤྱོད་མཁན"
 
-#: features/shanti_image_type/shanti_image_type.field_group.inc:636
+#: features/shanti_image_type/shanti_image_type.field_group.inc:717
 msgid "Required Image Info"
 msgstr ""
 
-#: features/shanti_image_type/shanti_image_type.field_group.inc:637
+#: features/shanti_image_type/shanti_image_type.field_group.inc:718
 msgid "Rights"
 msgstr "བདག་དབང"
 
-#: features/shanti_image_type/shanti_image_type.field_group.inc:638
+#: features/shanti_image_type/shanti_image_type.field_group.inc:719
 msgid "Rights & Licensing"
 msgstr "བདག་དབང་དང་ཆོག་མཆན"
 
-#: features/shanti_image_type/shanti_image_type.field_group.inc:639
+#: features/shanti_image_type/shanti_image_type.field_group.inc:720
+msgid "Sponsorship and Notes"
+msgstr ""
+
+#: features/shanti_image_type/shanti_image_type.field_group.inc:721
 msgid "Technical"
 msgstr ""
 
-#: features/shanti_image_type/shanti_image_type.field_group.inc:640
+#: features/shanti_image_type/shanti_image_type.field_group.inc:722
 msgid "Technical Details"
 msgstr ""
 
-#: features/shanti_image_type/shanti_image_type.field_group.inc:641
+#: features/shanti_image_type/shanti_image_type.field_group.inc:723
 msgid "Workflow"
 msgstr "ལས་རིམ"
 
@@ -560,7 +737,7 @@ msgstr ""
 msgid "Type of image to display. Only JPG for now."
 msgstr ""
 
-#: features/shanti_image_type/shanti_image_type.module:79
+#: features/shanti_image_type/shanti_image_type.module:79 includes/views/shanti_images.views.inc:154
 msgid "Width"
 msgstr "ཞེང་ཚད"
 
@@ -568,7 +745,7 @@ msgstr "ཞེང་ཚད"
 msgid "Width of image"
 msgstr ""
 
-#: features/shanti_image_type/shanti_image_type.module:86
+#: features/shanti_image_type/shanti_image_type.module:86 includes/views/shanti_images.views.inc:171
 msgid "Height"
 msgstr "མཐོ་ཚད"
 
@@ -604,11 +781,567 @@ msgstr ""
 msgid "Feature defining the Shanti Image content type"
 msgstr ""
 
+#: features/shanti_image_views/shanti_image_views.features.menu_custom.inc:22
+msgid "Management"
+msgstr "དོ་དམ་"
+
+#: features/shanti_image_views/shanti_image_views.features.menu_custom.inc:23
+msgid "The <em>Management</em> menu contains links for administrative tasks."
+msgstr "<em>དོ་དམ་</em>འདེམས་བྱང་གི་ནང་དུ་དོ་དམ་ལས་འགན་གྱི་སྦྲེལ་ཐག་ཡོད།"
+
 #: features/shanti_image_views/shanti_image_views.info:0
 msgid "Shanti Image Views"
 msgstr ""
 
 #: features/shanti_image_views/shanti_image_views.info:0
 msgid "Views used in Shanti Images"
+msgstr ""
+
+#: includes/shanti_images.admin.inc:10
+msgid "IIIF Upload URL"
+msgstr ""
+
+#: includes/shanti_images.admin.inc:12
+msgid "The URL for posting images to the IIIF Server. Must include protocol. Image files are POSTed to this URL via CURL."
+msgstr ""
+
+#: includes/shanti_images.admin.inc:18
+msgid "IIIF Delete URL"
+msgstr ""
+
+#: includes/shanti_images.admin.inc:20
+msgid "The URL for deleting images from the IIIF Server. Must include protocol. Use \"__FILE__\" to indicate where the file name is in the URL. This is a GET call to delete the image."
+msgstr ""
+
+#: includes/shanti_images.admin.inc:26
+msgid "IIIF View URL"
+msgstr ""
+
+#: includes/shanti_images.admin.inc:28
+msgid "The base URL for viewing images on the IIIF Server include protocol."
+msgstr ""
+
+#: includes/shanti_images.admin.inc:34
+msgid "IIIF View Path"
+msgstr ""
+
+#: includes/shanti_images.admin.inc:36
+msgid "The relative path on the IIIF server to view an uploaded image"
+msgstr ""
+
+#: includes/shanti_images.admin.inc:42
+msgid "Valid Image Extensions"
+msgstr ""
+
+#: includes/shanti_images.admin.inc:44
+msgid "Enter all the valid image format extensions separated by spaces or commas"
+msgstr ""
+
+#: includes/shanti_images.admin.inc:56
+msgid "The upload url must begin with a protocol (http:// or https://)"
+msgstr ""
+
+#: includes/shanti_images.admin.inc:63
+msgid "The delete url must begin with a protocol (http:// or https://)"
+msgstr ""
+
+#: includes/shanti_images.admin.inc:66
+msgid "The delete url must contain \"__FILE__\" to indicate where the file name belongs"
+msgstr ""
+
+#: includes/shanti_images.admin.inc:73
+msgid "The view url must begin with a protocol (http:// or https://)"
+msgstr ""
+
+#: includes/shanti_images.admin.inc:88
+msgid "No extensions given. Setting to default: jpg jpeg jp2 png tif tiff"
+msgstr ""
+
+#: includes/shanti_images.admin.inc:109
+msgid "Expunge Images"
+msgstr ""
+
+#: includes/shanti_images.admin.inc:119
+msgid "Expiration Age (hrs)"
+msgstr ""
+
+#: includes/shanti_images.admin.inc:120
+msgid "<div class=\"currcron\">The current cron interval is @crh hrs.</div>"
+msgstr ""
+
+#: includes/shanti_images.admin.inc:153
+msgid "Cron Batch Size"
+msgstr ""
+
+#: includes/shanti_images.admin.inc:155
+msgid "Enter the number of Image files to remove from Drupal with each cron run."
+msgstr ""
+
+#: includes/shanti_images.admin.inc:174
+msgid "<label for=\"edit-shanti-images-debug\">Debugging </label>"
+msgstr ""
+
+#: includes/shanti_images.admin.inc:175
+msgid "IIIF Debugging"
+msgstr ""
+
+#: includes/shanti_images.admin.inc:177
+msgid "Check this bug to send messages to the Drupal log for debuging"
+msgstr ""
+
+#: includes/shanti_images.admin.inc:198
+msgid "Age must be 1 or greater"
+msgstr ""
+
+#: includes/shanti_images.admin.inc:205
+msgid "Age in hours must be an integer"
+msgstr ""
+
+#: includes/shanti_images.admin.inc:208
+msgid "Age in hours must be an integer number"
+msgstr ""
+
+#: includes/shanti_images.admin.inc:217
+msgid "The batch size must be an interger number!"
+msgstr ""
+
+#: includes/shanti_images.admin.inc:220
+msgid "The batch size must be greater than zero!"
+msgstr ""
+
+#: includes/shanti_images.admin.inc:223
+msgid "The batch size must be an interger greater than zero!"
+msgstr ""
+
+#: includes/shanti_images.admin.inc:316
+msgid "Images on IIIF Server"
+msgstr ""
+
+#: includes/shanti_images.admin.inc:332
+msgid "none"
+msgstr "མེད"
+
+#: includes/shanti_images.admin.inc:365
+msgid "The IIIF Image upload URL has not been set"
+msgstr ""
+
+#: includes/shanti_images.admin.inc:377
+msgid "The IIIF server setting is not set in the Shanti Images Admin page"
+msgstr ""
+
+#: includes/shanti_images.admin.inc:390
+msgid "Delete IIIF Image: @fnm"
+msgstr ""
+
+#: includes/shanti_images.admin.inc:391
+msgid "<p>You have asked to delete the image, <strong>@inm</strong>, from the current IIIF server: <strong>@srv</strong><br/>This cannot be undone. Are you sure you want to do this?"
+msgstr ""
+
+#: includes/shanti_images.admin.inc:402
+msgid "Delete"
+msgstr "བསུབ་པ"
+
+#: includes/shanti_images.inc:73
+msgid "No node associated with @fid (@sid)"
+msgstr ""
+
+#: includes/shanti_images.inc:262
+msgid "We were unable to post your file to the server. "
+msgstr ""
+
+#: includes/shanti_images.inc:280
+msgid "Your image (@fn) failed to upload because it had an unacceptable extension: @ext"
+msgstr ""
+
+#: includes/shanti_images.inc:339
+msgid "Unable to contact IIIF server to delete image"
+msgstr ""
+
+#: includes/shanti_images.inc:343
+msgid "No image, @inm, found on IIIF server to delete."
+msgstr ""
+
+#: includes/shanti_images.inc:359
+msgid "No url for IIIF server set. Cannot delete iiif image."
+msgstr ""
+
+#: includes/shanti_images.inc:477
+msgid "This orphaned description not attached to an image node!"
+msgstr ""
+
+#: includes/shanti_images.inc:520
+msgid "This orphaned agent not attached to an image node!"
+msgstr ""
+
+#: includes/shanti_images.inc:636
+msgid "Problem creating Shanti Image record"
+msgstr ""
+
+#: includes/shanti_images.inc:276
+msgid "shanti_images"
+msgstr ""
+
+#: includes/shanti_images.inc:276
+msgid "No upload destination set to post images to!"
+msgstr ""
+
+#: includes/views/shanti_images.views.inc:14
+msgid "Shanti Images Data"
+msgstr ""
+
+#: includes/views/shanti_images.views.inc:15
+msgid "IIIF images on this site"
+msgstr ""
+
+#: includes/views/shanti_images.views.inc:27
+msgid "Shanti Images ID"
+msgstr ""
+
+#: includes/views/shanti_images.views.inc:28
+msgid "The auto-incremented Shanti Image ID"
+msgstr ""
+
+#: includes/views/shanti_images.views.inc:44
+msgid "Node ID"
+msgstr "སྦྲེལ་གནས་ཀྱི་ཨང་རྟགས"
+
+#: includes/views/shanti_images.views.inc:45
+msgid "The record node ID."
+msgstr ""
+
+#: includes/views/shanti_images.views.inc:59 modules/bulk_image_import/bulk_image_import.module:278
+msgid "Node"
+msgstr "སྦྲེལ་གནས"
+
+#: includes/views/shanti_images.views.inc:69
+msgid "Shanti Images User ID"
+msgstr ""
+
+#: includes/views/shanti_images.views.inc:70
+msgid "The user ID of person posting images"
+msgstr ""
+
+#: includes/views/shanti_images.views.inc:86
+msgid "Shanti Images File ID"
+msgstr ""
+
+#: includes/views/shanti_images.views.inc:87
+msgid "The original file ID"
+msgstr ""
+
+#: includes/views/shanti_images.views.inc:103
+msgid "Shanti Images MMSID"
+msgstr ""
+
+#: includes/views/shanti_images.views.inc:104
+msgid "The MMS ID of the original image"
+msgstr ""
+
+#: includes/views/shanti_images.views.inc:120
+msgid "Shanti Images IIIF Name"
+msgstr ""
+
+#: includes/views/shanti_images.views.inc:121
+msgid "The IIIF filename for image"
+msgstr ""
+
+#: includes/views/shanti_images.views.inc:137
+msgid "Original File Name"
+msgstr ""
+
+#: includes/views/shanti_images.views.inc:138
+msgid "The original filename for the image"
+msgstr ""
+
+#: includes/views/shanti_images.views.inc:155
+msgid "The original width of the image"
+msgstr ""
+
+#: includes/views/shanti_images.views.inc:172
+msgid "The original height of the image"
+msgstr ""
+
+#: modules/bulk_image_import/bulk_image_import.module:14
+msgid "Box API Client ID"
+msgstr ""
+
+#: modules/bulk_image_import/bulk_image_import.module:19
+msgid "Box API Client Secret"
+msgstr ""
+
+#: modules/bulk_image_import/bulk_image_import.module:24
+msgid "Box API Root Folder ID"
+msgstr ""
+
+#: modules/bulk_image_import/bulk_image_import.module:77
+msgid "Processing Bulk Image Import"
+msgstr ""
+
+#: modules/bulk_image_import/bulk_image_import.module:78 modules/shanti_mms_import/shanti_mms_import.module:290
+msgid "Processed @current out of @total."
+msgstr "@total་ནས་@current་སྒྲིག་བཟོ་བྱས་ཚར།"
+
+#: modules/bulk_image_import/bulk_image_import.module:79
+msgid "Bulk Image Import has encountered an error."
+msgstr ""
+
+#: modules/bulk_image_import/bulk_image_import.module:127
+msgid "Authorize Box Connection"
+msgstr ""
+
+#: modules/bulk_image_import/bulk_image_import.module:140
+msgid "Clicking the button below will take you to the Box website where you can grant access to files stored on your account. This is necessary in order to download files from Box during the import process. You will select and upload your XML file in the next step."
+msgstr ""
+
+#: modules/bulk_image_import/bulk_image_import.module:142
+msgid "If you would like to import into a Collection or Subcollection please make sure it exists before you proceed."
+msgstr ""
+
+#: modules/bulk_image_import/bulk_image_import.module:176
+msgid "Image Metadata"
+msgstr ""
+
+#: modules/bulk_image_import/bulk_image_import.module:177
+msgid "Upload a XML file containing exported data from a MediaPro catalog."
+msgstr ""
+
+#: modules/bulk_image_import/bulk_image_import.module:181
+msgid "None Selected"
+msgstr ""
+
+#: modules/bulk_image_import/bulk_image_import.module:184
+msgid "Import into a Collection?"
+msgstr ""
+
+#: modules/bulk_image_import/bulk_image_import.module:186
+msgid "If you would like to import into a Collection or Subcollection select that Collection from the list below."
+msgstr ""
+
+#: modules/bulk_image_import/bulk_image_import.module:191
+msgid "Allow Duplicate Records?"
+msgstr ""
+
+#: modules/bulk_image_import/bulk_image_import.module:192
+msgid "If an import fails for some reason, you may want to run it again without creating duplicate records. Leaving this option unchecked will run the import and attempt to repair any Nodes that were not imported correctly."
+msgstr ""
+
+#: modules/bulk_image_import/bulk_image_import.module:197;244 modules/shanti_mms_import/shanti_mms_import.module:128
+msgid "Import"
+msgstr "ནང་འདྲེན"
+
+#: modules/bulk_image_import/bulk_image_import.module:225;237
+msgid "Administer Bulk Image Import"
+msgstr ""
+
+#: modules/bulk_image_import/bulk_image_import.module:226
+msgid "Perform administration tasks for Bulk Image Import."
+msgstr ""
+
+#: modules/bulk_image_import/bulk_image_import.module:277
+msgid "Task ID"
+msgstr ""
+
+#: modules/bulk_image_import/bulk_image_import.module:279
+msgid "Image Linked?"
+msgstr ""
+
+#: modules/bulk_image_import/bulk_image_import.module:280
+msgid "Completed?"
+msgstr ""
+
+#: modules/bulk_image_import/bulk_image_import.module:281
+msgid "Errors"
+msgstr ""
+
+#: modules/bulk_image_import/bulk_image_import.module:297
+msgid "Not created"
+msgstr ""
+
+#: modules/bulk_image_import/bulk_image_import.module:119
+msgid "bulk_image_import"
+msgstr ""
+
+#: modules/bulk_image_import/bulk_image_import.module:119
+msgid "Error while authenticating @username (@error): @error_description"
+msgstr ""
+
+#: modules/bulk_image_import/bulk_image_import.module:236
+msgid "Bulk Image Import"
+msgstr ""
+
+#: modules/bulk_image_import/bulk_image_import.module:245
+msgid "Import images and metadata from MediaPro"
+msgstr ""
+
+#: modules/bulk_image_import/bulk_image_import.module:251
+msgid "Settings"
+msgstr "སྒྲིག་འགོད"
+
+#: modules/bulk_image_import/bulk_image_import.module:252
+msgid "Configure settings for Bulk Image Import"
+msgstr ""
+
+#: modules/bulk_image_import/bulk_image_import.module:258
+msgid "Bulk Image Import review"
+msgstr ""
+
+#: modules/bulk_image_import/bulk_image_import.info:0
+msgid "Shanti Images Bulk Image Import"
+msgstr ""
+
+#: modules/bulk_image_import/bulk_image_import.info:0
+msgid "Module for importing metadata and images from Media Pro XML files"
+msgstr ""
+
+#: modules/bulk_image_import/includes/api.inc:95
+msgid "Import failed for "
+msgstr ""
+
+#: modules/bulk_image_import/includes/api.inc:105
+msgid "A node was succesfully created for the import "
+msgstr ""
+
+#: modules/bulk_image_import/includes/api.inc:36 modules/bulk_image_import/includes/batch.inc:71;97;99 modules/bulk_image_import/includes/box.inc:6;30;33;69;85;168
+msgid "shanti_images_bulk_image_import"
+msgstr ""
+
+#: modules/bulk_image_import/includes/api.inc:36
+msgid "Attempting to repair node: @title (@nid)"
+msgstr ""
+
+#: modules/bulk_image_import/includes/batch.inc:71
+msgid "Downloaded BOX file: @filename"
+msgstr ""
+
+#: modules/bulk_image_import/includes/batch.inc:97
+msgid "Running import for @tid"
+msgstr ""
+
+#: modules/bulk_image_import/includes/batch.inc:99
+msgid "Finished import for @tid"
+msgstr ""
+
+#: modules/bulk_image_import/includes/box.inc:6
+msgid "Attempting to refresh BOX token: @refresh_token, @auth_token"
+msgstr ""
+
+#: modules/bulk_image_import/includes/box.inc:30
+msgid "Successfully refreshed BOX token: @refresh_token, @auth_token"
+msgstr ""
+
+#: modules/bulk_image_import/includes/box.inc:33
+msgid "Error while refreshing token @refresh_token (@error): @error_description"
+msgstr ""
+
+#: modules/bulk_image_import/includes/box.inc:69
+msgid "Downloading BOX file: @filename"
+msgstr ""
+
+#: modules/bulk_image_import/includes/box.inc:85
+msgid "File already exists, skipping save."
+msgstr ""
+
+#: modules/bulk_image_import/includes/box.inc:168
+msgid "Error while fetching access token for @username (@error): @error_description"
+msgstr ""
+
+#: modules/shanti_mms_import/shanti_mms_import.module:65
+msgid "Dev"
+msgstr "གསར་སྤེལ"
+
+#: modules/shanti_mms_import/shanti_mms_import.module:66
+msgid "Production"
+msgstr "ཐོན་སྐྱེད"
+
+#: modules/shanti_mms_import/shanti_mms_import.module:74
+msgid "MMS IDs"
+msgstr ""
+
+#: modules/shanti_mms_import/shanti_mms_import.module:83
+msgid "MMS Collection ID"
+msgstr ""
+
+#: modules/shanti_mms_import/shanti_mms_import.module:90
+msgid "Default Photographer"
+msgstr ""
+
+#: modules/shanti_mms_import/shanti_mms_import.module:92
+msgid "If no photographer is given by the mms api, provide a default name to use."
+msgstr ""
+
+#: modules/shanti_mms_import/shanti_mms_import.module:99
+msgid "Image Collection"
+msgstr ""
+
+#: modules/shanti_mms_import/shanti_mms_import.module:103
+msgid "Import Images into this Shanti Images collection or subcollection"
+msgstr ""
+
+#: modules/shanti_mms_import/shanti_mms_import.module:121
+msgid "Publish New Nodes?"
+msgstr ""
+
+#: modules/shanti_mms_import/shanti_mms_import.module:164
+msgid "Delete Logs"
+msgstr ""
+
+#: modules/shanti_mms_import/shanti_mms_import.module:179
+msgid "You did not enter valid series of MMS IDs to convert: @mmsids"
+msgstr ""
+
+#: modules/shanti_mms_import/shanti_mms_import.module:186
+msgid "You must either set a start and end MMS ID value or enter the ID for an MMS collection to import"
+msgstr ""
+
+#: modules/shanti_mms_import/shanti_mms_import.module:208
+msgid "Not all MMSIDs given were valid integers"
+msgstr ""
+
+#: modules/shanti_mms_import/shanti_mms_import.module:288
+msgid "MMS Import Range"
+msgstr ""
+
+#: modules/shanti_mms_import/shanti_mms_import.module:289
+msgid "Importing MMS records to Shanti Images"
+msgstr ""
+
+#: modules/shanti_mms_import/shanti_mms_import.module:291
+msgid "Importing MMS records has encountered an error."
+msgstr ""
+
+#: modules/shanti_mms_import/shanti_mms_import.module:365
+msgid "An error occurred while processing @operation with arguments : @args"
+msgstr "@operation་དང་འཇུག་གྲངས་@args་མཉམ་དུ་སྒྲིག་བཟོ་བྱེད་དུས་ནོར་འཁྲུལ་ཞིག་བྱུང་འདུག"
+
+#: modules/shanti_mms_import/shanti_mms_import.module:1482
+msgid "Delete logs"
+msgstr ""
+
+#: modules/shanti_mms_import/shanti_mms_import.module:16
+msgid "Shanti Images MMS Import"
+msgstr ""
+
+#: modules/shanti_mms_import/shanti_mms_import.module:17
+msgid "Import images from MMS"
+msgstr ""
+
+#: modules/shanti_mms_import/shanti_mms_import.module:24
+msgid "Shanti Images MMS JSON Import"
+msgstr ""
+
+#: modules/shanti_mms_import/shanti_mms_import.module:25
+msgid "Import one MMS Image from JSON information"
+msgstr ""
+
+#: modules/shanti_mms_import/shanti_mms_import.module:37
+msgid "Delete MMS Import Logs"
+msgstr ""
+
+#: modules/shanti_mms_import/shanti_mms_import.info:0
+msgid "Shanti Images MMS Import Module"
+msgstr ""
+
+#: modules/shanti_mms_import/shanti_mms_import.info:0
+msgid "Module for importing files from MMS into Shanti Images"
 msgstr ""
 

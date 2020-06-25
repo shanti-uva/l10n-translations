@@ -6,16 +6,20 @@
 #  template.php: n/a
 #  templates/node--collection--teaser.tpl.php: n/a
 #  templates/node--subcollection--teaser.tpl.php: n/a
+#  theme-settings.php: n/a
 #  sarvaka_images.info: n/a
 #  templates/field--gendesc--shanti-image.tpl.php: n/a
 #  templates/file--application--pdf--full.tpl.php: n/a
+#  templates/node--collection.tpl.php: n/a
+#  templates/node--shanti-image--grid-details.tpl.php: n/a
+#  templates/node--shanti-image.tpl.php: n/a
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2018-01-05 13:19-0500\n"
-"PO-Revision-Date: 2018-01-05 13:19-0500\n"
+"POT-Creation-Date: 2019-06-11 18:29+0000\n"
+"PO-Revision-Date: 2019-06-11 18:29+0000\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Tibetan <EMAIL@ADDRESS>\n"
 "MIME-Version: 1.0\n"
@@ -23,84 +27,104 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: template.php:31
+#: template.php:36
 msgid "All"
 msgstr "ཡོངས"
 
-#: template.php:32
+#: template.php:37
 msgid "Any"
 msgstr "གང་རུང"
 
-#: template.php:33
+#: template.php:38
 msgid "None"
 msgstr "མེད།"
 
-#: template.php:36
+#: template.php:41
 msgid "Contains"
 msgstr "ཚུད་པ"
 
-#: template.php:37
+#: template.php:42
 msgid "of these words"
 msgstr ""
 
-#: template.php:38
+#: template.php:43
 msgid "Search"
 msgstr "འཚོལ"
 
-#: template.php:47
-msgid "View without saving"
-msgstr ""
-
-#: template.php:48
-msgid "Back to viewing the image without saving changes made here"
-msgstr ""
-
-#: template.php:105;458
+#: template.php:108;596
 msgid "Public"
 msgstr "སྤྱི་སྤྱོད"
 
-#: template.php:105;457
+#: template.php:108;595
 msgid "Private"
 msgstr "མི་སྒེར"
 
-#: template.php:232
+#: template.php:230
 msgid "Edit this image’s information"
 msgstr ""
 
-#: template.php:334
+#: template.php:374
 msgid "Read All"
 msgstr ""
 
+#: template.php:454
+msgid "Classification Name"
+msgstr ""
+
+#: template.php:455
+msgid "Abbreviation"
+msgstr "བསྡུས་ཚིག"
+
+#: template.php:456
+msgid "Description"
+msgstr "གསལ་བཤད"
+
 #: template.php:459
+msgid "Home Page"
+msgstr ""
+
+#: template.php:460
+msgid "View Site"
+msgstr ""
+
+#: template.php:597
 msgid "UVa Only"
 msgstr "UVa ཁོ་ན"
 
-#: template.php:460 templates/node--collection--teaser.tpl.php:114 templates/node--subcollection--teaser.tpl.php:114
+#: template.php:598 templates/node--collection--teaser.tpl.php:114 templates/node--subcollection--teaser.tpl.php:114
 msgid "items"
 msgstr "རྣམ་གྲངས"
 
-#: template.php:583
+#: template.php:723
 msgid "View License"
 msgstr ""
 
-#: template.php:656
+#: template.php:796
 msgid "Search for “@term”"
 msgstr ""
 
-#: template.php:665
-msgid "Collections"
-msgstr "ཕྱོགས་བསྡུས"
-
-#: template.php:398;402
+#: template.php:501;530
 msgid "sarvaka_images"
 msgstr ""
 
-#: template.php:398
+#: template.php:501
 msgid "Shanti image without json: @json"
 msgstr ""
 
-#: template.php:402
-msgid "Shanti image without image:  @json"
+#: template.php:530
+msgid "Shanti image without image:  @title (@nid)"
+msgstr ""
+
+#: theme-settings.php:8
+msgid "Shanti Images Theme Settings"
+msgstr ""
+
+#: theme-settings.php:14
+msgid "Replace Broken Images"
+msgstr ""
+
+#: theme-settings.php:16
+msgid "When checked will replace not-found images with a generic image tiles"
 msgstr ""
 
 #: sarvaka_images.info:0
@@ -126,6 +150,10 @@ msgstr "ནང་དོན"
 #: sarvaka_images.info:0
 msgid "Search Fly Out"
 msgstr ""
+
+#: sarvaka_images.info:0
+msgid "Search Results"
+msgstr "འཚོལ་བཤེར་མཇུག་འབྲས"
 
 #: sarvaka_images.info:0
 msgid "Primary Sidebar"
@@ -169,9 +197,25 @@ msgstr ""
 
 #: templates/file--application--pdf--full.tpl.php:101
 msgid "View in Separate Window"
-msgstr "སྒེའུ་ཁུང་ཐ་དད་ཀྱི་ནང་དུ་ལྟ་བ"
+msgstr ""
 
 #: templates/node--collection--teaser.tpl.php:116 templates/node--subcollection--teaser.tpl.php:116
 msgid "item"
 msgstr "རྣམ་གྲངས"
+
+#: templates/node--collection.tpl.php:192
+msgid "This collection is private"
+msgstr ""
+
+#: templates/node--shanti-image--grid-details.tpl.php:46
+msgid "No description available."
+msgstr ""
+
+#: templates/node--shanti-image.tpl.php:170
+msgid "Uploaded By:"
+msgstr ""
+
+#: templates/node--shanti-image.tpl.php:178
+msgid "Original file:"
+msgstr ""
 

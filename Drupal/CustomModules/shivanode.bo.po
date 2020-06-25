@@ -14,7 +14,9 @@
 #  modules/shivakml/shivakml.info: n/a
 #  features/shiva_services/shiva_services.info: n/a
 #  features/shiva_views_new/shiva_views_new.info: n/a
+#  features/visuals_additional_fields/visuals_additional_fields.info: n/a
 #  features/shiva_views_new/shiva_views_new.features.field_instance.inc: n/a
+#  features/visuals_additional_fields/visuals_additional_fields.features.field_instance.inc: n/a
 #  features/shiva_views_new/shiva_views_new.features.menu_links.inc: n/a
 #  includes/shivanode.admin.inc: n/a
 #  includes/shivanode.constants.inc: n/a
@@ -31,8 +33,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2018-01-05 15:44-0500\n"
-"PO-Revision-Date: 2018-01-05 15:44-0500\n"
+"POT-Creation-Date: 2019-06-11 18:14+0000\n"
+"PO-Revision-Date: 2019-06-11 18:14+0000\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Tibetan <EMAIL@ADDRESS>\n"
 "MIME-Version: 1.0\n"
@@ -115,159 +117,159 @@ msgstr ""
 msgid "Shiva Visualization"
 msgstr "Shiva ཡི་འཆར་མཐོང"
 
-#: shivanode.module:594
+#: shivanode.module:601
 msgid "SHARE"
 msgstr "མཉམ་སྤྱོད"
 
-#: shivanode.module:630
+#: shivanode.module:637
 msgid "No subtype found for: @stype (no index found)"
 msgstr "@stype༼དཀར་ཆག་མ་རྙེད་པ༽ཡན་ལག་རིགས་རྙེད་མི་འདུག"
 
-#: shivanode.module:759
+#: shivanode.module:766
 msgid "Update"
 msgstr "གསར་སྒྱུར"
 
-#: shivanode.module:798
+#: shivanode.module:805
 msgid "Save"
 msgstr "ཉར་ཚགས"
 
-#: shivanode.module:799
+#: shivanode.module:806
 msgid "Create a @type"
 msgstr "@type་ཞིག་གསར་འཛུགས"
 
-#: shivanode.module:816
+#: shivanode.module:823
 msgid "Edit Shivanode: @title"
 msgstr ""
 "Shiva "
 "སྦྲེལ་གནས་@title་ལ་བཟོ་བཅོས་བྱེད་པ"
 
-#: shivanode.module:854
+#: shivanode.module:861
 msgid "The Shiva KML module has not been enabled to allow you to upload and use KML files."
 msgstr ""
 "Shiva KML མ་དཔེ་སྤྱད་ནས་KML "
 "ཡིག་ཆ་ཡར་སྤྲོད་དང་བེད་སྤྱོད་ཀྱི་བྱེད་ནུས་ནུས་ཡོད་བསྒྱུར་མེད།"
 
-#: shivanode.module:913
+#: shivanode.module:920
 msgid "This field is automatically populated by the subtype chosen in the form above and will be updated upon saving."
 msgstr "གནས་ཁོངས་འདི་རང་འགུལ་གྱིས་གོང་ནས་བདམས་ཟིན་པའི་རེའུ་མིག་ནང་གི་ཡན་ལག་རིགས་ཤིག་གིས་གསར་འདོན་བྱེད་པ་དང་ཉར་ཚགས་བྱེད་དུས་གསར་སྒྱུར་བྱེད་ངེས།"
 
-#: shivanode.module:942
+#: shivanode.module:949
 msgid "Create a Data Listing from Google Spreadsheet"
 msgstr ""
 "Google "
 "རེའུ་མིག་ཡིག་ཆ་ནས་གཞི་གྲངས་ཀྱི་མིང་ཐོ་ཞིག་གསར་འཛུགས་བྱེད་པ"
 
-#: shivanode.module:968
+#: shivanode.module:975
 msgid "Create a new SHIVA Visualization"
 msgstr ""
 "SHIVA "
 "ཡི་འཆར་སྣང་གསར་བ་ཞིག་འཛུགས་པ"
 
-#: shivanode.module:971
+#: shivanode.module:978
 msgid "New"
 msgstr "གསར་བ"
 
-#: shivanode.module:986
+#: shivanode.module:993
 msgid "and view the Visualization"
 msgstr "་ད་དུང་འཆར་སྣང་ལ་ལྟ་ཞིབ་བྱེད་པ"
 
-#: shivanode.module:1001
+#: shivanode.module:1008
 msgid "Save & Continue"
 msgstr "ཉར་ཚགས་བྱས་ནས་མུ་མཐུད"
 
-#: shivanode.module:1004
+#: shivanode.module:1011
 msgid "Save changes and continue editing"
 msgstr "སྒྱུར་བཅོས་ཉར་ཚགས་བྱས་ནས་མུ་མཐུད་རྩོམ་སྒྲིག་བྱེད"
 
-#: shivanode.module:1041
+#: shivanode.module:1048
 msgid "This @type visualization has been deprecated. You cannot therefore edit the visualization settings itself, though it can still be seen in the view mode."
 msgstr ""
 "འཆར་སྣང་གི་རིགས་@type་འདི་དོར་ཟིན། "
 "དེའི་རྐྱེན་གྱིས་མཐོང་རིས་ཀྱི་རྣམ་པའི་ནང་དུ་ལྟ་ཐུབ་ཀྱང་འཆར་སྣང་གི་སྒྲིག་འཛུགས་ལ་བཟོ་བཅོས་བྱེད་མི་ཐུབ།"
 
-#: shivanode.module:1128
+#: shivanode.module:1135
 msgid "Your JSON is not valid:"
 msgstr ""
 "ཁྱེད་ཀྱི་JSON "
 "ལ་ཕན་ནུས་མེད།"
 
-#: shivanode.module:1147
+#: shivanode.module:1154
 msgid "Your data source url is not valid!"
 msgstr "ཁྱེད་ཀྱི་གཞི་གྲངས་ཁུངས་དྲ་གནས་ལ་ཕན་ནུས་མེད།"
 
-#: shivanode.module:1206
+#: shivanode.module:1213
 msgid "Filters visuals based on access"
 msgstr "སྤྱོད་དབང་ལ་བསྟུན་ནས་འཆར་སྣང་ཚགས་རྒྱག་པ"
 
-#: shivanode.module:1207
+#: shivanode.module:1214
 msgid "Filters out private or group-private visuals"
 msgstr "སྒེར་རམ་ཡང་ན་ཚོགས་པ་སྒེར་གྱི་འཆར་སྣང་དག་ཕྱིར་ཕུད་པ"
 
-#: shivanode.module:1251
+#: shivanode.module:1258
 msgid "This method retreives a single Shivanode from its node id."
 msgstr ""
 "བྱེད་ཐབས་འདིས་Shiva "
 "སྦྲེལ་གནས་རྐང་ཅིག་དེའི་སྦྲེལ་གནས་ཨང་རྟགས་ནས་ཚུར་ལེན་ཐུབ།"
 
-#: shivanode.module:1269 modules/shivadata/shivadata.module:450
+#: shivanode.module:1276 modules/shivadata/shivadata.module:450
 msgid "This method retreives a list of Shivanodes by searching for specific parameters such as user ids, etc."
 msgstr ""
 "བྱེད་ཐབས་འདིས་སྤྱོད་མཁན་གྱི་ཨང་རྟགས་ལ་སོགས་པའི་དམིགས་བསལ་གྲངས་ཚད་ལ་འཚོལ་བཤེར་བྱས་ནས་་Shiva "
 "སྦྲེལ་གནས་ཀྱི་མིང་ཐོ་ཞིག་ཚུར་ལེན་ཐུབ།"
 
-#: shivanode.module:1276 modules/shivadata/shivadata.module:457
+#: shivanode.module:1283 modules/shivadata/shivadata.module:457
 msgid "The fields to get, separated by commas."
 msgstr ""
 "ལེན་དགོས་པའི་གནས་ཁོངས་ཏེ། "
 "ཚེག་འབྲིང་ངམ་comma་ཡིས་བར་མཚམས་གཅོད་དགོས།"
 
-#: shivanode.module:1284 modules/shivadata/shivadata.module:465
+#: shivanode.module:1291 modules/shivadata/shivadata.module:465
 msgid "Parameters array"
 msgstr "ཚད་གཞིའི་ཐོ"
 
-#: shivanode.module:1292 modules/shivadata/shivadata.module:473
+#: shivanode.module:1299 modules/shivadata/shivadata.module:473
 msgid "The zero-based index of the page to get, defaults to 0."
 msgstr ""
 "ཚུར་འབྱོར་དགོས་པའི་ཀླད་ཀོར་གཞི་ཡིན་པའི་དཀར་ཆག་གི་དྲ་ངོས། "
 "སྔར་ཡོད་དུ་༠་ཡིན།"
 
-#: shivanode.module:1300 modules/shivadata/shivadata.module:481
+#: shivanode.module:1307 modules/shivadata/shivadata.module:481
 msgid "The number of items per page, defaults to 25."
 msgstr ""
 "ངོས་རེ་རེའི་ནང་ཚན་གྱི་གྲངས། "
 "སྔར་ཡོད་ཀྱི་གྲངས་ནི་25་ཡིན།"
 
-#: shivanode.module:1342
+#: shivanode.module:1349
 msgid "Change the view settings to Shiva Visualizations"
 msgstr ""
 "Shiva "
 "འཆར་སྣང་གི་ལྟ་ཞིབ་སྒྲིག་འགོད་བརྗེ་བ"
 
-#: shivanode.module:1345
+#: shivanode.module:1352
 msgid "Show the JSON text in uneditable div when editing node."
 msgstr ""
 "ནང་ཚན་རྩོམ་སྒྲིག་བྱེད་དུས་རྩོམ་སྒྲིག་བྱེད་མི་ཐུབ་པའི་div "
 "ནང་དུ་JSON ཡི་གེ་སྟོན་པ།"
 
-#: shivanode.module:1348
+#: shivanode.module:1355
 msgid "Show the uneditable subtype field in Shivanode create/edit form."
 msgstr ""
 "Shivanode "
 "གསར་འཛུགས་དང་རྩོམ་སྒྲིག་གི་རེའུ་མིག་ཏུ་རྩོམ་སྒྲིག་བྱེད་མི་ཐུབ་པའི་ཡན་ལག་རིགས་ཀྱི་གནས་ཁོངས་སྟོན་པ།"
 
-#: shivanode.module:1357
+#: shivanode.module:1364
 msgid "Private"
 msgstr "མི་སྒེར"
 
-#: shivanode.module:1358
+#: shivanode.module:1365
 msgid "Public"
 msgstr "སྤྱི་སྤྱོད"
 
-#: shivanode.module:1422
+#: shivanode.module:1445
 msgid "has been assigned the role"
 msgstr "འགན་ནུས་ལ་བསྒྲིག་ཚར་བ"
 
-#: shivanode.module:1578
+#: shivanode.module:1601
 msgid "Shivanode Types"
 msgstr "Shiva ནང་ཚན་གྱི་རིགས"
 
@@ -455,11 +457,11 @@ msgstr ""
 "Shanti "
 "ཡི་འཆར་སྣང་ལ་ཞབས་ཞུའི་འཇུག་སྒོ་སྒྲིག་འགོད་བྱེད་པ"
 
-#: features/shiva_services/shiva_services.info:0 features/shiva_views_new/shiva_views_new.info:0
+#: features/shiva_services/shiva_services.info:0 features/shiva_views_new/shiva_views_new.info:0 features/visuals_additional_fields/visuals_additional_fields.info:0
 msgid "Visuals"
 msgstr "འཆར་སྣང"
 
-#: features/shiva_views_new/shiva_views_new.features.field_instance.inc:84
+#: features/shiva_views_new/shiva_views_new.features.field_instance.inc:85 features/visuals_additional_fields/visuals_additional_fields.features.field_instance.inc:257
 msgid "Collection"
 msgstr "ཕྱོགས་བསྡུས"
 
@@ -502,6 +504,34 @@ msgstr "འཆར་སྣང་གི་མཐོང་རིས"
 #: features/shiva_views_new/shiva_views_new.info:0
 msgid "New feature containing relevant Shiva Views"
 msgstr "བྱེད་ནུས་གསར་བ་ལ་འབྲེལ་ཡོད་ཀྱི་Shivaགཟིགས་རིས་འདུ་བ།"
+
+#: features/visuals_additional_fields/visuals_additional_fields.features.field_instance.inc:258
+msgid "Language (Kmap)"
+msgstr ""
+
+#: features/visuals_additional_fields/visuals_additional_fields.features.field_instance.inc:259
+msgid "Places"
+msgstr "ས་གནས"
+
+#: features/visuals_additional_fields/visuals_additional_fields.features.field_instance.inc:260
+msgid "Subjects"
+msgstr "བརྗོད་དོན"
+
+#: features/visuals_additional_fields/visuals_additional_fields.features.field_instance.inc:261
+msgid "Terms"
+msgstr "ཐ་སྙད"
+
+#: features/visuals_additional_fields/visuals_additional_fields.features.field_instance.inc:262
+msgid "The main language of the visualization, if applicable."
+msgstr ""
+
+#: features/visuals_additional_fields/visuals_additional_fields.info:0
+msgid "Visuals Additional Fields"
+msgstr ""
+
+#: features/visuals_additional_fields/visuals_additional_fields.info:0
+msgid "Additional fields for visuals"
+msgstr ""
 
 #: includes/shivanode.admin.inc:10
 msgid "<h3>Shivanode Basic Settings</h3>"
@@ -818,7 +848,7 @@ msgstr "འདྲ་མཉམ"
 msgid "Chord"
 msgstr "Chord"
 
-#: includes/shivanode.constants.inc:261 includes/shivanode.types.inc:128
+#: includes/shivanode.constants.inc:261
 msgid "Multimedia"
 msgstr "བརྙན་མང་འཕྲིན་ལམ།"
 
@@ -838,15 +868,15 @@ msgstr "མ་ཟིན"
 msgid "Published"
 msgstr "སྤེལ་ཟིན་པ"
 
-#: includes/shivanode.inc:411
+#: includes/shivanode.inc:437
 msgid "The API mode, @mode, has not been defined."
 msgstr "འཇུག་སྒོའོ་རྣམ་པ་@mode་གཏན་འབེབས་བྱས་མེད་པ།"
 
-#: includes/shivanode.inc:812
+#: includes/shivanode.inc:838
 msgid "Node @num does not have a visualization type!"
 msgstr "གནས་ཁོངས་@numལ་མཐོང་རུང་གི་རིགས་མི་འདུག"
 
-#: includes/shivanode.inc:1187
+#: includes/shivanode.inc:1213
 msgid "Visualization"
 msgstr "འཆར་སྣང"
 
@@ -854,32 +884,17 @@ msgstr "འཆར་སྣང"
 msgid "<h3>Explore Visualization Types</h3>"
 msgstr "<h3>འཆར་སྣང་གི་རིགས་འཚོལ་བ</h3>"
 
-#: includes/shivanode.pages.inc:19
-msgid "<p>Listed below are the various types of visualizations one can make in SHIVA. Put your cursor over the image of the visualization type you are interested in and a list of choices will appear.</p>"
-msgstr ""
-"<p>འོག་གི་ཐོ་རུ་བཀོད་ཡོད་པ་ནི་SHIVA "
-"ནང་དུ་བཟོས་ཆོག་པའི་འཆར་སྣང་གི་རིགས་སྣ་ཚོགས་ཡིན། "
-"མིང་ཐོའི་ནང་དུ་རང་གིས་མོས་པ་ཆེ་བའི་འཆར་སྣང་རིགས་ཀྱི་པར་རིས་ལ་མདའ་རྟགས་བཞག་ན་འདེམས་ཆོག་པའི་མིང་ཐོ་ཞིག་མངོན་ཡོང་ངེས།</p>"
-
-#: includes/shivanode.pages.inc:26
+#: includes/shivanode.pages.inc:28
 msgid "Charts"
 msgstr "མཚོན་རིས"
 
-#: includes/shivanode.pages.inc:29;40;51;62
-msgid "this is a fieldset element"
-msgstr "འདི་ནི་གནས་ཁོངས་སྡེ་ཚན་གྱི་གྲུབ་ཆ་ཞིག་རེད"
-
-#: includes/shivanode.pages.inc:37
+#: includes/shivanode.pages.inc:38
 msgid "Relationships"
 msgstr "འབྲེལ་བ"
 
 #: includes/shivanode.pages.inc:48
-msgid "Media"
-msgstr "འཕྲིན་ལམ"
-
-#: includes/shivanode.pages.inc:59
-msgid "Maps"
-msgstr "ཕྱོགས་སྟོན"
+msgid "Media & Maps"
+msgstr ""
 
 #: includes/shivanode.pages.inc:189
 msgid "No file found for thumbnail image @img"
@@ -896,6 +911,10 @@ msgstr "སའི་གོ་ལ"
 #: includes/shivanode.types.inc:104
 msgid "Image"
 msgstr "པར་རིས"
+
+#: includes/shivanode.types.inc:128
+msgid "Interactive Presentation"
+msgstr ""
 
 #: includes/shivanode.types.inc:152
 msgid "Poster"
